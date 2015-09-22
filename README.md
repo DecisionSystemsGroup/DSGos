@@ -1,4 +1,9 @@
-# DSGos
+<img src="https://img.shields.io/badge/Development-Active-brightgreen.svg" />
+<img src="https://img.shields.io/badge/Status-Alpha-orange.svg" />
+<img src="https://img.shields.io/badge/Kernel-4.2.1-blue.svg" />
+<img src="https://img.shields.io/badge/Architecture-x64-blue.svg" />
+<img src="https://img.shields.io/badge/Licence-MIT-blue.svg" />
+
 Official site at http://decisionsystemsgroup.github.io/DSGos/
 
 ## About
@@ -21,7 +26,7 @@ very easy for someone to follow our steps by following the development.
 The main purpose of this project is obtaining experience but never say never. If
 we believe it is worthy for us to make a step forward we will do it.
 
-##License
+## License
 DSGos is licensed under an MIT License so you are absolutely free to do anything
 you want with it. For more info see the LICENSE file.
 
@@ -29,13 +34,12 @@ If you create something from this project, send us an [e-mail](mailto:johnpranta
 We will be happy to know about it.
 
 ## Credits
-#### Software Development
-Charis Dimos<br />
-[John Prantalos](http://www.johnprantalos.gr/)<br />
-Polykarpos Tiftikoglou
+#### Software Development Team
+* [Kostas Gkotzamanidis](http://kgkotzamanidis.github.io/)
+* [Polykarpos Tiftikoglou](http://polykarposT.github.io/)
 
 #### Website Development
-[John Prantalos](http://www.johnprantalos.gr/)<br />
+[John Prantalos](http:/pandorian.github.io/)
 
 #### Graphics Design
 George Karabelas
