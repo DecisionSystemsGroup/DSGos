@@ -4,14 +4,12 @@ xfce4
 xfce4-goodies
 firefox
 flashplugin
-lib32-flashplugin
 vlc
 file-roller
 filezilla
 gparted
 git
 brasero
-skype
 paprefs
 pavucontrol
 networkmanager
@@ -27,6 +25,5 @@ numlockx
 cheese
 xdg-user-dirs
 archiso
-wget
 seahorse
 gnome-calculator

@@ -51,7 +51,6 @@ testdisk
 usb_modeswitch
 vim-minimal
 vpnc
-wget
 wireless_tools
 wpa_actiond
 wvdial
