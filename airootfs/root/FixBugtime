@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "" > /etc/resolv.conf
+echo "options timeout:1" > /etc/resolv.conf

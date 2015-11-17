@@ -1,8 +1,6 @@
-yaourt
 arch-install-scripts
 b43-fwcutter
 btrfs-progs
-clonezilla
 crda
 darkhttpd
 ddrescue
@@ -59,3 +57,9 @@ wpa_actiond
 wvdial
 xl2tpd
 zd1211-firmware
+yaourt
+python-requests
+python-mako
+python-cairocffi
+pygobject-devel
+pyalpm

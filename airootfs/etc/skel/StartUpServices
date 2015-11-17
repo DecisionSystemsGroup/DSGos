@@ -1,0 +1,27 @@
+#!/bin/bash
+echo "Enable NetworkManager"
+sudo systemctl enable NetworkManager.service
+echo "Enable Teamviewer"
+sudo systemctl enable teamviewer
+echo "Enable Bluetooth"
+sudo systemctl enable bleutooth.service
+echo "Enable Audio"
+pulseaudio --start
+echo "Enable LigthDM"
+sudo systemctl enable ligthdm.service
+echo "Enable users Dir"
+xdg-user-dirs-update
+echo "You must reboot to take services"
+echo "Are want Yes(y) or No(n)"
+read choice
+
+cace $choice in
+	y)
+	reboot
+	;;
+	n)
+	return
+	;;
+	*)
+	;;
+esac

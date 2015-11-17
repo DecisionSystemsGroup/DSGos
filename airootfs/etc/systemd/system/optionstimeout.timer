@@ -1,0 +1,9 @@
+[Unit]
+Description=Run
+
+[Timer]
+OnBootSec=1min
+Unit=optionstimeout.service
+
+[Install]
+WantedBy=multi-user.target

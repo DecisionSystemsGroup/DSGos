@@ -1,0 +1,6 @@
+[Unit]
+Description=MyScript
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ReturnOptions.sh
