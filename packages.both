@@ -1,3 +1,4 @@
+yaourt
 arch-install-scripts
 b43-fwcutter
 btrfs-progs
@@ -30,7 +31,6 @@ mc
 mtools
 nfs-utils
 nilfs-utils
-nmap
 ntfs-3g
 ntp
 openconnect
