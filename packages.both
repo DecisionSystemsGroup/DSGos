@@ -58,13 +58,15 @@ xl2tpd
 zd1211-firmware
 yaourt
 gtk3
-python3]python-cairo
+python3
+python-cairo
 python-dbus
 python-gobject
 python-mako
 python-requests
 pyalem
 webkit2gtk
+webkitgtk
 hdparm
 hwinfo
 upower
