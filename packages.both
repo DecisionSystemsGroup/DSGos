@@ -64,7 +64,7 @@ python-dbus
 python-gobject
 python-mako
 python-requests
-pyalem
+pyalpm
 webkit2gtk
 webkitgtk
 hdparm
