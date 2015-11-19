@@ -27,3 +27,5 @@ xdg-user-dirs
 archiso
 seahorse
 gnome-calculator
+python-pyparted
+libtimezonemap
