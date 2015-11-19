@@ -74,3 +74,5 @@ encfs
 iso-codes
 clutter
 python-mock
+gobject-introspection
+intltool
