@@ -7,11 +7,7 @@
       <packages>
         <pkgname>acpid</pkgname>
         <pkgname>alsa-utils</pkgname>
-        <pkgname>antergos-keyring</pkgname>
-        <pkgname>antergos-mirrorlist</pkgname>
         <pkgname>b43-fwcutter</pkgname>
-        <pkgname>base</pkgname> <!-- Group -->
-        <pkgname>base-devel</pkgname> <!-- Group -->
         <pkgname>bash-completion</pkgname>
         <pkgname>crda</pkgname>
         <pkgname>bind-tools</pkgname>
@@ -41,10 +37,7 @@
     <edition name="graphic" description="Common to all graphic desktops">
       <packages>
         <pkgname>accountsservice</pkgname>
-        <pkgname>antergos-wallpapers</pkgname>
-        <pkgname>antergos-welcome</pkgname>
         <pkgname>chromium</pkgname>
-        <pkgname>chromium-pepper-flash</pkgname>
         <pkgname>ffmpegthumbnailer</pkgname>
         <pkgname>gst-libav</pkgname>
         <pkgname>gst-plugins-bad</pkgname>
@@ -52,20 +45,13 @@
         <pkgname>gst-plugins-good</pkgname>
         <pkgname>gst-plugins-ugly</pkgname>
         <pkgname>gstreamer-vaapi</pkgname>
-        <pkgname>gstreamer0.10-plugins</pkgname>  <!-- Group -->
         <pkgname>libdvdcss</pkgname>
-        <pkgname>libreoffice-installer</pkgname>
+        <pkgname>libreoffice-fresh</pkgname>
         <pkgname dm='true' name='lightdm'>lightdm</pkgname>
-        <pkgname>lightdm-webkit-theme-antergos</pkgname>
         <pkgname>mesa</pkgname>
         <pkgname>mesa-vdpau</pkgname>
-        <pkgname>numix-frost-themes</pkgname>
-        <pkgname>numix-icon-theme</pkgname>
-        <pkgname lib='gtk'>numix-icon-theme-square</pkgname>
-        <pkgname>pamac</pkgname>
         <pkgname>pavucontrol</pkgname>
         <pkgname>pulseaudio</pkgname>
-        <pkgname>pulseaudio-alsa</pkgname>
         <pkgname>ttf-bitstream-vera</pkgname>
         <pkgname>ttf-dejavu</pkgname>
         <pkgname>ttf-liberation</pkgname>
@@ -73,8 +59,6 @@
         <pkgname>xf86-input-synaptics</pkgname>
         <pkgname>xf86-video-fbdev</pkgname>
         <pkgname>xf86-video-vesa</pkgname>
-        <pkgname>xorg-apps</pkgname>
-        <pkgname>xorg-fonts</pkgname>
         <pkgname>xorg-server</pkgname>
         <pkgname>xorg-server-utils</pkgname>
         <pkgname>xorg-xinit</pkgname>
@@ -98,7 +82,6 @@
 
     <edition name="Gnome" description="Gnome Desktop">
       <packages>
-        <pkgname>antergos-gnome-defaults-list</pkgname>
         <pkgname>baobab</pkgname>  <!-- Disk usage -->
         <pkgname>bijiben</pkgname> <!-- notes app -->
         <pkgname>brasero</pkgname>
@@ -123,8 +106,6 @@
         <pkgname>gnome-screenshot</pkgname>
         <pkgname>gnome-shell</pkgname>
         <pkgname>gnome-shell-extensions</pkgname>
-        <pkgname>gnome-shell-extension-dash-to-dock</pkgname>
-        <pkgname>gnome-shell-extension-status-menu-buttons</pkgname>
         <pkgname>gnome-sound-recorder</pkgname>
         <pkgname>gnome-system-monitor</pkgname>
         <pkgname>gnome-terminal</pkgname>
@@ -135,7 +116,6 @@
         <pkgname>hicolor-icon-theme</pkgname>
         <pkgname>libgnomeui</pkgname>
         <pkgname>light-locker</pkgname>
-        <pkgname>light-locker-settings</pkgname>
         <pkgname>nautilus</pkgname>
         <pkgname nm='true' name='NetworkManager'>network-manager-applet</pkgname>
         <pkgname>networkmanager-openvpn</pkgname>
@@ -152,7 +132,6 @@
 
     <edition name="Cinnamon" description="Cinnamon desktop">
       <packages>
-        <pkgname>antergos-gnome-defaults-list</pkgname>
         <pkgname>baobab</pkgname>  <!-- Disk usage -->
         <pkgname>bijiben</pkgname> <!-- notes app -->
         <pkgname>brasero</pkgname>
@@ -165,7 +144,6 @@
         <pkgname>cinnamon-settings-daemon</pkgname>
         <pkgname>cinnamon-screensaver</pkgname>
         <pkgname>cjs</pkgname>
-        <pkgname>eog</pkgname>
         <pkgname>evince</pkgname>
         <pkgname>file-roller</pkgname>
         <pkgname>gedit</pkgname>
@@ -194,7 +172,6 @@
         <pkgname>totem</pkgname>
         <pkgname>transmission-gtk</pkgname>
         <pkgname>xdg-user-dirs-gtk</pkgname>
-        <pkgname>zukitwo-themes</pkgname>
       </packages>
     </edition>
 
@@ -209,7 +186,6 @@
         <pkgname>gnome-keyring</pkgname>
         <pkgname>gvfs-mtp</pkgname>
         <pkgname>light-locker</pkgname>
-        <pkgname>light-locker-settings</pkgname>
         <pkgname>mousepad</pkgname>
         <pkgname nm='true' name='NetworkManager'>network-manager-applet</pkgname>
         <pkgname>networkmanager-openvpn</pkgname>
@@ -248,7 +224,6 @@
       <pkgname>lxqt-runner</pkgname>
       <pkgname>lxqt-session</pkgname>
       <pkgname>openbox</pkgname>
-      <pkgname>pacmanfm-qt</pkgname>
       </packages>
     </edition>
 
@@ -267,7 +242,6 @@
         <pkgname>mate</pkgname> <!-- Group -->
         <pkgname>mate-applets</pkgname>
         <pkgname>mate-media</pkgname>
-        <pkgname>mate-mint-menu</pkgname>
         <pkgname>mate-power-manager</pkgname>
         <pkgname>mate-screensaver</pkgname>
         <pkgname>mate-system-monitor</pkgname>
@@ -289,14 +263,10 @@
 
     <edition name="Enlightenment" description="Enlightenment Desktop">
       <packages>
-        <pkgname>antergos-enlightenment-setup</pkgname>
         <pkgname>enlightenment</pkgname>
         <pkgname nm='true' name='NetworkManager' conflicts="networkmanager">connman</pkgname>
-        <pkgname>econnman</pkgname>
         <pkgname>file-roller</pkgname>
-        <pkgname>gtk-theme-e17gtk</pkgname>
         <pkgname>polkit-gnome</pkgname>
-        <pkgname>rage</pkgname> <!-- video player -->
         <pkgname>terminology</pkgname> <!-- terminal emulator -->
         <pkgname>transmission-gtk</pkgname>
         <pkgname>xdg-user-dirs-gtk</pkgname>
@@ -305,7 +275,6 @@
 
     <edition name="openbox" description="Openbox Window Manager">
       <packages>
-        <pkgname>antergos-openbox-setup</pkgname>
         <pkgname>arandr</pkgname>
         <pkgname>conky</pkgname>
         <pkgname>cdrkit</pkgname>
@@ -318,7 +287,6 @@
         <pkgname>gsimplecal</pkgname>
         <pkgname>gvfs-mtp</pkgname>
         <pkgname>light-locker</pkgname>
-        <pkgname>light-locker-settings</pkgname>
         <pkgname>lxappearance-obconf</pkgname>
         <pkgname>lxinput</pkgname>
         <pkgname>lxmenu-data</pkgname>
@@ -334,12 +302,10 @@
         <pkgname>oblogout</pkgname>
         <pkgname>obmenu</pkgname>
         <pkgname>openbox</pkgname>
-        <pkgname>openbox-menu</pkgname>
         <pkgname>parcellite</pkgname>
         <pkgname>pidgin</pkgname>
         <pkgname>plank</pkgname>
         <pkgname>plank-config</pkgname>
-        <pkgname>plank-theme-numix</pkgname>
         <pkgname>polkit-gnome</pkgname>
         <pkgname>pragha</pkgname>
         <pkgname>python2-xdg</pkgname>
@@ -354,13 +320,11 @@
         <pkgname>xfburn</pkgname>
         <pkgname>xfce4-notifyd</pkgname>
         <pkgname>xscreensaver</pkgname>
-        <pkgname>waldorf-ui-theme</pkgname>
-      </packages>
+        </packages>
     </edition>
 
     <edition name="KDE4" description="KDE 4 Desktop">
       <packages>
-        <pkgname>antergos-kde-setup</pkgname>
         <pkgname>ark</pkgname>
         <pkgname>aspell-en</pkgname>
         <pkgname>breeze-kde4</pkgname>
@@ -369,7 +333,6 @@
         <pkgname>dolphin</pkgname>
         <pkgname>dolphin-plugins</pkgname>
         <pkgname>dvd+rw-tools</pkgname>
-        <pkgname>grub2-editor</pkgname>
         <pkgname>gwenview</pkgname>
         <pkgname>k3b</pkgname>
         <pkgname>kate</pkgname>
@@ -392,13 +355,10 @@
         <pkgname>kdemultimedia-kmix</pkgname>
         <pkgname>kdenetwork-filesharing</pkgname>
         <pkgname>kdenetwork-kopete</pkgname>
-        <pkgname>kde-servicemenus-rootactions</pkgname>
         <pkgname>kdeplasma-addons-applets-lancelot</pkgname>
         <pkgname nm='true' name='NetworkManager'>kdeplasma-applets-plasma-nm</pkgname>
-        <pkgname>kdesudo</pkgname>
         <pkgname>kwalletmanager</pkgname>
         <pkgname>kdeutils-sweeper</pkgname>
-        <pkgname>kfaenza-icon-theme</pkgname>
         <pkgname>kipi-plugins</pkgname>
         <pkgname>kwebkitpart</pkgname>
         <pkgname>nm-connection-editor</pkgname>
@@ -416,7 +376,6 @@
 
     <edition name="plasma5" description="KDE Desktop - Plasma 5">
         <packages>
-          <pkgname>antergos-kde-setup</pkgname>
           <pkgname>ark</pkgname>
           <pkgname>aspell-en</pkgname>
           <pkgname>breeze-kde4</pkgname>
@@ -425,7 +384,6 @@
           <pkgname>dolphin</pkgname>
           <pkgname>dolphin-plugins</pkgname>
           <pkgname>dvd+rw-tools</pkgname>
-          <pkgname>grub2-editor</pkgname>
           <pkgname>k3b</pkgname>
           <pkgname>gwenview</pkgname>
           <pkgname>kate</pkgname>
@@ -437,18 +395,11 @@
           <pkgname>kmix</pkgname>
           <pkgname>kdenetwork-filesharing</pkgname>
           <pkgname>kdenetwork-kopete</pkgname>
-          <pkgname>kdesudo</pkgname>
           <pkgname>kwalletmanager</pkgname>
           <pkgname>kdeutils-sweeper</pkgname>
-          <pkgname>kf5</pkgname>
-          <pkgname>kf5-aids</pkgname>
-          <pkgname>kfaenza-icon-theme</pkgname>
-          <pkgname>kinfocenter</pkgname>
           <pkgname>konsole</pkgname>
           <pkgname>kwrited</pkgname>
           <pkgname>nm-connection-editor</pkgname>
-          <pkgname>numix-icon-theme-square-kde</pkgname>
-          <pkgname>plasma</pkgname>  <!--plasma group-->
           <pkgname nm='true' name='NetworkManager'>plasma-nm</pkgname>
           <pkgname>transmission-qt</pkgname>
           <pkgname>vlc</pkgname>
@@ -487,8 +438,8 @@
       <pkgname>splix</pkgname>
     </feature>
     <feature name="firefox">
-        <pkgname conflicts="chromium,chromium-pepper-flash">firefox</pkgname>
-        <pkgname conflicts="chromium,chromium-pepper-flash">flashplugin</pkgname>
+        <pkgname conflicts="chromium">firefox</pkgname>
+        <pkgname conflicts="chromium">flashplugin</pkgname>
     </feature>
     <feature name="firewall">
       <pkgname lib='gtk'>gufw</pkgname>
@@ -497,7 +448,6 @@
     </feature>
     <feature name="fonts">
       <pkgname>ttf-freefont</pkgname>
-      <pkgname conflicts='ttf-droid'>ttf-google-fonts</pkgname>
     </feature>
     <feature name="games">
       <pkgname>steam</pkgname>
@@ -514,8 +464,6 @@
       <pkgname>hunspell-en</pkgname>
     </feature>
     <feature name="visual">
-      <pkgname>compton</pkgname>
-      <pkgname>paranoid</pkgname>
     </feature>
     <feature name="smb">
         <pkgname lib='gtk'>gvfs-smb</pkgname>
@@ -541,7 +489,7 @@
 
   <net>
     <broadcom>
-      <pkgname>broadcom-wl</pkgname>
+      <!--<pkgname>broadcom-wl</pkgname>-->
     </broadcom>
   </net>
 
@@ -570,8 +518,7 @@
     <bootloader name="grub2">
       <pkgname>grub</pkgname>
       <pkgname>os-prober</pkgname>
-      <pkgname>grub2-theme-antergos</pkgname>
-    </bootloader>
+      </bootloader>
   </bootloaders>
 
 </cnchi>

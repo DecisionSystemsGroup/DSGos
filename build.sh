@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo rm -rfv work
 set -e -u
 
 iso_name=archlinux
