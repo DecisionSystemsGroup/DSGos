@@ -1,0 +1,2747 @@
+# DSGos_Installer
+# Copyright (C) 2013-2015 DSGos
+# 
+# Translators:
+# Efstathios Iosifidis <iefstathios@gmail.com>, 2014-2015
+# George Alexiou <goten002@gmail.com>, 2014-2015
+# George Pantelis <yorgos.pantelis@gmail.com>, 2015
+# George Alexiou <goten002@gmail.com>, 2014
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2014
+# mobinmob <mobinmob.n@gmail.com>, 2014
+# mobinmob <mobinmob.n@gmail.com>, 2014
+# Panos Lyrakis <panoskatws@gmail.com>, 2015
+# Petros Alexandrinos <lipsari@yahoo.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: DSGos\n"
+"POT-Creation-Date: 2015-07-22 22:44+CEST\n"
+"PO-Revision-Date: 2015-07-26 11:22+0000\n"
+"Last-Translator: George Pantelis <yorgos.pantelis@gmail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/faidoc/DSGos/language/el/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: DSGos_Installer/bootinfo.py:66 DSGos_Installer/bootinfo.py:79 DSGos_Installer/bootinfo.py:85
+#: DSGos_Installer/bootinfo.py:134 DSGos_Installer/bootinfo.py:139 DSGos_Installer/bootinfo.py:148
+#: DSGos_Installer/bootinfo.py:161 DSGos_Installer/bootinfo.py:186 DSGos_Installer/bootinfo.py:208
+#: DSGos_Installer/bootinfo.py:211 DSGos_Installer/bootinfo.py:214 DSGos_Installer/bootinfo.py:244
+msgid "unknown"
+msgstr "άγνωστο"
+
+#: DSGos_Installer/bootinfo.py:100
+msgid "Error calling hexdump command: %s"
+msgstr "Κάποιο λάθος συνέβη κατά την κλήση της εντολής hexdump: %s"
+
+#: DSGos_Installer/bootinfo.py:133
+msgid "Unknown partition id %s"
+msgstr "Άγνωστο partition id %s"
+
+#: DSGos_Installer/check.py:69
+msgid "System Check"
+msgstr "Έλεγχος συστήματος"
+
+#: DSGos_Installer/check.py:73
+msgid "has at least {0}GB available storage space. (*)"
+msgstr "διαθέτει τουλάχιστον {0} GB διαθέσιμου χώρου αποθήκευσης. (*)"
+
+#: DSGos_Installer/check.py:76
+msgid ""
+"This highly depends on which desktop environment you choose, so you might "
+"need more space."
+msgstr "Αυτό εξαρτάται από το περιβάλλον εργασίας (de - desktop environment)  που θα επιλέξετε, οπότε ίσως χρειαστείτε περισσότερο χώρο."
+
+#: DSGos_Installer/check.py:84
+msgid "is plugged in to a power source"
+msgstr "είναι συνδεδεμένο στο ρεύμα"
+
+#: DSGos_Installer/check.py:88
+msgid "is connected to the Internet"
+msgstr "είναι συνδεδεμένο στο internet"
+
+#: DSGos_Installer/check.py:92
+msgid "For best results, please ensure that this computer:"
+msgstr "Για βέλτιστα αποτελέσματα, βεβαιωθείτε ότι ο υπολογιστής:"
+
+#: DSGos_Installer/check.py:175
+msgid "We have Internet connection."
+msgstr "Υπάρχει σύνδεση διαδικτύου."
+
+#: DSGos_Installer/check.py:176
+msgid "We're connected to a power source."
+msgstr "Είναι συνδεδεμένος στο ρεύμα"
+
+#: DSGos_Installer/check.py:177
+msgid "We have enough disk space."
+msgstr "Υπάρχει αρκετός χώρος στον δίσκο."
+
+#: DSGos_Installer/check.py:195 DSGos_Installer/desktop.py:214 DSGos_Installer/download/download_aria2.py:35
+#: DSGos_Installer/features.py:453 DSGos_Installer/installation/advanced.py:2289
+#: DSGos_Installer/installation/alongside.py:37 DSGos_Installer/installation/ask.py:33
+#: DSGos_Installer/installation/automatic.py:303 DSGos_Installer/installation/bootloader.py:42
+#: DSGos_Installer/installation/chroot.py:33 DSGos_Installer/keymap.py:287 DSGos_Installer/language.py:174
+#: DSGos_Installer/location.py:247 DSGos_Installer/slides.py:246 DSGos_Installer/user_info.py:327
+#: DSGos_Installer/welcome.py:151 DSGos_Installer/wireless.py:159 DSGos_Installer/DSGos_Installer.py:74
+msgid "Can't create DSGos_Installer main window: {0}"
+msgstr "Δεν είναι δυνατή η δημιουργία κύριου παραθύρου του DSGos_Installer: {0}"
+
+#: DSGos_Installer/DSGos_Installer.py:153
+msgid "Sending DSGos_Installer logs to {0} with id '{1}'"
+msgstr "Αποστολή των logs του DSGos_Installer στο  {0} με id '{1}'"
+
+#: DSGos_Installer/DSGos_Installer.py:198
+msgid "Using pyalpm v{0} as interface to libalpm v{1}"
+msgstr "Χρήση του pyalpm v{0} σαν διεπαφή για το to libalpm v{1}"
+
+#: DSGos_Installer/DSGos_Installer.py:213
+msgid "DSGos_Installer v{0} - DSGos Installer"
+msgstr "DSGos_Installer εκδ. {0} - Πρόγραμμα εγκατάστασης του DSGos"
+
+#: DSGos_Installer/DSGos_Installer.py:218
+msgid "Use pre-downloaded xz packages when possible"
+msgstr "Xρήση πακέτων xz που έχουν προ-ληφθεί όπου είναι δυνατόν"
+
+#: DSGos_Installer/DSGos_Installer.py:222
+msgid "Sets DSGos_Installer log level to 'debug'"
+msgstr "Ορσμός επιπέδου καταγραφής του Cnch, σε  'debug'"
+
+#: DSGos_Installer/DSGos_Installer.py:226
+msgid "Sets the Desktop Environment that will be installed"
+msgstr "Ορίζει το Περιβάλλον Εργασίας που θα εγκατασταθεί"
+
+#: DSGos_Installer/DSGos_Installer.py:230
+msgid "Runs DSGos_Installer even if it detects that another instance is running"
+msgstr "Εκτελεί το Cinchi ακόμα και αν ανιχνεύσει ότι εκτελείται ένα άλλο instance"
+
+#: DSGos_Installer/DSGos_Installer.py:234
+msgid "Disables first screen's 'try it' option"
+msgstr "Απενεργοποιεί την πρώτη επιλογή της οθόνης «δοκιμάσετε το» "
+
+#: DSGos_Installer/DSGos_Installer.py:238
+msgid ""
+"Choose which library to use when downloading packages. Possible options are "
+"'requests' (default), 'urllib' and 'aria2'"
+msgstr "Επιλέξτε ποια βιβλιοθήκη να χρησιμοποιήσει κατά τη λήψη πακέτων. Πιθανές επιλογές είναι «αιτήματα» (προεπιλογή), «urllib» και «aria2»"
+
+#: DSGos_Installer/DSGos_Installer.py:243
+msgid "Makes checks optional in check screen"
+msgstr "Κάνει προαιρετικούς ελέγχους σε οθόνη ελέγχου"
+
+#: DSGos_Installer/DSGos_Installer.py:247
+msgid ""
+"Install the packages referenced by a local xml instead of the default ones"
+msgstr "Εγκαταστείστε τα πακέτα που αναφέρονται από μια τοπική xml αντί για τα προεπιλεγμένα "
+
+#: DSGos_Installer/DSGos_Installer.py:251
+msgid ""
+"Choose to which log server send DSGos_Installer logs. Expects a hostname or an IP "
+"address"
+msgstr "Επιλέξτε σε ποιόν  log server να στείλει το DSGos_Installer καταγραφές. Αναμένει ένα hostname  ή μια διεύθυνση IP"
+
+#: DSGos_Installer/DSGos_Installer.py:256
+msgid "Do not perform any changes (useful for developers)"
+msgstr "Μην προβαίνετε σε αλλαγές (χρήσιμο για τους προγραμματιστές)"
+
+#: DSGos_Installer/DSGos_Installer.py:260
+msgid "Upgrade/downgrade DSGos_Installer to the web version"
+msgstr "Αναβάθμιση/Υποβάθμιση του DSGos_Installer στην διαδικτυακή έκδοση"
+
+#: DSGos_Installer/DSGos_Installer.py:264
+msgid "Do not search for new DSGos_Installer versions online"
+msgstr "Να μην γίνει αναζήτηση για νέες εκδόσεις του Cinchi online"
+
+#: DSGos_Installer/DSGos_Installer.py:268
+msgid "Show logging messages to stdout"
+msgstr "Εμφάνιση μηνυμάτων καταγραφής στο stdout"
+
+#: DSGos_Installer/DSGos_Installer.py:272
+msgid "Show options in development (for developers only, do not use this!)"
+msgstr "Εμφάνιση επιλογών  για development (μόνο για προγραμματιστές, μην to χρησιμοποιείτε αυτό!)"
+
+#: DSGos_Installer/DSGos_Installer.py:311
+msgid "Program updated! Restarting..."
+msgstr "Το πρόγραμμα ανανεώθηκε: Επανεκκίνηση..."
+
+#: DSGos_Installer/DSGos_Installer.py:351
+msgid "DSGos_Installer files not found. Please, install DSGos_Installer using pacman"
+msgstr "Τα αρχεία του DSGos_Installer δεν βρέθηκαν. Παρακαλώ, εγκατστείστε το DSGos_Installer χρησιμοποιώντας το pacman"
+
+#: DSGos_Installer/desktop.py:114
+msgid "Choose Your Desktop"
+msgstr "Επιλέξτε επιφάνεια εργασίας"
+
+#: DSGos_Installer/desktop.py:203
+msgid "DSGos_Installer will install DSGos with the '%s' desktop"
+msgstr "Ο DSGos_Installer θα εγκαταστήσει το DSGos με περιβάλλον %s'"
+
+#: DSGos_Installer/desktop_environments.py:98
+msgid ""
+"Gnome 3 is an easy and elegant way to use your computer. It features the "
+"Activities Overview which is an easy way to access all your basic tasks. "
+"GNOME 3 is the default desktop in DSGos."
+msgstr "Το Gnome 3 είναι ένας εύχρηστος και κομψός τρόπος να χρησιμοποιείτε τον υπολογιστή σας. Διαθέτει την Επισκόπηση Δραστηριοτήτων για την διευκόλυνση της πρόσβασης σε όλες τις βασικές εργασίες σας. Το GNOME 3 είναι η προκαθορισμένη επιφάνεια εργασίας στα DSGos."
+
+#: DSGos_Installer/desktop_environments.py:103
+msgid ""
+"Cinnamon is a fork of GNOME 3 developed by (and for) Linux Mint. It provides"
+" users a more traditional desktop interface along with the newest "
+"compositing techniques of GNOME 3. Cinnamon is for users of all experience "
+"levels. "
+msgstr "Το Cinnamon έχει προκύψει-forked από το GNOME 3 και έχει δημιουργηθεί από (και για τις ανάγκες) του Linux Mint. Παρέχει στους χρήστες μια πιο παραδοσιακή διεπαφή επιφάνειας εργασίας, συνδιάζοντας τις πιο σύγχρονες τεχνικές του GNOME 3. Το Cinnamon απευθύνεται σε χρήστες όλων των επιπέδων εμπειρίας."
+
+#: DSGos_Installer/desktop_environments.py:108
+msgid ""
+"Xfce is a lightweight desktop environment. It aims to be fast and low on "
+"system resources, while remaining visually appealing and user friendly. It "
+"is a great option for use on older computers or those with low hardware "
+"specifications. "
+msgstr "Το Xfce παρέχει ένα ελαφρύ περιβάλλον εργασίας. Έχει ως στόχο να είναι γρήγορο και να καταναλώνει όσο το δυνατόν λιγότερους πόρους του συστήματος, ενώ ταυτόχρονα παραμένει οπτικά ελκυστικό και φιλικό προς τον χρήστη. Πρόκειται για μια ιδανική λύση για παλιότερους υπολογιστές ή υπολογιστές με υλικό-hardware χαμηλών προδιαγραφών."
+
+#: DSGos_Installer/desktop_environments.py:113
+msgid ""
+"LXDE is an extremely fast-performing and energy-saving desktop environment. "
+"It uses less CPU and RAM than other environments. LXDE is especially "
+"designed for cloud computers with low hardware specifications such as "
+"netbooks, mobile devices, and older computers."
+msgstr "Το LXDE είναι ένα περιβάλλον εργασίας εξαιρετικά γρήγορο, αποδοτικό και εξοικονομεί ενέργεια. Χρησιμοποιεί λιγότερη CPU και μνήμη από τα υπόλοιπα περιβάλλοντα εργασίας.  Το LXDE είναι ειδικά σχεδιασμένο για cloud computers μεhardware χαμηλών προδιαγραφών, όπως τα netbooks, συσκευές κινητών και παλιότερους υπολογιστές."
+
+#: DSGos_Installer/desktop_environments.py:118
+msgid ""
+"Openbox is a highly configurable, next generation window manager with "
+"extensive standards support. It's default theme is well known for its "
+"minimalistic appearance and flexibility. Your desktop becomes cleaner, "
+"faster. Perfect for low hardware specifications, too."
+msgstr "Το Openbox είναι ένας ιδιαίτερα διαμορφώσιμος και προσαρμόσιμος διαχειριστής παραθύρων, window manager, επόμενης γενιάς, και υποστηρίζει εκτεταμένα πρότυπα. Το προκαθορισμένο του θέμα-theme είναι γνωστό για τη μινιμαλιστική του εμφάνιση και ελαστικότητα. Η επιφάνεια εργασίας σας γίνεται πιο καθαρή και γρήγορη. Επίσης είναι ιδανική επιλογή για υπολογιστές με hardware χαμηλών προδιαγραφών."
+
+#: DSGos_Installer/desktop_environments.py:123
+msgid ""
+"Enlightenment is not just a window manager for Linux/X11 and others, but "
+"also a whole suite of libraries to help you create beautiful user interfaces"
+" with much less work"
+msgstr "Το Enlightenment δεν είναι απλά ένας διαχειριστής παραθύρων για τα Linux/X11, παρέχει μια ολόκληρη λίστα από βιβλιοθήκες για να σας βοηθήσουν να δημιουργήσετε πιο όμορφες διεπαφές χρήστη με πολύ λίγο κόπο."
+
+#: DSGos_Installer/desktop_environments.py:127
+msgid ""
+"If you are looking for a familiar working environment, KDE's Plasma Desktop "
+"offers all the tools required for a modern desktop computing experience so "
+"you can be productive right from the start."
+msgstr "Εάν αναζητάτε ένα οικείο περιβάλλον εργασίας, το Plasma Desktop του KDE παρέχει όλα τα απαραίτητα εργαλεία για μια σύγχρονη εμπειρία ώστε εσείς να μπορείτε να αφοσιωθείτε στην παραγωγικότητά σας άμεσα."
+
+#: DSGos_Installer/desktop_environments.py:131
+msgid ""
+"Plasma 5.0 introduces a new major version of KDE's workspace offering. It "
+"provides a visually updated core desktop experience that is easy to use and "
+"familiar to the user. "
+msgstr "Το Plasma 5.0 εισάγει μια νέα μεγάλη έκδοση του περιβάλλοντος εργασίας του KDE. Παρέχει μια οπτικά αναβαθμισμένη εμπειρία χρήστη η οποία είναι εύχρηστη και οικεία στον χρήστη."
+
+#: DSGos_Installer/desktop_environments.py:135
+msgid ""
+"LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt "
+"technologies. It has been tailored for users who value simplicity, speed, "
+"and an intuitive interface."
+msgstr "Το LXQT είναι ένα προηγμένο, εύκολο στην χρήση και γρήγορο γραφικό περιβάλλον, το οποίο βασίζεται στις τεχνολογίες Qt. Έχει προσαρμοστεί για χρήστες που εκτιμούν την απλότητα, την ταχύτητα και το ευκολονόητο περιβάλλον εργασίας."
+
+#: DSGos_Installer/desktop_environments.py:139
+msgid ""
+"This option will install DSGos as command-line only system, without any "
+"type of graphical interface. After the installation you can customize "
+"DSGos by installing packages with the command-line package manager."
+msgstr "Με την επιλογή αυτή θα εγκατασταθεί το DSGos σαν λειτουργικό με γραμμή εντολών, χωρίς κάποιου είδους γραφικό περιβάλλον. Μετά την εγκατάσταση μπορεί να προσαρμοστεί το DSGos με τον διαχειριστή πακέτων από την γραμμή εντολών."
+
+#: DSGos_Installer/desktop_environments.py:143
+msgid ""
+"An intuitive, attractive and lightweight desktop environment, fork of GNOME "
+"2. MATE is one of the best options for use on older computers or those with "
+"low hardware specifications due to its lightweight yet very customizable set"
+" of features."
+msgstr "Ενα διαισθητικό, ελκυστικό και ελαφρύ περιβάλλον εργασίας, forkι του GNOME 2.  To MATE είναι μία από τις καλύτερες επιλογές για χρήση σε παλαιότερους υπολογιστές ή  εκείνους με χαμηλές προδιαγραφές υλικού που οφείλεται στο ελαφρύ αλλά πολύ προσαρμόσιμο σύνολο των χαρακτηριστικών του."
+
+#: DSGos_Installer/download/aria2.py:49 DSGos_Installer/download/aria2.py:60
+#: DSGos_Installer/download/aria2.py:96 DSGos_Installer/download/aria2.py:104
+msgid "Can't call Aria2. Error Output: %s"
+msgstr "Αδυναμία κλήσης Aria2. Έξοδος Σφάλματος:% s"
+
+#: DSGos_Installer/download/aria2.py:73
+msgid "Can't add metalink to Aria2. Error Output: %s"
+msgstr "Αδυναμία προσθήκης Metalink στην Aria2. Έξοδος Σφάλματος:% s"
+
+#: DSGos_Installer/download/aria2.py:86
+msgid "Can't add uris to Aria2. Error Output: %s"
+msgstr "Αδυναμία προσθήκης URIs στην Aria2. Έξοδος Σφάλματος:% s"
+
+#: DSGos_Installer/download/aria2.py:157
+msgid "Can't run aria2: %s"
+msgstr "Αδυναμία εκτέλεσης aria2: %s"
+
+#: DSGos_Installer/download/download.py:97
+msgid "Can't create download package list. Check log output for details"
+msgstr "Αδυναμία δημιουργίας λίστας πακέτων λήψεων. Ελέγξτε το αρχείο καταγραφών για λεπτομέρειες"
+
+#: DSGos_Installer/download/download.py:99
+msgid "Using %s library to download packages"
+msgstr "Χρήση της βιβλιοθήκης% s για να λήψη πακέτων"
+
+#: DSGos_Installer/download/download.py:113
+msgid "Unknown '%s' library, DSGos_Installer will use the 'requests' one as default"
+msgstr " Άγνωστη βιβλιοθήκη '% s', Το DSGos_Installer θα χρησιμοποιήσει το «requests» ως προεπιλογή"
+
+#: DSGos_Installer/download/download.py:126 DSGos_Installer/installation/process.py:714
+msgid "Can't install necessary packages. DSGos_Installer can't continue."
+msgstr "Αδυναμία εγκατάστασης απαραίτητων πακέτων. Το DSGos_Installer δεν μπορεί να συνεχίσει.."
+
+#: DSGos_Installer/download/download.py:132
+msgid "Creating the list of packages to download..."
+msgstr "Δημιουργία λίστας πακέτων για λήψη..."
+
+#: DSGos_Installer/download/download.py:145 DSGos_Installer/download/metalink.py:483
+msgid "Can't initialize pyalpm: %s"
+msgstr "Αδυναμία αρχικοποίησης pyalpm: %s"
+
+#: DSGos_Installer/download/download.py:152
+msgid "Error creating metalink for package %s. Installation will stop"
+msgstr "Σφάλμα κατά τη δημιουργία Metalink για το πακέτο % s. Η εγκατάσταση θα σταματήσει"
+
+#: DSGos_Installer/download/download.py:168
+msgid "Can't create download set: %s"
+msgstr "Δεν μπορεί να δημιουργηθεί το σετ λήψης %s"
+
+#: DSGos_Installer/download/download.py:175
+msgid "Can't release pyalpm: %s"
+msgstr "Αδυναμία εκτέλεσης pyalpm: %s"
+
+#: DSGos_Installer/download/download_aria2.py:78
+msgid "Aria2 is not running."
+msgstr "Το aria2 δεν εκτελείται."
+
+#: DSGos_Installer/download/download_aria2.py:85 DSGos_Installer/download/download_aria2.py:140
+msgid "Downloading packages... ({0}/{1})..."
+msgstr "Λήψη πακέτων... ({0}/{1})..."
+
+#: DSGos_Installer/download/download_aria2.py:107
+#: DSGos_Installer/download/download_requests.py:111
+#: DSGos_Installer/download/download_urllib.py:138
+msgid "File %s already exists, DSGos_Installer will not overwrite it"
+msgstr "Το αρχείο %s υπάρχει ήδη, το DSGos_Installer δεν θα το αντικαταστήσει"
+
+#: DSGos_Installer/download/download_requests.py:72
+#: DSGos_Installer/download/download_urllib.py:116
+msgid "Downloading {0} {1} ({2}/{3})..."
+msgstr "Γίνεται λήψη {0} {1} ({2}/{3})..."
+
+#: DSGos_Installer/download/download_requests.py:101
+#: DSGos_Installer/download/download_requests.py:123
+#: DSGos_Installer/download/download_requests.py:207
+msgid "MD5 hash (url:%s, file:%s) of file %s do not match!"
+msgstr "Το MD5 hash (url:% s,  αρχείο:% s) του αρχείου% s δεν ταιριάζουν!"
+
+#: DSGos_Installer/download/download_requests.py:106
+#: DSGos_Installer/download/download_requests.py:127
+#: DSGos_Installer/download/download_requests.py:142
+msgid "DSGos_Installer will download it"
+msgstr "Το Cinchi θα κάνει λήψη του"
+
+#: DSGos_Installer/download/download_requests.py:132
+msgid "%s found in suplied pkg cache. Copying..."
+msgstr "% s βρέθηκε στην  cache των πακέτων pkg. Αντιγραφή ..."
+
+#: DSGos_Installer/download/download_requests.py:139
+msgid "Error copying %s to %s."
+msgstr "Σφάλμα αντιγραφής  %s στο %s."
+
+#: DSGos_Installer/download/download_requests.py:152
+msgid "Package %s v%s has an empty url for this mirror"
+msgstr "Το πακέτο %s v%s έχει μια κενή διεύθυνση URL για αυτόν τον καθρέφτη"
+
+#: DSGos_Installer/download/download_requests.py:164
+#: DSGos_Installer/download/download_requests.py:222
+msgid "Can't download {0}"
+msgstr "Αδυναμία λήψης  {0}"
+
+#: DSGos_Installer/download/download_requests.py:166
+#: DSGos_Installer/download/download_requests.py:211
+#: DSGos_Installer/download/download_requests.py:223
+msgid "DSGos_Installer will try another mirror."
+msgstr "Το Cinchi θα δοκιμάσει έναν άλλο καθρέφτη."
+
+#: DSGos_Installer/download/download_requests.py:176
+#: DSGos_Installer/download/download_urllib.py:123
+msgid "Metalink for package %s has no size info"
+msgstr "Το Metalink για το πακέτο % s δεν έχει πληροφορίες μεγέθους"
+
+#: DSGos_Installer/download/download_requests.py:229
+#: DSGos_Installer/download/download_urllib.py:198
+msgid "Can't download {0}, even after trying all available mirrors"
+msgstr "Αδυναμία λήψης {0}, ακόμη και μετά την δοκιμή όλων των διαθέσιμων καθρεφτών"
+
+#: DSGos_Installer/download/download_urllib.py:40
+msgid "Wrong url, will try another one if available."
+msgstr "Λάθος url, δοκιμή ενός άλλου αν υπάρχει διαθέσιμο."
+
+#: DSGos_Installer/download/download_urllib.py:50 DSGos_Installer/download/download_urllib.py:54
+#: DSGos_Installer/download/download_urllib.py:58 DSGos_Installer/download/download_urllib.py:62
+msgid "Can't open {0} - Reason: {1}"
+msgstr "Δεν είναι δυνατό το άνοιγμα του {0} - Αιτία: {1}"
+
+#: DSGos_Installer/download/download_urllib.py:78
+msgid "HTTP Error : {0}"
+msgstr "Σφάλμα HTTP : {0}"
+
+#: DSGos_Installer/download/download_urllib.py:81
+msgid "URL Error : {0}"
+msgstr "Σφάλμα URL : {0}"
+
+#: DSGos_Installer/download/download_urllib.py:144
+msgid "%s found in iso pkg cache. Copying..."
+msgstr "Το % s βρέθηκε σε iso pkg μνήμη cache. Αντιγραφή ..."
+
+#: DSGos_Installer/download/download_urllib.py:150
+msgid "Error copying %s to %s. DSGos_Installer will try to download it"
+msgstr "Σφάλμα αντιγραφής %s στο  %s. Το DSGos_Installer θα προσπαθήσει να κάνει λήψη αυτού"
+
+#: DSGos_Installer/download/metalink.py:110
+msgid "Unable to create download queue for package {0}"
+msgstr "Είναι αδύνατη η δημιουργία της ουράς λήψης για το πακέτο {0}"
+
+#: DSGos_Installer/download/metalink.py:116
+msgid "Can't find these packages: "
+msgstr "Αδύνατη η εύρεση των πακέτων:"
+
+#: DSGos_Installer/download/metalink.py:123
+msgid "Can't resolve these dependencies: "
+msgstr "Αδυναμία επίλυσης των εξαρτήσεων:"
+
+#: DSGos_Installer/encfs.py:103
+msgid "Can't create and modify encfs configuration files."
+msgstr "Αδυναμία δημιουργίας και τροποποίησης  των αρχείων διαμόρφωσης encfs"
+
+#: DSGos_Installer/encfs.py:105
+msgid "Home directory won't be encrypted."
+msgstr "Ο αρχικός κατάλογος δεν θα είναι κρυπτογραφημένος."
+
+#: DSGos_Installer/encfs.py:130
+msgid "Can't run encfs. Bad password?"
+msgstr "Αδυναμία εκτέλεσης encfs. Εσφαλμένος κωδικός;"
+
+#: DSGos_Installer/features.py:129
+msgid "No icon found for feature %s"
+msgstr "Δεν βρέθηκε εικόνα για το χαρακτηριστικό %s"
+
+#: DSGos_Installer/features.py:211
+msgid "Feature Selection"
+msgstr "Επιλογή Χαρακτηριστικών"
+
+#: DSGos_Installer/features.py:215
+msgid "Arch User Repository (AUR) Support"
+msgstr "Υποστήριξη του Αποθετηρίου Χρηστών Arch (AUR)"
+
+#: DSGos_Installer/features.py:216
+msgid "The AUR is a community-driven repository for Arch users."
+msgstr "Το AUR είναι ένα αποθετήριο για χρήστες Arch που διαχειρίζεται η κοινότητα."
+
+#: DSGos_Installer/features.py:217
+msgid ""
+"Use yaourt to install AUR packages.\n"
+"The AUR was created to organize and share new packages\n"
+"from the community and to help expedite popular packages'\n"
+"inclusion into the [community] repository."
+msgstr "Χρήση του yaourt για εγκατάσταση πακέτων από το AUR.\nTo AUR δημιουργήθηκε για να διευκολύνει την οργάνωση και το μοίρασμα νέων πακέτων\nαπό την κοινότητα καθώς και να επιταχύνει την προσθήκη νέων δημοφιλών πακέτων\nστο αποθετήριο [community]."
+
+#: DSGos_Installer/features.py:224
+msgid "Bluetooth Support"
+msgstr "Υποστήριξη Bluetooth"
+
+#: DSGos_Installer/features.py:225
+msgid "Enables your system to make wireless connections via Bluetooth."
+msgstr "Δίνει τη δυνατότητα στο σύστημά σας να πραγματοποιήσει ασύρματες συνδέσεις μέσω Bluetooth."
+
+#: DSGos_Installer/features.py:226
+msgid ""
+"Bluetooth is a standard for the short-range wireless\n"
+"interconnection of cellular phones, computers, and\n"
+"other electronic devices. In Linux, the canonical\n"
+"implementation of the Bluetooth protocol stack is BlueZ"
+msgstr "To Bluetooth είναι ένα standard για ασύρματη διασύνδεση \nμικρής εμβέλειας μεταξύ κινητών τηλεφώνων, υπολογιστών και \nάλλων ηλεκτρονικών συσκευών. Στο Linux, η κύρια υλοποίηση \nτης στοίβας του πρωτοκόλλου Bluetooth είναι το BlueZ"
+
+#: DSGos_Installer/features.py:233
+msgid "Extra Truetype Fonts"
+msgstr "Επιπλέον γραμματοσειρές Truetype"
+
+#: DSGos_Installer/features.py:234
+msgid "Installation of extra TrueType fonts"
+msgstr "Εγκατάσταση επιπλέον γραμματοσειρών TrueType"
+
+#: DSGos_Installer/features.py:235
+msgid ""
+"TrueType is an outline font standard developed by\n"
+"Apple and Microsoft in the late 1980s as a competitor\n"
+"to Adobe's Type 1 fonts used in PostScript. It has\n"
+"become the most common format for fonts on both the\n"
+"Mac OS and Microsoft Windows operating systems."
+msgstr "Το ΤrueType είναι μια τυποποιημένη γραμματοσειρά που έχει αναπτυχθεί από την Apple και την Microsoft στα τέλη της δεκαετίας του 1980 ως ανταγωνιστική απέναντι στην γραμματοσειρά Type 1 της Adobe που χρησιμοποιούνται σε PostScript. Είναι η πιο κοινή μορφή γραμματοσειράς τόσο στα λειτουργικά συστήματα Mac OS όσο και στα Microsoft Windows."
+
+#: DSGos_Installer/features.py:244
+msgid "Graphic drivers (Proprietary)"
+msgstr "Οδηγοί γραφικών (Ιδιόκτητοι)"
+
+#: DSGos_Installer/features.py:245 DSGos_Installer/features.py:246
+msgid "Installs AMD or Nvidia proprietary graphic driver"
+msgstr "Εγκαθιστά τον ιδιόκτητο οδηγό γραφικών AMD ή Nvidia"
+
+#: DSGos_Installer/features.py:250
+msgid "Apache (or Nginx) + Mariadb + PHP"
+msgstr "Apache (ή Nginx) + Mariadb + PHP"
+
+#: DSGos_Installer/features.py:251
+msgid "Apache (or Nginx) + Mariadb + PHP installation and setup"
+msgstr "Εγκατάσταση και ρύθμιση Apache (or Nginx) + Mariadb + PHP"
+
+#: DSGos_Installer/features.py:252
+msgid ""
+"This option installs a web server (you can choose\n"
+"Apache or Nginx) plus a database server (Mariadb)\n"
+"and PHP"
+msgstr "Αυτή η επιλογή εγκαθιστά ένα web server (μπορείτε να επιλέξετεi\nApache ή Nginx) συν μια βάση δεδομένων διακομιστή (MariaDB) \nκαι PHP"
+
+#: DSGos_Installer/features.py:258
+msgid "Printing Support"
+msgstr "Υποστήριξη Εκτύπωσης"
+
+#: DSGos_Installer/features.py:259
+msgid "Installation of printer drivers and management tools."
+msgstr "Εγκατάσταση οδηγών εκτυπωτών και εργαλεία διαχείρισης."
+
+#: DSGos_Installer/features.py:260
+msgid ""
+"CUPS is the standards-based, open source printing\n"
+"system developed by Apple Inc. for OS\\302\\256 X and other\n"
+"UNIX\\302\\256-like operating systems."
+msgstr "Το CUPS είναι το βασισμένο σε πρότυπα ανοικτού λογισμικού\nσύστημα εκτύπωσηςπου αναπτύχθηκε από την Apple Inc για το OS \\ 302 \\ 256 Χ και άλλα\nUNIX \\ 302 \\ 256-like λειτουργικά συστήματα."
+
+#: DSGos_Installer/features.py:266
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: DSGos_Installer/features.py:267
+msgid "Open source office suite. Supports editing MS Office files."
+msgstr "Σουίτα γραφείου ανοικτού κώδικα. Υποστηρίζει επεξεργασία αρχείων MS Office."
+
+#: DSGos_Installer/features.py:268
+msgid ""
+"LibreOffice is the free power-packed Open Source\n"
+"personal productivity suite for Windows, Macintosh\n"
+"and Linux, that gives you six feature-rich applications\n"
+"for all your document production and data processing\n"
+"needs: Writer, Calc, Impress, Draw, Math and Base."
+msgstr "Το LibreOffice είναι η ελεύθερη Open Source προσωπική σουίτα παραγωγικότητας για τα Windows, το Macintosh και το Linux, που σας δίνει έξι εφαρμογές με πλούσια χαρακτηριστικά\nγια το σύνολο της παραγωγής εγγράφων και των αναγκών επεξεργασίας των δεδομένων σαςι: Writer, Calc, Impress, Draw, Μαθηματικά και βάσης."
+
+#: DSGos_Installer/features.py:276
+msgid "Visual Effects"
+msgstr "Οπτικά Εφέ"
+
+#: DSGos_Installer/features.py:277
+msgid "Enable transparency, shadows, and other desktop effects."
+msgstr "Ενεργοποίηση διαφάνειας, σκιών και άλλων εφέ."
+
+#: DSGos_Installer/features.py:278
+msgid ""
+"Compton is a lightweight, standalone composite manager,\n"
+"suitable for use with window managers that do not natively\n"
+"provide compositing functionality. Compton itself is a fork\n"
+"of xcompmgr-dana, which in turn is a fork of xcompmgr.\n"
+"See the compton github page for further information."
+msgstr "Το Compton είναι ένας ελαφρύς, αυτόνομος σύνθετος μάνατζερ κατάλληλος για χρήση με διαχειριστές παραθύρων που δεν παρέχουν εγγενή λειτουργία σύνθεσης. Το ίδιο το Compton είναι ένα fork του xcompmgr-Dana,το οποίο με τη σειρά του είναι ένα forkι toy xcompmgr.\nΔείτε τη σελίδα github Compton για περισσότερες πληροφορίες."
+
+#: DSGos_Installer/features.py:286
+msgid "Uncomplicated Firewall"
+msgstr "Απλός Τοίχος Προστασίας"
+
+#: DSGos_Installer/features.py:287
+msgid "Control the incoming and outgoing network traffic."
+msgstr "Έλεγχος της εισερχόμενης και εξερχόμενης κυκλοφορίας δικτύου."
+
+#: DSGos_Installer/features.py:288
+msgid ""
+"Ufw stands for Uncomplicated Firewall, and is a program for\n"
+"managing a netfilter firewall. It provides a command line\n"
+"interface and aims to be uncomplicated and easy to use."
+msgstr "Ufw σημαίνει Uncomplicated Firewall/Απλό Τείχος Προστασίας και είναι ένα πρόγραμμα για την διαχείριση ενός τείχους προστασίας netfilter. Παρέχει μία διεπαφή γραμμής εντολών και στοχεύει στο να είναι απλό και εύκολο στη χρήση."
+
+#: DSGos_Installer/features.py:294
+msgid "Kernel (LTS version)"
+msgstr "Kernel/Πυρήνας (έκδοση LTS)"
+
+#: DSGos_Installer/features.py:295
+msgid "Long term support (LTS) Linux kernel and modules."
+msgstr "Long term support (LTS)/ Mακράς Χρονικής Υποστήριξης  πυρήνας Linux & modules."
+
+#: DSGos_Installer/features.py:296
+msgid ""
+"The linux-lts package is an alternative Arch kernel package\n"
+"based upon Linux kernel 3.14 and is available in the core repository.\n"
+"This particular kernel version enjoys long-term support from upstream,\n"
+"including security fixes and some feature backports. Additionally, this\n"
+"package includes ext4 support. For DSGos users seeking a long-term\n"
+"support kernel, or who want a fallback kernel in case the latest kernel\n"
+"version causes problems, this option is the answer."
+msgstr "Το πακέτο linux-LTS είναι ένα εναλλακτικό πακέτο πυρήνα Arch που βασίζεται στον πυρήνα Linux 3.14 και είναι διαθέσιμο στο αποθετήριο core/πυρήνα.  Η συγκεκριμένη έκδοση του πυρήνα έχει μακροπρόθεσμη υποστήριξη από το upstream, συμπεριλαμβανομένων διορθώσεων ασφάλειας και κάποιων χαρακτηριστικών backports. Επιπλέον, αυτό το πακέτο περιλαμβάνει υποστήριξη ext4. Για τους χρήστες του DSGos που αναζητούν έναν πυρήνα μακροπρόθεσμης υποστήριξης ή που θέλουν έναν εναλλακτικό πυρήνα στην περίπτωση που η τελευταία έκδοση kernel προκαλεί προβλήματα, η επιλογή αυτή είναι η απάντηση."
+
+#: DSGos_Installer/features.py:306
+msgid "Firefox Web Browser"
+msgstr "Φυλλομετρητής Firefox"
+
+#: DSGos_Installer/features.py:307
+msgid "A popular open-source graphical web browser from Mozilla"
+msgstr "Ένα δημοφιλές open-source γραφικό πρόγραμμα περιήγησης στο web  από την Mozilla"
+
+#: DSGos_Installer/features.py:308
+msgid ""
+"Mozilla Firefox (known simply as Firefox) is a free and\n"
+"open-source web browser developed for Windows, OS X, and Linux,\n"
+"with a mobile version for Android, by the Mozilla Foundation and\n"
+"its subsidiary, the Mozilla Corporation. Firefox uses the Gecko\n"
+"layout engine to render web pages, which implements current and\n"
+"anticipated web standards."
+msgstr "Ο Mozilla Firefox (γνωστός απλά ως Firefox) είναι ένας δωρεάν & ανοικτού κώδικα φυλλομετρητής που αναπτύχθηκε για τα Windows, το OS X και το Linux, με μια κινητή έκδοση για το Android, από το Ιδρυμα Mozilla & της θυγατρικής της,  Mozilla Corporation. Ο Firefox χρησιμοποιεί την Gecko layout engine για να αποδώσει τις σελίδες web, η οποία υλοποιεί τα τρέχοντα & τα αναμενόμενα web πρότυπα."
+
+#: DSGos_Installer/features.py:317
+msgid "Windows sharing SMB"
+msgstr "Παράθυρα που μοιράζονται SMB"
+
+#: DSGos_Installer/features.py:318
+msgid "SMB provides shared access to files and printers"
+msgstr "Το SMB παρέχει πρόσβαση σε κοινόχρηστα αρχεία και εκτυπωτές"
+
+#: DSGos_Installer/features.py:319
+msgid ""
+"In computer networking, Server Message Block (SMB)\n"
+"operates as an application-layer network protocol mainly used\n"
+"for providing shared access to files, printers, serial ports,\n"
+"and miscellaneous communications between nodes on a network.\n"
+"Most usage of SMB involves computers running Microsoft Windows."
+msgstr "Σε δίκτυο υπολογιστών, το Server Message Block (SMB)  λειτουργεί ως ένα πρωτόκολλο εφαρμογών δικτύου που χρησιμοποιείται κυρίως για την παροχή διαμοιραζόμενης πρόσβασης σε αρχεία, εκτυπωτές, σειριακές θύρες και διάφορων επικοινωνιών μεταξύ κόμβων του network. Η μεγαλύτερη χρήση SMB αφοράι υπολογιστές με λειτουργικό σύστημα Microsoft Windows."
+
+#: DSGos_Installer/features.py:363
+msgid "Selected '%s' feature to install"
+msgstr "Επιλογή χαρακτηριστικού '% s' για  εγκατάσταση"
+
+#: DSGos_Installer/features.py:384
+msgid "Do you want to install the Nginx server instead of the Apache server?"
+msgstr "Θέλετε να εγκαταστήσετε τον διακομιστή Nginx αντί του Apache;"
+
+#: DSGos_Installer/features.py:401
+msgid "Arch User Repository - Disclaimer"
+msgstr "Αποθετήριο Χρηστών Arch - Αποποίηση Ευθυνών"
+
+#: DSGos_Installer/features.py:402
+msgid ""
+"The Arch User Repository is a collection of user-submitted PKGBUILDs\n"
+"that supplement software available from the official repositories.\n"
+"\n"
+"The AUR is community driven and NOT supported by Arch or DSGos.\n"
+msgstr "Το Αποθετήριο Χρηστών Arch είναι μία συλλογή PKGBUILDS \nπου υποβάλλονται από τους χρήστες, τα οποία συμπληρώνουν το\nδιαθέσιμο λογισμικό των επίσημων αποθετηρίων. Το AUR \nδιαχειρίζεται η κοινότητα και ΔΕΝ υποστηρίζεται από το Arch ή\nτο DSGos.\n"
+
+#: DSGos_Installer/features.py:407
+msgid "Uncomplicated Firewall will be installed with these rules:"
+msgstr "Το απλό Τείχος Προστασίας θα εγκατασταθεί με τους εξής κανόνες:"
+
+#: DSGos_Installer/features.py:409
+msgid ""
+"ufw default deny\n"
+"ufw allow from {0}\n"
+"ufw allow Transmission\n"
+"ufw allow SSH"
+msgstr "ufw προεπιλογή άρνηση\nufw επιτρέπεται από {0}\nufw επιτρέπεται μετάδοση\nufw επιτρέπεται SSH"
+
+#: DSGos_Installer/hardware/hardware.py:120 DSGos_Installer/installation/chroot.py:139
+msgid "Error running command: %s"
+msgstr "Σφάλμα εκτέλεσης εντολής: %s"
+
+#: DSGos_Installer/hardware/hardware.py:139
+msgid "%s completed successfully."
+msgstr "%s ολοκληρώθηκε με επιτυχία"
+
+#: DSGos_Installer/hardware/hardware.py:142
+msgid "Error running %s script"
+msgstr "Σφάλμα κατά την εκτέλεση του script %s"
+
+#: DSGos_Installer/hardware/hardware.py:143 DSGos_Installer/installation/auto_partition.py:87
+#: DSGos_Installer/installation/auto_partition.py:93
+#: DSGos_Installer/installation/auto_partition.py:139
+#: DSGos_Installer/installation/auto_partition.py:150
+#: DSGos_Installer/installation/auto_partition.py:187
+#: DSGos_Installer/installation/auto_partition.py:210
+#: DSGos_Installer/installation/auto_partition.py:220
+#: DSGos_Installer/installation/auto_partition.py:232
+#: DSGos_Installer/installation/auto_partition.py:261
+#: DSGos_Installer/installation/auto_partition.py:293
+#: DSGos_Installer/installation/auto_partition.py:306
+#: DSGos_Installer/installation/auto_partition.py:382
+#: DSGos_Installer/installation/auto_partition.py:390
+#: DSGos_Installer/installation/auto_partition.py:411
+#: DSGos_Installer/installation/auto_partition.py:795
+#: DSGos_Installer/installation/auto_partition.py:804
+#: DSGos_Installer/installation/auto_partition.py:840
+#: DSGos_Installer/installation/auto_partition.py:902 DSGos_Installer/installation/process.py:471
+#: DSGos_Installer/installation/process.py:482 DSGos_Installer/installation/process.py:493
+#: DSGos_Installer/installation/process.py:1454
+msgid "Command %s failed"
+msgstr "Η εντολή %s απέτυχε"
+
+#: DSGos_Installer/hardware/hardware.py:144 DSGos_Installer/installation/auto_partition.py:88
+#: DSGos_Installer/installation/auto_partition.py:94
+#: DSGos_Installer/installation/auto_partition.py:140
+#: DSGos_Installer/installation/auto_partition.py:151
+#: DSGos_Installer/installation/auto_partition.py:188
+#: DSGos_Installer/installation/auto_partition.py:211
+#: DSGos_Installer/installation/auto_partition.py:221
+#: DSGos_Installer/installation/auto_partition.py:233
+#: DSGos_Installer/installation/auto_partition.py:262
+#: DSGos_Installer/installation/auto_partition.py:294
+#: DSGos_Installer/installation/auto_partition.py:307
+#: DSGos_Installer/installation/auto_partition.py:383
+#: DSGos_Installer/installation/auto_partition.py:391
+#: DSGos_Installer/installation/auto_partition.py:412
+#: DSGos_Installer/installation/auto_partition.py:805
+#: DSGos_Installer/installation/auto_partition.py:841
+#: DSGos_Installer/installation/auto_partition.py:903 DSGos_Installer/installation/process.py:176
+#: DSGos_Installer/installation/process.py:472 DSGos_Installer/installation/process.py:483
+#: DSGos_Installer/installation/process.py:494 DSGos_Installer/installation/process.py:1455
+msgid "Output: %s"
+msgstr "Έξοδος: %s"
+
+#: DSGos_Installer/hardware/hardware.py:188
+msgid "Error importing %s from %s : %s"
+msgstr "Σφάλμα εισαγωγής % από %: %"
+
+#: DSGos_Installer/hardware/hardware.py:190
+msgid "Unexpected error importing %s: %s"
+msgstr "Απρόσμενο σφάλμα κατά την εισαγωγή %: %"
+
+#: DSGos_Installer/hardware/hardware.py:196
+msgid "DSGos_Installer will test %d drivers for %d hardware devices"
+msgstr "To DSGos_Installer θα ελέγξει τους οδηγούς %d για συσκευές hardware %d"
+
+#: DSGos_Installer/installation/advanced.py:261 DSGos_Installer/installation/advanced.py:608
+#: DSGos_Installer/installation/advanced.py:622
+msgid "free space"
+msgstr "διαθέσιμος χώρος"
+
+#: DSGos_Installer/installation/advanced.py:396
+msgid "Device"
+msgstr "Συσκευή"
+
+#: DSGos_Installer/installation/advanced.py:399
+msgid "Type"
+msgstr "Τύπος"
+
+#: DSGos_Installer/installation/advanced.py:402
+msgid "Mount point"
+msgstr "Σημείο προσάρτησης"
+
+#: DSGos_Installer/installation/advanced.py:405
+msgid "Label"
+msgstr "Ετικκέτα"
+
+#: DSGos_Installer/installation/advanced.py:412 DSGos_Installer/installation/advanced.py:1979
+msgid "Format"
+msgstr "Διαμόρφωση"
+
+#: DSGos_Installer/installation/advanced.py:419
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: DSGos_Installer/installation/advanced.py:422
+msgid "Used"
+msgstr "Χρήση"
+
+#: DSGos_Installer/installation/advanced.py:425
+msgid "Flags"
+msgstr "Flags"
+
+#: DSGos_Installer/installation/advanced.py:432
+msgid "SSD"
+msgstr "SSD"
+
+#: DSGos_Installer/installation/advanced.py:590
+msgid "none"
+msgstr "none"
+
+#: DSGos_Installer/installation/advanced.py:727
+msgid "Can't edit a partition with LVM filesystem type"
+msgstr "Δεν μπορεί να τροποποιηθεί ένα partition με τύπο συστήματος αρχείων LVM."
+
+#: DSGos_Installer/installation/advanced.py:789
+msgid "Can't use same mount point twice."
+msgstr "Δεν επιτρέπεται η χρήση του ίδιου σημείου προσάρτησης δύο φορές."
+
+#: DSGos_Installer/installation/advanced.py:791
+msgid "Root partition must be formatted."
+msgstr "Η κατάτμηση root πρέπει να διαμορφωθεί."
+
+#: DSGos_Installer/installation/advanced.py:798 DSGos_Installer/installation/advanced.py:1100
+msgid "'%s' is not a valid label"
+msgstr "Το '% s' δεν είναι έγκυρη ετικέτα"
+
+#: DSGos_Installer/installation/advanced.py:813 DSGos_Installer/installation/advanced.py:1151
+msgid "/boot or /boot/efi need to be fat32 in UEFI systems. Forcing it."
+msgstr "Το /boot or /boot/efi πρέπει να είναι fat32 στα συστήματα UEFΙ. Εξαναγκασμός."
+
+#: DSGos_Installer/installation/advanced.py:899
+msgid "You will delete the partition %s from disk %s"
+msgstr "Θα διαγράψετε την κατάτμηση %s από τον δίσκο %s"
+
+#: DSGos_Installer/installation/advanced.py:917
+msgid "Unmounting %s..."
+msgstr "Γίνεται αποπροσάρτηση %s..."
+
+#: DSGos_Installer/installation/advanced.py:1042
+msgid "Sorry, you already have {0} primary partitions created."
+msgstr "Λυπούμαστε, έχετε ήδη δημιουργήσει {0} πρωτεύουσες κατατμήσεις."
+
+#: DSGos_Installer/installation/advanced.py:1046
+msgid "Sorry, you already have {0} primary and 1 extended partitions created."
+msgstr "Λυπούμαστε, έχετε ήδη δημιουργήσει {0} πρωτεύουσες και 1 εκτεταμένη κατάτμηση."
+
+#: DSGos_Installer/installation/advanced.py:1105
+msgid "Can't use same mount point twice..."
+msgstr "Δεν επιτρέπεται η χρήση του ίδιου σημείου προσάρτησης δύο φορές..."
+
+#: DSGos_Installer/installation/advanced.py:1130
+msgid "Creating a primary partition"
+msgstr "Δημιουργία πρωτεύουσας κατάτμησης"
+
+#: DSGos_Installer/installation/advanced.py:1141
+msgid "Creating an extended partition"
+msgstr "Δημιουργία εκτεταμένης κατάτμησης"
+
+#: DSGos_Installer/installation/advanced.py:1147
+msgid "Creating a logical partition"
+msgstr "Δημιουργία λογικής κατάτμησης"
+
+#: DSGos_Installer/installation/advanced.py:1203
+msgid "Using LUKS encryption will DELETE all partition contents!"
+msgstr "Η χρήση κρυπτογράφισης LUKS θα ΔΙΑΓΡΑΨΕΙ  τα περιεχόμενα όλων των κατατμήσεων"
+
+#: DSGos_Installer/installation/advanced.py:1215
+msgid "LUKS passwords do not match!"
+msgstr "Οι κωδικοί πρόσβασης LUKS δεν ταιριάζουν"
+
+#: DSGos_Installer/installation/advanced.py:1340
+msgid "Advanced Installation Mode"
+msgstr "Προηγμένη Ρύθμιση Εγκατάστασης"
+
+#: DSGos_Installer/installation/advanced.py:1342 DSGos_Installer/installation/automatic.py:101
+msgid "Use the device below for boot loader installation:"
+msgstr "Χρήση της παρακάτω συσκευής για εγκατάσταση του φορτωτή εκκίνησης:"
+
+#: DSGos_Installer/installation/advanced.py:1347 DSGos_Installer/installation/automatic.py:106
+msgid "Bootloader:"
+msgstr "Φορτωτής Εκκίνησης"
+
+#: DSGos_Installer/installation/advanced.py:1351 DSGos_Installer/installation/automatic.py:110
+msgid "Device:"
+msgstr "Συσκευή:"
+
+#: DSGos_Installer/installation/advanced.py:1355
+msgid "Mount Checklist:"
+msgstr "Προσάρτηση Checklist:"
+
+#: DSGos_Installer/installation/advanced.py:1361
+msgid "Root"
+msgstr "Root"
+
+#: DSGos_Installer/installation/advanced.py:1365
+msgid "Boot"
+msgstr "Boot"
+
+#: DSGos_Installer/installation/advanced.py:1369
+msgid "EFI"
+msgstr "EFI"
+
+#: DSGos_Installer/installation/advanced.py:1373
+msgid "Swap"
+msgstr "Swap"
+
+#: DSGos_Installer/installation/advanced.py:1383
+msgid "Undo"
+msgstr "Αναίρεση"
+
+#: DSGos_Installer/installation/advanced.py:1386 DSGos_Installer/installation/advanced.py:1979
+msgid "New"
+msgstr "Νέα"
+
+#: DSGos_Installer/installation/advanced.py:1389
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: DSGos_Installer/installation/advanced.py:1392
+msgid "Edit..."
+msgstr "Επεξεργασία..."
+
+#: DSGos_Installer/installation/advanced.py:1395
+msgid "New partition table"
+msgstr "Νέος πίνακας κατατμήσεων"
+
+#: DSGos_Installer/installation/advanced.py:1406
+msgid "_Cancel"
+msgstr "_Ακύρωση"
+
+#: DSGos_Installer/installation/advanced.py:1417
+msgid "_Apply"
+msgstr "_Εφαρμογή"
+
+#: DSGos_Installer/installation/advanced.py:1420
+msgid "Size:"
+msgstr "Μέγεθος:"
+
+#: DSGos_Installer/installation/advanced.py:1424
+msgid "Type:"
+msgstr "Τύπος:"
+
+#: DSGos_Installer/installation/advanced.py:1428
+msgid "Primary"
+msgstr "Πρωτεύουσα"
+
+#: DSGos_Installer/installation/advanced.py:1432
+msgid "Logical"
+msgstr "Λογική"
+
+#: DSGos_Installer/installation/advanced.py:1436
+msgid "Extended"
+msgstr "Εκτεταμένη"
+
+#: DSGos_Installer/installation/advanced.py:1440
+msgid "Beginning of this space"
+msgstr "Στην αρχή αυτού του χώρου"
+
+#: DSGos_Installer/installation/advanced.py:1444
+msgid "End of this space"
+msgstr "Στο τέλος αυτού του χώρου"
+
+#: DSGos_Installer/installation/advanced.py:1448 DSGos_Installer/installation/advanced.py:1465
+msgid "Use As:"
+msgstr "Χρήση Ως:"
+
+#: DSGos_Installer/installation/advanced.py:1452 DSGos_Installer/installation/advanced.py:1469
+msgid "Mount Point:"
+msgstr "Σημείο Προσάρτησης:"
+
+#: DSGos_Installer/installation/advanced.py:1456 DSGos_Installer/installation/advanced.py:1473
+msgid "Label (optional):"
+msgstr "Ετικέττα (προαιρετική):"
+
+#: DSGos_Installer/installation/advanced.py:1460 DSGos_Installer/installation/advanced.py:1481
+msgid "Encryption Options..."
+msgstr "Επιλογές Κρυπτογράφησης..."
+
+#: DSGos_Installer/installation/advanced.py:1477
+msgid "Format:"
+msgstr "Διαμόρφωση:"
+
+#: DSGos_Installer/installation/advanced.py:1486
+msgid "Partition Table Type:"
+msgstr "Τύπος πίνακα κατατμήσεων:"
+
+#: DSGos_Installer/installation/advanced.py:1491
+msgid "Create Partition Table"
+msgstr "Δημιουργία Πίνακα Κατατμήσεων"
+
+#: DSGos_Installer/installation/advanced.py:1494
+msgid "Use LUKS encryption:"
+msgstr "Χρήση κρυπτογράφησης LUKS:"
+
+#: DSGos_Installer/installation/advanced.py:1498
+msgid "LUKS volume name:"
+msgstr "Ονομα τόμου LUKS:"
+
+#: DSGos_Installer/installation/advanced.py:1502 DSGos_Installer/wireless.py:70
+msgid "Password:"
+msgstr "Κωδικός:"
+
+#: DSGos_Installer/installation/advanced.py:1506
+msgid "Confirm password:"
+msgstr "Επιβεβαίωση κωδικου:"
+
+#: DSGos_Installer/installation/advanced.py:1576
+msgid "Creating a new %s partition table for disk %s"
+msgstr "Δημιουργία νέου πίνακα κατατμήσεων %s για τον δίσκο %s"
+
+#: DSGos_Installer/installation/advanced.py:1585
+msgid ""
+"GRUB requires a BIOS Boot Partition in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
+"\n"
+"DSGos_Installer will create this BIOS Boot Partition for you."
+msgstr "Ο GRUB απαιτεί μια κατάτμηση εκκίνησης BIOS σε συστήματα BIOS για να ενσωματώσετε το αρχείο του core.img λόγω έλλειψης του post-MBR embed gap σε δίσκους GPT .\nΤο DSGos_Installer θα δημιουργήσει αυτή την κατάτμηση εκκίνησης του BIOS για εσάς."
+
+#: DSGos_Installer/installation/advanced.py:1614
+msgid "Can't create BIOS GPT Boot partition!"
+msgstr "Δεν μπορείτε να δημιουργήσετε διαμέρισμα εκκίνησης BIOS GPT!"
+
+#: DSGos_Installer/installation/advanced.py:1643
+msgid "Couldn't create BIOS GPT Boot partition"
+msgstr "Δεν ήταν δυνατή η δημιουργία κατάτμηση εκκίνησης BIOS GPT"
+
+#: DSGos_Installer/installation/advanced.py:1790
+msgid "Install now!"
+msgstr "Eγκατάσταση τώρα!"
+
+#: DSGos_Installer/installation/advanced.py:1865
+msgid ""
+"{0} is mounted as swap.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "Το {0} είναι προσαρτημένο ως swap.\nΓια να συνεχίσετε πρέπει να αποπροσαρτηθεί\nΚάνετε κλικ στο Ναι για να το αποπροσαρτήσετε ή στο Οχι για να επιστρέψετε.\n"
+
+#: DSGos_Installer/installation/advanced.py:1869
+msgid ""
+"{0} is mounted in '{1}'.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "Tο {0} είναι προσαρτημένο στο '{1}'. \nΓια να συνεχίσετε θα πρέπει να αποπροσαρτηθεί.\nΚάντε κλικ στο κουμπί Ναι για να το αποπροσαρτήσετε ή στο Όχι για επιστροφή\n"
+
+#: DSGos_Installer/installation/advanced.py:1880 DSGos_Installer/installation/advanced.py:1901
+msgid "%s unmounted"
+msgstr "Αποπροσάρτηση % s"
+
+#: DSGos_Installer/installation/advanced.py:1894
+msgid "Swap partition %s unmounted"
+msgstr "Αποπροσάρτηση κατάτμησης swap % s"
+
+#: DSGos_Installer/installation/advanced.py:1905
+msgid "%s shows as mounted (busy) but it has no mount point"
+msgstr "Tο % s εμφανίζεται ως προσαρτημένο  (απασχολημένο), αλλά δεν έχει σημείο προσάρτησης"
+
+#: DSGos_Installer/installation/advanced.py:1947
+msgid ""
+"Added %s to changelist: createme[%s] relabel[%s] fmt[%s] mnt[%s] encrypt[%s]"
+msgstr "Το % s προστέθηκε στην λίστα αλλαγών: createme [% s] relabel [% s] fmt [% s] mnt [% s] encrypt [% s]"
+
+#: DSGos_Installer/installation/advanced.py:1971
+msgid "Partition {0} will be deleted"
+msgstr "Η κατάτμηση {0} θα διαγραφεί"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Encrypt"
+msgstr "Κρυπτογράφηση"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Mount"
+msgstr "Προσάρτηση"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Partition"
+msgstr "Κατάτμηση"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Relabel"
+msgstr "Αλλαγή ετικέτας"
+
+#: DSGos_Installer/installation/advanced.py:2000
+msgid "These disks will have partition actions:"
+msgstr "Αυτοί οι δίσκοι θα έχουν ενέργειες κατατμήσεων:"
+
+#: DSGos_Installer/installation/advanced.py:2100
+msgid "Finished saving changes in %s"
+msgstr "Ολοκληρώθηκε η αποθήκευση των αλλαγών στο % s"
+
+#: DSGos_Installer/installation/advanced.py:2121
+msgid "Creating new {0} filesystem in {1} labeled {2}"
+msgstr "Δημιουργία νέου συστήματος αρχείων {0} στο {1} με ετικέτα {2}"
+
+#: DSGos_Installer/installation/advanced.py:2124
+msgid "Creating new {0} filesystem in {1}"
+msgstr "Δημιουργία νέου συστήματος αρχείων {0} στο {1}"
+
+#: DSGos_Installer/installation/advanced.py:2152
+msgid "Volume name is %s"
+msgstr "Το όνομα του τόμου είναι % s"
+
+#: DSGos_Installer/installation/advanced.py:2166
+msgid "Encrypting {0}, assigning volume name {1} and formatting it..."
+msgstr "Κρυπτογράφηση {0}, ανάθεση ονομασίας τόμου {1} και μορφοποίησή τόυ ..."
+
+#: DSGos_Installer/installation/advanced.py:2181
+msgid "Couldn't format LUKS device '{0}' with label '{1}' as '{2}'"
+msgstr "Αδυναμία διαμόφωσης της συσκευής LUKS '{0}' με την ετικέτα '{1}' ως '{2}'"
+
+#: DSGos_Installer/installation/advanced.py:2205
+msgid "Couldn't format partition '{0}' with label '{1}' as '{2}'"
+msgstr "Αδυναμία διαμόρφωσης της κατάτμησης '{0}' με ετικέτα '{1}' ως '{2}'"
+
+#: DSGos_Installer/installation/advanced.py:2263 DSGos_Installer/installation/automatic.py:268
+msgid "DSGos_Installer will not install any bootloader"
+msgstr "Το DSGos_Installer δεν θα εγκαταστήσει κανέναν φορτωτή εκκίνησης"
+
+#: DSGos_Installer/installation/advanced.py:2269
+msgid "DSGos will install the bootloader {0} in device {1}"
+msgstr "Το DSGos θα εγκαταστήσει τον φορτωτή εκκίνησης {0} στην συσκευή {1}"
+
+#: DSGos_Installer/installation/advanced.py:2285 DSGos_Installer/installation/automatic.py:299
+msgid "Testing mode. DSGos_Installer will not change anything!"
+msgstr "Λειτουργία δοκιμής. Το DSGos_Installer δεν θα αλλάξει τίποτα!"
+
+#: DSGos_Installer/installation/alongside.py:137
+msgid "There are no primary partitions available"
+msgstr "Δεν υπάρχουν διαθέσιμες πρωτεύουσες κατατμήσεις"
+
+#: DSGos_Installer/installation/alongside.py:140
+msgid "Will shrink device {0} and create new device {1}"
+msgstr "Συρρίκνωση της συσκευής {0} και δημιουργία νέας συσκευής {1}"
+
+#: DSGos_Installer/installation/alongside.py:148
+msgid "DSGos_Installer recommends at least 6.5GB free to install DSGos."
+msgstr "Το DSGos_Installer συνιστά τουλάχιστον 6.5GB ελεύθερου χώρου για την εγκατάσταση \nτου DSGos."
+
+#: DSGos_Installer/installation/alongside.py:149
+msgid ""
+"New partition {0} resulting of shrinking {1} will not have enough free space"
+" for a full installation."
+msgstr "Η νέα κατάτμηση {0} ως αποτέλεσμα της συρρίκνωσης της {1} δεν θα διαθέτει αρκετό\nελεύθερο χώρο για πλήρη εγκατάσταση."
+
+#: DSGos_Installer/installation/alongside.py:150
+msgid ""
+"You can still install DSGos, but be carefull on which DE you choose as it"
+" might not fit in."
+msgstr "Μπορείτε ακόμα να εγκαταστήσετε το Αntergos, αλλά προσέξτε με ποιό DE έχετε επιλέξει, καθώς μπορεί να μην χωρέσει ."
+
+#: DSGos_Installer/installation/alongside.py:151
+msgid "Install at your own risk!"
+msgstr "Εγκατάσταση με δική σου ευθύνη!"
+
+#: DSGos_Installer/installation/alongside.py:205
+msgid "Choose the new size of your installation"
+msgstr "Επιλέξτε το νέο μέγεθος της εγκατάστασής σας"
+
+#: DSGos_Installer/installation/alongside.py:209
+msgid "Choose the partition that you want to shrink:"
+msgstr "Επέλεξε την κατάτμηση που θέλεις να συρρικνώσεις:"
+
+#: DSGos_Installer/installation/alongside.py:212
+msgid "DSGos Alongside Installation"
+msgstr "Παράλληλη Εγκατάσταση του DSGos"
+
+#: DSGos_Installer/installation/alongside.py:252
+msgid ""
+"Can't find any spare partition number.\n"
+"Alongside installation can't continue."
+msgstr "Αδυναμία εύρεσης οποιουδήποτε αριθμού διαθέσιμων κατατμήσεων.\nΗ παράλληλη εγκατάσταση δεν μπορεί να συνεχιστεί."
+
+#: DSGos_Installer/installation/alongside.py:263
+msgid "Can't find any installed OS!"
+msgstr "Αδυναμία εύρεσης εγκατεστημένου λειτουργικού συστήματος!"
+
+#: DSGos_Installer/installation/ask.py:127
+msgid "The 'alongside' installation mode does not work in UEFI systems"
+msgstr "Η ρύθμιση της 'παράλληλης' εγκατάστασης δε λειτουργεί σε συστήματα με UEFI"
+
+#: DSGos_Installer/installation/ask.py:141
+msgid "Windows(tm) OS detected."
+msgstr "Ανιχνεύτηκε λειτουργικό σύστημα Windows(tm)."
+
+#: DSGos_Installer/installation/ask.py:144
+msgid "Windows(tm) OS not detected."
+msgstr "Δεν ανιχνεύτηκε λειτουργικό σύστημα Windows(tm)."
+
+#: DSGos_Installer/installation/ask.py:147
+msgid "Can't detect any OS in device sda."
+msgstr "Αδυναμία ανίχνευσης λειτουργικού συστήματος στην συσκευή sda."
+
+#: DSGos_Installer/installation/ask.py:151
+msgid "Unsuported disk layout for the 'alongside' installation mode"
+msgstr "Μη υποστηριζόμενη διάταξη του δίσκου για την \"παράλληλη\" λειτουργία εγκατάστασης"
+
+#: DSGos_Installer/installation/ask.py:196
+msgid " and "
+msgstr "και"
+
+#: DSGos_Installer/installation/ask.py:210
+msgid "Installation Type"
+msgstr "Τύπος Εγκατάστασης"
+
+#: DSGos_Installer/installation/ask.py:225
+msgid "Replace {0} with DSGos"
+msgstr "Αντικατάσταση {0} με DSGos"
+
+#: DSGos_Installer/installation/ask.py:227
+msgid "Erase disk and install DSGos"
+msgstr "Διαγραφή δίσκου και εγκατάσταση DSGos"
+
+#: DSGos_Installer/installation/ask.py:232
+msgid "Warning: This will erase ALL data on your disk."
+msgstr "Προσοχή: Αυτή η ενέργεια θα διαγράψει ΌΛΑ τα δεδομένα του δίσκου σου."
+
+#: DSGos_Installer/installation/ask.py:241
+msgid "Encrypt this installation for increased security."
+msgstr "Κρυπτογράφηση αυτής της εγκατάστασης για αυξημένη ασφάλεια."
+
+#: DSGos_Installer/installation/ask.py:249
+msgid "You will be asked to create an encryption password in the next step."
+msgstr "Θα σας ζητηθεί να δημιουργήσετε έναν κωδικό πρόσβασης κρυπτογράφησης στο επόμενο βήμα."
+
+#: DSGos_Installer/installation/ask.py:258
+msgid "Use LVM with this installation."
+msgstr "Χρήση LVM με αυτή την εγκατάσταση."
+
+#: DSGos_Installer/installation/ask.py:266
+msgid ""
+"This will setup LVM and allow you to easily manage partitions and create "
+"snapshots."
+msgstr "Αυτό θα εγκαταστήσει το LVM και θα σας επιτρέψει να διαχειριστείτε εύκολα κατατμήσεις και να δημιουργήσετε στιγμιότυπα."
+
+#: DSGos_Installer/installation/ask.py:275
+msgid "Set your Home in a different partition/volume"
+msgstr "Τοποθετίστε τον προσωπικό σας φάκελο Home σε μία άλλη κατάτμηση / τόμο"
+
+#: DSGos_Installer/installation/ask.py:283
+msgid ""
+"This will setup you /home directory in a different partition or volume."
+msgstr "Αυτό θαεγκαταστήσει τον κατάλογο / home σε διαφορετικό διαμέρισμα ή τόμο."
+
+#: DSGos_Installer/installation/ask.py:306
+msgid "How would you like to proceed?"
+msgstr "Πώς θα θέλατε να συνεχίσετε;"
+
+#: DSGos_Installer/installation/ask.py:318
+msgid "Choose exactly where DSGos should be installed."
+msgstr "Επέλεξε που ακριβώς θα εγκατασταθεί το DSGos."
+
+#: DSGos_Installer/installation/ask.py:322
+msgid "Edit partition table and choose mount points."
+msgstr "Επεξεργασία πίνακα κατατμήσεων και επιλογή σημείων προσάρτησης."
+
+#: DSGos_Installer/installation/ask.py:356
+msgid "DSGos installation will be encrypted using LUKS"
+msgstr "Η εγκατάσταση DSGos  θα κρυπτογραφηθεί χρησιμοποιώντας το LUKS"
+
+#: DSGos_Installer/installation/ask.py:359
+msgid "DSGos will be installed using LVM volumes"
+msgstr "Το DSGos θα εγκατασταθεί με χρήση τόμων LVM"
+
+#: DSGos_Installer/installation/ask.py:361
+msgid "DSGos will be installed using a separate /home volume."
+msgstr "Το DSGos θα εγκατασταθεί χρησιμοποιώντας έναν ξεχωριστό τόμο / home."
+
+#: DSGos_Installer/installation/ask.py:363
+msgid "DSGos will be installed using a separate /home partition."
+msgstr "Το DSGos θα εγκατασταθεί χρησιμοποιώντας μία ξεχωριστή κατάτμηση / home."
+
+#: DSGos_Installer/installation/ask.py:381
+msgid "Ranking mirrors"
+msgstr "Κατάταξη καθρεφτών"
+
+#: DSGos_Installer/installation/ask.py:382
+msgid "DSGos_Installer is still updating and optimizing your mirror lists."
+msgstr "Το DSGos_Installer ενημερώνεται ακόμα και βελτιστοποιεί τις λίστες των καθρεφτών σας."
+
+#: DSGos_Installer/installation/ask.py:384
+msgid "Please be patient..."
+msgstr "Παρακαλώ να είστε υπομονετικοί..."
+
+#: DSGos_Installer/installation/ask.py:407
+msgid "Waiting for all external processes to finish..."
+msgstr "Αναμονή μέχρι να ολοκληρωθούν όλες οι εξωτερικές διεργασίες ..."
+
+#: DSGos_Installer/installation/ask.py:420
+msgid "All external processes are finished. Installation can go on"
+msgstr "Ολεςοι εξωτερικές διεργασίες έχουν ολοκληρωθεί. Η εγκατάσταση μπορεί να συνεχίσειί."
+
+#: DSGos_Installer/installation/auto_partition.py:67
+msgid "Unmounting %s"
+msgstr "Αποπροσάρτηση του %s"
+
+#: DSGos_Installer/installation/auto_partition.py:71
+msgid "Unmounting %s failed. Trying lazy arg."
+msgstr "Η αποπροσάρτηση του %s απέτυχε. Επιχειρείται azy arg."
+
+#: DSGos_Installer/installation/auto_partition.py:75
+msgid "Unmounting %s failed."
+msgstr "Η αποπροσάρτηση του %s απέτυχε."
+
+#: DSGos_Installer/installation/auto_partition.py:138
+msgid "Can't delete existent LVM volumes"
+msgstr "Αδυναμία διαγραφής υπαρχόντων LVM τόμων"
+
+#: DSGos_Installer/installation/auto_partition.py:149
+msgid "Can't close already opened LUKS devices"
+msgstr "Αδυνατώ να κλείσω ήδη ανοιχτές συσκευές LUKS"
+
+#: DSGos_Installer/installation/auto_partition.py:158
+msgid "Can't setup LUKS in device {0}. A password or a key file are needed"
+msgstr "Δεν είναι δυνατή η ρύθμιση LUKS στη συσκευή {0}. Χρειάζεται ένας κωδικός πρόσβασης ή ένα αρχείο κλειδί "
+
+#: DSGos_Installer/installation/auto_partition.py:166
+msgid "DSGos_Installer will setup LUKS on device %s"
+msgstr "Το DSGos_Installer θα εγκαταστήσει  LUKS στη συσκευή% s"
+
+#: DSGos_Installer/installation/auto_partition.py:185
+#: DSGos_Installer/installation/auto_partition.py:208
+msgid "Can't format and open the LUKS device {0}"
+msgstr "Δεν μπορώ να διαμορφώσω και να ανοίξω την συσκευή  LUKS {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:219
+msgid "Can't wipe filesystem of device %s"
+msgstr "Αδυναμία πλήρους διαγραφής του συστήματος αρχείων της συσκευής % s"
+
+#: DSGos_Installer/installation/auto_partition.py:231
+msgid "Can't run dd command"
+msgstr "Δεν μπορώ να τρέξω την εντολή dd"
+
+#: DSGos_Installer/installation/auto_partition.py:259
+#: DSGos_Installer/installation/auto_partition.py:291
+msgid "Error creating a new partition on device {0}"
+msgstr "Σφάλμα δημιουργίας νέας κατάτμησης στην συσκευή {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:304
+msgid "Error creating a new partition table on device {0}"
+msgstr "Σφάλμα δημιουργίας νέου πίνακα κατάτμησης στην συσκευή {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:345
+msgid "Will format device %s as %s"
+msgstr "Η συσκευή % s θα διαμορφωθεί σαν %s"
+
+#: DSGos_Installer/installation/auto_partition.py:354 DSGos_Installer/installation/process.py:310
+msgid "Can't activate swap in %s"
+msgstr "Δεν είναι δυνατή η ενεργοποίηση της swap στο % s"
+
+#: DSGos_Installer/installation/auto_partition.py:355
+#: DSGos_Installer/installation/auto_partition.py:671 DSGos_Installer/installation/process.py:302
+#: DSGos_Installer/installation/process.py:311
+msgid "Command %s has failed."
+msgstr "Αποτυχία εντολής %s"
+
+#: DSGos_Installer/installation/auto_partition.py:356
+#: DSGos_Installer/installation/auto_partition.py:672 DSGos_Installer/installation/process.py:303
+#: DSGos_Installer/installation/process.py:312
+msgid "Output : %s"
+msgstr "Έξοδος:% s"
+
+#: DSGos_Installer/installation/auto_partition.py:372
+msgid "Unknown filesystem type {0}"
+msgstr "Άγνωστος τύπος συστήματος αρχείων {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:380
+msgid "Can't create filesystem {0}"
+msgstr "Δεν μπορώ να δημιουργήσω σύστημα αρχείων {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:409
+msgid "Error trying to  mount {0} in {1}"
+msgstr "Σφάλμα κατά την προσάρτηση του {0} στο {1}"
+
+#: DSGos_Installer/installation/auto_partition.py:426
+msgid "Device details: %s UUID=%s LABEL=%s"
+msgstr "Λεπτομέρειες συσκευής: %s UUID=%s LABEL=%s"
+
+#: DSGos_Installer/installation/auto_partition.py:512
+msgid "%s will be mounted as %s"
+msgstr "Το %s θα προσαρτηθεί ως %s"
+
+#: DSGos_Installer/installation/auto_partition.py:548
+msgid "Device %s will have a %s filesystem"
+msgstr "Η συσκευή %s θα έχει σύστημα αρχείων %s"
+
+#: DSGos_Installer/installation/auto_partition.py:602
+msgid "Total disk size: %dMiB"
+msgstr "Συνολικό μέγεθος δίσκου: %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:604
+msgid "EFI System Partition (ESP) size: %dMiB"
+msgstr "Μέγεθος συστήματος διαμερισμού EFI (ESP): %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:605
+msgid "Boot partition size: %dMiB"
+msgstr "Μέγεθος διαμερίσματος boot: %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:608
+msgid "LVM physical volume size: %dMiB"
+msgstr "Μέγεθος φυσικού τόμου LVM: %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:610
+msgid "Swap partition size: %dMiB"
+msgstr "Μέγεθος διαμερίσματος εικονικής μνήμης swap:  %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:611
+msgid "Root partition size: %dMiB"
+msgstr "Μέγεθος διαμερίσματος root: %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:614
+msgid "Home partition size: %dMiB"
+msgstr "Μέγεθος διαμερίσματος Home: %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:634
+msgid ""
+"Setup cannot detect size of your device, please use advanced installation "
+"routine for partitioning and mounting devices."
+msgstr "Το πρόγραμμα Εγκατάστασης δεν μπορεί να εντοπίσει το μέγεθος της συσκευής σας, παρακαλούμε χρησιμοποιήστε την προηγμένη διαδικασία εγκατάστασης για την διαμέριση και την προσάρτηση συσκευών."
+
+#: DSGos_Installer/installation/auto_partition.py:669
+msgid "Error informing the kernel of the partition change."
+msgstr "Σφάλμα ενημέρωσης του πυρήνα για την αλλαγή διαμερίσματος."
+
+#: DSGos_Installer/installation/auto_partition.py:788
+msgid "DSGos_Installer will setup LVM on device %s"
+msgstr "Το DSGos_Installer θα εγκαταστήσει το LVM στην συσκευή % s"
+
+#: DSGos_Installer/installation/auto_partition.py:793
+msgid "Error creating LVM physical volume"
+msgstr "Σφάλμα δημιουργίας φυσικού τόμου LVM"
+
+#: DSGos_Installer/installation/auto_partition.py:802
+msgid "Error creating LVM volume group"
+msgstr "Σφάλμα δημιουργίας ομάδας τόμων LVM"
+
+#: DSGos_Installer/installation/auto_partition.py:838
+msgid "Error creating LVM logical volume"
+msgstr "Σφάλμα δημιουργίας λογικού τόμου LVM"
+
+#: DSGos_Installer/installation/auto_partition.py:900
+msgid "Can't copy LUKS keyfile to the installation device"
+msgstr "Αδυναμία αντιγραφής του LUKS keyfile στη συσκευή εγκατάστασης"
+
+#: DSGos_Installer/installation/automatic.py:72
+msgid "Select drive:"
+msgstr "Επιλογή δίσκου:"
+
+#: DSGos_Installer/installation/automatic.py:76
+msgid "WARNING! This will overwrite everything currently on your drive!"
+msgstr "ΠΡΟΣΟΧΗ! Αυτό θα αντικαταστήσει τα ότι βρίσκεται στον δίσκο σας!"
+
+#: DSGos_Installer/installation/automatic.py:81
+msgid ""
+"Select the drive we should use to install DSGos and then click above to "
+"start the process."
+msgstr "Επιλέξτε τη μονάδα που θα χρησιμοποιήσετε για την εγκατάσταση του Αntergos και στη συνέχεια κάντε κλικ στο κουμπί παραπάνω για να ξεκινήσει η διαδικασία."
+
+#: DSGos_Installer/installation/automatic.py:85
+msgid "Encryption Password:"
+msgstr "Κρυπτογράφηση κωδικού:"
+
+#: DSGos_Installer/installation/automatic.py:89 DSGos_Installer/user_info.py:124
+msgid "Confirm your password:"
+msgstr "Επιβεβαίωση κωδικού:"
+
+#: DSGos_Installer/installation/automatic.py:93
+msgid "LUKS Password. Do not use special characters or accents!"
+msgstr "Κωδικός LUKS.  Μην χρησιμοποιείτε ειδικούς χαρακτήρες ή τόνους!"
+
+#: DSGos_Installer/installation/automatic.py:97
+msgid "Show password"
+msgstr "Εμφάνιση κωδικού"
+
+#: DSGos_Installer/installation/automatic.py:99
+msgid "Automatic Installation Mode"
+msgstr "Λειτουργία αυτόματης εγκατάστασης"
+
+#: DSGos_Installer/installation/automatic.py:179
+msgid "A root LUKS password has been set"
+msgstr "Εχει οριστεί ένας root κωδικός πρόσβασης LUKS  "
+
+#: DSGos_Installer/installation/automatic.py:181
+msgid "Automatic install on %s"
+msgstr "Αυτόματη εγκατάσταση στο %s"
+
+#: DSGos_Installer/installation/automatic.py:248
+msgid ""
+"Do you really want to proceed and delete all your content on your hard "
+"drive?"
+msgstr "Θέλετε οπωσδήποτε να προχωρήσετε και να διαγράψετε όλο το περιεχόμενό σας στο σκληρό σας δίσκο;"
+
+#: DSGos_Installer/installation/automatic.py:262
+msgid "DSGos_Installer will install DSGos on device %s"
+msgstr "Το Cinchi θα εγκαταστήσει το DSGos στην συσκευή %s"
+
+#: DSGos_Installer/installation/automatic.py:274
+msgid "DSGos will install the bootloader '{0}' in device '{1}'"
+msgstr "Το DSGos θα εγκαταστήσει τον bootloader  '{0}' στην συσκευή '{1}'"
+
+#: DSGos_Installer/installation/bootloader.py:76
+msgid "DSGos_Installer will install the Gummiboot loader"
+msgstr "Το DSGos_Installer θα εγκαταστήσει τον φορτωτή εκκίνησης Gummiboot"
+
+#: DSGos_Installer/installation/bootloader.py:84
+msgid "DSGos_Installer will install the Grub2 (efi) loader"
+msgstr "Το DSGos_Installer θα εγκαταστήσει τον φορτωτή εκκίνησης Grub2 (efi)"
+
+#: DSGos_Installer/installation/bootloader.py:87
+msgid "DSGos_Installer will install the Grub2 (bios) loader"
+msgstr "Το DSGos_Installer θα εγκαταστήσει τον φορτωτή εκκίνησης Grub2 (bios)"
+
+#: DSGos_Installer/installation/bootloader.py:95
+msgid ""
+"'ruuid' variable is not set. I can't check root UUID in grub.cfg, let's hope"
+" it's ok"
+msgstr "Η μεταβλητή «ruuid» δεν έχει οριστεί. Δεν μπορώ να ελέγξω την ριζική UUID στο grub.cfg, ας ελπίσουμε ότι είναι εντάξει"
+
+#: DSGos_Installer/installation/bootloader.py:119
+msgid "Wrong uuid in grub.cfg, DSGos_Installer will try to fix it."
+msgstr "Λάθος UUID στο grub.cfg, το DSGos_Installer θα προσπαθήσει να το διορθώσει."
+
+#: DSGos_Installer/installation/bootloader.py:180
+msgid "/etc/default/grub configuration completed successfully."
+msgstr "Η διαμόρφωση του / etc / default/ grub ολοκληρώθηκε με επιτυχία."
+
+#: DSGos_Installer/installation/bootloader.py:225
+msgid "Could not copy %s to grub.d"
+msgstr "Δεν ήταν δυνατή η αντιγραφή του % s στο grub.d"
+
+#: DSGos_Installer/installation/bootloader.py:234
+msgid "Installing GRUB(2) BIOS boot loader in {0}"
+msgstr "Εγκατάσταση του φορτωτή εκκίνησης GRUB (2) BIOS σε {0}"
+
+#: DSGos_Installer/installation/bootloader.py:255
+msgid "Command grub-install failed. Error output: %s"
+msgstr "Η εντολή grub-install απέτυχε. Σφάλμα εξόδου: % s"
+
+#: DSGos_Installer/installation/bootloader.py:257
+msgid "Command grub-install timed out."
+msgstr "Η εντολή grub-install ξεπέρασε το χρονικό όριο"
+
+#: DSGos_Installer/installation/bootloader.py:259
+msgid "Command grub-install failed. Unknown Error: %s"
+msgstr "Η εντολή grub-install απέτυχε. Άγνωστο σφάλμα: % s"
+
+#: DSGos_Installer/installation/bootloader.py:269 DSGos_Installer/installation/bootloader.py:375
+msgid "Running grub-mkconfig..."
+msgstr "Εκτέλεση grub-mkconfig..."
+
+#: DSGos_Installer/installation/bootloader.py:275
+msgid ""
+"grub-mkconfig does not respond. Killing grub-mount and os-prober so we can "
+"continue."
+msgstr "Η grub-mkconfig δεν ανταποκρίνεται. Killing grub-mount και os-prober ώστε να μπορέσουμε να συνεχίσουμε."
+
+#: DSGos_Installer/installation/bootloader.py:283
+msgid "GRUB(2) BIOS has been successfully installed."
+msgstr "O GRUB(2) BIOS έχει εγκατασταθεί."
+
+#: DSGos_Installer/installation/bootloader.py:287
+msgid "ERROR installing GRUB(2) BIOS."
+msgstr "ΛΑΘΟΣ εγκατάστασης GRUB(2) BIOS."
+
+#: DSGos_Installer/installation/bootloader.py:304
+msgid "Installing GRUB(2) UEFI {0} boot loader"
+msgstr "Εγκατάσταση φορτωτή εκκίνησης GRUB (2) UEFI {0} "
+
+#: DSGos_Installer/installation/bootloader.py:339
+msgid "No OEM loader found in %s. Copying Grub(2) into dir."
+msgstr "Δεν βρέθηκε φορτωτής OEM στο % s. Αντιγραφή Grub (2) σε dir."
+
+#: DSGos_Installer/installation/bootloader.py:342
+msgid "Copying Grub(2) into OEM dir failed: %s"
+msgstr "Αντιγραφή Grub (2) σε OEM dir απέτυχε: % s"
+
+#: DSGos_Installer/installation/bootloader.py:346
+msgid "File not found."
+msgstr "Δεν βρέθηκε το αρχείο."
+
+#: DSGos_Installer/installation/bootloader.py:348
+msgid "File already exists."
+msgstr "Το αρχείο υπάρχει ήδη."
+
+#: DSGos_Installer/installation/bootloader.py:358
+msgid "UEFI Shell drop-in not found at %s"
+msgstr "To UEFI Shell drop-in δεν βρέθηκε στο % s"
+
+#: DSGos_Installer/installation/bootloader.py:362
+msgid "UEFI Shell drop-in could not be copied."
+msgstr "To UEFI Shell drop-in δεν  μπόρεσε να αντιγραφεί."
+
+#: DSGos_Installer/installation/bootloader.py:366
+msgid "Generating grub.cfg"
+msgstr "Δημιουργία grub.cfg"
+
+#: DSGos_Installer/installation/bootloader.py:381
+msgid ""
+"grub-mkconfig appears to be hung. Killing grub-mount and os-prober so we can"
+" continue."
+msgstr "Η grub-mkconfig φαίνεται να είναι κρεμασμένη. Killing grub-mount και os-prober ώστε να μπορέσουμε να συνεχίσουμε."
+
+#: DSGos_Installer/installation/bootloader.py:394
+msgid "Path '%s' doesn't exist, when it should"
+msgstr "Το path '% s' δεν υπάρχει, όταν θα πρέπει"
+
+#: DSGos_Installer/installation/bootloader.py:397
+msgid "GRUB(2) UEFI install completed successfully"
+msgstr "Η εγκατάσταση του GRUB(2) UEFI ολοκληρώθηκε με επιτυχία"
+
+#: DSGos_Installer/installation/bootloader.py:401
+msgid "GRUB(2) UEFI install may not have completed successfully."
+msgstr "Η εγκατάσταση του GRUB(2) UEFI μπορεί να μην έχει ολοκληρωθεί με επιτυχία."
+
+#: DSGos_Installer/installation/bootloader.py:413
+msgid "50mounted-tests file patched successfully"
+msgstr "Το αρχείο 50mounted-tests έχει επιδιορθωθεί με επιτυχία"
+
+#: DSGos_Installer/installation/bootloader.py:415
+msgid "Failed to patch 50mounted-tests, file not found."
+msgstr "Αποτυχία επιδιόρθωσης του 50mounted-tests, το αρχείο δεν βρέθηκε."
+
+#: DSGos_Installer/installation/bootloader.py:419
+msgid "Copying GRUB(2) Theme Files"
+msgstr "Αντιγραφή αρχείων θέματος GRUB (2) "
+
+#: DSGos_Installer/installation/bootloader.py:425
+msgid "Grub2 theme files not found"
+msgstr " Δεν βρέθηκαν αρχεία θέματος του Grub2"
+
+#: DSGos_Installer/installation/bootloader.py:427
+msgid "Grub2 theme files already exist."
+msgstr "Τα αρχεία θέματος του GRUB2 υπάρχουν ήδη."
+
+#: DSGos_Installer/installation/bootloader.py:431
+msgid "Installing Grub2 locales."
+msgstr "Εγκατάσταση locales του Grub2"
+
+#: DSGos_Installer/installation/bootloader.py:441
+msgid "Can't install GRUB(2) locale."
+msgstr "Αδυναμία εγκατάστασης locale του GRUB(2)"
+
+#: DSGos_Installer/installation/bootloader.py:549
+msgid "Installing gummiboot bootloader..."
+msgstr "Εγκατάσταση φορτωτή εκκίνησης gummiboot..."
+
+#: DSGos_Installer/installation/bootloader.py:555
+msgid "Gummiboot install completed successfully"
+msgstr "H εγκατάσταση του Gummiboot ολοκληρώθηκε με επιτυχία"
+
+#: DSGos_Installer/installation/bootloader.py:558
+msgid "Command gummiboot failed. Error output: %s"
+msgstr "Η εντολή gummiboot απέτυχε. Σφάλμα εξόδου: % s"
+
+#: DSGos_Installer/installation/bootloader.py:561
+msgid "Command gummiboot timed out."
+msgstr "Λήξη χρονικού ορίου της εντολής gummiboot"
+
+#: DSGos_Installer/installation/bootloader.py:564
+msgid "Command gummiboot failed. Unknown Error: %s"
+msgstr "Η εντολή gummiboot απέτυχε. Άγνωστο σφάλμα: % s"
+
+#: DSGos_Installer/installation/bootloader.py:596
+msgid "Can't freeze/unfreeze xfs system"
+msgstr "Δεν μπορεί να παγώσει / ξεπαγώσει το xfs σύστημα"
+
+#: DSGos_Installer/installation/chroot.py:61
+msgid "Special dirs are already mounted. Skipping."
+msgstr " Special dirs έχουν ήδη προσαρτηθεί. Παράβλεψη."
+
+#: DSGos_Installer/installation/chroot.py:91
+msgid "Special dirs are not mounted. Skipping."
+msgstr "Δεν έχουν προσαρτηθεί Special dirs. Παράβλεψη."
+
+#: DSGos_Installer/installation/chroot.py:136
+msgid "Timeout running the command %s"
+msgstr "Λήξη χρονικού ορίου της εντολής %s"
+
+#: DSGos_Installer/installation/chroot.py:137 DSGos_Installer/installation/chroot.py:140
+msgid "DSGos_Installer will try to continue anyways"
+msgstr "Το DSGos_Installer θα προσπαθήσει να συνεχίσει ούτως ή άλλως"
+
+#: DSGos_Installer/installation/firewall.py:72
+msgid "Aborted"
+msgstr "Απορρίφθηκε"
+
+#: DSGos_Installer/installation/lamp.py:51 DSGos_Installer/installation/lemp.py:50
+msgid "Doing Mariadb setup..."
+msgstr "Γίνεται εγκατάσταση του MariaDB ..."
+
+#: DSGos_Installer/installation/lamp.py:53
+msgid "Mariadb setup done. Doing Apache setup..."
+msgstr "Ολοκληρώθηκε η  εγκατάσταση του MariaDB. Γίνεται εγκατάσταση του Apache ..."
+
+#: DSGos_Installer/installation/lamp.py:55
+msgid "Apache setup done. Doing PHP setup..."
+msgstr "Ολοκληρώθηκε η εγκατάσταση του Apache. Γίνεται εγκατάσταση του PHP ..."
+
+#: DSGos_Installer/installation/lamp.py:57
+msgid "PHP setup done."
+msgstr "Ολοκληρώθηκε η εγκατάσταση του PHP."
+
+#: DSGos_Installer/installation/lemp.py:52
+msgid "Mariadb setup done. Doing Nginx setup..."
+msgstr "Εγινε η εγκατάσταση του Mariadb. Γίνεται εγκατάσταση του Nginx..."
+
+#: DSGos_Installer/installation/lemp.py:54
+msgid "Nginx setup done. Doing PHP-fpm setup..."
+msgstr "Εγινε εγκατάσταση του Nginx. Γίνεται η εγκατάσταση του PHP-FPM ..."
+
+#: DSGos_Installer/installation/lemp.py:56
+msgid "PHP-fpm setup done."
+msgstr "Εγινε  εγκατάσταση του PHP-FPM."
+
+#: DSGos_Installer/installation/mkinitcpio.py:101
+msgid "Setting hooks and modules in mkinitcpio.conf"
+msgstr "Ρύθμιση hooks και modules στο mkinitcpio.conf"
+
+#: DSGos_Installer/installation/process.py:101
+msgid "Installing using the '{0}' method"
+msgstr "Εγκατάσταση χρησιμοποιώντας την μέθοδο  '{0}'"
+
+#: DSGos_Installer/installation/process.py:175
+msgid "Error running command %s"
+msgstr "Σφάλμα κατά την εκτέλεση εντολών% s"
+
+#: DSGos_Installer/installation/process.py:222
+msgid "Creating partitions and their filesystems in %s"
+msgstr "Δημιουργία κατατμήσεων και των συστημάτων αρχείων τους στο %s"
+
+#: DSGos_Installer/installation/process.py:269 DSGos_Installer/installation/process.py:296
+msgid "Mounting partition {0} into {1} directory"
+msgstr "Προσάρτηση κατάτμησης  {0} στον κατάλογο  {1} "
+
+#: DSGos_Installer/installation/process.py:276
+msgid "Mounting partition {0} into {1}/boot directory"
+msgstr "Προσάρτηση κατάτμησης  {0} στο {1}/boot directory"
+
+#: DSGos_Installer/installation/process.py:301
+msgid "Can't mount %s in %s"
+msgstr "Δεν είναι δυνατή η προσάρτηση του %s στο %s"
+
+#: DSGos_Installer/installation/process.py:306
+msgid "Activating swap in %s"
+msgstr "Ενεργοποίηση swap σε %s"
+
+#: DSGos_Installer/installation/process.py:322
+msgid "%s deleted"
+msgstr "Διαγραφή %s"
+
+#: DSGos_Installer/installation/process.py:347
+msgid "Prepare pacman..."
+msgstr "Προετοιμασία pacman..."
+
+#: DSGos_Installer/installation/process.py:349
+msgid "Pacman ready"
+msgstr "Ο pacman είναι έτοιμος"
+
+#: DSGos_Installer/installation/process.py:351
+msgid "Selecting packages..."
+msgstr "Επιλογή πακέτων..."
+
+#: DSGos_Installer/installation/process.py:353
+msgid "Packages selected"
+msgstr "Ολοκληρώθηκε η επιλογή των πακέτων"
+
+#: DSGos_Installer/installation/process.py:358
+msgid "Removed 'v86d' package from list"
+msgstr "Αφαίρεση του πακέτου 'v86d' από την λίστα"
+
+#: DSGos_Installer/installation/process.py:360
+msgid "Downloading packages..."
+msgstr "Λήψη πακέτων"
+
+#: DSGos_Installer/installation/process.py:363 DSGos_Installer/installation/process.py:704
+msgid "Installing packages..."
+msgstr "Εγκατάσταση πακέτων..."
+
+#: DSGos_Installer/installation/process.py:366
+msgid "Configuring system..."
+msgstr "Ρύθμιση συστήματος..."
+
+#: DSGos_Installer/installation/process.py:378
+msgid "Installation finished"
+msgstr "Η εγκατάσταση ολοκληρώθηκε"
+
+#: DSGos_Installer/installation/process.py:392
+msgid "Can't copy DSGos_Installer log to %s"
+msgstr "Δεν μπορεί τα αντιγραφεί το αρχείο καταγραφης του DSGos_Installer στο %s"
+
+#: DSGos_Installer/installation/process.py:423
+msgid "Creating a temporary pacman.conf for {0} architecture"
+msgstr "Δημιουργία προσωρινού pacman.conf για αρχιτεκτονική {0} "
+
+#: DSGos_Installer/installation/process.py:450
+msgid "Can't initialize pyalpm."
+msgstr "Αδυναμία αρχικοποίησης του pyalpm."
+
+#: DSGos_Installer/installation/process.py:454
+msgid "Can't refresh pacman databases."
+msgstr "Αδυναμία ανανέωσης βάσης δεδομένων του pacman."
+
+#: DSGos_Installer/installation/process.py:470
+msgid "Can't start haveged service"
+msgstr "Αδυναμία εκκίνησης υπηρεσιών haveged"
+
+#: DSGos_Installer/installation/process.py:481
+msgid "Error deleting old gnupg files"
+msgstr "Σφάλμα διαγραφής παλαιών αρχείων gnupg"
+
+#: DSGos_Installer/installation/process.py:492
+msgid "Error regenerating gnupg files with pacman-key"
+msgstr "Σφάλμα αναπαραγωγής αρχείων  GnuPG με το pacman-key"
+
+#: DSGos_Installer/installation/process.py:506
+msgid "Getting package list..."
+msgstr "Λήψη καταλόγου πακέτων..."
+
+#: DSGos_Installer/installation/process.py:510
+msgid "Getting url {0}..."
+msgstr "Λήψη url {0} ..."
+
+#: DSGos_Installer/installation/process.py:517
+msgid "Can't retrieve remote package list, using the local file instead."
+msgstr "Αδυναμία ανάκτησης της απομακρυσμένης λίστας πακέτων, χρησιμοποιείται το τοπικό αρχείο αντ 'αυτού."
+
+#: DSGos_Installer/installation/process.py:520
+msgid "Loading {0}"
+msgstr "Φόρτωση {0}"
+
+#: DSGos_Installer/installation/process.py:545
+msgid "Adding '%s' desktop packages"
+msgstr "Προσθήκη πακέτων desktop '%s'"
+
+#: DSGos_Installer/installation/process.py:570
+msgid "Selected kde language pack: %s"
+msgstr "Επιλέχθηκε το πακέτο γλωσσών kde: %s"
+
+#: DSGos_Installer/installation/process.py:579
+msgid "Hardware module detected this drivers: %s"
+msgstr "Το Hardware module ανίχνευσε αυτούς τους οδηγούς: %s"
+
+#: DSGos_Installer/installation/process.py:585
+msgid "Hardware module added these packages: %s"
+msgstr "Το  Hardware module πρόσθεσε αυτά τα πακέτα:% s"
+
+#: DSGos_Installer/installation/process.py:591
+msgid "Running hardware drivers pre-install jobs..."
+msgstr "Τρέξιμο οδηγών hardware  υλικού, εργασίες προ-εγκατάστασης ..."
+
+#: DSGos_Installer/installation/process.py:594 DSGos_Installer/installation/process.py:1309
+msgid "Unknown error in hardware module. Output: %s"
+msgstr "Άγνωστο σφάλμα στην ενότητα του υλικού. Έξοδος:% s"
+
+#: DSGos_Installer/installation/process.py:597
+msgid "Adding filesystem packages"
+msgstr "Προσθήκη πακέτων αρχείων συστήματος"
+
+#: DSGos_Installer/installation/process.py:620
+msgid "Check for user desired features and add them to our installation"
+msgstr "Ελέγξτε για επιθυμητά χαρακτηριστικά των χρηστών και προσθέσετε τα στην εγκατάσταση μας"
+
+#: DSGos_Installer/installation/process.py:622
+msgid "All features needed packages have been added"
+msgstr "Έχουν προστεθεί όλα τα πακέτα με τα απαιτούμενα χαρακτηριστικά"
+
+#: DSGos_Installer/installation/process.py:627
+msgid "Selecting chinese fonts."
+msgstr "Επιλογή κινέζικων γραμματοσειρών."
+
+#: DSGos_Installer/installation/process.py:639
+msgid "Adding '%s' bootloader packages"
+msgstr "Προσθήκη πακέτων  bootloader %s'"
+
+#: DSGos_Installer/installation/process.py:645
+msgid "Couldn't find %s bootloader packages!"
+msgstr "Δεν ήταν δυνατή η εύρεση των πακέτων bootloader % s!"
+
+#: DSGos_Installer/installation/process.py:665
+msgid "Adding packages for '%s' feature."
+msgstr "Προσθήκη πακέτων για το χαρακτηριστικό %s'"
+
+#: DSGos_Installer/installation/process.py:677
+msgid "Selecting package %s for feature %s"
+msgstr "Επιλογή πακέτου %s για το χαρακτηριστικό %s"
+
+#: DSGos_Installer/installation/process.py:684
+msgid "Add libreoffice language package"
+msgstr "Προσθήκη πακέτου γλώσσας του libreoffice "
+
+#: DSGos_Installer/installation/process.py:751
+msgid "Can't copy network configuration files"
+msgstr "Αδυναμία αντιγραφήςτων αρχείων διαμόρφωσης δικτύου"
+
+#: DSGos_Installer/installation/process.py:775
+msgid "Can't get {0} partition UUID. It won't be added to fstab"
+msgstr "Αδυναμία εύρεσης UUID της κατάτμησης  {0}. Δεν θα προστεθεί στο  fstab"
+
+#: DSGos_Installer/installation/process.py:794 DSGos_Installer/installation/process.py:820
+#: DSGos_Installer/installation/process.py:835 DSGos_Installer/installation/process.py:900
+msgid "Added to fstab : %s"
+msgstr "Προστέθηκε στο fstab : %s"
+
+#: DSGos_Installer/installation/process.py:814 DSGos_Installer/installation/process.py:830
+msgid "Added to crypttab : %s"
+msgstr "Προστέθηκε στο crypttab : %s"
+
+#: DSGos_Installer/installation/process.py:908
+msgid "fstab written."
+msgstr "Εγγραφή fstab"
+
+#: DSGos_Installer/installation/process.py:917
+msgid "Could not copy udev rule for SSDs"
+msgstr "Αδυναμία αντιγραφής  udev rule για SSDs"
+
+#: DSGos_Installer/installation/process.py:930
+msgid "Service '%s' has been enabled."
+msgstr "Ενεργοποίηση υπηρεσίας %s'"
+
+#: DSGos_Installer/installation/process.py:932
+msgid "Can't find service %s"
+msgstr "Αδυναμία εύρεσης υπηρεσίας %s"
+
+#: DSGos_Installer/installation/process.py:940
+msgid "Error creating password hash for user %s"
+msgstr "Αποτυχία δημιουργίας hash κωδικού για τον χρήστη %s"
+
+#: DSGos_Installer/installation/process.py:946
+msgid "Error changing password for user %s"
+msgstr "Αποτυχία αλλαγής κωδικού για τον χρήστη %s"
+
+#: DSGos_Installer/installation/process.py:957
+msgid "Error adjusting hardware clock"
+msgstr "Σφάλμα ρύθμισης ρολογιού υλικού"
+
+#: DSGos_Installer/installation/process.py:982
+msgid "Can't find pacman configuration file"
+msgstr "Αδυναμία εύρεσης του φακέλου διαμόρφωσης του pacman"
+
+#: DSGos_Installer/installation/process.py:1001
+msgid "Can't find locale.gen file"
+msgstr "Αδυναμία εύρεσης αρχείου  locale.gen"
+
+#: DSGos_Installer/installation/process.py:1013
+msgid "Copying xz files from cache..."
+msgstr "Αντιγραφή αρχείων xz από την cache ..."
+
+#: DSGos_Installer/installation/process.py:1049
+msgid "Configuring firewall..."
+msgstr "Διαμόρφωση του firewall..."
+
+#: DSGos_Installer/installation/process.py:1063
+msgid "Configuring LAMP..."
+msgstr "Διαμόρφωση LΑMP..."
+
+#: DSGos_Installer/installation/process.py:1067
+msgid "Can't import LAMP module"
+msgstr "Αδυναμία εισαγωγής του LΑMP module"
+
+#: DSGos_Installer/installation/process.py:1072
+msgid "Configuring LEMP..."
+msgstr "Διαμόρφωση LEMP..."
+
+#: DSGos_Installer/installation/process.py:1076
+msgid "Can't import LEMP module"
+msgstr "Αδυναμία εισαγωγής του LEMP module"
+
+#: DSGos_Installer/installation/process.py:1084
+msgid "Configuring LightDM desktop manager..."
+msgstr "Διαμόρφωση LightDM desktop manager..."
+
+#: DSGos_Installer/installation/process.py:1116
+msgid "LightDM display manager configuration completed."
+msgstr "Η διαμόρφωση του LightDM display manager ολοκληρώθηκε."
+
+#: DSGos_Installer/installation/process.py:1119
+msgid "Error while trying to configure the LightDM display manager"
+msgstr "Σφάλμα κατά την διαμόρφωση του LightDM display manager"
+
+#: DSGos_Installer/installation/process.py:1205
+msgid "Configuring your new system"
+msgstr "Διαμόρφωση του νέου σας συστήματος"
+
+#: DSGos_Installer/installation/process.py:1211
+msgid "fstab file generated."
+msgstr "Δημιουργήθηκε το αρχείο fstab."
+
+#: DSGos_Installer/installation/process.py:1216
+msgid "SSD udev rule copied successfully"
+msgstr "Επιτυχής αντιγραφή SSD udev rule"
+
+#: DSGos_Installer/installation/process.py:1237
+msgid "Network configuration done."
+msgstr "Διαμόρφωση δικτύου ολοκληρώθηκε."
+
+#: DSGos_Installer/installation/process.py:1243
+msgid "Mirror list copied."
+msgstr "Εγινε αντιγραφή του αρχείου mirror list"
+
+#: DSGos_Installer/installation/process.py:1245
+msgid "Can't copy mirrorlist file"
+msgstr "Αδυναμία αντιγραφής του αρχείου mirrorlist"
+
+#: DSGos_Installer/installation/process.py:1252
+msgid "Generated /etc/pacman.conf"
+msgstr "Δημιουργήθηκε το  /etc/pacman.conf"
+
+#: DSGos_Installer/installation/process.py:1274
+msgid "Timezone set."
+msgstr "Καθορισμός ζώνης ώρας."
+
+#: DSGos_Installer/installation/process.py:1296
+msgid "Sudo configuration for user %s done."
+msgstr "Διαμόρφωση sudo για τον χρήστη %s ολοκληρώθηκε."
+
+#: DSGos_Installer/installation/process.py:1306
+msgid "Running hardware drivers post-install jobs..."
+msgstr "Τρέξιμο hardware οδηγών υλικού μετά την εγκατάσταση  ..."
+
+#: DSGos_Installer/installation/process.py:1328
+msgid "User %s added."
+msgstr "Προσθήκη χρήστη %s."
+
+#: DSGos_Installer/installation/process.py:1343
+msgid "Hostname set to %s."
+msgstr "Ρύθμιση ονόματος κεντρικού υπολογιστή σε % s."
+
+#: DSGos_Installer/installation/process.py:1347
+msgid "Set the same password to root."
+msgstr "Ορίστε τον ίδιο κωδικό πρόσβασης στον ρουτ"
+
+#: DSGos_Installer/installation/process.py:1351
+msgid "Generating locales..."
+msgstr "Δημιουργία τοπικών ρυθμίσεων..."
+
+#: DSGos_Installer/installation/process.py:1363
+msgid "Adjusting hardware clock..."
+msgstr "Ρύθμιση ρολογιού υλικού ..."
+
+#: DSGos_Installer/installation/process.py:1366
+msgid "Configuring keymap..."
+msgstr "Διαμόρφωση διάταξης πληκτρολογίου ..."
+
+#: DSGos_Installer/installation/process.py:1373
+msgid "Set /etc/X11/xorg.conf.d/00-keyboard.conf for the xkblayout"
+msgstr "Ορισμός του /etc/X11/xorg.conf.d/00-keyboard.conf για την XkbLayout"
+
+#: DSGos_Installer/installation/process.py:1389
+msgid "00-keyboard.conf written."
+msgstr "Εγγραφή διαμόρφωσης πληκτρολογίου-00 "
+
+#: DSGos_Installer/installation/process.py:1404
+msgid "Configuring hardware..."
+msgstr "Διαμόρφωση του hardware υλικού ..."
+
+#: DSGos_Installer/installation/process.py:1414
+msgid "Updated Alsa mixer settings"
+msgstr "Ενημερώθηκαν οι ρυθμίσεις του Alsa mixer "
+
+#: DSGos_Installer/installation/process.py:1422
+msgid "Updated fluidsynth configuration file"
+msgstr "Ενημερώθηκε το αρχείο ρυθμίσεων fluidsynth"
+
+#: DSGos_Installer/installation/process.py:1428
+msgid "Configuring System Startup..."
+msgstr "Διαμόρφωση Εκκίνησης του Συστήματος ..."
+
+#: DSGos_Installer/installation/process.py:1431
+msgid "Call DSGos_Installer post-install script"
+msgstr "Κλήση τουl DSGos_Installer post-install script"
+
+#: DSGos_Installer/installation/process.py:1450
+msgid "Post install script completed successfully."
+msgstr "Επιτυχής ολοκλήρωση του Post install script ."
+
+#: DSGos_Installer/installation/process.py:1453
+msgid "Error running post-install script"
+msgstr "Σφάλμα κατά την διεργασία του post-install script"
+
+#: DSGos_Installer/installation/process.py:1469
+msgid "Encrypting user home dir..."
+msgstr "Κρυπτογράφηση προσωπικού καταλόγου χρήστη..."
+
+#: DSGos_Installer/installation/process.py:1471
+msgid "User home dir encrypted"
+msgstr "Ολοκληρώθηκε η κρυπτογράφηση του προσωπικού καταλόγου."
+
+#: DSGos_Installer/installation/process.py:1476
+msgid "Installing bootloader..."
+msgstr "Εγκατάσταση bootloader..."
+
+#: DSGos_Installer/installation/process.py:1481
+msgid "While installing boot loader DSGos_Installer encountered this error: %s"
+msgstr "Κατά την εγκατάσταση του boot loader το DSGos_Installer αντιμετώπισε αυτό το σφάλμα: %s"
+
+#: DSGos_Installer/installation/process.py:1487
+msgid "Copying install log to /var/log."
+msgstr "Αντιγραφή του log εγκατάστασης στον φάκελο  / var / log."
+
+#: DSGos_Installer/installation/systemd_networkd.py:79
+msgid "systemd-networkd configuration failed."
+msgstr "Αποτυχία ρύθμισης systemd-networkd "
+
+#: DSGos_Installer/installation/systemd_networkd.py:82
+msgid "Found [%s] links and [%s] are wireless"
+msgstr "Βρέθηκαν οι σύνδεσμοι [% s]  και οι [% s] είναι ασύρματοι"
+
+#: DSGos_Installer/keymap.py:76
+msgid "Select Your Keyboard Layout"
+msgstr "Επιλέξτε την διάταξη του πληκτρολογίου σας"
+
+#: DSGos_Installer/keymap.py:81
+msgid ""
+"Choose your keyboard layout and variant (if applies).\n"
+"For instance, the default Slovak variant is qwertz, but you\n"
+"can manually specify qwerty, etc.\n"
+"\n"
+"You can use the entry below the keyboard to test your\n"
+"layout selection."
+msgstr "Επιλέξτε τη διάταξη του πληκτρολογίου και την παραλλαγή σας (αν υπάρχει) \nΓια παράδειγμα, η προεπιλεγμένη παραλλαγή στα Σλοβακικά είναι qwertz, αλλά \nεσείς μπορείτε να καθορίσετε χειροκίνητα qwerty, κλπ.\nΜπορείτε να χρησιμοποιήσετε την καταχώρηση κάτω από το πληκτρολόγιο για να ελέγξετε την δική σας διάταξη επιλογής."
+
+#: DSGos_Installer/keymap.py:123
+msgid "Can't match a keymap for country code '%s'"
+msgstr "Αδυναμία αντιπαραβολής κάποιας διάταξης με τον κωδικό της χώρας '% s'"
+
+#: DSGos_Installer/keymap.py:164 DSGos_Installer/keymap.py:178
+msgid "Can't find value '%s' in treeview"
+msgstr "Αδυναμία εύρεσης τιμής '%s' στο treeview"
+
+#: DSGos_Installer/keymap.py:230
+msgid "Unknown layout description %s"
+msgstr "Αγνωστη περιγραφή  διάταξης %s"
+
+#: DSGos_Installer/keymap.py:242
+msgid "Unknown variant description %s"
+msgstr "Αγνωστη περιγραφή παραλλαγής  %s"
+
+#: DSGos_Installer/keymap.py:268
+msgid "Set keyboard to layout name '{0}' ({1}) and variant name '{2}' ({3})"
+msgstr "Ρυθμίστε το πληκτρολόγιο σε διάταξη με όνομα '{0}' ({1}) και 'όνομα παραλλαγής {2}' ({3})"
+
+#: DSGos_Installer/keymap.py:274
+msgid "Set keyboard to layout name '{0}' ({1})"
+msgstr "Ρυθμίστε το πληκτρολόγιο  σε διάταξη με όνομα '{0}' ({1})"
+
+#: DSGos_Installer/language.py:78
+msgid "Notice: The DSGos_Installer Installer is beta software."
+msgstr "Σημείωση: Το πρόγραμμα εγκατάστασης DSGos_Installer είναι λογισμικό σε στάδιο beta."
+
+#: DSGos_Installer/language.py:80
+msgid ""
+"DSGos_Installer is pre-release beta software that is under active development. It does not yet properly handle RAID, btrfs subvolumes, or other advanced setups. Please proceed with caution as data loss is possible!\n"
+"\n"
+"If you find any bugs, please report them at {0}"
+msgstr "Το DSGos_Installer είναι λογισμικό προέκδοσης beta που είναι υπό ενεργό ανάπτυξη. Δεν διαχειρίζεται ακόμα σωστά  RAID, btrfs υποόγκους, ή άλλες προηγμένες ρυθμίσεις. Παρακαλώ προχωρήστε με προσοχή, καθώς είναι πιθανή απώλεια δεδομένων. \nΑν βρείτε οποιαδήποτε σφάλματα, παρακαλούμε να το αναφέρετε στο {0}"
+
+#: DSGos_Installer/language.py:93
+msgid "Choose your language"
+msgstr "Επιλέξτε την γλώσσα σας"
+
+#: DSGos_Installer/language.py:132
+msgid "Can't find translation file for the %s language"
+msgstr "Αδυναμία εύρεσης φακέλου μετάφρασης για την %s γλώσσα"
+
+#: DSGos_Installer/location.py:71
+msgid ""
+"The location you select will be used to help determine the system locale. It"
+" should normally be the country in which you reside. Here is a shortlist of "
+"locations based on the language you selected."
+msgstr "Η τοποθεσία που θα επιλέξετε θα χρησιμοποιηθεί για να σας βοηθήσει να προσδιορίσετε τις τοπικές ρυθμίσεις του συστήματος. Θα πρέπει κανονικά να είναι η χώρα στην οποία διαμένετε. Εδώ είναι μια λίστα των τοποθεσιών που βασίζεται στην γλώσσα που επιλέξατε."
+
+#: DSGos_Installer/location.py:78
+msgid "Country, territory or area:"
+msgstr "Χώρα, επικράτεια ή περιοχή:"
+
+#: DSGos_Installer/location.py:83
+msgid "Show all locations"
+msgstr "Εμφάνιση όλων των τοποθεσιών"
+
+#: DSGos_Installer/location.py:86
+msgid "Select your location"
+msgstr "Επιλογή τοποθεσίας"
+
+#: DSGos_Installer/location.py:204 DSGos_Installer/location.py:212 DSGos_Installer/misc/misc.py:963
+#: DSGos_Installer/misc/misc.py:971
+msgid "locale changed to : %s"
+msgstr "Aλλαγή locale σε : %s"
+
+#: DSGos_Installer/location.py:206 DSGos_Installer/location.py:215 DSGos_Installer/location.py:217
+#: DSGos_Installer/misc/misc.py:973 DSGos_Installer/misc/misc.py:976
+msgid "Can't change to locale '%s'"
+msgstr "Αδυναμία αλλαγής σε locale  '%s'"
+
+#: DSGos_Installer/location.py:233
+msgid "Can't get country code from %s location"
+msgstr "Αδυναμία εύρεσης κωδικού χώρας από την τοποθεσία %s"
+
+#: DSGos_Installer/main_window.py:73
+msgid ""
+"This installer must be run with administrative privileges, and cannot "
+"continue without them."
+msgstr "Αυτός ο εγκαταστάτης πρέπει να εκτελείται με δικαιώματα διαχειριστή, και δεν μπορεί να συνεχίσει χωρίς αυτά."
+
+#: DSGos_Installer/main_window.py:81
+msgid "File '%s' already exists."
+msgstr "Το αρχείο '%s' υπάρχει ήδη"
+
+#: DSGos_Installer/main_window.py:82
+msgid ""
+"You cannot run two instances of this installer.\n"
+"\n"
+"If you are sure that the installer is not already running\n"
+"you can run this installer using the --force option\n"
+"or you can manually delete the offending file.\n"
+"\n"
+"Offending file: '{0}'"
+msgstr "Δεν μπορείτε να εκτελέσετε δύο  instances του παρόντος εγκαταστάτη.\nΕάν είστε βέβαιοι ότι το πρόγραμμα εγκατάστασης δεν χρησιμοποιείται ήδη \nμπορείτε να εκτελέσετε αυτό το πρόγραμμα εγκατάστασης χρησιμοποιώντας το --force option\nή μπορείτε να διαγράψετε χειροκίνητα το παραβατικό αρχείο.\n\nΑρχείο Παραβατικότητας: '{0}'"
+
+#: DSGos_Installer/main_window.py:90
+msgid "DSGos_Installer installer version %s"
+msgstr "Εκδοση εγκαταστάτη Cnch %s"
+
+#: DSGos_Installer/main_window.py:156
+msgid "Next step"
+msgstr "Επόμενο βήμα"
+
+#: DSGos_Installer/main_window.py:157
+msgid "Previous step"
+msgstr "Προηγούμενο βήμα"
+
+#: DSGos_Installer/main_window.py:179
+msgid "Using %s to download packages"
+msgstr "Χρήση '%s' για λήψη πακέτων"
+
+#: DSGos_Installer/main_window.py:197
+msgid "Using '%s' file as package list"
+msgstr "Χρήση αρχείου '%s' ως λίστα πακέτων"
+
+#: DSGos_Installer/main_window.py:228
+msgid "DSGos Installer"
+msgstr "Πρόγραμμα εγκατάστασης του DSGos"
+
+#: DSGos_Installer/main_window.py:376
+msgid "Do you really want to quit the installer?"
+msgstr "Θέλετε οπωσδήποτε να τερματίσετε τον εγκαταστάτη;"
+
+#: DSGos_Installer/main_window.py:385
+msgid "Quiting installer..."
+msgstr "Κλείσιμο προγράμματος εγκατάστασης..."
+
+#: DSGos_Installer/misc/keyboard_names.py:88
+msgid "Can't find %s file!"
+msgstr "Αδυναμία εύρεσης αρχείου %s"
+
+#: DSGos_Installer/misc/misc.py:965
+msgid "Can't change to locale '%s' : %s"
+msgstr "Αδυναμία αλλαγής σε locale '%s' : %s"
+
+#: DSGos_Installer/misc/validation.py:136
+msgid "Password is too short"
+msgstr "Πολύ μικρός κωδικός"
+
+#: DSGos_Installer/misc/validation.py:139
+msgid "Weak password"
+msgstr "Αδύναμος κωδικός"
+
+#: DSGos_Installer/misc/validation.py:142
+msgid "Fair password"
+msgstr "Ικανοποιητικός κωδικός"
+
+#: DSGos_Installer/misc/validation.py:145
+msgid "Good password"
+msgstr "Καλός κωδικός"
+
+#: DSGos_Installer/misc/validation.py:148
+msgid "Strong password"
+msgstr "Δυνατός κωδικός"
+
+#: DSGos_Installer/misc/validation.py:163
+msgid "Passwords do not match"
+msgstr "Οι κωδικοί δεν ταιριάζουν"
+
+#: DSGos_Installer/pacman/pac.py:110
+msgid "alpm init with root dir '{0}' and db path '{1}'"
+msgstr "Εκκίνηση alpm με root dir {0}' και db path '{1}'"
+
+#: DSGos_Installer/pacman/pac.py:153
+msgid "Prepare alpm transaction..."
+msgstr "Προετοιμασία συναλλαγής alpm..."
+
+#: DSGos_Installer/pacman/pac.py:155
+msgid "Commit alpm transaction..."
+msgstr "Διενέργεια συναλλαγής alpm ..."
+
+#: DSGos_Installer/pacman/pac.py:158
+msgid "Can't finalize alpm transaction: %s"
+msgstr "Δεν είναι δυνατή η οριστικοποίηση της συναλλαγής alpm:% s"
+
+#: DSGos_Installer/pacman/pac.py:162
+msgid "Releasing alpm transaction..."
+msgstr "Εκκίνηση συναλλαγής alpm..."
+
+#: DSGos_Installer/pacman/pac.py:164
+msgid "Alpm transaction done."
+msgstr "Συναλλαγή Alpm ολοκληρώθηκε."
+
+#: DSGos_Installer/pacman/pac.py:190
+msgid "Can't init alpm transaction: %s"
+msgstr "Αδυναμία έναρξης συναλλαγής alpm %s"
+
+#: DSGos_Installer/pacman/pac.py:227
+msgid "Target %s not found"
+msgstr "Ο στόχος %s δεν βρέθηκε"
+
+#: DSGos_Installer/pacman/pac.py:234 DSGos_Installer/pacman/pac.py:317
+msgid "Can't init transaction"
+msgstr "Αδυναμία έναρξης συναλλαγής"
+
+#: DSGos_Installer/pacman/pac.py:238
+msgid "Adding package '%s' to remove transaction"
+msgstr "Προσθήκη πακέτου %s' για την αφαίρεση της πράξης"
+
+#: DSGos_Installer/pacman/pac.py:246 DSGos_Installer/pacman/pac.py:263
+msgid "alpm is not initialised"
+msgstr "Το alpm δεν έχει αρχικοποιηθεί"
+
+#: DSGos_Installer/pacman/pac.py:267
+msgid "Package list is empty"
+msgstr "Η λίστα πακέτων είναι άδεια"
+
+#: DSGos_Installer/pacman/pac.py:270
+msgid "DSGos_Installer will install a list of packages like pacman -S"
+msgstr "Το Cnch θα εγκαταστήσει μία λίστα πακέτων όπως το pacman -S"
+
+#: DSGos_Installer/pacman/pac.py:298
+msgid "Can't find a package or group called '%s'"
+msgstr "Αδυναμία εύρεσης ενός πακέτου ή μίας ομάδας '%s'"
+
+#: DSGos_Installer/pacman/pac.py:304
+msgid "No targets found"
+msgstr "Δεν βρέθηκαν προορισμοί"
+
+#: DSGos_Installer/pacman/pac.py:435
+msgid "Checking dependencies..."
+msgstr "Έλεγχος εξαρτήσεων..."
+
+#: DSGos_Installer/pacman/pac.py:437
+msgid "Checking file conflicts..."
+msgstr "Έλεγχος συγκρούσεων αρχείων..."
+
+#: DSGos_Installer/pacman/pac.py:439
+msgid "Resolving dependencies..."
+msgstr "Επίλυση εξαρτήσεων..."
+
+#: DSGos_Installer/pacman/pac.py:441
+msgid "Checking inter conflicts..."
+msgstr "Ελεγχος διενέξεων"
+
+#: DSGos_Installer/pacman/pac.py:446
+msgid "Checking integrity..."
+msgstr "Έλεγχος ακεραιότητας..."
+
+#: DSGos_Installer/pacman/pac.py:448
+msgid "Loading packages..."
+msgstr "Φόρτωση πακέτων"
+
+#: DSGos_Installer/pacman/pac.py:450
+msgid "Checking target delta's integrity..."
+msgstr "Ελεγχος ακεραιότητας των target deltas"
+
+#: DSGos_Installer/pacman/pac.py:452
+msgid "Applying deltas to packages..."
+msgstr "Εφαρμογή deltas στα πακέτα"
+
+#: DSGos_Installer/pacman/pac.py:454
+msgid "Applying delta patch to target package..."
+msgstr "Εφαρμογή  delta patch για το στοχευμένο πακέτο ..."
+
+#: DSGos_Installer/pacman/pac.py:456
+msgid "Downloading files from the repository..."
+msgstr "Γίνεται λήψη αρχείων από τα αποθετήρια..."
+
+#: DSGos_Installer/pacman/pac.py:458
+msgid "Checking disk space..."
+msgstr "Γίνεται έλεγχος χώρου στον δίσκο..."
+
+#: DSGos_Installer/pacman/pac.py:460
+msgid "Checking keys in keyring..."
+msgstr "Ελεγχος κλειδιών της κλειδοθήκης"
+
+#: DSGos_Installer/pacman/pac.py:462
+msgid "Downloading missing keys into the keyring..."
+msgstr "Γίνεται λήψη κλειδιών που λείπουν στην κλειδοθήκη ..."
+
+#: DSGos_Installer/pacman/pac.py:501
+msgid "Installing {0} ({1}/{2})"
+msgstr "Γίνεται εγκατάσταση {0} ({1}/{2})"
+
+#: DSGos_Installer/pacman/pac.py:526
+msgid "Updating {0} database"
+msgstr "Ενημέρωση {0} βάσης δεδομένων"
+
+#: DSGos_Installer/pacman/pac.py:535
+msgid "Downloading {0}..."
+msgstr "Γίνεται λήψη {0}..."
+
+#: DSGos_Installer/pacman/pkginfo.py:192
+msgid "Explicitly installed"
+msgstr "Ρητά εγκατεστημένο"
+
+#: DSGos_Installer/pacman/pkginfo.py:194
+msgid "Installed as a dependency for another package"
+msgstr "Εγκατεστημένο ως εξάρτηση για ένα άλλο πακέτο"
+
+#: DSGos_Installer/parted3/fs_module.py:43
+msgid "Can't get partition %s UUID"
+msgstr "Αδυναμία εύρεσης UUID κατάτμησης %s"
+
+#: DSGos_Installer/parted3/fs_module.py:51
+msgid "Can't get partition %s label (or it does not have any)"
+msgstr "Αδυναμία ονομασίας κατάτμησης %s  (ή δεν έχει καμία)"
+
+#: DSGos_Installer/parted3/fs_module.py:119
+msgid "Can't label a {0} partition"
+msgstr "Αδυναμία ονομασίας μίας κατάτμησης {0}"
+
+#: DSGos_Installer/parted3/fs_module.py:154
+msgid "Unknown filesystem {0}"
+msgstr "Αγνωστο σύστημα αρχείων {0}"
+
+#: DSGos_Installer/parted3/fs_module.py:237
+msgid "Sorry but filesystem %s can't be shrinked"
+msgstr "Συγγνώμη, αλλά το σύστημα αρχείων% s δεν μπορεί να συρρικνωθεί"
+
+#: DSGos_Installer/parted3/lvm.py:81
+msgid "Can't remove logical volume {0}"
+msgstr "Αδυναμία αφαίρεσης του λογικού τόμου {0}"
+
+#: DSGos_Installer/parted3/lvm.py:100
+msgid "Can't remove volume group {0}"
+msgstr "Αδυναμία αφαίρεσης του volume group {0}"
+
+#: DSGos_Installer/parted3/lvm.py:113
+msgid "Can't remove physical volume {0}"
+msgstr "Αδυναμία κατάργησης φυσικού τόμου {0}"
+
+#: DSGos_Installer/parted3/partition_module.py:111
+msgid ""
+"Exception: {0}.\n"
+"For more information take a look at /tmp/DSGos_Installer.log"
+msgstr "Εξαίρεση: {0} \nΓια περισσότερες πληροφορίες δείτε το /tmp/DSGos_Installer.log"
+
+#: DSGos_Installer/parted3/partition_module.py:182
+msgid "Can't delete partition {0}"
+msgstr "Αδυναμία διαγραφής κατάτμησης {0}"
+
+#: DSGos_Installer/parted3/partition_module.py:235
+msgid "Partition is too large!"
+msgstr "Η κατάτμηση είναι πολύ μεγάλη!"
+
+#: DSGos_Installer/parted3/partition_module.py:299
+msgid "Can't detect used space from {0}"
+msgstr "Αδυναμία ανίχνευσης χρησιμοποιημένου χώρου από {0}"
+
+#: DSGos_Installer/parted3/used_space.py:42
+msgid "Can't detect used space of NTFS partition %s"
+msgstr "Aδυναμία ανίχνευσης χρησιμοποιημένου χώρου της κατάτμησης NTFS  %s"
+
+#: DSGos_Installer/parted3/used_space.py:71
+msgid "Can't detect used space of EXTFS partition %s"
+msgstr "Αδυναμία ανίχνευσης χρησιμοποιημένου χώρου της κατάτμησης EXTFS %s"
+
+#: DSGos_Installer/parted3/used_space.py:103
+msgid "Can't detect used space of FAT partition %s"
+msgstr "Αδυναμία ανίχνευσης χρησιμοποιημένου χώρου της κατάτμησης FAT %s"
+
+#: DSGos_Installer/parted3/used_space.py:134
+msgid "Can't detect used space of JFS partition %s"
+msgstr "Aδυναμία ανίχνευσης χρησιμοποιημένου χώρου της κατάτμησης JFS "
+
+#: DSGos_Installer/parted3/used_space.py:159
+msgid "Can't detect used space of REISERFS partition %s"
+msgstr "Αδυναμία ανίχνευσης χρησιμοποιημένου χώρου της κατάτμησης REISERFS %s"
+
+#: DSGos_Installer/parted3/used_space.py:187
+msgid "Can't detect used space of BTRFS partition %s"
+msgstr "Aδυναμία ανίχνευσης χρησιμοποιημένου χώρου της  κατάτμησης BTRFS  %s"
+
+#: DSGos_Installer/parted3/used_space.py:224
+msgid "Can't detect used space of XFS partition %s"
+msgstr "Αδυναμία ανίχνευσης χρησιμοποιημένου χώρου της κατάτμησης XFS % s"
+
+#: DSGos_Installer/rank_mirrors.py:63
+msgid "Can't synchronize cached writes to persistent storage: %s"
+msgstr "Αποτυχία συγχρονισμού προσωρινά αποθηκευμένων εγγραφών στην μόνιμη αποθήκευση:% s"
+
+#: DSGos_Installer/rank_mirrors.py:82
+msgid "Update of DSGos-mirrorlist package failed with error: %s"
+msgstr "Η ενημέρωση του πακέτου DSGos-mirrorlist απέτυχε με σφάλμα:% s"
+
+#: DSGos_Installer/rank_mirrors.py:84
+msgid "Error copying new mirrorlist files: %s"
+msgstr "Σφάλμα αντιγραφής νέων αρχείων mirrorlist:% s"
+
+#: DSGos_Installer/rank_mirrors.py:101
+msgid "Error running reflector on Arch mirrorlist: %s"
+msgstr "Σφάλμα κατά την εκτέλεση ανακλαστήρα στo  mirrorlist:% s του Arch"
+
+#: DSGos_Installer/rank_mirrors.py:149
+msgid "Error running rankmirrors on DSGos mirrorlist: %s"
+msgstr "Σφάλμα κατά την εκτέλεση των rankmirrors για τα mirrorlist:% s του Αntergos"
+
+#: DSGos_Installer/rank_mirrors.py:190
+msgid "Updating both mirrorlists (Arch and DSGos)..."
+msgstr "Ενημέρωση και των δύο mirrorlists (Arch και Αntergos) ..."
+
+#: DSGos_Installer/rank_mirrors.py:193
+msgid "Running reflector command to sort Arch mirrors..."
+msgstr "Εκτέλεση της εντολής καθρεφτισμών για την ταξινόμήση των καθρεφτών του Arch  ..."
+
+#: DSGos_Installer/rank_mirrors.py:196
+msgid "Running rankmirrors command to sort DSGos mirrors..."
+msgstr "Εκτέλεση εντολής rankmirrors για ταξινόμηση των καθρεφτών του Αntergos  ..."
+
+#: DSGos_Installer/rank_mirrors.py:199
+msgid "Checking Arch mirrorlist against mirror status data..."
+msgstr "Έλεγχος των  mirrorlist του Arch για  δεδομένα κατάστασης καθρεφτών ..."
+
+#: DSGos_Installer/rank_mirrors.py:202
+msgid "Auto mirror selection has been run successfully."
+msgstr "Η αυτόματη επιλογή καθρεφτών έχει εκτελεστεί με επιτυχία."
+
+#: DSGos_Installer/show_message.py:55
+msgid "DSGos Installer - Error"
+msgstr "Πρόγραμμα εγκατάστασης DSGos - Σφάλμα"
+
+#: DSGos_Installer/show_message.py:69
+msgid "DSGos Installer - Warning"
+msgstr "Πρόγραμμα εγκατάστασης DSGos - Προειδοποίηση"
+
+#: DSGos_Installer/show_message.py:83
+msgid "DSGos Installer - Information"
+msgstr "Πρόγραμμα εγκατάστασης DSGos - Πληροφορίες"
+
+#: DSGos_Installer/show_message.py:97
+msgid "DSGos Installer - Confirmation"
+msgstr "Πρόγραμμα εγκατάστασης DSGos - Επιβεβαίωση"
+
+#: DSGos_Installer/slides.py:74
+msgid "Please wait..."
+msgstr "Παρακαλώ περιμένετε..."
+
+#: DSGos_Installer/slides.py:76
+msgid "Installing DSGos..."
+msgstr "Εγκατάσταση DSGos..."
+
+#: DSGos_Installer/slides.py:190
+msgid ""
+"IMPORTANT: There may have been a problem with the bootloader\n"
+"installation which could prevent your system from booting properly. Before\n"
+"rebooting, you may want to verify whether or not the bootloader is installed and\n"
+"configured. The Arch Linux Wiki contains troubleshooting information:\n"
+"\thttps://wiki.archlinux.org/index.php/GRUB\n"
+"\n"
+"Would you like to view the wiki page now?"
+msgstr "ΣΗΜΑΝΤΙΚΟ: Μπορεί να υπάρχει πρόβλημα με την εγκατάσταση του bootloader,που θα μπορούσε να αποτρέψει το σύστημά σας από το να εκκινήσει σωστά. Πριν επανεκκινήσετε, μπορεί να θέλετε να επιβεβαιώσετε αν ο bootloader είναι εγκατεστημένος και\nρυθμισμένος ή όχι. Το Arch Linux Wiki περιέχει πληροφορίες αντιμετώπισης προβλημάτων:\nhttps://wiki.archlinux.org/index.php/GRUB\nΘέλετε να δείτε τη σελίδα του wiki τώρα;"
+
+#: DSGos_Installer/slides.py:202
+msgid ""
+"Installation Complete!\n"
+"Do you want to restart your system now?"
+msgstr "Η εγκατάσταση ολοκληρώθηκε!\nΘέλετε να επανεκκινήσετε το σύστημα;"
+
+#: DSGos_Installer/timezone.py:82
+msgid "Zone:"
+msgstr "Ζώνη:"
+
+#: DSGos_Installer/timezone.py:86
+msgid "Region:"
+msgstr "Περιοχή:"
+
+#: DSGos_Installer/timezone.py:90
+msgid "Use Network Time Protocol (NTP) for clock synchronization"
+msgstr "Χρησιμοποιήστε το πρωτόκολλο δικτύου Χρόνου (NTP) για το συγχρονισμό του ρολογιού"
+
+#: DSGos_Installer/timezone.py:93
+msgid "Select Your Timezone"
+msgstr "Επιλέξτε την Ζώνη Ώρας"
+
+#: DSGos_Installer/timezone.py:102
+msgid "location changed to : %s"
+msgstr "Η τοποθεσία άλλαξε σε: %s"
+
+#: DSGos_Installer/timezone.py:181
+msgid "Can't autodetect timezone coordinates"
+msgstr "Δεν μπορεί να γίνει αυτόματη ανίχνευση συντενταγμένων ζώνης ώρας"
+
+#: DSGos_Installer/timezone.py:284
+msgid "Can't get network status. DSGos_Installer will try again in a moment"
+msgstr "Αδυναμία  κατάστασης δικτύου. Το DSGos_Installer θα προσπαθήσει ξανά σε λίγο."
+
+#: DSGos_Installer/timezone.py:288
+msgid "A working network connection has been detected."
+msgstr "Εχει ανιχνευθεί σύνδεση δικτύου που λειτουργεί.."
+
+#: DSGos_Installer/timezone.py:297
+msgid "We have connection. Let's get our timezone"
+msgstr "Επίτευξη  σύνδεσης . Ορίστε την ζώνη ώρας σας"
+
+#: DSGos_Installer/timezone.py:316
+msgid "Timezone (latitude %s, longitude %s) detected."
+msgstr "Ανίχνευση χρονικής ζώνης (γεωγραφικό πλάτος% s, μήκος% s)."
+
+#: DSGos_Installer/updater.py:67
+msgid ""
+"Could not find 'update.info' file. DSGos_Installer will not be able to update itself."
+msgstr "Δεν ήταν δυνατή η εύρεση του αρχείου «update.info». Το  DSGos_Installer δεν θα είναι σε θέση να ενημερώνεται."
+
+#: DSGos_Installer/updater.py:93
+msgid "DSGos_Installer Internet version: %s"
+msgstr "Εκδοση Internet του DSGos_Installer :% s"
+
+#: DSGos_Installer/updater.py:133
+msgid "New version found. Updating installer..."
+msgstr "Βρέθηκε νεότερη έκδοση. Ενημέρωση του προγράμματος εγκατάστασης..."
+
+#: DSGos_Installer/updater.py:136
+msgid "No new version found. Updating anyways..."
+msgstr "Δεν βρέθηκε νεότερη έκδοση. Ενημέρωση ούτως ή άλλως..."
+
+#: DSGos_Installer/updater.py:140
+msgid "Downloading new version of DSGos_Installer..."
+msgstr "Λήψη νέας έκδοσης του DSGos_Installer..."
+
+#: DSGos_Installer/updater.py:144
+msgid "Can't download new DSGos_Installer version."
+msgstr "Αδυναμία λήψης νέας έκδοσης DSGos_Installer."
+
+#: DSGos_Installer/updater.py:148
+msgid "Uncompressing new version..."
+msgstr "Αποσυμπίεση νέας έκδοσης..."
+
+#: DSGos_Installer/updater.py:192
+msgid "Wrong md5 (%s). Bad download or wrong file, DSGos_Installer won't update itself"
+msgstr "Λάθος md5 (% s). Κακή λήψη ή λάθος αρχείο, το DSGos_Installer δεν θα ενημερωθεί"
+
+#: DSGos_Installer/updater.py:198
+msgid "File %s is not in md5 signatures list"
+msgstr "Το αρχείο % s δεν είναι στην λίστα υπογραφών MD5 "
+
+#: DSGos_Installer/updater.py:212
+msgid "Copying %s to %s..."
+msgstr "Αντιγραφή %s  σε %s "
+
+#: DSGos_Installer/updater.py:218
+msgid "Can't copy %s to %s"
+msgstr "Αδυναμία αντιγραφής %s  σε %s "
+
+#: DSGos_Installer/user_info.py:92
+msgid "Your name:"
+msgstr "Το όνομά σας:"
+
+#: DSGos_Installer/user_info.py:96
+msgid "Your name"
+msgstr "Το όνομά σας"
+
+#: DSGos_Installer/user_info.py:100
+msgid "Your computer's name:"
+msgstr "Το όνομα του υπολογιστή:"
+
+#: DSGos_Installer/user_info.py:104
+msgid "Hostname"
+msgstr "Όνομα κεντρικού υπολογιστή"
+
+#: DSGos_Installer/user_info.py:108
+msgid "Pick a username:"
+msgstr "Επιλογή ονόματος χρήστη:"
+
+#: DSGos_Installer/user_info.py:112
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: DSGos_Installer/user_info.py:116
+msgid "Choose a password:"
+msgstr "Επιλογή κωδικού"
+
+#: DSGos_Installer/user_info.py:120
+msgid "Password"
+msgstr "Κωδικός"
+
+#: DSGos_Installer/user_info.py:128
+msgid "Confirm password"
+msgstr "Επιβεβαίωση κωδικού"
+
+#: DSGos_Installer/user_info.py:132
+msgid "Identifies your system to other computers and devices."
+msgstr "Το σύστημά σας αναγνωρίζεται από άλλους υπολογιστές και συσκευές."
+
+#: DSGos_Installer/user_info.py:138
+msgid "You must enter a name"
+msgstr "Πρέπει να εισάγεται ένα όνομα"
+
+#: DSGos_Installer/user_info.py:142
+msgid "You must enter a username"
+msgstr "Πρέπει να εισάγεται όνομα χρήστη"
+
+#: DSGos_Installer/user_info.py:146
+msgid "You must enter a password"
+msgstr "Πρέπει να εισάγεται κωδικό"
+
+#: DSGos_Installer/user_info.py:150
+msgid "Log in automatically"
+msgstr "Αυτόματη σύνδεση"
+
+#: DSGos_Installer/user_info.py:151
+msgid "Require my password to log in"
+msgstr "Απαίτηση κωδικού για σύνδεση"
+
+#: DSGos_Installer/user_info.py:152
+msgid "Encrypt my home folder"
+msgstr "Κρυπτογράφηση του προσωπικού καταλόγου"
+
+#: DSGos_Installer/user_info.py:155
+msgid "show password"
+msgstr "εμφάνιση συνθηματικού"
+
+#: DSGos_Installer/user_info.py:157
+msgid "Create Your User Account"
+msgstr "Δημιουργία Λογαριασμού Χρήστη"
+
+#: DSGos_Installer/user_info.py:206
+msgid "Are you sure you want to encrypt your home directory?"
+msgstr "Θέλετε σίγουρα να κρυπτογραφήσετε τον φάκελο home σας;"
+
+#: DSGos_Installer/user_info.py:226
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: DSGos_Installer/user_info.py:269
+msgid "Invalid characters entered"
+msgstr "Έχουν εισαχθεί μη έγκυροι χαρακτηρες"
+
+#: DSGos_Installer/user_info.py:273
+msgid "Username can't contain dots"
+msgstr "Το όνομα χρήστη δεν μπορεί να περιέχει τελείες"
+
+#: DSGos_Installer/user_info.py:277
+msgid "Too many characters"
+msgstr "Υπερβολικά πολλοί χαρακτήρες"
+
+#: DSGos_Installer/welcome.py:72
+msgid "Use DSGos without making any changes to your system."
+msgstr "Χρησιμοποιείστε το DSGos χωρίς να κάνετε καμία αλλαγή στο σύστημά σας."
+
+#: DSGos_Installer/welcome.py:78
+msgid "Create a permanent place for DSGos on your system."
+msgstr "Δημιουργία ενός μόνιμου χώρου για το DSGos στο σύστημά σας."
+
+#: DSGos_Installer/welcome.py:82
+msgid "Try It"
+msgstr "Δοκιμή"
+
+#: DSGos_Installer/welcome.py:88
+msgid "Install It"
+msgstr "Εγκατάσταση"
+
+#: DSGos_Installer/welcome.py:91
+msgid "Welcome to DSGos!"
+msgstr "Καλώς ήρθατε στο DSGos!"
+
+#: DSGos_Installer/welcome.py:129
+msgid "Loading, please wait..."
+msgstr "Γίνεται φόρτωση, παρακαλώ περιμένετε..."
+
+#: DSGos_Installer/wireless.py:62
+msgid "Connecting this computer to a wi-fi network"
+msgstr "Σύνδεση του υπολογιστή στο ασύρματο δίκτυο"
+
+#: DSGos_Installer/wireless.py:65
+msgid "I don't want to connect to a wi-fi network right now"
+msgstr "Δεν επιθυμών να συνδεθώ τώρα στο ασύρματο δίκτυο"
+
+#: DSGos_Installer/wireless.py:68
+msgid "Connect to this network"
+msgstr "Σύνδεση σε αυτό το δίκτυο"
+
+#: DSGos_Installer/wireless.py:71
+msgid "Display password"
+msgstr "Εμφάνιση κωδικού"

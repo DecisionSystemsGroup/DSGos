@@ -1,0 +1,2743 @@
+# DSGos_Installer
+# Copyright (C) 2013-2015 DSGos
+# 
+# Translators:
+# Martin Kříž <slovanworks.czech@gmail.com>, 2015
+# Miroslav Janota <craftys@seznam.cz>, 2015
+# Radek <radek@fastlinux.eu>, 2014
+# Tomáš Pospíšil <topos@post.cz>, 2015
+# Japhy <zeman.filip@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: DSGos\n"
+"POT-Creation-Date: 2015-07-22 22:44+CEST\n"
+"PO-Revision-Date: 2015-08-10 15:35+0000\n"
+"Last-Translator: Martin Kříž <slovanworks.czech@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/faidoc/DSGos/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: DSGos_Installer/bootinfo.py:66 DSGos_Installer/bootinfo.py:79 DSGos_Installer/bootinfo.py:85
+#: DSGos_Installer/bootinfo.py:134 DSGos_Installer/bootinfo.py:139 DSGos_Installer/bootinfo.py:148
+#: DSGos_Installer/bootinfo.py:161 DSGos_Installer/bootinfo.py:186 DSGos_Installer/bootinfo.py:208
+#: DSGos_Installer/bootinfo.py:211 DSGos_Installer/bootinfo.py:214 DSGos_Installer/bootinfo.py:244
+msgid "unknown"
+msgstr "neznámý"
+
+#: DSGos_Installer/bootinfo.py:100
+msgid "Error calling hexdump command: %s"
+msgstr "Chyba při volání příkazu šestnáctkovém výpisu: %s"
+
+#: DSGos_Installer/bootinfo.py:133
+msgid "Unknown partition id %s"
+msgstr "Neznámý oddíl id %s"
+
+#: DSGos_Installer/check.py:69
+msgid "System Check"
+msgstr "Kontrola systému"
+
+#: DSGos_Installer/check.py:73
+msgid "has at least {0}GB available storage space. (*)"
+msgstr "má alespoň {0} GB dostupného místa pro ukládání. (*)"
+
+#: DSGos_Installer/check.py:76
+msgid ""
+"This highly depends on which desktop environment you choose, so you might "
+"need more space."
+msgstr "Závisí na desktopovém prostředí které jste vybrali, možná bude zapotřebí více místa."
+
+#: DSGos_Installer/check.py:84
+msgid "is plugged in to a power source"
+msgstr "je připojen ke zdroji napájení"
+
+#: DSGos_Installer/check.py:88
+msgid "is connected to the Internet"
+msgstr "je připojen k Internetu"
+
+#: DSGos_Installer/check.py:92
+msgid "For best results, please ensure that this computer:"
+msgstr "Pro dosažení nejlepších výsledků se ujistěte, že tento počítač:"
+
+#: DSGos_Installer/check.py:175
+msgid "We have Internet connection."
+msgstr "Jsme připojení k internetu."
+
+#: DSGos_Installer/check.py:176
+msgid "We're connected to a power source."
+msgstr "je připojen ke zdroji napájení"
+
+#: DSGos_Installer/check.py:177
+msgid "We have enough disk space."
+msgstr "Máme dostatek místa na disku."
+
+#: DSGos_Installer/check.py:195 DSGos_Installer/desktop.py:214 DSGos_Installer/download/download_aria2.py:35
+#: DSGos_Installer/features.py:453 DSGos_Installer/installation/advanced.py:2289
+#: DSGos_Installer/installation/alongside.py:37 DSGos_Installer/installation/ask.py:33
+#: DSGos_Installer/installation/automatic.py:303 DSGos_Installer/installation/bootloader.py:42
+#: DSGos_Installer/installation/chroot.py:33 DSGos_Installer/keymap.py:287 DSGos_Installer/language.py:174
+#: DSGos_Installer/location.py:247 DSGos_Installer/slides.py:246 DSGos_Installer/user_info.py:327
+#: DSGos_Installer/welcome.py:151 DSGos_Installer/wireless.py:159 DSGos_Installer/DSGos_Installer.py:74
+msgid "Can't create DSGos_Installer main window: {0}"
+msgstr "Nelze vytvořit hlavní okno DSGos_Installer: {0}"
+
+#: DSGos_Installer/DSGos_Installer.py:153
+msgid "Sending DSGos_Installer logs to {0} with id '{1}'"
+msgstr "Odeslání DSGos_Installer protokolů {0} s id '{1}'"
+
+#: DSGos_Installer/DSGos_Installer.py:198
+msgid "Using pyalpm v{0} as interface to libalpm v{1}"
+msgstr "Pomocí pyalpm v {0} jako rozhraní libalpm v {1}"
+
+#: DSGos_Installer/DSGos_Installer.py:213
+msgid "DSGos_Installer v{0} - DSGos Installer"
+msgstr "DSGos_Installer v {0} - Instalační služby DSGos"
+
+#: DSGos_Installer/DSGos_Installer.py:218
+msgid "Use pre-downloaded xz packages when possible"
+msgstr "Použít předem stažený xz balíčky, když je to možné"
+
+#: DSGos_Installer/DSGos_Installer.py:222
+msgid "Sets DSGos_Installer log level to 'debug'"
+msgstr "Nastaví úroveň protokolování DSGos_Installer na \"debug\""
+
+#: DSGos_Installer/DSGos_Installer.py:226
+msgid "Sets the Desktop Environment that will be installed"
+msgstr "Nastaví Desktop Environment, který bude nainstalován"
+
+#: DSGos_Installer/DSGos_Installer.py:230
+msgid "Runs DSGos_Installer even if it detects that another instance is running"
+msgstr "Provozuje DSGos_Installer, i v případě, že zjistí, že je spuštěna jiná instance"
+
+#: DSGos_Installer/DSGos_Installer.py:234
+msgid "Disables first screen's 'try it' option"
+msgstr "Zakáže možnost \"vyzkoušet\" první obrazovku"
+
+#: DSGos_Installer/DSGos_Installer.py:238
+msgid ""
+"Choose which library to use when downloading packages. Possible options are "
+"'requests' (default), 'urllib' and 'aria2'"
+msgstr "Vyberte si, která z knihoven se použije při stahování balíčků. Možné volby jsou \"žádosti\" (výchozí), \"urllib\" a \"aria2\""
+
+#: DSGos_Installer/DSGos_Installer.py:243
+msgid "Makes checks optional in check screen"
+msgstr "Kontroluje volitelné v kontrolní obrazovce"
+
+#: DSGos_Installer/DSGos_Installer.py:247
+msgid ""
+"Install the packages referenced by a local xml instead of the default ones"
+msgstr "Nainstalujte balíčky odkazuje místního xml místo výchozích"
+
+#: DSGos_Installer/DSGos_Installer.py:251
+msgid ""
+"Choose to which log server send DSGos_Installer logs. Expects a hostname or an IP "
+"address"
+msgstr "Vyberte, pokud chcete zvolit, který server odešle DSGos_Installer protokoly. Očekává se, název hostitele nebo IP adresa"
+
+#: DSGos_Installer/DSGos_Installer.py:256
+msgid "Do not perform any changes (useful for developers)"
+msgstr "Neprovádějte žádné změny (užitečné pro vývojáře)"
+
+#: DSGos_Installer/DSGos_Installer.py:260
+msgid "Upgrade/downgrade DSGos_Installer to the web version"
+msgstr "Upgrade/downgrade DSGos_Installer na webovou verzi"
+
+#: DSGos_Installer/DSGos_Installer.py:264
+msgid "Do not search for new DSGos_Installer versions online"
+msgstr "Nevyhledávat pro nové DSGos_Installer verze online"
+
+#: DSGos_Installer/DSGos_Installer.py:268
+msgid "Show logging messages to stdout"
+msgstr "Zobrazit zprávy protokolování na stdout"
+
+#: DSGos_Installer/DSGos_Installer.py:272
+msgid "Show options in development (for developers only, do not use this!)"
+msgstr "Zobrazit možnosti rozvoje (pro vývojáře, nepoužívejte tento!)"
+
+#: DSGos_Installer/DSGos_Installer.py:311
+msgid "Program updated! Restarting..."
+msgstr "Program aktualizován! Restartování..."
+
+#: DSGos_Installer/DSGos_Installer.py:351
+msgid "DSGos_Installer files not found. Please, install DSGos_Installer using pacman"
+msgstr "DSGos_Installer soubory nebyl nalezen. Prosím nainstalujte DSGos_Installer pomocí pacman"
+
+#: DSGos_Installer/desktop.py:114
+msgid "Choose Your Desktop"
+msgstr "Vyberte si svůj desktop"
+
+#: DSGos_Installer/desktop.py:203
+msgid "DSGos_Installer will install DSGos with the '%s' desktop"
+msgstr "DSGos_Installer nainstaluje distribuci DSGos spolu s pracovním prostředím '%s'"
+
+#: DSGos_Installer/desktop_environments.py:98
+msgid ""
+"Gnome 3 is an easy and elegant way to use your computer. It features the "
+"Activities Overview which is an easy way to access all your basic tasks. "
+"GNOME 3 is the default desktop in DSGos."
+msgstr "Gnome 3 je jednoduchý a elegantní způsob, jak používat váš počítač. Je vybaveno přehledem aktivit, které usnadní přístup ke všem základním úkolům. GNOME 3 je výchozí desktop distribuce DSGos."
+
+#: DSGos_Installer/desktop_environments.py:103
+msgid ""
+"Cinnamon is a fork of GNOME 3 developed by (and for) Linux Mint. It provides"
+" users a more traditional desktop interface along with the newest "
+"compositing techniques of GNOME 3. Cinnamon is for users of all experience "
+"levels. "
+msgstr "Cinnamon je fork GNOME 3 vyvinutý Linux Mint komunitou. Poskytuje uživatelům tradiční desktopové rozhraní spolu s nejnovějšími kompozičními technologiemi GNOME 3. Cinnamon je určen pro uživatele všech úrovní znalostí."
+
+#: DSGos_Installer/desktop_environments.py:108
+msgid ""
+"Xfce is a lightweight desktop environment. It aims to be fast and low on "
+"system resources, while remaining visually appealing and user friendly. It "
+"is a great option for use on older computers or those with low hardware "
+"specifications. "
+msgstr "XFCE je odlehčené desktopové prostředí. Cílí na rychlost a býti nenáročné na systémové požadavky, ačkoli zůstává vizuálně přitažlivé a uživatelsky přívětivé. Je skvělou volbou pro použití na starších počítačích nebo ty s nízkou hardwarovou specifikací."
+
+#: DSGos_Installer/desktop_environments.py:113
+msgid ""
+"LXDE is an extremely fast-performing and energy-saving desktop environment. "
+"It uses less CPU and RAM than other environments. LXDE is especially "
+"designed for cloud computers with low hardware specifications such as "
+"netbooks, mobile devices, and older computers."
+msgstr "LXDE je extrémně rychlé výkonné a energeticky úsporné pracovní prostředí. Využívá méně CPU a RAM, než jiná prostředí. LXDE je speciálně navrženo pro počítače s nízkou specifikací hardwaru, jako jsou netbooky, mobilní zařízení a starší počítače."
+
+#: DSGos_Installer/desktop_environments.py:118
+msgid ""
+"Openbox is a highly configurable, next generation window manager with "
+"extensive standards support. It's default theme is well known for its "
+"minimalistic appearance and flexibility. Your desktop becomes cleaner, "
+"faster. Perfect for low hardware specifications, too."
+msgstr "Openbox je vysoce konfigurovatelný, příští generace window manager s podporou rozsáhlé standardy. Je to výchozí motiv je dobře známý pro jeho minimalistický vzhled a pružnost. Vaše plocha se stává čistší, rychleji. Ideální pro nízkou hardwarové specifikace, taky."
+
+#: DSGos_Installer/desktop_environments.py:123
+msgid ""
+"Enlightenment is not just a window manager for Linux/X11 and others, but "
+"also a whole suite of libraries to help you create beautiful user interfaces"
+" with much less work"
+msgstr "Enlightenment není jen správce oken pro Linux/X11 a další, ale také celá sada knihoven, které vám pomohou vytvořit krásné uživatelské rozhraní s vynaložením méně práce"
+
+#: DSGos_Installer/desktop_environments.py:127
+msgid ""
+"If you are looking for a familiar working environment, KDE's Plasma Desktop "
+"offers all the tools required for a modern desktop computing experience so "
+"you can be productive right from the start."
+msgstr "Pokud hledáte známé pracovní prostředí, KDE Plasma Desktop nabízí všechny nástroje potřebné pro moderní ovládání počítače, takže můžete být produktivní od samého počátku."
+
+#: DSGos_Installer/desktop_environments.py:131
+msgid ""
+"Plasma 5.0 introduces a new major version of KDE's workspace offering. It "
+"provides a visually updated core desktop experience that is easy to use and "
+"familiar to the user. "
+msgstr "Plazma 5.0 zavádí novou hlavní verzi KDE prostoru nabízí. To poskytuje vizuálně aktualizované základní pracovní prostředí, které je snadno ovladatelné a známé uživateli. "
+
+#: DSGos_Installer/desktop_environments.py:135
+msgid ""
+"LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt "
+"technologies. It has been tailored for users who value simplicity, speed, "
+"and an intuitive interface."
+msgstr "LXQt je moderní, snadno to použití a rychlé pracovní prostředí založené na Qt technologiích. Bylo přizpůsobené pro uživatele, kteří ocení jednoduchost, rychlost a intuitivní rozhraní."
+
+#: DSGos_Installer/desktop_environments.py:139
+msgid ""
+"This option will install DSGos as command-line only system, without any "
+"type of graphical interface. After the installation you can customize "
+"DSGos by installing packages with the command-line package manager."
+msgstr "Tato možnost nainstaluje DSGos bez jakéhokoli typu grafického rozhraní, pouze s podporou příkazového řádku.  Po dokončení instalace lze přizpůsobit DSGos instalací balíků z příkazového řádku."
+
+#: DSGos_Installer/desktop_environments.py:143
+msgid ""
+"An intuitive, attractive and lightweight desktop environment, fork of GNOME "
+"2. MATE is one of the best options for use on older computers or those with "
+"low hardware specifications due to its lightweight yet very customizable set"
+" of features."
+msgstr "Intuitivní, atraktivní a lehké desktopové prostředí, fork GNOME 2. MATE je jednou z nejlepších možností pro použití na starších počítačích nebo těch s nízkou hardwarové specifikace díky své lehké, ale velmi přizpůsobitelný sadu funkcí."
+
+#: DSGos_Installer/download/aria2.py:49 DSGos_Installer/download/aria2.py:60
+#: DSGos_Installer/download/aria2.py:96 DSGos_Installer/download/aria2.py:104
+msgid "Can't call Aria2. Error Output: %s"
+msgstr "Nelze volat Aria2. Výstupní chyby: %s"
+
+#: DSGos_Installer/download/aria2.py:73
+msgid "Can't add metalink to Aria2. Error Output: %s"
+msgstr "Nelze přidat metalink Aria2. Výstupní chyby: %s"
+
+#: DSGos_Installer/download/aria2.py:86
+msgid "Can't add uris to Aria2. Error Output: %s"
+msgstr "Nelze přidat identifikátory URI Aria2. Výstupní chyby: %s"
+
+#: DSGos_Installer/download/aria2.py:157
+msgid "Can't run aria2: %s"
+msgstr "Nelze spustit aria2: %s"
+
+#: DSGos_Installer/download/download.py:97
+msgid "Can't create download package list. Check log output for details"
+msgstr "Nelze vytvořit seznam balíčků ke stažení. Kontrola výstupu protokolování pro podrobnosti"
+
+#: DSGos_Installer/download/download.py:99
+msgid "Using %s library to download packages"
+msgstr "Použití %s knihovny ke stažení balíčků"
+
+#: DSGos_Installer/download/download.py:113
+msgid "Unknown '%s' library, DSGos_Installer will use the 'requests' one as default"
+msgstr "Neznámá '%s' knihovna, DSGos_Installer bude používat z \"Žádosti\" jednu jako výchozí"
+
+#: DSGos_Installer/download/download.py:126 DSGos_Installer/installation/process.py:714
+msgid "Can't install necessary packages. DSGos_Installer can't continue."
+msgstr "Nelze nainstalovat potřebné balíčky. DSGos_Installer nemůže pokračovat."
+
+#: DSGos_Installer/download/download.py:132
+msgid "Creating the list of packages to download..."
+msgstr "Vytváření seznamu balíčků ke stažení..."
+
+#: DSGos_Installer/download/download.py:145 DSGos_Installer/download/metalink.py:483
+msgid "Can't initialize pyalpm: %s"
+msgstr "Nelze inicializovat pyalpm: %s"
+
+#: DSGos_Installer/download/download.py:152
+msgid "Error creating metalink for package %s. Installation will stop"
+msgstr "Chyba při vytváření metalink balíčku % s. instalace se zastaví."
+
+#: DSGos_Installer/download/download.py:168
+msgid "Can't create download set: %s"
+msgstr "Nelze vytvořit stahování souboru: %s"
+
+#: DSGos_Installer/download/download.py:175
+msgid "Can't release pyalpm: %s"
+msgstr "Nelze uvolnit pyalpm: %s"
+
+#: DSGos_Installer/download/download_aria2.py:78
+msgid "Aria2 is not running."
+msgstr "Aria2 není spuštěna."
+
+#: DSGos_Installer/download/download_aria2.py:85 DSGos_Installer/download/download_aria2.py:140
+msgid "Downloading packages... ({0}/{1})..."
+msgstr "Probíhá stahování balíčků... ({0}/{1})..."
+
+#: DSGos_Installer/download/download_aria2.py:107
+#: DSGos_Installer/download/download_requests.py:111
+#: DSGos_Installer/download/download_urllib.py:138
+msgid "File %s already exists, DSGos_Installer will not overwrite it"
+msgstr "Soubor %s již existuje, DSGos_Installer nepřepíše"
+
+#: DSGos_Installer/download/download_requests.py:72
+#: DSGos_Installer/download/download_urllib.py:116
+msgid "Downloading {0} {1} ({2}/{3})..."
+msgstr "Stahování {0} {1} ({2} / {3})..."
+
+#: DSGos_Installer/download/download_requests.py:101
+#: DSGos_Installer/download/download_requests.py:123
+#: DSGos_Installer/download/download_requests.py:207
+msgid "MD5 hash (url:%s, file:%s) of file %s do not match!"
+msgstr "MD5 hash (url:%s, file:%s) ze file%s se neshodují!"
+
+#: DSGos_Installer/download/download_requests.py:106
+#: DSGos_Installer/download/download_requests.py:127
+#: DSGos_Installer/download/download_requests.py:142
+msgid "DSGos_Installer will download it"
+msgstr "DSGos_Installer bude stahovat toto"
+
+#: DSGos_Installer/download/download_requests.py:132
+msgid "%s found in suplied pkg cache. Copying..."
+msgstr "%s nalezen v podkladech dodaných s pkg cache. Kopírování ..."
+
+#: DSGos_Installer/download/download_requests.py:139
+msgid "Error copying %s to %s."
+msgstr "Chyba při kopírování %s na %s."
+
+#: DSGos_Installer/download/download_requests.py:152
+msgid "Package %s v%s has an empty url for this mirror"
+msgstr "Balík %s v%s má prázdnou URL pro toto zrcadlo"
+
+#: DSGos_Installer/download/download_requests.py:164
+#: DSGos_Installer/download/download_requests.py:222
+msgid "Can't download {0}"
+msgstr "Nelze stáhnout {0}"
+
+#: DSGos_Installer/download/download_requests.py:166
+#: DSGos_Installer/download/download_requests.py:211
+#: DSGos_Installer/download/download_requests.py:223
+msgid "DSGos_Installer will try another mirror."
+msgstr "DSGos_Installer zkusí jiné zrcadlo."
+
+#: DSGos_Installer/download/download_requests.py:176
+#: DSGos_Installer/download/download_urllib.py:123
+msgid "Metalink for package %s has no size info"
+msgstr "Metalink pro balíček %s nemá žádné informace o velikosti"
+
+#: DSGos_Installer/download/download_requests.py:229
+#: DSGos_Installer/download/download_urllib.py:198
+msgid "Can't download {0}, even after trying all available mirrors"
+msgstr "Nelze stáhnout {0}, dokonce i po vyzkoušení všech dostupných možností."
+
+#: DSGos_Installer/download/download_urllib.py:40
+msgid "Wrong url, will try another one if available."
+msgstr "Nesprávné url, zkusí jinou, je-li k dispozici."
+
+#: DSGos_Installer/download/download_urllib.py:50 DSGos_Installer/download/download_urllib.py:54
+#: DSGos_Installer/download/download_urllib.py:58 DSGos_Installer/download/download_urllib.py:62
+msgid "Can't open {0} - Reason: {1}"
+msgstr "Nelze otevřít {0} - důvod: {1}"
+
+#: DSGos_Installer/download/download_urllib.py:78
+msgid "HTTP Error : {0}"
+msgstr "HTTP chyba: {0}"
+
+#: DSGos_Installer/download/download_urllib.py:81
+msgid "URL Error : {0}"
+msgstr "Adresa URL chyba: {0}"
+
+#: DSGos_Installer/download/download_urllib.py:144
+msgid "%s found in iso pkg cache. Copying..."
+msgstr "%s nalezen v iso pkg cache. Kopírování ..."
+
+#: DSGos_Installer/download/download_urllib.py:150
+msgid "Error copying %s to %s. DSGos_Installer will try to download it"
+msgstr "Chyba při kopírování %s na %s. DSGos_Installer se jej pokusí stáhnout"
+
+#: DSGos_Installer/download/metalink.py:110
+msgid "Unable to create download queue for package {0}"
+msgstr "Nelze vytvořit frontu pro stahování pro balíčku {0}"
+
+#: DSGos_Installer/download/metalink.py:116
+msgid "Can't find these packages: "
+msgstr "Nepodařilo se nalézt následující balíčky:"
+
+#: DSGos_Installer/download/metalink.py:123
+msgid "Can't resolve these dependencies: "
+msgstr "Nelze vyřešit tyto závislosti: "
+
+#: DSGos_Installer/encfs.py:103
+msgid "Can't create and modify encfs configuration files."
+msgstr "Nelze vytvářet a upravovat konfigurační soubory formátu encfs."
+
+#: DSGos_Installer/encfs.py:105
+msgid "Home directory won't be encrypted."
+msgstr "Domovský adresář nebude zašifrován."
+
+#: DSGos_Installer/encfs.py:130
+msgid "Can't run encfs. Bad password?"
+msgstr "Nelze spustit encfs. Špatné heslo?"
+
+#: DSGos_Installer/features.py:129
+msgid "No icon found for feature %s"
+msgstr "Žádná ikona nebyla nalezena pro funkci %s"
+
+#: DSGos_Installer/features.py:211
+msgid "Feature Selection"
+msgstr "Výběr vlastností"
+
+#: DSGos_Installer/features.py:215
+msgid "Arch User Repository (AUR) Support"
+msgstr "Uživatele Repository (AUR) podpora klenby"
+
+#: DSGos_Installer/features.py:216
+msgid "The AUR is a community-driven repository for Arch users."
+msgstr "AUR je repositář pro uživatele Arch linuxu spravovaný komunitou."
+
+#: DSGos_Installer/features.py:217
+msgid ""
+"Use yaourt to install AUR packages.\n"
+"The AUR was created to organize and share new packages\n"
+"from the community and to help expedite popular packages'\n"
+"inclusion into the [community] repository."
+msgstr "K instalaci balíčků AUR používejte yaourt.\nAUR vznikla, organizovat a sdílet nové balíčky ze Společenství a pomoci urychlit populární balíčky začlenění do úložiště [Společenství]."
+
+#: DSGos_Installer/features.py:224
+msgid "Bluetooth Support"
+msgstr "Podpora Bluetooth"
+
+#: DSGos_Installer/features.py:225
+msgid "Enables your system to make wireless connections via Bluetooth."
+msgstr "Umožní systému zajistit bezdrátové spojení pomocí bluetooth."
+
+#: DSGos_Installer/features.py:226
+msgid ""
+"Bluetooth is a standard for the short-range wireless\n"
+"interconnection of cellular phones, computers, and\n"
+"other electronic devices. In Linux, the canonical\n"
+"implementation of the Bluetooth protocol stack is BlueZ"
+msgstr "Bluetooth je standardem pro krátkého dosahu bezdrátové propojení mobilních telefonů, počítačů a jiných elektronických zařízení. V Linuxu kanonické implementace zásobníku protokolu Bluetooth je BlueZ"
+
+#: DSGos_Installer/features.py:233
+msgid "Extra Truetype Fonts"
+msgstr " Dodatečná písma TrueType "
+
+#: DSGos_Installer/features.py:234
+msgid "Installation of extra TrueType fonts"
+msgstr "Instalace dodatečných TrueType písem"
+
+#: DSGos_Installer/features.py:235
+msgid ""
+"TrueType is an outline font standard developed by\n"
+"Apple and Microsoft in the late 1980s as a competitor\n"
+"to Adobe's Type 1 fonts used in PostScript. It has\n"
+"become the most common format for fonts on both the\n"
+"Mac OS and Microsoft Windows operating systems."
+msgstr "TrueType je že obrysové písmo standardní vyvinutý společností Apple a Microsoft na konci osmdesátých (1980)  let jako konkurence pro Adobe typu 1 písem použitých v jazyce PostScript. To se stalo nejběžnější formát pro písma v operačních systémech Microsoft Windows i Mac OS."
+
+#: DSGos_Installer/features.py:244
+msgid "Graphic drivers (Proprietary)"
+msgstr "Grafické ovladače (nesvobodné)"
+
+#: DSGos_Installer/features.py:245 DSGos_Installer/features.py:246
+msgid "Installs AMD or Nvidia proprietary graphic driver"
+msgstr "Nainstaluje AMD nebo Nvidia nesvobodný grafický ovladač"
+
+#: DSGos_Installer/features.py:250
+msgid "Apache (or Nginx) + Mariadb + PHP"
+msgstr "Apache (nebo Nginx) + PHP + Mariadb"
+
+#: DSGos_Installer/features.py:251
+msgid "Apache (or Nginx) + Mariadb + PHP installation and setup"
+msgstr "Apache (nebo Nginx) + Mariadb + PHP instalace a nastavení"
+
+#: DSGos_Installer/features.py:252
+msgid ""
+"This option installs a web server (you can choose\n"
+"Apache or Nginx) plus a database server (Mariadb)\n"
+"and PHP"
+msgstr "Tato možnost nainstaluje webový server (můžete zvolit \nApache nebo Nginx) a navíc databázový server (Mariadb) \na PHP"
+
+#: DSGos_Installer/features.py:258
+msgid "Printing Support"
+msgstr "Podpora tisku"
+
+#: DSGos_Installer/features.py:259
+msgid "Installation of printer drivers and management tools."
+msgstr "Instalace ovladačů tiskáren a nástrojů pro správu."
+
+#: DSGos_Installer/features.py:260
+msgid ""
+"CUPS is the standards-based, open source printing\n"
+"system developed by Apple Inc. for OS\\302\\256 X and other\n"
+"UNIX\\302\\256-like operating systems."
+msgstr "CUPS je založené na standardech, open source tiskový systém vyvinutý společností Apple Computer pro OS\\302\\256 X a jiných UNIX\\302\\256-like operační systémy."
+
+#: DSGos_Installer/features.py:266
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: DSGos_Installer/features.py:267
+msgid "Open source office suite. Supports editing MS Office files."
+msgstr "Kancelářská sada s otevřeným kódem. Podporuje úpravu souborů MS Office. "
+
+#: DSGos_Installer/features.py:268
+msgid ""
+"LibreOffice is the free power-packed Open Source\n"
+"personal productivity suite for Windows, Macintosh\n"
+"and Linux, that gives you six feature-rich applications\n"
+"for all your document production and data processing\n"
+"needs: Writer, Calc, Impress, Draw, Math and Base."
+msgstr "LibreOffice je volné energie sbalil Open Source osobní produktivity balík pro Windows, Macintosh a Linux, který vám dává šest funkcí aplikace potřebám všech svých dokumentů produkce a zpracování dat: spisovatel, Calc, Impress, kreslení, matematiky a základnu."
+
+#: DSGos_Installer/features.py:276
+msgid "Visual Effects"
+msgstr "Vizuální efekty"
+
+#: DSGos_Installer/features.py:277
+msgid "Enable transparency, shadows, and other desktop effects."
+msgstr "Povolit průhlednost, stíny, a ostatní destkopové efekty."
+
+#: DSGos_Installer/features.py:278
+msgid ""
+"Compton is a lightweight, standalone composite manager,\n"
+"suitable for use with window managers that do not natively\n"
+"provide compositing functionality. Compton itself is a fork\n"
+"of xcompmgr-dana, which in turn is a fork of xcompmgr.\n"
+"See the compton github page for further information."
+msgstr "Compton je lehký, samostatný kompozitní manažer, vhodný pro použití s manažery, které neobsahují skládání funkcí. Compton, samotný je fork xcompmgr-dana, což je vidlice xcompmgr.\nNajdete na stránce compton github pro další informace."
+
+#: DSGos_Installer/features.py:286
+msgid "Uncomplicated Firewall"
+msgstr "Jednoduchý firewall"
+
+#: DSGos_Installer/features.py:287
+msgid "Control the incoming and outgoing network traffic."
+msgstr "Ovládání příchozího a odchozího síťového provozu."
+
+#: DSGos_Installer/features.py:288
+msgid ""
+"Ufw stands for Uncomplicated Firewall, and is a program for\n"
+"managing a netfilter firewall. It provides a command line\n"
+"interface and aims to be uncomplicated and easy to use."
+msgstr "Ufw je zkratka pro Uncomplicated Firewall, což je program pro\nsprávu firewallu. Poskytuje rozhraní pro příkazový řádek\na jeho cílem je být jednoduchý na použití."
+
+#: DSGos_Installer/features.py:294
+msgid "Kernel (LTS version)"
+msgstr "Jádro (LTS verze)"
+
+#: DSGos_Installer/features.py:295
+msgid "Long term support (LTS) Linux kernel and modules."
+msgstr "Dlouhodobá podpora (LTS), Linux jádro a moduly."
+
+#: DSGos_Installer/features.py:296
+msgid ""
+"The linux-lts package is an alternative Arch kernel package\n"
+"based upon Linux kernel 3.14 and is available in the core repository.\n"
+"This particular kernel version enjoys long-term support from upstream,\n"
+"including security fixes and some feature backports. Additionally, this\n"
+"package includes ext4 support. For DSGos users seeking a long-term\n"
+"support kernel, or who want a fallback kernel in case the latest kernel\n"
+"version causes problems, this option is the answer."
+msgstr "Linux-lts balíček je alternativa k Arch kernel balíčku\nzaložené na Linux jádru 3.14 a je k dispozici v core repozitáři.\nTato verze jádra má dlouhodobou podporu na rozdíl od běžných, ale novějších verzí\nvčetně bezpečnostních záplat a některých zpětně portovaných funkcí.  Navíc tento\nbalíček obsahuje i dlouhodobou podporu oprav pro ext4.\nPro uživatele DSGos, kteří hledají jádro s dlouhodobou podporou\nnebo pro ty kteří chtějí nouzové jádro pro případ, že by nejnovější verze jádra\npůsobila problémy.\nV závislosti na velikosti boot oddílu můžete nainstalovat více jader současně."
+
+#: DSGos_Installer/features.py:306
+msgid "Firefox Web Browser"
+msgstr "Firefox webový prohlížeč"
+
+#: DSGos_Installer/features.py:307
+msgid "A popular open-source graphical web browser from Mozilla"
+msgstr "Populární open-source grafický webový prohlížeč od Mozilly"
+
+#: DSGos_Installer/features.py:308
+msgid ""
+"Mozilla Firefox (known simply as Firefox) is a free and\n"
+"open-source web browser developed for Windows, OS X, and Linux,\n"
+"with a mobile version for Android, by the Mozilla Foundation and\n"
+"its subsidiary, the Mozilla Corporation. Firefox uses the Gecko\n"
+"layout engine to render web pages, which implements current and\n"
+"anticipated web standards."
+msgstr "Mozilla Firefox (známý jako Firefox) je zdarma a open-source webový prohlížeč vyvinutý pro Windows, OS X a Linux, s mobilní verzí pro Android, Mozilla Foundation a její dceřiná společnost Mozilla Corporation. Firefox používá Gecko formát motor k vykreslení webové stránky, která implementuje současných a očekávaných webových standardů."
+
+#: DSGos_Installer/features.py:317
+msgid "Windows sharing SMB"
+msgstr "Windows sdílení SMB"
+
+#: DSGos_Installer/features.py:318
+msgid "SMB provides shared access to files and printers"
+msgstr "SMB poskytuje sdílený přístup k souborům a tiskárnám"
+
+#: DSGos_Installer/features.py:319
+msgid ""
+"In computer networking, Server Message Block (SMB)\n"
+"operates as an application-layer network protocol mainly used\n"
+"for providing shared access to files, printers, serial ports,\n"
+"and miscellaneous communications between nodes on a network.\n"
+"Most usage of SMB involves computers running Microsoft Windows."
+msgstr "V počítačové síti, Server Message Block (SMB) funguje jako aplikační vrstvy síťový protokol používá především k poskytování sdíleného přístupu k souborů, tiskáren, sériových portů a další komunikaci mezi uzly v síti.\nVětšina využití protokolu SMB zahrnuje počítače se systémem Microsoft Windows."
+
+#: DSGos_Installer/features.py:363
+msgid "Selected '%s' feature to install"
+msgstr "Funkce vybraných '%s' pro instalaci"
+
+#: DSGos_Installer/features.py:384
+msgid "Do you want to install the Nginx server instead of the Apache server?"
+msgstr "Chcete nainstalovat server Nginx namísto serveru Apache?"
+
+#: DSGos_Installer/features.py:401
+msgid "Arch User Repository - Disclaimer"
+msgstr "Arch User Repository - Prohlášení"
+
+#: DSGos_Installer/features.py:402
+msgid ""
+"The Arch User Repository is a collection of user-submitted PKGBUILDs\n"
+"that supplement software available from the official repositories.\n"
+"\n"
+"The AUR is community driven and NOT supported by Arch or DSGos.\n"
+msgstr "Úložiště uživatele Arch je kolekce user předložené PKGBUILDs, které doplňují software dostupný z oficiálních repozitářích.\n\nAUR se Společenství řídí a není podporován oblouk nebo DSGos.\n"
+
+#: DSGos_Installer/features.py:407
+msgid "Uncomplicated Firewall will be installed with these rules:"
+msgstr "Uncomplicated Firewall bude nainstalován s těmito pravidly:"
+
+#: DSGos_Installer/features.py:409
+msgid ""
+"ufw default deny\n"
+"ufw allow from {0}\n"
+"ufw allow Transmission\n"
+"ufw allow SSH"
+msgstr "UFW výchozí odepřít ufw povolit z {0} ufw umožňují přenos ufw dovolit SSH"
+
+#: DSGos_Installer/hardware/hardware.py:120 DSGos_Installer/installation/chroot.py:139
+msgid "Error running command: %s"
+msgstr "Chyba při spuštění příkazu: %s"
+
+#: DSGos_Installer/hardware/hardware.py:139
+msgid "%s completed successfully."
+msgstr "%s úspěšně dokončena."
+
+#: DSGos_Installer/hardware/hardware.py:142
+msgid "Error running %s script"
+msgstr "Chyba spuštění %s skriptu"
+
+#: DSGos_Installer/hardware/hardware.py:143 DSGos_Installer/installation/auto_partition.py:87
+#: DSGos_Installer/installation/auto_partition.py:93
+#: DSGos_Installer/installation/auto_partition.py:139
+#: DSGos_Installer/installation/auto_partition.py:150
+#: DSGos_Installer/installation/auto_partition.py:187
+#: DSGos_Installer/installation/auto_partition.py:210
+#: DSGos_Installer/installation/auto_partition.py:220
+#: DSGos_Installer/installation/auto_partition.py:232
+#: DSGos_Installer/installation/auto_partition.py:261
+#: DSGos_Installer/installation/auto_partition.py:293
+#: DSGos_Installer/installation/auto_partition.py:306
+#: DSGos_Installer/installation/auto_partition.py:382
+#: DSGos_Installer/installation/auto_partition.py:390
+#: DSGos_Installer/installation/auto_partition.py:411
+#: DSGos_Installer/installation/auto_partition.py:795
+#: DSGos_Installer/installation/auto_partition.py:804
+#: DSGos_Installer/installation/auto_partition.py:840
+#: DSGos_Installer/installation/auto_partition.py:902 DSGos_Installer/installation/process.py:471
+#: DSGos_Installer/installation/process.py:482 DSGos_Installer/installation/process.py:493
+#: DSGos_Installer/installation/process.py:1454
+msgid "Command %s failed"
+msgstr "Příkaz %s selhal"
+
+#: DSGos_Installer/hardware/hardware.py:144 DSGos_Installer/installation/auto_partition.py:88
+#: DSGos_Installer/installation/auto_partition.py:94
+#: DSGos_Installer/installation/auto_partition.py:140
+#: DSGos_Installer/installation/auto_partition.py:151
+#: DSGos_Installer/installation/auto_partition.py:188
+#: DSGos_Installer/installation/auto_partition.py:211
+#: DSGos_Installer/installation/auto_partition.py:221
+#: DSGos_Installer/installation/auto_partition.py:233
+#: DSGos_Installer/installation/auto_partition.py:262
+#: DSGos_Installer/installation/auto_partition.py:294
+#: DSGos_Installer/installation/auto_partition.py:307
+#: DSGos_Installer/installation/auto_partition.py:383
+#: DSGos_Installer/installation/auto_partition.py:391
+#: DSGos_Installer/installation/auto_partition.py:412
+#: DSGos_Installer/installation/auto_partition.py:805
+#: DSGos_Installer/installation/auto_partition.py:841
+#: DSGos_Installer/installation/auto_partition.py:903 DSGos_Installer/installation/process.py:176
+#: DSGos_Installer/installation/process.py:472 DSGos_Installer/installation/process.py:483
+#: DSGos_Installer/installation/process.py:494 DSGos_Installer/installation/process.py:1455
+msgid "Output: %s"
+msgstr "Výstup: %s"
+
+#: DSGos_Installer/hardware/hardware.py:188
+msgid "Error importing %s from %s : %s"
+msgstr "Chyba při importu %s z %s: %s"
+
+#: DSGos_Installer/hardware/hardware.py:190
+msgid "Unexpected error importing %s: %s"
+msgstr "Neočekávaná chyba při importu % s: %s"
+
+#: DSGos_Installer/hardware/hardware.py:196
+msgid "DSGos_Installer will test %d drivers for %d hardware devices"
+msgstr "DSGos_Installer bude testovat %d ovladače pro %d hardwarová zařízení"
+
+#: DSGos_Installer/installation/advanced.py:261 DSGos_Installer/installation/advanced.py:608
+#: DSGos_Installer/installation/advanced.py:622
+msgid "free space"
+msgstr "volné místo"
+
+#: DSGos_Installer/installation/advanced.py:396
+msgid "Device"
+msgstr "Zařízení"
+
+#: DSGos_Installer/installation/advanced.py:399
+msgid "Type"
+msgstr "Typ"
+
+#: DSGos_Installer/installation/advanced.py:402
+msgid "Mount point"
+msgstr "Přípojný bod"
+
+#: DSGos_Installer/installation/advanced.py:405
+msgid "Label"
+msgstr "Název"
+
+#: DSGos_Installer/installation/advanced.py:412 DSGos_Installer/installation/advanced.py:1979
+msgid "Format"
+msgstr "Formátovat"
+
+#: DSGos_Installer/installation/advanced.py:419
+msgid "Size"
+msgstr "Velikost"
+
+#: DSGos_Installer/installation/advanced.py:422
+msgid "Used"
+msgstr "Využito"
+
+#: DSGos_Installer/installation/advanced.py:425
+msgid "Flags"
+msgstr "Příznak"
+
+#: DSGos_Installer/installation/advanced.py:432
+msgid "SSD"
+msgstr "SSD"
+
+#: DSGos_Installer/installation/advanced.py:590
+msgid "none"
+msgstr "žádný"
+
+#: DSGos_Installer/installation/advanced.py:727
+msgid "Can't edit a partition with LVM filesystem type"
+msgstr "Nelze upravit oddíl, který obsahuje souborový systém LVM"
+
+#: DSGos_Installer/installation/advanced.py:789
+msgid "Can't use same mount point twice."
+msgstr "Nelze použít dvakrát stejné přípojného bodu."
+
+#: DSGos_Installer/installation/advanced.py:791
+msgid "Root partition must be formatted."
+msgstr "Root oddíl musí být naformátován."
+
+#: DSGos_Installer/installation/advanced.py:798 DSGos_Installer/installation/advanced.py:1100
+msgid "'%s' is not a valid label"
+msgstr "\"%s\" není platná značka"
+
+#: DSGos_Installer/installation/advanced.py:813 DSGos_Installer/installation/advanced.py:1151
+msgid "/boot or /boot/efi need to be fat32 in UEFI systems. Forcing it."
+msgstr "/boot nebo /boot/efi potřebují FAT32 v systémech s UEFI. Vyžadováno."
+
+#: DSGos_Installer/installation/advanced.py:899
+msgid "You will delete the partition %s from disk %s"
+msgstr "Oddíl %s bude odstraněn z disku %s"
+
+#: DSGos_Installer/installation/advanced.py:917
+msgid "Unmounting %s..."
+msgstr "Odpojuje %s..."
+
+#: DSGos_Installer/installation/advanced.py:1042
+msgid "Sorry, you already have {0} primary partitions created."
+msgstr "Omlouvám se, že už máte primárních oddílů {0} vytvořit."
+
+#: DSGos_Installer/installation/advanced.py:1046
+msgid "Sorry, you already have {0} primary and 1 extended partitions created."
+msgstr "Omlouvám se už máte {0} primární a 1 rozšířené oddíly vytvořené."
+
+#: DSGos_Installer/installation/advanced.py:1105
+msgid "Can't use same mount point twice..."
+msgstr "Nelze použít stejné přípojného bodu dvakrát..."
+
+#: DSGos_Installer/installation/advanced.py:1130
+msgid "Creating a primary partition"
+msgstr "Vytváření primárního oddílu"
+
+#: DSGos_Installer/installation/advanced.py:1141
+msgid "Creating an extended partition"
+msgstr "Vytváření rozšířeného oddílu"
+
+#: DSGos_Installer/installation/advanced.py:1147
+msgid "Creating a logical partition"
+msgstr "Vytváření logického oddílu"
+
+#: DSGos_Installer/installation/advanced.py:1203
+msgid "Using LUKS encryption will DELETE all partition contents!"
+msgstr "Použití šifrování LUKS odstraní veškerý obsah z diskových oddílů!"
+
+#: DSGos_Installer/installation/advanced.py:1215
+msgid "LUKS passwords do not match!"
+msgstr "LUKS hesla se neshodují!"
+
+#: DSGos_Installer/installation/advanced.py:1340
+msgid "Advanced Installation Mode"
+msgstr "Pokročilý režim instalace"
+
+#: DSGos_Installer/installation/advanced.py:1342 DSGos_Installer/installation/automatic.py:101
+msgid "Use the device below for boot loader installation:"
+msgstr "Pro instalaci zavaděče použijte zařízení níže:"
+
+#: DSGos_Installer/installation/advanced.py:1347 DSGos_Installer/installation/automatic.py:106
+msgid "Bootloader:"
+msgstr "Zavaděč:"
+
+#: DSGos_Installer/installation/advanced.py:1351 DSGos_Installer/installation/automatic.py:110
+msgid "Device:"
+msgstr "Zařízení:"
+
+#: DSGos_Installer/installation/advanced.py:1355
+msgid "Mount Checklist:"
+msgstr "Mount kontrolní seznam:"
+
+#: DSGos_Installer/installation/advanced.py:1361
+msgid "Root"
+msgstr "Kořen"
+
+#: DSGos_Installer/installation/advanced.py:1365
+msgid "Boot"
+msgstr "Boot"
+
+#: DSGos_Installer/installation/advanced.py:1369
+msgid "EFI"
+msgstr "EFI"
+
+#: DSGos_Installer/installation/advanced.py:1373
+msgid "Swap"
+msgstr "Swap"
+
+#: DSGos_Installer/installation/advanced.py:1383
+msgid "Undo"
+msgstr "Zpět:"
+
+#: DSGos_Installer/installation/advanced.py:1386 DSGos_Installer/installation/advanced.py:1979
+msgid "New"
+msgstr "Nový"
+
+#: DSGos_Installer/installation/advanced.py:1389
+msgid "Delete"
+msgstr "Smazat"
+
+#: DSGos_Installer/installation/advanced.py:1392
+msgid "Edit..."
+msgstr "Upravit..."
+
+#: DSGos_Installer/installation/advanced.py:1395
+msgid "New partition table"
+msgstr "Nová tabulka oddílů"
+
+#: DSGos_Installer/installation/advanced.py:1406
+msgid "_Cancel"
+msgstr "Stornovat"
+
+#: DSGos_Installer/installation/advanced.py:1417
+msgid "_Apply"
+msgstr "Apply"
+
+#: DSGos_Installer/installation/advanced.py:1420
+msgid "Size:"
+msgstr "Velikost:"
+
+#: DSGos_Installer/installation/advanced.py:1424
+msgid "Type:"
+msgstr "Typ"
+
+#: DSGos_Installer/installation/advanced.py:1428
+msgid "Primary"
+msgstr "Primární"
+
+#: DSGos_Installer/installation/advanced.py:1432
+msgid "Logical"
+msgstr "Logická"
+
+#: DSGos_Installer/installation/advanced.py:1436
+msgid "Extended"
+msgstr "Rozšířený"
+
+#: DSGos_Installer/installation/advanced.py:1440
+msgid "Beginning of this space"
+msgstr "Začátek dostupného místa"
+
+#: DSGos_Installer/installation/advanced.py:1444
+msgid "End of this space"
+msgstr "Konec dostupného místa"
+
+#: DSGos_Installer/installation/advanced.py:1448 DSGos_Installer/installation/advanced.py:1465
+msgid "Use As:"
+msgstr "Používat jako:"
+
+#: DSGos_Installer/installation/advanced.py:1452 DSGos_Installer/installation/advanced.py:1469
+msgid "Mount Point:"
+msgstr "Přípojný bod:"
+
+#: DSGos_Installer/installation/advanced.py:1456 DSGos_Installer/installation/advanced.py:1473
+msgid "Label (optional):"
+msgstr "Název (volitelné):"
+
+#: DSGos_Installer/installation/advanced.py:1460 DSGos_Installer/installation/advanced.py:1481
+msgid "Encryption Options..."
+msgstr "Možnosti šifrování..."
+
+#: DSGos_Installer/installation/advanced.py:1477
+msgid "Format:"
+msgstr "Formátovat:"
+
+#: DSGos_Installer/installation/advanced.py:1486
+msgid "Partition Table Type:"
+msgstr "Typ tabulky oddílů:"
+
+#: DSGos_Installer/installation/advanced.py:1491
+msgid "Create Partition Table"
+msgstr "Vytvořit tabulku oddílů"
+
+#: DSGos_Installer/installation/advanced.py:1494
+msgid "Use LUKS encryption:"
+msgstr "Používejte LUKS šifrování:"
+
+#: DSGos_Installer/installation/advanced.py:1498
+msgid "LUKS volume name:"
+msgstr "LUKS název svazku:"
+
+#: DSGos_Installer/installation/advanced.py:1502 DSGos_Installer/wireless.py:70
+msgid "Password:"
+msgstr "Heslo:"
+
+#: DSGos_Installer/installation/advanced.py:1506
+msgid "Confirm password:"
+msgstr "Potvrzení hesla:"
+
+#: DSGos_Installer/installation/advanced.py:1576
+msgid "Creating a new %s partition table for disk %s"
+msgstr "Vytváří se nová %s tabulka oddílů na disku %s"
+
+#: DSGos_Installer/installation/advanced.py:1585
+msgid ""
+"GRUB requires a BIOS Boot Partition in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
+"\n"
+"DSGos_Installer will create this BIOS Boot Partition for you."
+msgstr "GRUB vyžaduje BIOS spouštěcí oddíl v systému BIOS pro vložení spise core.img kvůli nedostatku post-MBR vložit mezeru v disky GPT.\n\nDSGos_Installer vytvoří tento BIOS spouštěcí oddíl pro vás."
+
+#: DSGos_Installer/installation/advanced.py:1614
+msgid "Can't create BIOS GPT Boot partition!"
+msgstr "Nelze vytvořit BIOS GPT spouštěcí oddíl!"
+
+#: DSGos_Installer/installation/advanced.py:1643
+msgid "Couldn't create BIOS GPT Boot partition"
+msgstr "Nelze vytvořit BIOS GPT spouštěcí oddíl"
+
+#: DSGos_Installer/installation/advanced.py:1790
+msgid "Install now!"
+msgstr "Nainstalovat nyní!"
+
+#: DSGos_Installer/installation/advanced.py:1865
+msgid ""
+"{0} is mounted as swap.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "{0} je připojen jako swap.\nChcete-li pokračovat, že musí být odpojen.\nKlepněte na tlačítko Ano, chcete-li odpojit, nebo ne se vrátíte\n"
+
+#: DSGos_Installer/installation/advanced.py:1869
+msgid ""
+"{0} is mounted in '{1}'.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "{0} je připojeno v {1}.\nChcete-li pokračovat, že musí být odpojen.\nKlepněte na tlačítko Ano, chcete-li odpojit, nebo ne se vrátíte\n"
+
+#: DSGos_Installer/installation/advanced.py:1880 DSGos_Installer/installation/advanced.py:1901
+msgid "%s unmounted"
+msgstr "odpojen %s"
+
+#: DSGos_Installer/installation/advanced.py:1894
+msgid "Swap partition %s unmounted"
+msgstr "Oddíl pro swap %s odpojen"
+
+#: DSGos_Installer/installation/advanced.py:1905
+msgid "%s shows as mounted (busy) but it has no mount point"
+msgstr "% vypadá jako připojený (busy), ale nemá žádný přípojný bod"
+
+#: DSGos_Installer/installation/advanced.py:1947
+msgid ""
+"Added %s to changelist: createme[%s] relabel[%s] fmt[%s] mnt[%s] encrypt[%s]"
+msgstr "Přidat %s do seznamu změn: mnt fmt [%s] zvedání vrcholu [%s] createme [%s] [%s] šifrování [%s]"
+
+#: DSGos_Installer/installation/advanced.py:1971
+msgid "Partition {0} will be deleted"
+msgstr "Oddíl {0} budou odstraněny."
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Encrypt"
+msgstr "Šifrovat"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Mount"
+msgstr "Připojit"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Partition"
+msgstr "Oddíl"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Relabel"
+msgstr "Přejmenovat"
+
+#: DSGos_Installer/installation/advanced.py:2000
+msgid "These disks will have partition actions:"
+msgstr "Tyto disky budou mít oddíl akce:"
+
+#: DSGos_Installer/installation/advanced.py:2100
+msgid "Finished saving changes in %s"
+msgstr "Dokončeno ukládání změn v %s"
+
+#: DSGos_Installer/installation/advanced.py:2121
+msgid "Creating new {0} filesystem in {1} labeled {2}"
+msgstr "Vytváření nových souborů {0} v {1} s popiskem {2}"
+
+#: DSGos_Installer/installation/advanced.py:2124
+msgid "Creating new {0} filesystem in {1}"
+msgstr "Vytváření nových souborů {0} v {1}"
+
+#: DSGos_Installer/installation/advanced.py:2152
+msgid "Volume name is %s"
+msgstr "Název svazku je %s"
+
+#: DSGos_Installer/installation/advanced.py:2166
+msgid "Encrypting {0}, assigning volume name {1} and formatting it..."
+msgstr "Šifrování {0}, formátování a přiřazení {1} název svazku..."
+
+#: DSGos_Installer/installation/advanced.py:2181
+msgid "Couldn't format LUKS device '{0}' with label '{1}' as '{2}'"
+msgstr "Nelze naformátovat LUKS zařízení '{0}' s popiskem '{1}' jako '{2}'"
+
+#: DSGos_Installer/installation/advanced.py:2205
+msgid "Couldn't format partition '{0}' with label '{1}' as '{2}'"
+msgstr "Nelze zformátovat oddíl {0} s popiskem {1} jako {2}"
+
+#: DSGos_Installer/installation/advanced.py:2263 DSGos_Installer/installation/automatic.py:268
+msgid "DSGos_Installer will not install any bootloader"
+msgstr "DSGos_Installer nebude instalovat jakékoliv bootloaderu"
+
+#: DSGos_Installer/installation/advanced.py:2269
+msgid "DSGos will install the bootloader {0} in device {1}"
+msgstr "DSGos nainstaluje zavaděč {0} v {1} zařízení"
+
+#: DSGos_Installer/installation/advanced.py:2285 DSGos_Installer/installation/automatic.py:299
+msgid "Testing mode. DSGos_Installer will not change anything!"
+msgstr "Testovací režim. DSGos_Installer nebude nic měnit!"
+
+#: DSGos_Installer/installation/alongside.py:137
+msgid "There are no primary partitions available"
+msgstr "K dispozici nejsou žádné primární oddíly"
+
+#: DSGos_Installer/installation/alongside.py:140
+msgid "Will shrink device {0} and create new device {1}"
+msgstr "Bude zmenšovat zařízení {0} a vytvářet nové zařízení {1}"
+
+#: DSGos_Installer/installation/alongside.py:148
+msgid "DSGos_Installer recommends at least 6.5GB free to install DSGos."
+msgstr "DSGos_Installer doporučuje nejméně 6,5 GB volného místa pro instalaci DSGos."
+
+#: DSGos_Installer/installation/alongside.py:149
+msgid ""
+"New partition {0} resulting of shrinking {1} will not have enough free space"
+" for a full installation."
+msgstr "Nový oddíl {0} vyplývající ubývá {1} nebude mít dostatek volného místa pro úplnou instalaci."
+
+#: DSGos_Installer/installation/alongside.py:150
+msgid ""
+"You can still install DSGos, but be carefull on which DE you choose as it"
+" might not fit in."
+msgstr "Můžete přesto nainstalovat DSGos, ale pozor, na kterém DE zvolíte, jak je to v pořádku."
+
+#: DSGos_Installer/installation/alongside.py:151
+msgid "Install at your own risk!"
+msgstr "Instalace na vlastní nebezpečí!"
+
+#: DSGos_Installer/installation/alongside.py:205
+msgid "Choose the new size of your installation"
+msgstr "Zvolte novou velikost instalace"
+
+#: DSGos_Installer/installation/alongside.py:209
+msgid "Choose the partition that you want to shrink:"
+msgstr "Vyberte oddíl, který chcete zmenšit:"
+
+#: DSGos_Installer/installation/alongside.py:212
+msgid "DSGos Alongside Installation"
+msgstr "DSGos vedle instalace"
+
+#: DSGos_Installer/installation/alongside.py:252
+msgid ""
+"Can't find any spare partition number.\n"
+"Alongside installation can't continue."
+msgstr "Nelze najít žádné náhradní číslo.\nVedle instalace nemůže pokračovat."
+
+#: DSGos_Installer/installation/alongside.py:263
+msgid "Can't find any installed OS!"
+msgstr "Nelze najít žádné nainstalované OS!"
+
+#: DSGos_Installer/installation/ask.py:127
+msgid "The 'alongside' installation mode does not work in UEFI systems"
+msgstr "Režim instalace \"vedle\" nefunguje v systémy s rozhraním UEFI"
+
+#: DSGos_Installer/installation/ask.py:141
+msgid "Windows(tm) OS detected."
+msgstr "Windows(TM) OS byl zjištěny."
+
+#: DSGos_Installer/installation/ask.py:144
+msgid "Windows(tm) OS not detected."
+msgstr "Windows(TM) OS nebyl zjištěn."
+
+#: DSGos_Installer/installation/ask.py:147
+msgid "Can't detect any OS in device sda."
+msgstr "Nelze zjistit žádné OS v zařízení sda."
+
+#: DSGos_Installer/installation/ask.py:151
+msgid "Unsuported disk layout for the 'alongside' installation mode"
+msgstr "Unsuported rozložení disku pro režim instalace \"spolu\""
+
+#: DSGos_Installer/installation/ask.py:196
+msgid " and "
+msgstr " a "
+
+#: DSGos_Installer/installation/ask.py:210
+msgid "Installation Type"
+msgstr "Typ instalace"
+
+#: DSGos_Installer/installation/ask.py:225
+msgid "Replace {0} with DSGos"
+msgstr "Nahradit DSGos {0}"
+
+#: DSGos_Installer/installation/ask.py:227
+msgid "Erase disk and install DSGos"
+msgstr "Vymazat disk a nainstalovat DSGos"
+
+#: DSGos_Installer/installation/ask.py:232
+msgid "Warning: This will erase ALL data on your disk."
+msgstr "Varování: Tímto vymažete veškerá data na disku."
+
+#: DSGos_Installer/installation/ask.py:241
+msgid "Encrypt this installation for increased security."
+msgstr "Zašifrovat tuto instalaci pro zvýšení bezpečnosti."
+
+#: DSGos_Installer/installation/ask.py:249
+msgid "You will be asked to create an encryption password in the next step."
+msgstr "V dalším kroku budete vyzváni k vytvoření šifrovacího hesla."
+
+#: DSGos_Installer/installation/ask.py:258
+msgid "Use LVM with this installation."
+msgstr "Využití LVM s touto instalací."
+
+#: DSGos_Installer/installation/ask.py:266
+msgid ""
+"This will setup LVM and allow you to easily manage partitions and create "
+"snapshots."
+msgstr "To nastavení LVM a umožňují snadnou správu oddílů a vytvářet snímky."
+
+#: DSGos_Installer/installation/ask.py:275
+msgid "Set your Home in a different partition/volume"
+msgstr "Nastavení domovského adresáře do samostatného oddílu/svazku"
+
+#: DSGos_Installer/installation/ask.py:283
+msgid ""
+"This will setup you /home directory in a different partition or volume."
+msgstr "Tato volba nastaví /home adresář na jiný oddíl nebo svazek."
+
+#: DSGos_Installer/installation/ask.py:306
+msgid "How would you like to proceed?"
+msgstr "Jak byste rádi pokračovali?"
+
+#: DSGos_Installer/installation/ask.py:318
+msgid "Choose exactly where DSGos should be installed."
+msgstr "Vyberte si přesně v kde by měl být nainstalován DSGos."
+
+#: DSGos_Installer/installation/ask.py:322
+msgid "Edit partition table and choose mount points."
+msgstr "Upravit tabulku oddílů a vybrat přípojné body."
+
+#: DSGos_Installer/installation/ask.py:356
+msgid "DSGos installation will be encrypted using LUKS"
+msgstr "Instalace distribuce DSGos bude zašifrována pomocí LUKS"
+
+#: DSGos_Installer/installation/ask.py:359
+msgid "DSGos will be installed using LVM volumes"
+msgstr "Instalace distribuce DSGos použije LVM svazky"
+
+#: DSGos_Installer/installation/ask.py:361
+msgid "DSGos will be installed using a separate /home volume."
+msgstr "DSGos použije samostatný svazek pro /home."
+
+#: DSGos_Installer/installation/ask.py:363
+msgid "DSGos will be installed using a separate /home partition."
+msgstr "DSGos použije samostatný oddíl pro /home."
+
+#: DSGos_Installer/installation/ask.py:381
+msgid "Ranking mirrors"
+msgstr "Pořadí zrcadel"
+
+#: DSGos_Installer/installation/ask.py:382
+msgid "DSGos_Installer is still updating and optimizing your mirror lists."
+msgstr "DSGos_Installer stále aktualizuje a optimalizuje seznamy zracadel."
+
+#: DSGos_Installer/installation/ask.py:384
+msgid "Please be patient..."
+msgstr "Prosím, buďte trpěliví..."
+
+#: DSGos_Installer/installation/ask.py:407
+msgid "Waiting for all external processes to finish..."
+msgstr "Čekání na všechny vnější procesy až do jejich dokončení..."
+
+#: DSGos_Installer/installation/ask.py:420
+msgid "All external processes are finished. Installation can go on"
+msgstr "Všechny externí procesy jsou hotové. Instalace může pokračovat"
+
+#: DSGos_Installer/installation/auto_partition.py:67
+msgid "Unmounting %s"
+msgstr "Odpojuje se %s"
+
+#: DSGos_Installer/installation/auto_partition.py:71
+msgid "Unmounting %s failed. Trying lazy arg."
+msgstr "Odpojování %s selhalo. Probíhá pokus s opožděnými arg."
+
+#: DSGos_Installer/installation/auto_partition.py:75
+msgid "Unmounting %s failed."
+msgstr "Odpojení %s se nezdařilo."
+
+#: DSGos_Installer/installation/auto_partition.py:138
+msgid "Can't delete existent LVM volumes"
+msgstr "Nelze odstranit existující svazky LVM"
+
+#: DSGos_Installer/installation/auto_partition.py:149
+msgid "Can't close already opened LUKS devices"
+msgstr "Nelze zavřít již otevřeno LUKS zařízení"
+
+#: DSGos_Installer/installation/auto_partition.py:158
+msgid "Can't setup LUKS in device {0}. A password or a key file are needed"
+msgstr "Nelze nastavit LUKS v zařízení {0}. Heslo nebo soubor klíče jsou zapotřebí"
+
+#: DSGos_Installer/installation/auto_partition.py:166
+msgid "DSGos_Installer will setup LUKS on device %s"
+msgstr "DSGos_Installer nastaví LUKS na zařízení %s"
+
+#: DSGos_Installer/installation/auto_partition.py:185
+#: DSGos_Installer/installation/auto_partition.py:208
+msgid "Can't format and open the LUKS device {0}"
+msgstr "Nelze formátovat a otevřít zařízení {0} LUKS"
+
+#: DSGos_Installer/installation/auto_partition.py:219
+msgid "Can't wipe filesystem of device %s"
+msgstr "Nelze vymazat filesystem zařízení %s"
+
+#: DSGos_Installer/installation/auto_partition.py:231
+msgid "Can't run dd command"
+msgstr "Nelze spustit příkaz dd"
+
+#: DSGos_Installer/installation/auto_partition.py:259
+#: DSGos_Installer/installation/auto_partition.py:291
+msgid "Error creating a new partition on device {0}"
+msgstr "Chyba při vytváření nového oddílu na zařízení {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:304
+msgid "Error creating a new partition table on device {0}"
+msgstr "Chyba při vytváření nové tabulky oddílů na zařízení {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:345
+msgid "Will format device %s as %s"
+msgstr "Zformátuje zařízení %s jako %s"
+
+#: DSGos_Installer/installation/auto_partition.py:354 DSGos_Installer/installation/process.py:310
+msgid "Can't activate swap in %s"
+msgstr "Nelze aktivovat odkládací v %s"
+
+#: DSGos_Installer/installation/auto_partition.py:355
+#: DSGos_Installer/installation/auto_partition.py:671 DSGos_Installer/installation/process.py:302
+#: DSGos_Installer/installation/process.py:311
+msgid "Command %s has failed."
+msgstr "Provedení příkazu %s selhalo."
+
+#: DSGos_Installer/installation/auto_partition.py:356
+#: DSGos_Installer/installation/auto_partition.py:672 DSGos_Installer/installation/process.py:303
+#: DSGos_Installer/installation/process.py:312
+msgid "Output : %s"
+msgstr "Výstup : %s"
+
+#: DSGos_Installer/installation/auto_partition.py:372
+msgid "Unknown filesystem type {0}"
+msgstr "Neznámý souborový systém typu {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:380
+msgid "Can't create filesystem {0}"
+msgstr "Nelze vytvořit souborový systém {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:409
+msgid "Error trying to  mount {0} in {1}"
+msgstr "Chyba při pokusu o připojení {0} v {1}"
+
+#: DSGos_Installer/installation/auto_partition.py:426
+msgid "Device details: %s UUID=%s LABEL=%s"
+msgstr "Podrobnosti o zařízení: %s UUID = %s LABEL = %s"
+
+#: DSGos_Installer/installation/auto_partition.py:512
+msgid "%s will be mounted as %s"
+msgstr "%s bude připojen jako %s"
+
+#: DSGos_Installer/installation/auto_partition.py:548
+msgid "Device %s will have a %s filesystem"
+msgstr "Zařízení %s bude mít systém souborů %s"
+
+#: DSGos_Installer/installation/auto_partition.py:602
+msgid "Total disk size: %dMiB"
+msgstr "Celková velikost disku: % dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:604
+msgid "EFI System Partition (ESP) size: %dMiB"
+msgstr "Oddíl systému EFI (ESP) Velikost: % dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:605
+msgid "Boot partition size: %dMiB"
+msgstr "Boot velikost oddílu: % dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:608
+msgid "LVM physical volume size: %dMiB"
+msgstr "LVM fyzický objem velikost: % dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:610
+msgid "Swap partition size: %dMiB"
+msgstr "Prohodit velikost oddílu: % dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:611
+msgid "Root partition size: %dMiB"
+msgstr "Kořen velikost oddílu: % dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:614
+msgid "Home partition size: %dMiB"
+msgstr "Velikost domovského oddílu: % dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:634
+msgid ""
+"Setup cannot detect size of your device, please use advanced installation "
+"routine for partitioning and mounting devices."
+msgstr "Instalační program nemůže zjistit velikost zařízení, prosím použijte rozšířené instalační rutiny pro dělení a montáž zařízení."
+
+#: DSGos_Installer/installation/auto_partition.py:669
+msgid "Error informing the kernel of the partition change."
+msgstr "Při informování jádra došlo ke změně oddílu."
+
+#: DSGos_Installer/installation/auto_partition.py:788
+msgid "DSGos_Installer will setup LVM on device %s"
+msgstr "DSGos_Installer bude nastavení LVM na zařízení %s"
+
+#: DSGos_Installer/installation/auto_partition.py:793
+msgid "Error creating LVM physical volume"
+msgstr "Chyba při vytváření fyzický svazek pro LVM"
+
+#: DSGos_Installer/installation/auto_partition.py:802
+msgid "Error creating LVM volume group"
+msgstr "Chyba při vytváření Zašifruje skupinu svazků"
+
+#: DSGos_Installer/installation/auto_partition.py:838
+msgid "Error creating LVM logical volume"
+msgstr "Chyba při vytváření LVM logický svazek"
+
+#: DSGos_Installer/installation/auto_partition.py:900
+msgid "Can't copy LUKS keyfile to the installation device"
+msgstr "Nelze kopírovat LUKS keyfile do instalace zařízení"
+
+#: DSGos_Installer/installation/automatic.py:72
+msgid "Select drive:"
+msgstr "Vyberte disk:"
+
+#: DSGos_Installer/installation/automatic.py:76
+msgid "WARNING! This will overwrite everything currently on your drive!"
+msgstr "VAROVÁNÍ\" Tímto přepíšete veškerá data na vašem disku!"
+
+#: DSGos_Installer/installation/automatic.py:81
+msgid ""
+"Select the drive we should use to install DSGos and then click above to "
+"start the process."
+msgstr "Vyberte jednotku, na kterou bychom měli použít k instalaci DSGos a klepněte na tlačítko nad spuštění procesu."
+
+#: DSGos_Installer/installation/automatic.py:85
+msgid "Encryption Password:"
+msgstr "Šifrované heslo:"
+
+#: DSGos_Installer/installation/automatic.py:89 DSGos_Installer/user_info.py:124
+msgid "Confirm your password:"
+msgstr "Znovu zadejte heslo pro ověření:"
+
+#: DSGos_Installer/installation/automatic.py:93
+msgid "LUKS Password. Do not use special characters or accents!"
+msgstr "LUKS heslo. Nepoužívejte speciální znaky nebo diakritiku!"
+
+#: DSGos_Installer/installation/automatic.py:97
+msgid "Show password"
+msgstr "Zobrazit heslo"
+
+#: DSGos_Installer/installation/automatic.py:99
+msgid "Automatic Installation Mode"
+msgstr "Automatická instalace"
+
+#: DSGos_Installer/installation/automatic.py:179
+msgid "A root LUKS password has been set"
+msgstr "Root heslo LUKS je nastaveno"
+
+#: DSGos_Installer/installation/automatic.py:181
+msgid "Automatic install on %s"
+msgstr "Automatická instalace do %s"
+
+#: DSGos_Installer/installation/automatic.py:248
+msgid ""
+"Do you really want to proceed and delete all your content on your hard "
+"drive?"
+msgstr "Opravdu chcete pokračovat a odstranit veškerý obsah na pevném disku?"
+
+#: DSGos_Installer/installation/automatic.py:262
+msgid "DSGos_Installer will install DSGos on device %s"
+msgstr "DSGos_Installer nainstaluje DSGos do zařízení %s"
+
+#: DSGos_Installer/installation/automatic.py:274
+msgid "DSGos will install the bootloader '{0}' in device '{1}'"
+msgstr "DSGos nainstaluje zavad∞φ '{0}' zařízení '{1}."
+
+#: DSGos_Installer/installation/bootloader.py:76
+msgid "DSGos_Installer will install the Gummiboot loader"
+msgstr "DSGos_Installer bude instalovat Gummiboot zavaděč"
+
+#: DSGos_Installer/installation/bootloader.py:84
+msgid "DSGos_Installer will install the Grub2 (efi) loader"
+msgstr "DSGos_Installer bude instalovat grub2 (EFI) zavaděč"
+
+#: DSGos_Installer/installation/bootloader.py:87
+msgid "DSGos_Installer will install the Grub2 (bios) loader"
+msgstr "DSGos_Installer bude instalovat grub2 (BIOS) zavaděč"
+
+#: DSGos_Installer/installation/bootloader.py:95
+msgid ""
+"'ruuid' variable is not set. I can't check root UUID in grub.cfg, let's hope"
+" it's ok"
+msgstr "Proměnná 'ruuid' není nastaven. Nelze kontrolovat root UUID v grub.cfg, doufejme, že to je v pořádku"
+
+#: DSGos_Installer/installation/bootloader.py:119
+msgid "Wrong uuid in grub.cfg, DSGos_Installer will try to fix it."
+msgstr "Špatné UUID v grub.cfg, DSGos_Installer je zkusí opravit."
+
+#: DSGos_Installer/installation/bootloader.py:180
+msgid "/etc/default/grub configuration completed successfully."
+msgstr "/etc/default/grub konfigurace byla úspěšně dokončena."
+
+#: DSGos_Installer/installation/bootloader.py:225
+msgid "Could not copy %s to grub.d"
+msgstr "Do grub.d nelze zkopírovat %s"
+
+#: DSGos_Installer/installation/bootloader.py:234
+msgid "Installing GRUB(2) BIOS boot loader in {0}"
+msgstr "Instalace GRUB(2) BIOS zavaděč v {0}"
+
+#: DSGos_Installer/installation/bootloader.py:255
+msgid "Command grub-install failed. Error output: %s"
+msgstr "Příkaz grub-install selhal. Chyba výstup: %s"
+
+#: DSGos_Installer/installation/bootloader.py:257
+msgid "Command grub-install timed out."
+msgstr "Příkaz grub-install vypršel."
+
+#: DSGos_Installer/installation/bootloader.py:259
+msgid "Command grub-install failed. Unknown Error: %s"
+msgstr "Příkaz grub-install selhal. Neznámá chyba: %s"
+
+#: DSGos_Installer/installation/bootloader.py:269 DSGos_Installer/installation/bootloader.py:375
+msgid "Running grub-mkconfig..."
+msgstr "Spuštění grub-mkconfig..."
+
+#: DSGos_Installer/installation/bootloader.py:275
+msgid ""
+"grub-mkconfig does not respond. Killing grub-mount and os-prober so we can "
+"continue."
+msgstr "grub-mkconfig, nereaguje. Zabíjení grub-mount a os-prober, abychom mohli pokračovat."
+
+#: DSGos_Installer/installation/bootloader.py:283
+msgid "GRUB(2) BIOS has been successfully installed."
+msgstr "GRUB(2) BIOS byl úspěšně nainstalován."
+
+#: DSGos_Installer/installation/bootloader.py:287
+msgid "ERROR installing GRUB(2) BIOS."
+msgstr "CHYBA při instalaci GRUB(2) BIOS."
+
+#: DSGos_Installer/installation/bootloader.py:304
+msgid "Installing GRUB(2) UEFI {0} boot loader"
+msgstr "Instalace GRUB(2) UEFI {0} zavaděče"
+
+#: DSGos_Installer/installation/bootloader.py:339
+msgid "No OEM loader found in %s. Copying Grub(2) into dir."
+msgstr " V %s nebyl nalezen OEM zavaděč. Kopíruje se Grub(2) do adresáře."
+
+#: DSGos_Installer/installation/bootloader.py:342
+msgid "Copying Grub(2) into OEM dir failed: %s"
+msgstr "Kopírování Grub(2) do OEM dir se nezdařilo: %s"
+
+#: DSGos_Installer/installation/bootloader.py:346
+msgid "File not found."
+msgstr "Soubor nebyl nalezen."
+
+#: DSGos_Installer/installation/bootloader.py:348
+msgid "File already exists."
+msgstr "Soubor již existuje."
+
+#: DSGos_Installer/installation/bootloader.py:358
+msgid "UEFI Shell drop-in not found at %s"
+msgstr "UEFI Shell drop-in na %s nebyl nalezen"
+
+#: DSGos_Installer/installation/bootloader.py:362
+msgid "UEFI Shell drop-in could not be copied."
+msgstr "UEFI Shell drop-in nelze zkopírovat."
+
+#: DSGos_Installer/installation/bootloader.py:366
+msgid "Generating grub.cfg"
+msgstr "Generování grub.cfg"
+
+#: DSGos_Installer/installation/bootloader.py:381
+msgid ""
+"grub-mkconfig appears to be hung. Killing grub-mount and os-prober so we can"
+" continue."
+msgstr "Zdá se, že grub-mkconfig kombinovatelná. Zabíjení grub-mount a os-prober, abychom mohli pokračovat."
+
+#: DSGos_Installer/installation/bootloader.py:394
+msgid "Path '%s' doesn't exist, when it should"
+msgstr "Cesta '%s' neexistuje, pokud by měl"
+
+#: DSGos_Installer/installation/bootloader.py:397
+msgid "GRUB(2) UEFI install completed successfully"
+msgstr "Instalace GRUB(2) UEFI byla úspěšně dokončena"
+
+#: DSGos_Installer/installation/bootloader.py:401
+msgid "GRUB(2) UEFI install may not have completed successfully."
+msgstr "GRUB(2) UEFI instalace nemusí být úspěšně dokončena."
+
+#: DSGos_Installer/installation/bootloader.py:413
+msgid "50mounted-tests file patched successfully"
+msgstr "50mounted-testy soubor oprava úspěšně"
+
+#: DSGos_Installer/installation/bootloader.py:415
+msgid "Failed to patch 50mounted-tests, file not found."
+msgstr "Nepodařilo se 50mounted-testy, soubor nebyl nalezen."
+
+#: DSGos_Installer/installation/bootloader.py:419
+msgid "Copying GRUB(2) Theme Files"
+msgstr "Kopírují se soubory motivů pro GRUB(2)"
+
+#: DSGos_Installer/installation/bootloader.py:425
+msgid "Grub2 theme files not found"
+msgstr "Soubory motivů pro Grub2 nenalezeny"
+
+#: DSGos_Installer/installation/bootloader.py:427
+msgid "Grub2 theme files already exist."
+msgstr "Soubory motivů pro Grub2 již v souborovém systému existují."
+
+#: DSGos_Installer/installation/bootloader.py:431
+msgid "Installing Grub2 locales."
+msgstr "Instalace národního prostředí pro Grub2."
+
+#: DSGos_Installer/installation/bootloader.py:441
+msgid "Can't install GRUB(2) locale."
+msgstr "Nelze nainstalovat národní prostředí pro GRUB(2)."
+
+#: DSGos_Installer/installation/bootloader.py:549
+msgid "Installing gummiboot bootloader..."
+msgstr "Instalace gummiboot zavaděče..."
+
+#: DSGos_Installer/installation/bootloader.py:555
+msgid "Gummiboot install completed successfully"
+msgstr "Gummiboot instalace byla úspěšně dokončena"
+
+#: DSGos_Installer/installation/bootloader.py:558
+msgid "Command gummiboot failed. Error output: %s"
+msgstr "Příkaz gummiboot selhal. Chyba výstupního: %s"
+
+#: DSGos_Installer/installation/bootloader.py:561
+msgid "Command gummiboot timed out."
+msgstr "Příkaz gummiboot vypršel."
+
+#: DSGos_Installer/installation/bootloader.py:564
+msgid "Command gummiboot failed. Unknown Error: %s"
+msgstr "Příkaz gummiboot selhal. Neznámá chyba: %s"
+
+#: DSGos_Installer/installation/bootloader.py:596
+msgid "Can't freeze/unfreeze xfs system"
+msgstr "Nelze zmrazení/rozmrazení systému xfs"
+
+#: DSGos_Installer/installation/chroot.py:61
+msgid "Special dirs are already mounted. Skipping."
+msgstr "Zvláštní složky jsou již namontovány. Bude vynechán."
+
+#: DSGos_Installer/installation/chroot.py:91
+msgid "Special dirs are not mounted. Skipping."
+msgstr "Speciální adresáře nejsou již připojeny. Přeskakuje se."
+
+#: DSGos_Installer/installation/chroot.py:136
+msgid "Timeout running the command %s"
+msgstr "Časový limit příkazu %s"
+
+#: DSGos_Installer/installation/chroot.py:137 DSGos_Installer/installation/chroot.py:140
+msgid "DSGos_Installer will try to continue anyways"
+msgstr "DSGos_Installer se snažit pokračovat"
+
+#: DSGos_Installer/installation/firewall.py:72
+msgid "Aborted"
+msgstr "Přerušeno"
+
+#: DSGos_Installer/installation/lamp.py:51 DSGos_Installer/installation/lemp.py:50
+msgid "Doing Mariadb setup..."
+msgstr "Děláte nastavení Mariadb..."
+
+#: DSGos_Installer/installation/lamp.py:53
+msgid "Mariadb setup done. Doing Apache setup..."
+msgstr "Nastavení Mariadb provedeno. Děláte nastavení Apache..."
+
+#: DSGos_Installer/installation/lamp.py:55
+msgid "Apache setup done. Doing PHP setup..."
+msgstr "Nastavení apache provedeno. Děláte nastavení PHP..."
+
+#: DSGos_Installer/installation/lamp.py:57
+msgid "PHP setup done."
+msgstr "Nastavení PHP provedeno."
+
+#: DSGos_Installer/installation/lemp.py:52
+msgid "Mariadb setup done. Doing Nginx setup..."
+msgstr "Nastavení Mariadb provedeno. Děláte nastavení Nginx..."
+
+#: DSGos_Installer/installation/lemp.py:54
+msgid "Nginx setup done. Doing PHP-fpm setup..."
+msgstr "Nastavení Nginx provedeno. Děláte PHP-FPM nastavení..."
+
+#: DSGos_Installer/installation/lemp.py:56
+msgid "PHP-fpm setup done."
+msgstr "Nastavení PHP-FPM provedeno."
+
+#: DSGos_Installer/installation/mkinitcpio.py:101
+msgid "Setting hooks and modules in mkinitcpio.conf"
+msgstr "Nastavení háky a moduly v mkinitcpio.conf"
+
+#: DSGos_Installer/installation/process.py:101
+msgid "Installing using the '{0}' method"
+msgstr "Instalace pomocí metody {0}."
+
+#: DSGos_Installer/installation/process.py:175
+msgid "Error running command %s"
+msgstr "Chyba při spuštění příkazu %s"
+
+#: DSGos_Installer/installation/process.py:222
+msgid "Creating partitions and their filesystems in %s"
+msgstr "Na disku %s se vytváří oddíly a jejich souborové systémy"
+
+#: DSGos_Installer/installation/process.py:269 DSGos_Installer/installation/process.py:296
+msgid "Mounting partition {0} into {1} directory"
+msgstr "Montáž oddílu {0} do adresáře {1}"
+
+#: DSGos_Installer/installation/process.py:276
+msgid "Mounting partition {0} into {1}/boot directory"
+msgstr "Montážní oddíl {0} do {1} / spouštěcí adresář"
+
+#: DSGos_Installer/installation/process.py:301
+msgid "Can't mount %s in %s"
+msgstr "Nelze připojit %s v %s"
+
+#: DSGos_Installer/installation/process.py:306
+msgid "Activating swap in %s"
+msgstr "Aktivace swapu v %s"
+
+#: DSGos_Installer/installation/process.py:322
+msgid "%s deleted"
+msgstr "odstranění %s"
+
+#: DSGos_Installer/installation/process.py:347
+msgid "Prepare pacman..."
+msgstr "Připravte pacman..."
+
+#: DSGos_Installer/installation/process.py:349
+msgid "Pacman ready"
+msgstr "Pacman připraven"
+
+#: DSGos_Installer/installation/process.py:351
+msgid "Selecting packages..."
+msgstr "Probíhá výběr balíků..."
+
+#: DSGos_Installer/installation/process.py:353
+msgid "Packages selected"
+msgstr "Vybrané balíky"
+
+#: DSGos_Installer/installation/process.py:358
+msgid "Removed 'v86d' package from list"
+msgstr "Odstranit modul 'v86d' vyžaduje balíček ze seznamu"
+
+#: DSGos_Installer/installation/process.py:360
+msgid "Downloading packages..."
+msgstr "Probíhá stahování balíčků..."
+
+#: DSGos_Installer/installation/process.py:363 DSGos_Installer/installation/process.py:704
+msgid "Installing packages..."
+msgstr "Instalují se balíčky..."
+
+#: DSGos_Installer/installation/process.py:366
+msgid "Configuring system..."
+msgstr "Konfigurace systému..."
+
+#: DSGos_Installer/installation/process.py:378
+msgid "Installation finished"
+msgstr "Instalace dokončena"
+
+#: DSGos_Installer/installation/process.py:392
+msgid "Can't copy DSGos_Installer log to %s"
+msgstr "Nelze kopírovat DSGos_Installer log do %s"
+
+#: DSGos_Installer/installation/process.py:423
+msgid "Creating a temporary pacman.conf for {0} architecture"
+msgstr "Vytvoření dočasné pacman.conf v architektuře {0}"
+
+#: DSGos_Installer/installation/process.py:450
+msgid "Can't initialize pyalpm."
+msgstr "Nelze inicializovat pyalpm."
+
+#: DSGos_Installer/installation/process.py:454
+msgid "Can't refresh pacman databases."
+msgstr "Nelze aktualizovat databáze pacman."
+
+#: DSGos_Installer/installation/process.py:470
+msgid "Can't start haveged service"
+msgstr "Nelze spustit službu Haveged "
+
+#: DSGos_Installer/installation/process.py:481
+msgid "Error deleting old gnupg files"
+msgstr "Chyba při odstraňování starých souborů gnupg"
+
+#: DSGos_Installer/installation/process.py:492
+msgid "Error regenerating gnupg files with pacman-key"
+msgstr "Chyba při obnovení gnupg souborů s pacman klíčem"
+
+#: DSGos_Installer/installation/process.py:506
+msgid "Getting package list..."
+msgstr "Získává se seznamu balíků..."
+
+#: DSGos_Installer/installation/process.py:510
+msgid "Getting url {0}..."
+msgstr "Zjišťuje se url {0}..."
+
+#: DSGos_Installer/installation/process.py:517
+msgid "Can't retrieve remote package list, using the local file instead."
+msgstr "Nelze načíst vzdálený seznam balíčků, použijte místní soubor."
+
+#: DSGos_Installer/installation/process.py:520
+msgid "Loading {0}"
+msgstr "Načítání {0}"
+
+#: DSGos_Installer/installation/process.py:545
+msgid "Adding '%s' desktop packages"
+msgstr "Přidávání balíku '%s' pracovního prostředí "
+
+#: DSGos_Installer/installation/process.py:570
+msgid "Selected kde language pack: %s"
+msgstr "Vybraný jazykový balíček KDE: %s"
+
+#: DSGos_Installer/installation/process.py:579
+msgid "Hardware module detected this drivers: %s"
+msgstr "Hardwarový modul zjistil tohoto ovladače: %s"
+
+#: DSGos_Installer/installation/process.py:585
+msgid "Hardware module added these packages: %s"
+msgstr "Hardwarový modul dodal tyto balíčky: %s"
+
+#: DSGos_Installer/installation/process.py:591
+msgid "Running hardware drivers pre-install jobs..."
+msgstr "Spuštění předinstalování ovladačů hardwaru..."
+
+#: DSGos_Installer/installation/process.py:594 DSGos_Installer/installation/process.py:1309
+msgid "Unknown error in hardware module. Output: %s"
+msgstr "Neznámá chyba v hardwarovém modulu. Výstup: %s"
+
+#: DSGos_Installer/installation/process.py:597
+msgid "Adding filesystem packages"
+msgstr "Přidávání balíků souborového systému"
+
+#: DSGos_Installer/installation/process.py:620
+msgid "Check for user desired features and add them to our installation"
+msgstr "Kontrola požadovaných funkcí uživatelem a jejich přidání do naší instalace"
+
+#: DSGos_Installer/installation/process.py:622
+msgid "All features needed packages have been added"
+msgstr "Byly přidány všechny funkce, které vyžadovaly balíky"
+
+#: DSGos_Installer/installation/process.py:627
+msgid "Selecting chinese fonts."
+msgstr "Vybírají se čínská písma."
+
+#: DSGos_Installer/installation/process.py:639
+msgid "Adding '%s' bootloader packages"
+msgstr "Přidání balíčků zavaděče '%s'"
+
+#: DSGos_Installer/installation/process.py:645
+msgid "Couldn't find %s bootloader packages!"
+msgstr "Nelze najít %s bootloader balíčky!"
+
+#: DSGos_Installer/installation/process.py:665
+msgid "Adding packages for '%s' feature."
+msgstr "Přidání balíčků pro '%s' funkce."
+
+#: DSGos_Installer/installation/process.py:677
+msgid "Selecting package %s for feature %s"
+msgstr "Výběr balíčku %s pro funkce %s"
+
+#: DSGos_Installer/installation/process.py:684
+msgid "Add libreoffice language package"
+msgstr "Přidat jazykový balíček pro LibreOffice"
+
+#: DSGos_Installer/installation/process.py:751
+msgid "Can't copy network configuration files"
+msgstr "Nelze kopírovat síťové konfigurační soubory "
+
+#: DSGos_Installer/installation/process.py:775
+msgid "Can't get {0} partition UUID. It won't be added to fstab"
+msgstr "Nelze získat {0} UUID diskového oddílu. Nebude přidáno do fstab"
+
+#: DSGos_Installer/installation/process.py:794 DSGos_Installer/installation/process.py:820
+#: DSGos_Installer/installation/process.py:835 DSGos_Installer/installation/process.py:900
+msgid "Added to fstab : %s"
+msgstr "Přidáno do fstab: %s"
+
+#: DSGos_Installer/installation/process.py:814 DSGos_Installer/installation/process.py:830
+msgid "Added to crypttab : %s"
+msgstr "Přidáno do crypttab : %s"
+
+#: DSGos_Installer/installation/process.py:908
+msgid "fstab written."
+msgstr "fstab byl zapsán."
+
+#: DSGos_Installer/installation/process.py:917
+msgid "Could not copy udev rule for SSDs"
+msgstr "Nelze kopírovat udev pravidla pro SSD disky"
+
+#: DSGos_Installer/installation/process.py:930
+msgid "Service '%s' has been enabled."
+msgstr "Služba '%s' byla povolena."
+
+#: DSGos_Installer/installation/process.py:932
+msgid "Can't find service %s"
+msgstr "Služba %s nebyla nalezena"
+
+#: DSGos_Installer/installation/process.py:940
+msgid "Error creating password hash for user %s"
+msgstr "Chyba při vytváření hesla pro uživatele %s"
+
+#: DSGos_Installer/installation/process.py:946
+msgid "Error changing password for user %s"
+msgstr "CHYBA při změně hesla uživatele %s"
+
+#: DSGos_Installer/installation/process.py:957
+msgid "Error adjusting hardware clock"
+msgstr "Chyba nastavení hardwarových hodin"
+
+#: DSGos_Installer/installation/process.py:982
+msgid "Can't find pacman configuration file"
+msgstr "Pacman konfigurační soubor nebyl nalezen"
+
+#: DSGos_Installer/installation/process.py:1001
+msgid "Can't find locale.gen file"
+msgstr "Nelze najít soubor locale.gen"
+
+#: DSGos_Installer/installation/process.py:1013
+msgid "Copying xz files from cache..."
+msgstr "Kopírování xz souborů z cache..."
+
+#: DSGos_Installer/installation/process.py:1049
+msgid "Configuring firewall..."
+msgstr "Konfigurace firewallu..."
+
+#: DSGos_Installer/installation/process.py:1063
+msgid "Configuring LAMP..."
+msgstr "Konfigurace LAMP..."
+
+#: DSGos_Installer/installation/process.py:1067
+msgid "Can't import LAMP module"
+msgstr "Nelze importovat modul LAMP"
+
+#: DSGos_Installer/installation/process.py:1072
+msgid "Configuring LEMP..."
+msgstr "Konfigurace LEMP..."
+
+#: DSGos_Installer/installation/process.py:1076
+msgid "Can't import LEMP module"
+msgstr "Nelze importovat LEMP modul"
+
+#: DSGos_Installer/installation/process.py:1084
+msgid "Configuring LightDM desktop manager..."
+msgstr "Konfigurace Správce plochy LightDM..."
+
+#: DSGos_Installer/installation/process.py:1116
+msgid "LightDM display manager configuration completed."
+msgstr " Byla dokončena konfigurace správceLightDM "
+
+#: DSGos_Installer/installation/process.py:1119
+msgid "Error while trying to configure the LightDM display manager"
+msgstr "Chyba při pokusu o konfiguraci LightDM display manager"
+
+#: DSGos_Installer/installation/process.py:1205
+msgid "Configuring your new system"
+msgstr "Konfigurace vašeho nového systému"
+
+#: DSGos_Installer/installation/process.py:1211
+msgid "fstab file generated."
+msgstr "byl vygenerován soubor fstab."
+
+#: DSGos_Installer/installation/process.py:1216
+msgid "SSD udev rule copied successfully"
+msgstr "SSD udev pravidlo úspěšně zkopírovány"
+
+#: DSGos_Installer/installation/process.py:1237
+msgid "Network configuration done."
+msgstr "Konfigurace sítě provedena."
+
+#: DSGos_Installer/installation/process.py:1243
+msgid "Mirror list copied."
+msgstr "Seznam zrcadel byl zkopírován."
+
+#: DSGos_Installer/installation/process.py:1245
+msgid "Can't copy mirrorlist file"
+msgstr "Nelze kopírovat soubor se seznamem zrcadel"
+
+#: DSGos_Installer/installation/process.py:1252
+msgid "Generated /etc/pacman.conf"
+msgstr "Vygenerován /etc/pacman.conf"
+
+#: DSGos_Installer/installation/process.py:1274
+msgid "Timezone set."
+msgstr "Časová zóna nastavena."
+
+#: DSGos_Installer/installation/process.py:1296
+msgid "Sudo configuration for user %s done."
+msgstr "Konfigurace sudo pro uživatele %s je hotova."
+
+#: DSGos_Installer/installation/process.py:1306
+msgid "Running hardware drivers post-install jobs..."
+msgstr "Hardwarové ovladače po-instalační úlohy..."
+
+#: DSGos_Installer/installation/process.py:1328
+msgid "User %s added."
+msgstr "Uživatel %s přidán."
+
+#: DSGos_Installer/installation/process.py:1343
+msgid "Hostname set to %s."
+msgstr "Jméno počítače nastaveno na %s."
+
+#: DSGos_Installer/installation/process.py:1347
+msgid "Set the same password to root."
+msgstr "Zadejte stejné heslo jako pro uživatele root."
+
+#: DSGos_Installer/installation/process.py:1351
+msgid "Generating locales..."
+msgstr "Vytváří se národní prostředí..."
+
+#: DSGos_Installer/installation/process.py:1363
+msgid "Adjusting hardware clock..."
+msgstr "Seřizují se hardwarové hodiny..."
+
+#: DSGos_Installer/installation/process.py:1366
+msgid "Configuring keymap..."
+msgstr "Konfigurace mapy kláves..."
+
+#: DSGos_Installer/installation/process.py:1373
+msgid "Set /etc/X11/xorg.conf.d/00-keyboard.conf for the xkblayout"
+msgstr "Nastavte /etc/X11/xorg.conf.d/00-keyboard.conf pro xkblayout"
+
+#: DSGos_Installer/installation/process.py:1389
+msgid "00-keyboard.conf written."
+msgstr "00-keyboard.conf byl zapsán."
+
+#: DSGos_Installer/installation/process.py:1404
+msgid "Configuring hardware..."
+msgstr "Konfigurace hardware..."
+
+#: DSGos_Installer/installation/process.py:1414
+msgid "Updated Alsa mixer settings"
+msgstr "Aktualizované nastavení směšovače Alsa"
+
+#: DSGos_Installer/installation/process.py:1422
+msgid "Updated fluidsynth configuration file"
+msgstr "Konfigurační soubor aktualizované fluidsynth"
+
+#: DSGos_Installer/installation/process.py:1428
+msgid "Configuring System Startup..."
+msgstr "Konfigurace spouštění systému..."
+
+#: DSGos_Installer/installation/process.py:1431
+msgid "Call DSGos_Installer post-install script"
+msgstr "DSGos_Installer post-instalační skript"
+
+#: DSGos_Installer/installation/process.py:1450
+msgid "Post install script completed successfully."
+msgstr "Poinstalační skript byl úspěšně dokončen."
+
+#: DSGos_Installer/installation/process.py:1453
+msgid "Error running post-install script"
+msgstr "Chyba při spuštění poinstalačního skriptu"
+
+#: DSGos_Installer/installation/process.py:1469
+msgid "Encrypting user home dir..."
+msgstr "Šifrování domovského adresáře..."
+
+#: DSGos_Installer/installation/process.py:1471
+msgid "User home dir encrypted"
+msgstr "Domovský adresář zašifrován"
+
+#: DSGos_Installer/installation/process.py:1476
+msgid "Installing bootloader..."
+msgstr "Instalace zavaděče systému..."
+
+#: DSGos_Installer/installation/process.py:1481
+msgid "While installing boot loader DSGos_Installer encountered this error: %s"
+msgstr "Při instalaci zavaděče DSGos_Installer narazil na tuto chybu: %s"
+
+#: DSGos_Installer/installation/process.py:1487
+msgid "Copying install log to /var/log."
+msgstr "Instalační protokol kopírování do/var/log."
+
+#: DSGos_Installer/installation/systemd_networkd.py:79
+msgid "systemd-networkd configuration failed."
+msgstr "konfigurace systemd-networkd se nezdařila."
+
+#: DSGos_Installer/installation/systemd_networkd.py:82
+msgid "Found [%s] links and [%s] are wireless"
+msgstr "Nalezené [%s] spojení a [%s] jsou bezdrátové"
+
+#: DSGos_Installer/keymap.py:76
+msgid "Select Your Keyboard Layout"
+msgstr "Vyberte si rozložení klávesnice"
+
+#: DSGos_Installer/keymap.py:81
+msgid ""
+"Choose your keyboard layout and variant (if applies).\n"
+"For instance, the default Slovak variant is qwertz, but you\n"
+"can manually specify qwerty, etc.\n"
+"\n"
+"You can use the entry below the keyboard to test your\n"
+"layout selection."
+msgstr "Vyberte si rozložení klávesnice a variantu (pokud se vztahuje).\nNapříklad výchozí Česká varianta je QWERTZ, ale vy\nmůžete ručně zadat qwerty, apod..\n\nMůžete použít položku pod klávesnicí k otestování výběru rozložení."
+
+#: DSGos_Installer/keymap.py:123
+msgid "Can't match a keymap for country code '%s'"
+msgstr "Nelze shodovat s mapu kláves s kódem země '%s'"
+
+#: DSGos_Installer/keymap.py:164 DSGos_Installer/keymap.py:178
+msgid "Can't find value '%s' in treeview"
+msgstr "Nelze nalézt hodnotu '%s' ve stromu"
+
+#: DSGos_Installer/keymap.py:230
+msgid "Unknown layout description %s"
+msgstr "Neznámý popisek rozvržení %s"
+
+#: DSGos_Installer/keymap.py:242
+msgid "Unknown variant description %s"
+msgstr "Neznámá varianta popisku %s"
+
+#: DSGos_Installer/keymap.py:268
+msgid "Set keyboard to layout name '{0}' ({1}) and variant name '{2}' ({3})"
+msgstr "Nastavte klávesnici jméno rozvržení '{0}' ({1}) a název varianty '{2}' ({3})"
+
+#: DSGos_Installer/keymap.py:274
+msgid "Set keyboard to layout name '{0}' ({1})"
+msgstr "Nastavte klávesnici jméno rozvržení '{0}' ({1})"
+
+#: DSGos_Installer/language.py:78
+msgid "Notice: The DSGos_Installer Installer is beta software."
+msgstr "Upozornění: Instalátor DSGos_Installer je beta software."
+
+#: DSGos_Installer/language.py:80
+msgid ""
+"DSGos_Installer is pre-release beta software that is under active development. It does not yet properly handle RAID, btrfs subvolumes, or other advanced setups. Please proceed with caution as data loss is possible!\n"
+"\n"
+"If you find any bugs, please report them at {0}"
+msgstr "DSGos_Installer je software v pre-beta verzi, který je pod aktivním vývojem. To zatím ne zcela správně zachází s RAID, Btrfs subvolumes nebo jinými pokročilými nastaveními. Prosím, postupujte opatrně, protože hrozí riziko ztráty dat!\n\nPokud najdete nějaké chyby, prosím, nahlaste je v {0}"
+
+#: DSGos_Installer/language.py:93
+msgid "Choose your language"
+msgstr "Zvolte si jazyk"
+
+#: DSGos_Installer/language.py:132
+msgid "Can't find translation file for the %s language"
+msgstr "Nelze nalézt soubor s překladem pro jazyk %s"
+
+#: DSGos_Installer/location.py:71
+msgid ""
+"The location you select will be used to help determine the system locale. It"
+" should normally be the country in which you reside. Here is a shortlist of "
+"locations based on the language you selected."
+msgstr "Umístění které vyberete bude použito k pomoci s určením národního prostředí systému. To je za normálních okolností země, v níž žijete. Zde je užší seznam lokalit na základě jazyka, který jste vybrali."
+
+#: DSGos_Installer/location.py:78
+msgid "Country, territory or area:"
+msgstr "Země, území nebo oblast:"
+
+#: DSGos_Installer/location.py:83
+msgid "Show all locations"
+msgstr "Zobrazit všechna umístění"
+
+#: DSGos_Installer/location.py:86
+msgid "Select your location"
+msgstr "Vyberte umístění"
+
+#: DSGos_Installer/location.py:204 DSGos_Installer/location.py:212 DSGos_Installer/misc/misc.py:963
+#: DSGos_Installer/misc/misc.py:971
+msgid "locale changed to : %s"
+msgstr "národní prostředí změněno na : %s"
+
+#: DSGos_Installer/location.py:206 DSGos_Installer/location.py:215 DSGos_Installer/location.py:217
+#: DSGos_Installer/misc/misc.py:973 DSGos_Installer/misc/misc.py:976
+msgid "Can't change to locale '%s'"
+msgstr "Nelze změnit národní prostředí na '%s'"
+
+#: DSGos_Installer/location.py:233
+msgid "Can't get country code from %s location"
+msgstr "Nelze získat kód země %s z umístění"
+
+#: DSGos_Installer/main_window.py:73
+msgid ""
+"This installer must be run with administrative privileges, and cannot "
+"continue without them."
+msgstr "Tento instalátor musí být spuštěn s oprávněními správce a bez nich nemůže pokračovat."
+
+#: DSGos_Installer/main_window.py:81
+msgid "File '%s' already exists."
+msgstr "Soubor '%s' již existuje."
+
+#: DSGos_Installer/main_window.py:82
+msgid ""
+"You cannot run two instances of this installer.\n"
+"\n"
+"If you are sure that the installer is not already running\n"
+"you can run this installer using the --force option\n"
+"or you can manually delete the offending file.\n"
+"\n"
+"Offending file: '{0}'"
+msgstr "Nelze spustit dvě instance tohoto instalačního programu.\n\nPokud jste si jisti, že instalační program neběží můžete spustit tento instalační program pomocí – vybrat možnost, nebo si můžete ručně odstranit problematický soubor.\n\nChybný soubor: {0}."
+
+#: DSGos_Installer/main_window.py:90
+msgid "DSGos_Installer installer version %s"
+msgstr "Verze DSGos_Installer instalátoru %s"
+
+#: DSGos_Installer/main_window.py:156
+msgid "Next step"
+msgstr "Další krok"
+
+#: DSGos_Installer/main_window.py:157
+msgid "Previous step"
+msgstr "Předchozí krok"
+
+#: DSGos_Installer/main_window.py:179
+msgid "Using %s to download packages"
+msgstr "Použití %s ke stažení balíčků"
+
+#: DSGos_Installer/main_window.py:197
+msgid "Using '%s' file as package list"
+msgstr "Pomocí souboru '%s' jako seznam balíčků"
+
+#: DSGos_Installer/main_window.py:228
+msgid "DSGos Installer"
+msgstr "DSGos Instalátor"
+
+#: DSGos_Installer/main_window.py:376
+msgid "Do you really want to quit the installer?"
+msgstr "Opravdu chcete instalační program ukončit?"
+
+#: DSGos_Installer/main_window.py:385
+msgid "Quiting installer..."
+msgstr "Dokončuji instalaci ..."
+
+#: DSGos_Installer/misc/keyboard_names.py:88
+msgid "Can't find %s file!"
+msgstr "Nelze najít %s soubor!"
+
+#: DSGos_Installer/misc/misc.py:965
+msgid "Can't change to locale '%s' : %s"
+msgstr "Nelze změnit  prostředí '%s': %s"
+
+#: DSGos_Installer/misc/validation.py:136
+msgid "Password is too short"
+msgstr "Heslo je příliš krátké"
+
+#: DSGos_Installer/misc/validation.py:139
+msgid "Weak password"
+msgstr "Slabé heslo"
+
+#: DSGos_Installer/misc/validation.py:142
+msgid "Fair password"
+msgstr "Spravedlivé heslo"
+
+#: DSGos_Installer/misc/validation.py:145
+msgid "Good password"
+msgstr "Dobré heslo"
+
+#: DSGos_Installer/misc/validation.py:148
+msgid "Strong password"
+msgstr "Silné heslo"
+
+#: DSGos_Installer/misc/validation.py:163
+msgid "Passwords do not match"
+msgstr "Hesla se neshodují"
+
+#: DSGos_Installer/pacman/pac.py:110
+msgid "alpm init with root dir '{0}' and db path '{1}'"
+msgstr "alpm init s kořenovým dir '{0}' a db cestou '{1}'"
+
+#: DSGos_Installer/pacman/pac.py:153
+msgid "Prepare alpm transaction..."
+msgstr "Připravte alpm transakce..."
+
+#: DSGos_Installer/pacman/pac.py:155
+msgid "Commit alpm transaction..."
+msgstr "Potvrzení transakce alpm..."
+
+#: DSGos_Installer/pacman/pac.py:158
+msgid "Can't finalize alpm transaction: %s"
+msgstr "Nelze dokončit transakci alpm: %s"
+
+#: DSGos_Installer/pacman/pac.py:162
+msgid "Releasing alpm transaction..."
+msgstr "Uvolnění alpm transakce..."
+
+#: DSGos_Installer/pacman/pac.py:164
+msgid "Alpm transaction done."
+msgstr "Alpm transakce provedena."
+
+#: DSGos_Installer/pacman/pac.py:190
+msgid "Can't init alpm transaction: %s"
+msgstr "Nelze init alpm transakce: %s"
+
+#: DSGos_Installer/pacman/pac.py:227
+msgid "Target %s not found"
+msgstr "Cíl %s nebyl nalezena."
+
+#: DSGos_Installer/pacman/pac.py:234 DSGos_Installer/pacman/pac.py:317
+msgid "Can't init transaction"
+msgstr "Nelze init transakce"
+
+#: DSGos_Installer/pacman/pac.py:238
+msgid "Adding package '%s' to remove transaction"
+msgstr "Přidání balíčku '%s' Odstranit transakce"
+
+#: DSGos_Installer/pacman/pac.py:246 DSGos_Installer/pacman/pac.py:263
+msgid "alpm is not initialised"
+msgstr "alpm není inicializována."
+
+#: DSGos_Installer/pacman/pac.py:267
+msgid "Package list is empty"
+msgstr "Seznam balíčků je prázdný"
+
+#: DSGos_Installer/pacman/pac.py:270
+msgid "DSGos_Installer will install a list of packages like pacman -S"
+msgstr "DSGos_Installer nainstaluje seznam balíčků, jako pacman -S"
+
+#: DSGos_Installer/pacman/pac.py:298
+msgid "Can't find a package or group called '%s'"
+msgstr "Nedaří se nalézt balíček nebo skupinu s názvem '%s'"
+
+#: DSGos_Installer/pacman/pac.py:304
+msgid "No targets found"
+msgstr "Žádné cíle, nalezeny"
+
+#: DSGos_Installer/pacman/pac.py:435
+msgid "Checking dependencies..."
+msgstr "Kontrolují se závislosti..."
+
+#: DSGos_Installer/pacman/pac.py:437
+msgid "Checking file conflicts..."
+msgstr "Kontrolují se konflikty souborů..."
+
+#: DSGos_Installer/pacman/pac.py:439
+msgid "Resolving dependencies..."
+msgstr "Řeší se závislosti..."
+
+#: DSGos_Installer/pacman/pac.py:441
+msgid "Checking inter conflicts..."
+msgstr "Kontrolují se interní konflikty..."
+
+#: DSGos_Installer/pacman/pac.py:446
+msgid "Checking integrity..."
+msgstr "Kontrola integrity..."
+
+#: DSGos_Installer/pacman/pac.py:448
+msgid "Loading packages..."
+msgstr "Načítají se balíčky..."
+
+#: DSGos_Installer/pacman/pac.py:450
+msgid "Checking target delta's integrity..."
+msgstr "Kontrola integrity cíl delta..."
+
+#: DSGos_Installer/pacman/pac.py:452
+msgid "Applying deltas to packages..."
+msgstr "Použití delty na balíčky..."
+
+#: DSGos_Installer/pacman/pac.py:454
+msgid "Applying delta patch to target package..."
+msgstr "Použití opravy delta do cílového balíčku..."
+
+#: DSGos_Installer/pacman/pac.py:456
+msgid "Downloading files from the repository..."
+msgstr "Stahují se soubory z repozitáře..."
+
+#: DSGos_Installer/pacman/pac.py:458
+msgid "Checking disk space..."
+msgstr "Kontroluje se místo na disku..."
+
+#: DSGos_Installer/pacman/pac.py:460
+msgid "Checking keys in keyring..."
+msgstr "Kontrolují se klíče v klíčence..."
+
+#: DSGos_Installer/pacman/pac.py:462
+msgid "Downloading missing keys into the keyring..."
+msgstr "Stahují se chybějící klíče do klíčenky"
+
+#: DSGos_Installer/pacman/pac.py:501
+msgid "Installing {0} ({1}/{2})"
+msgstr "Instalace produktu {0} ({1} / {2})"
+
+#: DSGos_Installer/pacman/pac.py:526
+msgid "Updating {0} database"
+msgstr "Aktualizace databáze {0}"
+
+#: DSGos_Installer/pacman/pac.py:535
+msgid "Downloading {0}..."
+msgstr "Stahuje se {0}..."
+
+#: DSGos_Installer/pacman/pkginfo.py:192
+msgid "Explicitly installed"
+msgstr "Explicitně nainstalované"
+
+#: DSGos_Installer/pacman/pkginfo.py:194
+msgid "Installed as a dependency for another package"
+msgstr "Nainstalováno jako závislost pro jiný balíček"
+
+#: DSGos_Installer/parted3/fs_module.py:43
+msgid "Can't get partition %s UUID"
+msgstr "Nelze získat diskový oddíl %s UUID"
+
+#: DSGos_Installer/parted3/fs_module.py:51
+msgid "Can't get partition %s label (or it does not have any)"
+msgstr "Nelze získat diskový oddíl %s štítek (nebo žádný nemá)"
+
+#: DSGos_Installer/parted3/fs_module.py:119
+msgid "Can't label a {0} partition"
+msgstr "Nelze označit oddíl {0}"
+
+#: DSGos_Installer/parted3/fs_module.py:154
+msgid "Unknown filesystem {0}"
+msgstr "Neznámý souborový systém {0}"
+
+#: DSGos_Installer/parted3/fs_module.py:237
+msgid "Sorry but filesystem %s can't be shrinked"
+msgstr "Omlouváme se, ale souborový systém %s nelze zmenšovat"
+
+#: DSGos_Installer/parted3/lvm.py:81
+msgid "Can't remove logical volume {0}"
+msgstr "Logický svazek {0} nelze odebrat."
+
+#: DSGos_Installer/parted3/lvm.py:100
+msgid "Can't remove volume group {0}"
+msgstr "Nelze odstranit svazek skupiny {0}"
+
+#: DSGos_Installer/parted3/lvm.py:113
+msgid "Can't remove physical volume {0}"
+msgstr "Fyzický objem {0} nelze odebrat."
+
+#: DSGos_Installer/parted3/partition_module.py:111
+msgid ""
+"Exception: {0}.\n"
+"For more information take a look at /tmp/DSGos_Installer.log"
+msgstr "Výjimka: {0}. Další informace Podívejte se na /tmp/DSGos_Installer.log"
+
+#: DSGos_Installer/parted3/partition_module.py:182
+msgid "Can't delete partition {0}"
+msgstr "Nelze odstranit oddíl {0}"
+
+#: DSGos_Installer/parted3/partition_module.py:235
+msgid "Partition is too large!"
+msgstr "Oddíl je příliš velký!"
+
+#: DSGos_Installer/parted3/partition_module.py:299
+msgid "Can't detect used space from {0}"
+msgstr "Nelze zjistit využité místo z {0}"
+
+#: DSGos_Installer/parted3/used_space.py:42
+msgid "Can't detect used space of NTFS partition %s"
+msgstr "Nelze zjistit použité místo na NTFS oddílu %s"
+
+#: DSGos_Installer/parted3/used_space.py:71
+msgid "Can't detect used space of EXTFS partition %s"
+msgstr "Nelze zjistit použité místo na EXTFS oddílu %s"
+
+#: DSGos_Installer/parted3/used_space.py:103
+msgid "Can't detect used space of FAT partition %s"
+msgstr "Nelze zjistit použité místo na FAT oddílu %s"
+
+#: DSGos_Installer/parted3/used_space.py:134
+msgid "Can't detect used space of JFS partition %s"
+msgstr "Nelze zjistit použité místo na JFS oddílu %s"
+
+#: DSGos_Installer/parted3/used_space.py:159
+msgid "Can't detect used space of REISERFS partition %s"
+msgstr "Nelze zjistit použité místo na REISERFS oddílu %s"
+
+#: DSGos_Installer/parted3/used_space.py:187
+msgid "Can't detect used space of BTRFS partition %s"
+msgstr "Nelze zjistit použité místo na BTRFS oddílu %s"
+
+#: DSGos_Installer/parted3/used_space.py:224
+msgid "Can't detect used space of XFS partition %s"
+msgstr "Nelze zjistit použité místo na XFS oddílu %s"
+
+#: DSGos_Installer/rank_mirrors.py:63
+msgid "Can't synchronize cached writes to persistent storage: %s"
+msgstr "Nelze synchronizovat zápis mezipaměti do trvalého úložiště: %s"
+
+#: DSGos_Installer/rank_mirrors.py:82
+msgid "Update of DSGos-mirrorlist package failed with error: %s"
+msgstr "Aktualizace DSGos-mirrorlist balíčku se nezdařilo s chybou: %s"
+
+#: DSGos_Installer/rank_mirrors.py:84
+msgid "Error copying new mirrorlist files: %s"
+msgstr "Chyba při kopírování nových mirrorlist souborů: %s"
+
+#: DSGos_Installer/rank_mirrors.py:101
+msgid "Error running reflector on Arch mirrorlist: %s"
+msgstr "Chyba spuštění reflektoru na Arch mirrorlist: %s"
+
+#: DSGos_Installer/rank_mirrors.py:149
+msgid "Error running rankmirrors on DSGos mirrorlist: %s"
+msgstr "Chyba spuštění rankmirrors na DSGos mirrorlist: %s"
+
+#: DSGos_Installer/rank_mirrors.py:190
+msgid "Updating both mirrorlists (Arch and DSGos)..."
+msgstr "Aktualizace obou mirrorlists (ARCH a DSGos)..."
+
+#: DSGos_Installer/rank_mirrors.py:193
+msgid "Running reflector command to sort Arch mirrors..."
+msgstr "Spuštění příkazu reflektoru třídit Arch zrcadla..."
+
+#: DSGos_Installer/rank_mirrors.py:196
+msgid "Running rankmirrors command to sort DSGos mirrors..."
+msgstr "Příkaz provedení rankmirrors třídit DSGos zrcadla..."
+
+#: DSGos_Installer/rank_mirrors.py:199
+msgid "Checking Arch mirrorlist against mirror status data..."
+msgstr "Kontrola Arch mirrorlist s údaji zrcadla..."
+
+#: DSGos_Installer/rank_mirrors.py:202
+msgid "Auto mirror selection has been run successfully."
+msgstr "Volba automatického zrcadla byla úspěšně spuštěna."
+
+#: DSGos_Installer/show_message.py:55
+msgid "DSGos Installer - Error"
+msgstr "Instalace DSGos - Chyba"
+
+#: DSGos_Installer/show_message.py:69
+msgid "DSGos Installer - Warning"
+msgstr "Instalace distribuce DSGos - Varování"
+
+#: DSGos_Installer/show_message.py:83
+msgid "DSGos Installer - Information"
+msgstr "Instalace distribuce DSGos - Informace"
+
+#: DSGos_Installer/show_message.py:97
+msgid "DSGos Installer - Confirmation"
+msgstr "Instalátor DSGos - Potvrzení"
+
+#: DSGos_Installer/slides.py:74
+msgid "Please wait..."
+msgstr "Prosím čekejte..."
+
+#: DSGos_Installer/slides.py:76
+msgid "Installing DSGos..."
+msgstr "Instaluji DSGos..."
+
+#: DSGos_Installer/slides.py:190
+msgid ""
+"IMPORTANT: There may have been a problem with the bootloader\n"
+"installation which could prevent your system from booting properly. Before\n"
+"rebooting, you may want to verify whether or not the bootloader is installed and\n"
+"configured. The Arch Linux Wiki contains troubleshooting information:\n"
+"\thttps://wiki.archlinux.org/index.php/GRUB\n"
+"\n"
+"Would you like to view the wiki page now?"
+msgstr "DŮLEŽITÉ: Může nastat problém s instalací zavaděče,\nkterý by mohl bránit úspěšnému spuštění systému.\nPřed restartováním systému budete možná chtít ověřit, zda je zavaděč nainstalovaný a\nnastavený. Stránka Arch Linux Wiki obsahuje informace o odstraňování problémů:\n⇥https://wiki.archlinux.org/index.php/GRUB\n\nPřejete si nyní stránku zobrazit?"
+
+#: DSGos_Installer/slides.py:202
+msgid ""
+"Installation Complete!\n"
+"Do you want to restart your system now?"
+msgstr "Instalace dokončena!\nChcete nyní restartovat Váš systém?"
+
+#: DSGos_Installer/timezone.py:82
+msgid "Zone:"
+msgstr "Pásmo:"
+
+#: DSGos_Installer/timezone.py:86
+msgid "Region:"
+msgstr "Oblast:"
+
+#: DSGos_Installer/timezone.py:90
+msgid "Use Network Time Protocol (NTP) for clock synchronization"
+msgstr "Použít Protokol Síťového Času (NTP) pro sinchronizaci hodin"
+
+#: DSGos_Installer/timezone.py:93
+msgid "Select Your Timezone"
+msgstr "Vyberte Vaši časovou zónu"
+
+#: DSGos_Installer/timezone.py:102
+msgid "location changed to : %s"
+msgstr "Oblast změněna na : %s"
+
+#: DSGos_Installer/timezone.py:181
+msgid "Can't autodetect timezone coordinates"
+msgstr "Nedaří se automaticky detekovat souřadnice pro časové pásmo"
+
+#: DSGos_Installer/timezone.py:284
+msgid "Can't get network status. DSGos_Installer will try again in a moment"
+msgstr "Nelze získat stav sítě. DSGos_Installer se pokusí znovu za okamžik"
+
+#: DSGos_Installer/timezone.py:288
+msgid "A working network connection has been detected."
+msgstr "Bylo zjištěno připojení k pracovní síti."
+
+#: DSGos_Installer/timezone.py:297
+msgid "We have connection. Let's get our timezone"
+msgstr "Připojení máme. Pojďme na časové pásmo"
+
+#: DSGos_Installer/timezone.py:316
+msgid "Timezone (latitude %s, longitude %s) detected."
+msgstr "Časové pásmo (zeměpisná šířka %s, délka %s) detekováno."
+
+#: DSGos_Installer/updater.py:67
+msgid ""
+"Could not find 'update.info' file. DSGos_Installer will not be able to update itself."
+msgstr "Soubor 'update.info' nebyl nalezen. DSGos_Installer nebude schopné se aktualizovat."
+
+#: DSGos_Installer/updater.py:93
+msgid "DSGos_Installer Internet version: %s"
+msgstr "DSGos_Installer internetová verze: %s"
+
+#: DSGos_Installer/updater.py:133
+msgid "New version found. Updating installer..."
+msgstr "Nová verze nalezen. Aktualizace instalačního programu..."
+
+#: DSGos_Installer/updater.py:136
+msgid "No new version found. Updating anyways..."
+msgstr "Žádná nová verze nalezena. Aktualizace stejně..."
+
+#: DSGos_Installer/updater.py:140
+msgid "Downloading new version of DSGos_Installer..."
+msgstr "Stahuje se nová verze DSGos_Installer"
+
+#: DSGos_Installer/updater.py:144
+msgid "Can't download new DSGos_Installer version."
+msgstr "Nelze stáhnout nová verze DSGos_Installer"
+
+#: DSGos_Installer/updater.py:148
+msgid "Uncompressing new version..."
+msgstr "Rozbaluje se nová verze..."
+
+#: DSGos_Installer/updater.py:192
+msgid "Wrong md5 (%s). Bad download or wrong file, DSGos_Installer won't update itself"
+msgstr "Špatné md5 (%s). Chyba při stažení nebo špatný soubor, DSGos_Installer se nebude samo aktualizovat"
+
+#: DSGos_Installer/updater.py:198
+msgid "File %s is not in md5 signatures list"
+msgstr "Soubor %s není v md5 seznamu podpisů"
+
+#: DSGos_Installer/updater.py:212
+msgid "Copying %s to %s..."
+msgstr "Kopírování %s do %s..."
+
+#: DSGos_Installer/updater.py:218
+msgid "Can't copy %s to %s"
+msgstr "Nelze kopírovat %s do %s"
+
+#: DSGos_Installer/user_info.py:92
+msgid "Your name:"
+msgstr "Vaše jméno:"
+
+#: DSGos_Installer/user_info.py:96
+msgid "Your name"
+msgstr "Vaše jméno"
+
+#: DSGos_Installer/user_info.py:100
+msgid "Your computer's name:"
+msgstr "Jméno počítače:"
+
+#: DSGos_Installer/user_info.py:104
+msgid "Hostname"
+msgstr "Název hostitele"
+
+#: DSGos_Installer/user_info.py:108
+msgid "Pick a username:"
+msgstr "Zvolte si uživatelské jméno:"
+
+#: DSGos_Installer/user_info.py:112
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: DSGos_Installer/user_info.py:116
+msgid "Choose a password:"
+msgstr "Zvolte si heslo:"
+
+#: DSGos_Installer/user_info.py:120
+msgid "Password"
+msgstr "Heslo"
+
+#: DSGos_Installer/user_info.py:128
+msgid "Confirm password"
+msgstr "Potvrdit heslo"
+
+#: DSGos_Installer/user_info.py:132
+msgid "Identifies your system to other computers and devices."
+msgstr "Identifikuje váš systém pro další počítače a zařízení."
+
+#: DSGos_Installer/user_info.py:138
+msgid "You must enter a name"
+msgstr "Je potřeba vyplnit jméno"
+
+#: DSGos_Installer/user_info.py:142
+msgid "You must enter a username"
+msgstr "Je zapotřebí zadat uživatelské jméno"
+
+#: DSGos_Installer/user_info.py:146
+msgid "You must enter a password"
+msgstr "Je zapotřebí vyplnit heslo:"
+
+#: DSGos_Installer/user_info.py:150
+msgid "Log in automatically"
+msgstr "Přihlásit automaticky"
+
+#: DSGos_Installer/user_info.py:151
+msgid "Require my password to log in"
+msgstr "Vyžadovat moje heslo pro přihlášení"
+
+#: DSGos_Installer/user_info.py:152
+msgid "Encrypt my home folder"
+msgstr "Zašifrovat můj domovský adresář"
+
+#: DSGos_Installer/user_info.py:155
+msgid "show password"
+msgstr "zobrazit heslo"
+
+#: DSGos_Installer/user_info.py:157
+msgid "Create Your User Account"
+msgstr "Vytvořte si uživatelský účet"
+
+#: DSGos_Installer/user_info.py:206
+msgid "Are you sure you want to encrypt your home directory?"
+msgstr "Jste si jisti, že chcete šifrovat Váš domovský adresář ?"
+
+#: DSGos_Installer/user_info.py:226
+msgid "Save"
+msgstr "Uložit"
+
+#: DSGos_Installer/user_info.py:269
+msgid "Invalid characters entered"
+msgstr "Zadány nesprávné znaky"
+
+#: DSGos_Installer/user_info.py:273
+msgid "Username can't contain dots"
+msgstr "Uživatelské jméno nemůže obsahovat tečky"
+
+#: DSGos_Installer/user_info.py:277
+msgid "Too many characters"
+msgstr "Příliš mnoho znaků"
+
+#: DSGos_Installer/welcome.py:72
+msgid "Use DSGos without making any changes to your system."
+msgstr "Použijte DSGos bez jakýchkoli změn ve vašem systému."
+
+#: DSGos_Installer/welcome.py:78
+msgid "Create a permanent place for DSGos on your system."
+msgstr "Vytvořte trvalé místo pro DSGos na vašem systému."
+
+#: DSGos_Installer/welcome.py:82
+msgid "Try It"
+msgstr "Vyzkoušet"
+
+#: DSGos_Installer/welcome.py:88
+msgid "Install It"
+msgstr "Instalovat"
+
+#: DSGos_Installer/welcome.py:91
+msgid "Welcome to DSGos!"
+msgstr "Vítejte v distribuci DSGos!"
+
+#: DSGos_Installer/welcome.py:129
+msgid "Loading, please wait..."
+msgstr "Načítání, prosím vyčkejte..."
+
+#: DSGos_Installer/wireless.py:62
+msgid "Connecting this computer to a wi-fi network"
+msgstr "Počítač se připojuje k wi-fi síti"
+
+#: DSGos_Installer/wireless.py:65
+msgid "I don't want to connect to a wi-fi network right now"
+msgstr "Momentálně se nechci připojit k wi-fi síti"
+
+#: DSGos_Installer/wireless.py:68
+msgid "Connect to this network"
+msgstr "Připojit k této síti"
+
+#: DSGos_Installer/wireless.py:71
+msgid "Display password"
+msgstr "Zobrazit heslo"

@@ -1,0 +1,2743 @@
+# DSGos_Installer
+# Copyright (C) 2013-2015 DSGos
+# 
+# Translators:
+# zhqh100 <1483586698@qq.com>, 2014
+# Dean Chen <wsxy162@gmail.com>, 2015
+# Dean Chen <wsxy162@gmail.com>, 2015
+# Dean Chen <wsxy162@gmail.com>, 2015
+# deisiler <deisiler@sina.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: DSGos\n"
+"POT-Creation-Date: 2015-07-22 22:44+CEST\n"
+"PO-Revision-Date: 2015-08-09 07:13+0000\n"
+"Last-Translator: Dean Chen <wsxy162@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/faidoc/DSGos/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: DSGos_Installer/bootinfo.py:66 DSGos_Installer/bootinfo.py:79 DSGos_Installer/bootinfo.py:85
+#: DSGos_Installer/bootinfo.py:134 DSGos_Installer/bootinfo.py:139 DSGos_Installer/bootinfo.py:148
+#: DSGos_Installer/bootinfo.py:161 DSGos_Installer/bootinfo.py:186 DSGos_Installer/bootinfo.py:208
+#: DSGos_Installer/bootinfo.py:211 DSGos_Installer/bootinfo.py:214 DSGos_Installer/bootinfo.py:244
+msgid "unknown"
+msgstr "未知"
+
+#: DSGos_Installer/bootinfo.py:100
+msgid "Error calling hexdump command: %s"
+msgstr "调用 hexdump 命令时出错：%s"
+
+#: DSGos_Installer/bootinfo.py:133
+msgid "Unknown partition id %s"
+msgstr "未知分区 id %s"
+
+#: DSGos_Installer/check.py:69
+msgid "System Check"
+msgstr "系统检测"
+
+#: DSGos_Installer/check.py:73
+msgid "has at least {0}GB available storage space. (*)"
+msgstr "必须拥有至少 {0}GB 的可用存储空间。(*)"
+
+#: DSGos_Installer/check.py:76
+msgid ""
+"This highly depends on which desktop environment you choose, so you might "
+"need more space."
+msgstr "这决定于你选择的桌面环境，所以你可能需要更多的空间。"
+
+#: DSGos_Installer/check.py:84
+msgid "is plugged in to a power source"
+msgstr "已插入电源"
+
+#: DSGos_Installer/check.py:88
+msgid "is connected to the Internet"
+msgstr "已连接互联网"
+
+#: DSGos_Installer/check.py:92
+msgid "For best results, please ensure that this computer:"
+msgstr "为达到理想结果，请保证该电脑："
+
+#: DSGos_Installer/check.py:175
+msgid "We have Internet connection."
+msgstr "有互联网连接。"
+
+#: DSGos_Installer/check.py:176
+msgid "We're connected to a power source."
+msgstr "已连接到电源。"
+
+#: DSGos_Installer/check.py:177
+msgid "We have enough disk space."
+msgstr "拥有足够的磁盘空间。"
+
+#: DSGos_Installer/check.py:195 DSGos_Installer/desktop.py:214 DSGos_Installer/download/download_aria2.py:35
+#: DSGos_Installer/features.py:453 DSGos_Installer/installation/advanced.py:2289
+#: DSGos_Installer/installation/alongside.py:37 DSGos_Installer/installation/ask.py:33
+#: DSGos_Installer/installation/automatic.py:303 DSGos_Installer/installation/bootloader.py:42
+#: DSGos_Installer/installation/chroot.py:33 DSGos_Installer/keymap.py:287 DSGos_Installer/language.py:174
+#: DSGos_Installer/location.py:247 DSGos_Installer/slides.py:246 DSGos_Installer/user_info.py:327
+#: DSGos_Installer/welcome.py:151 DSGos_Installer/wireless.py:159 DSGos_Installer/DSGos_Installer.py:74
+msgid "Can't create DSGos_Installer main window: {0}"
+msgstr "不能创建 DSGos_Installer 主窗口：{0}"
+
+#: DSGos_Installer/DSGos_Installer.py:153
+msgid "Sending DSGos_Installer logs to {0} with id '{1}'"
+msgstr "正在将 DSGos_Installer 日志与 id '{1}' 发送到 {0}"
+
+#: DSGos_Installer/DSGos_Installer.py:198
+msgid "Using pyalpm v{0} as interface to libalpm v{1}"
+msgstr "正在使用 pyalpm v {0} 作为对 libalpm v {1} 的接口"
+
+#: DSGos_Installer/DSGos_Installer.py:213
+msgid "DSGos_Installer v{0} - DSGos Installer"
+msgstr "DSGos_Installer v{0} - DSGos 安装器"
+
+#: DSGos_Installer/DSGos_Installer.py:218
+msgid "Use pre-downloaded xz packages when possible"
+msgstr "如果可能的话使用预下载的 xz 包"
+
+#: DSGos_Installer/DSGos_Installer.py:222
+msgid "Sets DSGos_Installer log level to 'debug'"
+msgstr "设置DSGos_Installer的日志级别为'debug'"
+
+#: DSGos_Installer/DSGos_Installer.py:226
+msgid "Sets the Desktop Environment that will be installed"
+msgstr "设置将要安装的桌面环境"
+
+#: DSGos_Installer/DSGos_Installer.py:230
+msgid "Runs DSGos_Installer even if it detects that another instance is running"
+msgstr "运行 DSGos_Installer 不管是否检测到已有实例运行中"
+
+#: DSGos_Installer/DSGos_Installer.py:234
+msgid "Disables first screen's 'try it' option"
+msgstr "禁用首屏幕“试用”选项。"
+
+#: DSGos_Installer/DSGos_Installer.py:238
+msgid ""
+"Choose which library to use when downloading packages. Possible options are "
+"'requests' (default), 'urllib' and 'aria2'"
+msgstr "选择当下载软件包时使用哪个库。可选的选项为 'requests' (默认)，'urllib' 和 'aria2'"
+
+#: DSGos_Installer/DSGos_Installer.py:243
+msgid "Makes checks optional in check screen"
+msgstr "在检查屏幕上进行检查"
+
+#: DSGos_Installer/DSGos_Installer.py:247
+msgid ""
+"Install the packages referenced by a local xml instead of the default ones"
+msgstr "参考本地的 xml 而不是默认的来安装包"
+
+#: DSGos_Installer/DSGos_Installer.py:251
+msgid ""
+"Choose to which log server send DSGos_Installer logs. Expects a hostname or an IP "
+"address"
+msgstr "选择发送 DSGos_Installer日志的日志服务器。需要一个主机名或IP地址"
+
+#: DSGos_Installer/DSGos_Installer.py:256
+msgid "Do not perform any changes (useful for developers)"
+msgstr "不会执行任何修改(开发人员适用)"
+
+#: DSGos_Installer/DSGos_Installer.py:260
+msgid "Upgrade/downgrade DSGos_Installer to the web version"
+msgstr "升级/降级 DSGos_Installer 到网络版"
+
+#: DSGos_Installer/DSGos_Installer.py:264
+msgid "Do not search for new DSGos_Installer versions online"
+msgstr "不要在线搜索 DSGos_Installer 的新版本"
+
+#: DSGos_Installer/DSGos_Installer.py:268
+msgid "Show logging messages to stdout"
+msgstr "显示日志信息到标准输出"
+
+#: DSGos_Installer/DSGos_Installer.py:272
+msgid "Show options in development (for developers only, do not use this!)"
+msgstr "显示开发选项(开发人员使用，其他人不要使用!)"
+
+#: DSGos_Installer/DSGos_Installer.py:311
+msgid "Program updated! Restarting..."
+msgstr "程序已更新！正在重新启动…"
+
+#: DSGos_Installer/DSGos_Installer.py:351
+msgid "DSGos_Installer files not found. Please, install DSGos_Installer using pacman"
+msgstr "DSGos_Installer 文件未发现。请使用 pacman 安装 DSGos_Installer"
+
+#: DSGos_Installer/desktop.py:114
+msgid "Choose Your Desktop"
+msgstr "选择你的桌面"
+
+#: DSGos_Installer/desktop.py:203
+msgid "DSGos_Installer will install DSGos with the '%s' desktop"
+msgstr "DSGos_Installer 将安装带有 '%s' 桌面的 DSGos"
+
+#: DSGos_Installer/desktop_environments.py:98
+msgid ""
+"Gnome 3 is an easy and elegant way to use your computer. It features the "
+"Activities Overview which is an easy way to access all your basic tasks. "
+"GNOME 3 is the default desktop in DSGos."
+msgstr "Gnome 3 让我们简洁优雅地使用电脑。GNOME 3 采用了活动视图，为用户提供了简单的方法来访问所有任务。GNOME 3 是DSGos的默认桌面。"
+
+#: DSGos_Installer/desktop_environments.py:103
+msgid ""
+"Cinnamon is a fork of GNOME 3 developed by (and for) Linux Mint. It provides"
+" users a more traditional desktop interface along with the newest "
+"compositing techniques of GNOME 3. Cinnamon is for users of all experience "
+"levels. "
+msgstr "Cinnamon 是 GNOME 3 的衍生版本，开发于(并用于) Linux Mint 。它基于 GNOME 3 的最新技术，向用户提供了一个传统的桌面。Cinnamon 为有经验用户使用。"
+
+#: DSGos_Installer/desktop_environments.py:108
+msgid ""
+"Xfce is a lightweight desktop environment. It aims to be fast and low on "
+"system resources, while remaining visually appealing and user friendly. It "
+"is a great option for use on older computers or those with low hardware "
+"specifications. "
+msgstr "Xfce 是一个轻量级的桌面环境。它致力于运行快速并占用很少的系统资源，但仍提供了吸引人的友好可视化界面。这是使用较旧电脑或低配电脑的极好选择。"
+
+#: DSGos_Installer/desktop_environments.py:113
+msgid ""
+"LXDE is an extremely fast-performing and energy-saving desktop environment. "
+"It uses less CPU and RAM than other environments. LXDE is especially "
+"designed for cloud computers with low hardware specifications such as "
+"netbooks, mobile devices, and older computers."
+msgstr "LXDE 是一个性能极快，节省资源的桌面环境.它比其他桌面环境占用更少的 CPU 和 RAM。LXDE是专为采用低硬件配置的云电脑设计的，如上网本，移动设备，和较老的电脑。"
+
+#: DSGos_Installer/desktop_environments.py:118
+msgid ""
+"Openbox is a highly configurable, next generation window manager with "
+"extensive standards support. It's default theme is well known for its "
+"minimalistic appearance and flexibility. Your desktop becomes cleaner, "
+"faster. Perfect for low hardware specifications, too."
+msgstr "Openbox 是一个可高度定制，支持大量标准的下一代窗口管理器。它的默认主题以其简约的外观和灵活性为人所知。你的桌面变得更清洁，更快速。而且完美的适配于低硬件规格。"
+
+#: DSGos_Installer/desktop_environments.py:123
+msgid ""
+"Enlightenment is not just a window manager for Linux/X11 and others, but "
+"also a whole suite of libraries to help you create beautiful user interfaces"
+" with much less work"
+msgstr "Enlightenment 不仅是 Linux/X11 或其他系统的窗口管理器，同时也是一套可帮助你很方便创建漂亮UI的完整套件。"
+
+#: DSGos_Installer/desktop_environments.py:127
+msgid ""
+"If you are looking for a familiar working environment, KDE's Plasma Desktop "
+"offers all the tools required for a modern desktop computing experience so "
+"you can be productive right from the start."
+msgstr "如果你打算寻找一个熟悉的桌面环境。KDE 的 Plasma 桌面提供现代桌面需要的所有工具让你开机即可工作。"
+
+#: DSGos_Installer/desktop_environments.py:131
+msgid ""
+"Plasma 5.0 introduces a new major version of KDE's workspace offering. It "
+"provides a visually updated core desktop experience that is easy to use and "
+"familiar to the user. "
+msgstr "Plasma 5.0 是 KDE 工作空间提供的新的重要版本。它提供了核心桌面的外观升级，让用户拥有易于使用和熟悉的操作体验。"
+
+#: DSGos_Installer/desktop_environments.py:135
+msgid ""
+"LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt "
+"technologies. It has been tailored for users who value simplicity, speed, "
+"and an intuitive interface."
+msgstr "LXQt 是一个基于 Qt 技术开发的先进而易于使用的快速桌面环境。它为那些喜欢简洁，快速，直观界面的人所量身打造。"
+
+#: DSGos_Installer/desktop_environments.py:139
+msgid ""
+"This option will install DSGos as command-line only system, without any "
+"type of graphical interface. After the installation you can customize "
+"DSGos by installing packages with the command-line package manager."
+msgstr "该选项将会安装仅带有命令行的 DSGos ，没有任何图形界面.安装后你可以使用命令行下的包管理器安装包来自定义 DSGos 。"
+
+#: DSGos_Installer/desktop_environments.py:143
+msgid ""
+"An intuitive, attractive and lightweight desktop environment, fork of GNOME "
+"2. MATE is one of the best options for use on older computers or those with "
+"low hardware specifications due to its lightweight yet very customizable set"
+" of features."
+msgstr "一个直观而优雅的轻量级桌面环境，来自 GNOME 2 的修改。由于 MATE 的轻量却又拥有完全可定制的功能，它是那些老电脑或者低硬件规格电脑的最好桌面选择之一。"
+
+#: DSGos_Installer/download/aria2.py:49 DSGos_Installer/download/aria2.py:60
+#: DSGos_Installer/download/aria2.py:96 DSGos_Installer/download/aria2.py:104
+msgid "Can't call Aria2. Error Output: %s"
+msgstr "不能调用Aria2。错误输出： %s"
+
+#: DSGos_Installer/download/aria2.py:73
+msgid "Can't add metalink to Aria2. Error Output: %s"
+msgstr "无法添加 metalink 到 Aria2。错误输出： %s"
+
+#: DSGos_Installer/download/aria2.py:86
+msgid "Can't add uris to Aria2. Error Output: %s"
+msgstr "无法添加地址到 Aria2。错误输出： %s"
+
+#: DSGos_Installer/download/aria2.py:157
+msgid "Can't run aria2: %s"
+msgstr "无法运行 aria2： %s"
+
+#: DSGos_Installer/download/download.py:97
+msgid "Can't create download package list. Check log output for details"
+msgstr "无法创建下载包列表。详情请查日志输出"
+
+#: DSGos_Installer/download/download.py:99
+msgid "Using %s library to download packages"
+msgstr "正在使用 %s 库来下载软件包"
+
+#: DSGos_Installer/download/download.py:113
+msgid "Unknown '%s' library, DSGos_Installer will use the 'requests' one as default"
+msgstr "未知的 '%s' 库，DSGos_Installer 将使用默认的 'request' 库"
+
+#: DSGos_Installer/download/download.py:126 DSGos_Installer/installation/process.py:714
+msgid "Can't install necessary packages. DSGos_Installer can't continue."
+msgstr "无法安装必须的文件，DSGos_Installer安装程序无法继续。"
+
+#: DSGos_Installer/download/download.py:132
+msgid "Creating the list of packages to download..."
+msgstr "创建包下载列表中…"
+
+#: DSGos_Installer/download/download.py:145 DSGos_Installer/download/metalink.py:483
+msgid "Can't initialize pyalpm: %s"
+msgstr "无法初始化 pyalpm： %s"
+
+#: DSGos_Installer/download/download.py:152
+msgid "Error creating metalink for package %s. Installation will stop"
+msgstr "为包 %s 创建 metalink 错误。安装将会停止"
+
+#: DSGos_Installer/download/download.py:168
+msgid "Can't create download set: %s"
+msgstr "无法创建下载集： %s"
+
+#: DSGos_Installer/download/download.py:175
+msgid "Can't release pyalpm: %s"
+msgstr "无法释放 pyalpm： %s"
+
+#: DSGos_Installer/download/download_aria2.py:78
+msgid "Aria2 is not running."
+msgstr "Aria2 没在运行中。"
+
+#: DSGos_Installer/download/download_aria2.py:85 DSGos_Installer/download/download_aria2.py:140
+msgid "Downloading packages... ({0}/{1})..."
+msgstr "正在下载包... ({0}/{1})..."
+
+#: DSGos_Installer/download/download_aria2.py:107
+#: DSGos_Installer/download/download_requests.py:111
+#: DSGos_Installer/download/download_urllib.py:138
+msgid "File %s already exists, DSGos_Installer will not overwrite it"
+msgstr "文件 %s 已经存在， DSGos_Installer 将不会覆盖它"
+
+#: DSGos_Installer/download/download_requests.py:72
+#: DSGos_Installer/download/download_urllib.py:116
+msgid "Downloading {0} {1} ({2}/{3})..."
+msgstr "正在下载 {0} {1} ({2}/{3})..."
+
+#: DSGos_Installer/download/download_requests.py:101
+#: DSGos_Installer/download/download_requests.py:123
+#: DSGos_Installer/download/download_requests.py:207
+msgid "MD5 hash (url:%s, file:%s) of file %s do not match!"
+msgstr "文件 %s3 MD5 的哈希值 (网上: %s1，文件:%s2) 不匹配!"
+
+#: DSGos_Installer/download/download_requests.py:106
+#: DSGos_Installer/download/download_requests.py:127
+#: DSGos_Installer/download/download_requests.py:142
+msgid "DSGos_Installer will download it"
+msgstr "DSGos_Installer 将下载它"
+
+#: DSGos_Installer/download/download_requests.py:132
+msgid "%s found in suplied pkg cache. Copying..."
+msgstr "在提供的 pkg 缓存中找到 %s 。正在复制……"
+
+#: DSGos_Installer/download/download_requests.py:139
+msgid "Error copying %s to %s."
+msgstr "将 %s 复制到 %s 时出错。"
+
+#: DSGos_Installer/download/download_requests.py:152
+msgid "Package %s v%s has an empty url for this mirror"
+msgstr "软件包 %s v%s 在这个镜像中地址为空"
+
+#: DSGos_Installer/download/download_requests.py:164
+#: DSGos_Installer/download/download_requests.py:222
+msgid "Can't download {0}"
+msgstr "无法下载 {0}"
+
+#: DSGos_Installer/download/download_requests.py:166
+#: DSGos_Installer/download/download_requests.py:211
+#: DSGos_Installer/download/download_requests.py:223
+msgid "DSGos_Installer will try another mirror."
+msgstr "DSGos_Installer 将尝试另外的镜像。"
+
+#: DSGos_Installer/download/download_requests.py:176
+#: DSGos_Installer/download/download_urllib.py:123
+msgid "Metalink for package %s has no size info"
+msgstr "软件包 %s 的 Metalink 没有文件大小信息"
+
+#: DSGos_Installer/download/download_requests.py:229
+#: DSGos_Installer/download/download_urllib.py:198
+msgid "Can't download {0}, even after trying all available mirrors"
+msgstr "无法下载  {0}，且已尝试所有可用的镜像"
+
+#: DSGos_Installer/download/download_urllib.py:40
+msgid "Wrong url, will try another one if available."
+msgstr "错误的 URL，将会在可用时尝试其它的。"
+
+#: DSGos_Installer/download/download_urllib.py:50 DSGos_Installer/download/download_urllib.py:54
+#: DSGos_Installer/download/download_urllib.py:58 DSGos_Installer/download/download_urllib.py:62
+msgid "Can't open {0} - Reason: {1}"
+msgstr "无法打开 {0} - 原因： {1}"
+
+#: DSGos_Installer/download/download_urllib.py:78
+msgid "HTTP Error : {0}"
+msgstr "HTTP 错误 ： {0}"
+
+#: DSGos_Installer/download/download_urllib.py:81
+msgid "URL Error : {0}"
+msgstr "URL 错误 ： {0}"
+
+#: DSGos_Installer/download/download_urllib.py:144
+msgid "%s found in iso pkg cache. Copying..."
+msgstr "在 iso pkg 缓存中找到 %s。正在复制……"
+
+#: DSGos_Installer/download/download_urllib.py:150
+msgid "Error copying %s to %s. DSGos_Installer will try to download it"
+msgstr "将 %s 复制到 %s 时出错。DSGos_Installer 将尝试下载它"
+
+#: DSGos_Installer/download/metalink.py:110
+msgid "Unable to create download queue for package {0}"
+msgstr "无法为包 {0} 创建下载队列"
+
+#: DSGos_Installer/download/metalink.py:116
+msgid "Can't find these packages: "
+msgstr "无法找到这些包："
+
+#: DSGos_Installer/download/metalink.py:123
+msgid "Can't resolve these dependencies: "
+msgstr "无法解决这些依赖："
+
+#: DSGos_Installer/encfs.py:103
+msgid "Can't create and modify encfs configuration files."
+msgstr "无法创建和修改 encfs 配置文件。"
+
+#: DSGos_Installer/encfs.py:105
+msgid "Home directory won't be encrypted."
+msgstr "主目录将不会被加密。"
+
+#: DSGos_Installer/encfs.py:130
+msgid "Can't run encfs. Bad password?"
+msgstr "无法运行 encfs。密码错误？"
+
+#: DSGos_Installer/features.py:129
+msgid "No icon found for feature %s"
+msgstr "无法找到 %s 功能的图标"
+
+#: DSGos_Installer/features.py:211
+msgid "Feature Selection"
+msgstr "功能选择"
+
+#: DSGos_Installer/features.py:215
+msgid "Arch User Repository (AUR) Support"
+msgstr "Arch 用户软件仓库(AUR) 支持"
+
+#: DSGos_Installer/features.py:216
+msgid "The AUR is a community-driven repository for Arch users."
+msgstr "AUR 是一个为 Arch 用户提供的社区驱动的软件仓库。"
+
+#: DSGos_Installer/features.py:217
+msgid ""
+"Use yaourt to install AUR packages.\n"
+"The AUR was created to organize and share new packages\n"
+"from the community and to help expedite popular packages'\n"
+"inclusion into the [community] repository."
+msgstr "使用yaourt来安装AUR包。\n创建AUR是为了从社区中组织\n和共享新包，并帮助促进流行包\n进入[community]库。"
+
+#: DSGos_Installer/features.py:224
+msgid "Bluetooth Support"
+msgstr "蓝牙支持"
+
+#: DSGos_Installer/features.py:225
+msgid "Enables your system to make wireless connections via Bluetooth."
+msgstr "使能系统中的无线蓝牙连接。"
+
+#: DSGos_Installer/features.py:226
+msgid ""
+"Bluetooth is a standard for the short-range wireless\n"
+"interconnection of cellular phones, computers, and\n"
+"other electronic devices. In Linux, the canonical\n"
+"implementation of the Bluetooth protocol stack is BlueZ"
+msgstr "蓝牙是与手机、电脑和其他\n电子设备近距离无线通信技术\n的一个标准。BlueZ 是 Linux \n里蓝牙协议栈的实现典范"
+
+#: DSGos_Installer/features.py:233
+msgid "Extra Truetype Fonts"
+msgstr "补充 Truetype 字体"
+
+#: DSGos_Installer/features.py:234
+msgid "Installation of extra TrueType fonts"
+msgstr "补充 Truetype 字体安装"
+
+#: DSGos_Installer/features.py:235
+msgid ""
+"TrueType is an outline font standard developed by\n"
+"Apple and Microsoft in the late 1980s as a competitor\n"
+"to Adobe's Type 1 fonts used in PostScript. It has\n"
+"become the most common format for fonts on both the\n"
+"Mac OS and Microsoft Windows operating systems."
+msgstr "TrueType 是由美国苹果公司和微软公司\n为了对抗 Adobe 公司的 Type 1PostScript \n字体在1980年代共同开发的一种电脑轮廓\n字体类型标准。它已经成为苹果和微软公\n司最常用的字体标准。"
+
+#: DSGos_Installer/features.py:244
+msgid "Graphic drivers (Proprietary)"
+msgstr "图形驱动程序 (私有)"
+
+#: DSGos_Installer/features.py:245 DSGos_Installer/features.py:246
+msgid "Installs AMD or Nvidia proprietary graphic driver"
+msgstr "安装 AMD 或 Nvidia 的私有图形驱动程序"
+
+#: DSGos_Installer/features.py:250
+msgid "Apache (or Nginx) + Mariadb + PHP"
+msgstr "Apache (或 Nginx) + Mariadb + PHP"
+
+#: DSGos_Installer/features.py:251
+msgid "Apache (or Nginx) + Mariadb + PHP installation and setup"
+msgstr "Apache (或 Nginx) + Mariadb + PHP 安装和设置"
+
+#: DSGos_Installer/features.py:252
+msgid ""
+"This option installs a web server (you can choose\n"
+"Apache or Nginx) plus a database server (Mariadb)\n"
+"and PHP"
+msgstr "此选项安装一个 web 服务器(你可以选择 Apache 或 Nginx) 再加上数据库服务器 (Mariadb) 和 PHP"
+
+#: DSGos_Installer/features.py:258
+msgid "Printing Support"
+msgstr "打印支持"
+
+#: DSGos_Installer/features.py:259
+msgid "Installation of printer drivers and management tools."
+msgstr "安装打印机驱动和管理工具。"
+
+#: DSGos_Installer/features.py:260
+msgid ""
+"CUPS is the standards-based, open source printing\n"
+"system developed by Apple Inc. for OS\\302\\256 X and other\n"
+"UNIX\\302\\256-like operating systems."
+msgstr "CUPS 是苹果公司为 OS\\302\\256 X 和其\n他类 UNIX\\302\\256 的操作系统开发的\n基于标准的、开源的打印系统。"
+
+#: DSGos_Installer/features.py:266
+msgid "LibreOffice"
+msgstr "LibreOffice"
+
+#: DSGos_Installer/features.py:267
+msgid "Open source office suite. Supports editing MS Office files."
+msgstr "开源 office 套件。支持编辑 MS Office 文件。"
+
+#: DSGos_Installer/features.py:268
+msgid ""
+"LibreOffice is the free power-packed Open Source\n"
+"personal productivity suite for Windows, Macintosh\n"
+"and Linux, that gives you six feature-rich applications\n"
+"for all your document production and data processing\n"
+"needs: Writer, Calc, Impress, Draw, Math and Base."
+msgstr "LibreOffice 是一套功能强大，面向个人生产的免费开源\n办公软件，支持 Windows、Macintosh 以及 Linux 平台。\n同时套件为用户提供了6个特色功能的应用程序，用来处\n理日常的文档处理和数据管理，包括：Writer, Calc, \nImpress, Draw, Math和Base。"
+
+#: DSGos_Installer/features.py:276
+msgid "Visual Effects"
+msgstr "视觉效果"
+
+#: DSGos_Installer/features.py:277
+msgid "Enable transparency, shadows, and other desktop effects."
+msgstr "启用透明，阴影，和其他桌面功能。"
+
+#: DSGos_Installer/features.py:278
+msgid ""
+"Compton is a lightweight, standalone composite manager,\n"
+"suitable for use with window managers that do not natively\n"
+"provide compositing functionality. Compton itself is a fork\n"
+"of xcompmgr-dana, which in turn is a fork of xcompmgr.\n"
+"See the compton github page for further information."
+msgstr "Compton 是一个轻量级的，独立的复合管理器，适合\n和不能提供复合功能的管理器共同使用。Compton 本\n身是 xcompmgr-dana 的一个衍生版本，而 xcompmgr\n-dana 又是 xcompmgr 的一个衍生版本。更多信息请访\n问 compton github 页面。"
+
+#: DSGos_Installer/features.py:286
+msgid "Uncomplicated Firewall"
+msgstr "简单防火墙（ufw）"
+
+#: DSGos_Installer/features.py:287
+msgid "Control the incoming and outgoing network traffic."
+msgstr "控制输入/输出网络流量。"
+
+#: DSGos_Installer/features.py:288
+msgid ""
+"Ufw stands for Uncomplicated Firewall, and is a program for\n"
+"managing a netfilter firewall. It provides a command line\n"
+"interface and aims to be uncomplicated and easy to use."
+msgstr "Ufw意思是不复杂的防火墙，是用来管理网络\n过滤的防火墙。它提供一个命令行接口，并致\n力于简单易用。"
+
+#: DSGos_Installer/features.py:294
+msgid "Kernel (LTS version)"
+msgstr "内核 (LTS 版本)"
+
+#: DSGos_Installer/features.py:295
+msgid "Long term support (LTS) Linux kernel and modules."
+msgstr "长期支持 (LTS) Linux 内核和模块。"
+
+#: DSGos_Installer/features.py:296
+msgid ""
+"The linux-lts package is an alternative Arch kernel package\n"
+"based upon Linux kernel 3.14 and is available in the core repository.\n"
+"This particular kernel version enjoys long-term support from upstream,\n"
+"including security fixes and some feature backports. Additionally, this\n"
+"package includes ext4 support. For DSGos users seeking a long-term\n"
+"support kernel, or who want a fallback kernel in case the latest kernel\n"
+"version causes problems, this option is the answer."
+msgstr "linux-lts 包是基于 Linux 内核 3.14 的备选 Arch 内核软件包并且\n可以在 core 仓库中找到。此特定内核版本享有来自上游的长期支持，\n包括安全修补程序和一些功能的反向移植。此外，该软件包包含\n ext4 支持。对于寻求一个长期支持的内核的 DSGos 用户，或者\n想要一个可靠的内核以防最新的内核版本引起问题的用户，\n这个选项就是你要的答案。"
+
+#: DSGos_Installer/features.py:306
+msgid "Firefox Web Browser"
+msgstr "Firefox 网页浏览器"
+
+#: DSGos_Installer/features.py:307
+msgid "A popular open-source graphical web browser from Mozilla"
+msgstr "来自 Mozilla 的流行的开源图形界面网页浏览器"
+
+#: DSGos_Installer/features.py:308
+msgid ""
+"Mozilla Firefox (known simply as Firefox) is a free and\n"
+"open-source web browser developed for Windows, OS X, and Linux,\n"
+"with a mobile version for Android, by the Mozilla Foundation and\n"
+"its subsidiary, the Mozilla Corporation. Firefox uses the Gecko\n"
+"layout engine to render web pages, which implements current and\n"
+"anticipated web standards."
+msgstr "Mozilla Firefox （通常被简称为 Firefox）\n是一个自由及开源的网页浏览器，\n由 Mozilla 基金会与其子公司 Mozilla 共同开发，\n支持 Windows，OS X，Linux 和 Android 等操作系统。\nFirefox 使用 Gecko 排版引擎来渲染网页，\n实现了目前以及未来可能出现的网络标准。"
+
+#: DSGos_Installer/features.py:317
+msgid "Windows sharing SMB"
+msgstr "Windows 共享 SMB"
+
+#: DSGos_Installer/features.py:318
+msgid "SMB provides shared access to files and printers"
+msgstr "SMB 提供了对文件和打印机的共享方式"
+
+#: DSGos_Installer/features.py:319
+msgid ""
+"In computer networking, Server Message Block (SMB)\n"
+"operates as an application-layer network protocol mainly used\n"
+"for providing shared access to files, printers, serial ports,\n"
+"and miscellaneous communications between nodes on a network.\n"
+"Most usage of SMB involves computers running Microsoft Windows."
+msgstr "在计算机网络中，服务器消息区块(SMB)作为\n应用层网络协议，主要为文件，打印机，串口\n和网络上各种各样各节点间的通信提供了一种\n共享方式。大多数SMB的使用都有运行\nMicrosoft Windows的计算机参与。"
+
+#: DSGos_Installer/features.py:363
+msgid "Selected '%s' feature to install"
+msgstr "选择 '%s' 特性来安装"
+
+#: DSGos_Installer/features.py:384
+msgid "Do you want to install the Nginx server instead of the Apache server?"
+msgstr "你想安装 Nginx 服务器而不是 Apache 服务器吗?"
+
+#: DSGos_Installer/features.py:401
+msgid "Arch User Repository - Disclaimer"
+msgstr "Arch 用户软件仓库 - 免责声明"
+
+#: DSGos_Installer/features.py:402
+msgid ""
+"The Arch User Repository is a collection of user-submitted PKGBUILDs\n"
+"that supplement software available from the official repositories.\n"
+"\n"
+"The AUR is community driven and NOT supported by Arch or DSGos.\n"
+msgstr "Arch 用户软件仓库由用户提交的 PKGBUILD 组成，\n这些补充软件可以从其官方库中获取。\n\nAUR 是由社区驱动，不受 Arch 或 DSGos 支持。\n"
+
+#: DSGos_Installer/features.py:407
+msgid "Uncomplicated Firewall will be installed with these rules:"
+msgstr "简单防火墙将会基于这些规则进行安装："
+
+#: DSGos_Installer/features.py:409
+msgid ""
+"ufw default deny\n"
+"ufw allow from {0}\n"
+"ufw allow Transmission\n"
+"ufw allow SSH"
+msgstr "ufw 默认拒绝\nufw 允许来自 {0}\nufw 允许 Transmission\nufw 允许 SSH"
+
+#: DSGos_Installer/hardware/hardware.py:120 DSGos_Installer/installation/chroot.py:139
+msgid "Error running command: %s"
+msgstr "运行命令错误： %s"
+
+#: DSGos_Installer/hardware/hardware.py:139
+msgid "%s completed successfully."
+msgstr "%s 已成功完成。"
+
+#: DSGos_Installer/hardware/hardware.py:142
+msgid "Error running %s script"
+msgstr "运行 %s 脚本时出错"
+
+#: DSGos_Installer/hardware/hardware.py:143 DSGos_Installer/installation/auto_partition.py:87
+#: DSGos_Installer/installation/auto_partition.py:93
+#: DSGos_Installer/installation/auto_partition.py:139
+#: DSGos_Installer/installation/auto_partition.py:150
+#: DSGos_Installer/installation/auto_partition.py:187
+#: DSGos_Installer/installation/auto_partition.py:210
+#: DSGos_Installer/installation/auto_partition.py:220
+#: DSGos_Installer/installation/auto_partition.py:232
+#: DSGos_Installer/installation/auto_partition.py:261
+#: DSGos_Installer/installation/auto_partition.py:293
+#: DSGos_Installer/installation/auto_partition.py:306
+#: DSGos_Installer/installation/auto_partition.py:382
+#: DSGos_Installer/installation/auto_partition.py:390
+#: DSGos_Installer/installation/auto_partition.py:411
+#: DSGos_Installer/installation/auto_partition.py:795
+#: DSGos_Installer/installation/auto_partition.py:804
+#: DSGos_Installer/installation/auto_partition.py:840
+#: DSGos_Installer/installation/auto_partition.py:902 DSGos_Installer/installation/process.py:471
+#: DSGos_Installer/installation/process.py:482 DSGos_Installer/installation/process.py:493
+#: DSGos_Installer/installation/process.py:1454
+msgid "Command %s failed"
+msgstr "命令 %s 失败"
+
+#: DSGos_Installer/hardware/hardware.py:144 DSGos_Installer/installation/auto_partition.py:88
+#: DSGos_Installer/installation/auto_partition.py:94
+#: DSGos_Installer/installation/auto_partition.py:140
+#: DSGos_Installer/installation/auto_partition.py:151
+#: DSGos_Installer/installation/auto_partition.py:188
+#: DSGos_Installer/installation/auto_partition.py:211
+#: DSGos_Installer/installation/auto_partition.py:221
+#: DSGos_Installer/installation/auto_partition.py:233
+#: DSGos_Installer/installation/auto_partition.py:262
+#: DSGos_Installer/installation/auto_partition.py:294
+#: DSGos_Installer/installation/auto_partition.py:307
+#: DSGos_Installer/installation/auto_partition.py:383
+#: DSGos_Installer/installation/auto_partition.py:391
+#: DSGos_Installer/installation/auto_partition.py:412
+#: DSGos_Installer/installation/auto_partition.py:805
+#: DSGos_Installer/installation/auto_partition.py:841
+#: DSGos_Installer/installation/auto_partition.py:903 DSGos_Installer/installation/process.py:176
+#: DSGos_Installer/installation/process.py:472 DSGos_Installer/installation/process.py:483
+#: DSGos_Installer/installation/process.py:494 DSGos_Installer/installation/process.py:1455
+msgid "Output: %s"
+msgstr "输出： %s"
+
+#: DSGos_Installer/hardware/hardware.py:188
+msgid "Error importing %s from %s : %s"
+msgstr "从 %s 导入 %s 时出错： %s"
+
+#: DSGos_Installer/hardware/hardware.py:190
+msgid "Unexpected error importing %s: %s"
+msgstr "导入 %s 时发生意外错误： %s"
+
+#: DSGos_Installer/hardware/hardware.py:196
+msgid "DSGos_Installer will test %d drivers for %d hardware devices"
+msgstr "DSGos_Installer 将测试 %d2 硬件设备的 %d1 驱动程序"
+
+#: DSGos_Installer/installation/advanced.py:261 DSGos_Installer/installation/advanced.py:608
+#: DSGos_Installer/installation/advanced.py:622
+msgid "free space"
+msgstr "可用空间"
+
+#: DSGos_Installer/installation/advanced.py:396
+msgid "Device"
+msgstr "设备"
+
+#: DSGos_Installer/installation/advanced.py:399
+msgid "Type"
+msgstr "类型"
+
+#: DSGos_Installer/installation/advanced.py:402
+msgid "Mount point"
+msgstr "挂载点"
+
+#: DSGos_Installer/installation/advanced.py:405
+msgid "Label"
+msgstr "标签"
+
+#: DSGos_Installer/installation/advanced.py:412 DSGos_Installer/installation/advanced.py:1979
+msgid "Format"
+msgstr "格式化"
+
+#: DSGos_Installer/installation/advanced.py:419
+msgid "Size"
+msgstr "大小："
+
+#: DSGos_Installer/installation/advanced.py:422
+msgid "Used"
+msgstr "已用"
+
+#: DSGos_Installer/installation/advanced.py:425
+msgid "Flags"
+msgstr "标志"
+
+#: DSGos_Installer/installation/advanced.py:432
+msgid "SSD"
+msgstr "SSD"
+
+#: DSGos_Installer/installation/advanced.py:590
+msgid "none"
+msgstr "无"
+
+#: DSGos_Installer/installation/advanced.py:727
+msgid "Can't edit a partition with LVM filesystem type"
+msgstr "不能在LVM文件系统类型下编辑一个分区"
+
+#: DSGos_Installer/installation/advanced.py:789
+msgid "Can't use same mount point twice."
+msgstr "无法两次使用同一个挂载点。"
+
+#: DSGos_Installer/installation/advanced.py:791
+msgid "Root partition must be formatted."
+msgstr "根分区必须格式化。"
+
+#: DSGos_Installer/installation/advanced.py:798 DSGos_Installer/installation/advanced.py:1100
+msgid "'%s' is not a valid label"
+msgstr "'%s' 不是有效的标签"
+
+#: DSGos_Installer/installation/advanced.py:813 DSGos_Installer/installation/advanced.py:1151
+msgid "/boot or /boot/efi need to be fat32 in UEFI systems. Forcing it."
+msgstr "/boot 或者 /boot/efi 在 UEFI 系统中必须为 fat32 格式。强制使用它。"
+
+#: DSGos_Installer/installation/advanced.py:899
+msgid "You will delete the partition %s from disk %s"
+msgstr "你将删除 '%s' 磁盘上的 '%s'分区"
+
+#: DSGos_Installer/installation/advanced.py:917
+msgid "Unmounting %s..."
+msgstr "正在卸载 %s …"
+
+#: DSGos_Installer/installation/advanced.py:1042
+msgid "Sorry, you already have {0} primary partitions created."
+msgstr "对不起，你已创建了 {0} 个主分区了。"
+
+#: DSGos_Installer/installation/advanced.py:1046
+msgid "Sorry, you already have {0} primary and 1 extended partitions created."
+msgstr "对不起，你已创建了 {0} 个主要分区和 1 个扩展分区了。"
+
+#: DSGos_Installer/installation/advanced.py:1105
+msgid "Can't use same mount point twice..."
+msgstr "不能两次使用同一个挂载点..."
+
+#: DSGos_Installer/installation/advanced.py:1130
+msgid "Creating a primary partition"
+msgstr "正在创建主分区"
+
+#: DSGos_Installer/installation/advanced.py:1141
+msgid "Creating an extended partition"
+msgstr "正在创建扩展分区"
+
+#: DSGos_Installer/installation/advanced.py:1147
+msgid "Creating a logical partition"
+msgstr "正在创建逻辑分区"
+
+#: DSGos_Installer/installation/advanced.py:1203
+msgid "Using LUKS encryption will DELETE all partition contents!"
+msgstr "使用 LUKS 加密将删除所有分区内容!"
+
+#: DSGos_Installer/installation/advanced.py:1215
+msgid "LUKS passwords do not match!"
+msgstr "LUKS 密码不匹配!"
+
+#: DSGos_Installer/installation/advanced.py:1340
+msgid "Advanced Installation Mode"
+msgstr "高级安装模式"
+
+#: DSGos_Installer/installation/advanced.py:1342 DSGos_Installer/installation/automatic.py:101
+msgid "Use the device below for boot loader installation:"
+msgstr "boot loader将安装到以下设备上："
+
+#: DSGos_Installer/installation/advanced.py:1347 DSGos_Installer/installation/automatic.py:106
+msgid "Bootloader:"
+msgstr "引导程序："
+
+#: DSGos_Installer/installation/advanced.py:1351 DSGos_Installer/installation/automatic.py:110
+msgid "Device:"
+msgstr "设备："
+
+#: DSGos_Installer/installation/advanced.py:1355
+msgid "Mount Checklist:"
+msgstr "挂载列表："
+
+#: DSGos_Installer/installation/advanced.py:1361
+msgid "Root"
+msgstr "Root"
+
+#: DSGos_Installer/installation/advanced.py:1365
+msgid "Boot"
+msgstr "Boot"
+
+#: DSGos_Installer/installation/advanced.py:1369
+msgid "EFI"
+msgstr "EFI"
+
+#: DSGos_Installer/installation/advanced.py:1373
+msgid "Swap"
+msgstr "Swap"
+
+#: DSGos_Installer/installation/advanced.py:1383
+msgid "Undo"
+msgstr "撤消"
+
+#: DSGos_Installer/installation/advanced.py:1386 DSGos_Installer/installation/advanced.py:1979
+msgid "New"
+msgstr "新建"
+
+#: DSGos_Installer/installation/advanced.py:1389
+msgid "Delete"
+msgstr "删除"
+
+#: DSGos_Installer/installation/advanced.py:1392
+msgid "Edit..."
+msgstr "编辑..."
+
+#: DSGos_Installer/installation/advanced.py:1395
+msgid "New partition table"
+msgstr "新建分区表"
+
+#: DSGos_Installer/installation/advanced.py:1406
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: DSGos_Installer/installation/advanced.py:1417
+msgid "_Apply"
+msgstr "应用(_A)"
+
+#: DSGos_Installer/installation/advanced.py:1420
+msgid "Size:"
+msgstr "大小："
+
+#: DSGos_Installer/installation/advanced.py:1424
+msgid "Type:"
+msgstr "类型："
+
+#: DSGos_Installer/installation/advanced.py:1428
+msgid "Primary"
+msgstr "主"
+
+#: DSGos_Installer/installation/advanced.py:1432
+msgid "Logical"
+msgstr "逻辑"
+
+#: DSGos_Installer/installation/advanced.py:1436
+msgid "Extended"
+msgstr "扩展"
+
+#: DSGos_Installer/installation/advanced.py:1440
+msgid "Beginning of this space"
+msgstr "空间起点"
+
+#: DSGos_Installer/installation/advanced.py:1444
+msgid "End of this space"
+msgstr "空间终点"
+
+#: DSGos_Installer/installation/advanced.py:1448 DSGos_Installer/installation/advanced.py:1465
+msgid "Use As:"
+msgstr "用作："
+
+#: DSGos_Installer/installation/advanced.py:1452 DSGos_Installer/installation/advanced.py:1469
+msgid "Mount Point:"
+msgstr "挂载点："
+
+#: DSGos_Installer/installation/advanced.py:1456 DSGos_Installer/installation/advanced.py:1473
+msgid "Label (optional):"
+msgstr "标签(可选)："
+
+#: DSGos_Installer/installation/advanced.py:1460 DSGos_Installer/installation/advanced.py:1481
+msgid "Encryption Options..."
+msgstr "加密选项..."
+
+#: DSGos_Installer/installation/advanced.py:1477
+msgid "Format:"
+msgstr "格式化："
+
+#: DSGos_Installer/installation/advanced.py:1486
+msgid "Partition Table Type:"
+msgstr "分区表类型："
+
+#: DSGos_Installer/installation/advanced.py:1491
+msgid "Create Partition Table"
+msgstr "创建分区表"
+
+#: DSGos_Installer/installation/advanced.py:1494
+msgid "Use LUKS encryption:"
+msgstr "使用 LUKS 加密："
+
+#: DSGos_Installer/installation/advanced.py:1498
+msgid "LUKS volume name:"
+msgstr "LUKS 卷名："
+
+#: DSGos_Installer/installation/advanced.py:1502 DSGos_Installer/wireless.py:70
+msgid "Password:"
+msgstr "密码："
+
+#: DSGos_Installer/installation/advanced.py:1506
+msgid "Confirm password:"
+msgstr "确认密码："
+
+#: DSGos_Installer/installation/advanced.py:1576
+msgid "Creating a new %s partition table for disk %s"
+msgstr "创建一个新的分区 %s 在磁盘 %s 上"
+
+#: DSGos_Installer/installation/advanced.py:1585
+msgid ""
+"GRUB requires a BIOS Boot Partition in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
+"\n"
+"DSGos_Installer will create this BIOS Boot Partition for you."
+msgstr "GRUB 在 BIOS 系统中需要一个 BIOS 引导分区来嵌入它的 core.img 文件，因为GPT分区系统中没有MBR分区系统后面的嵌入分隔。\n\nDSGos_Installer 将会为您创建此 BIOS 引导分区。"
+
+#: DSGos_Installer/installation/advanced.py:1614
+msgid "Can't create BIOS GPT Boot partition!"
+msgstr "无法创建 BIOS GPT 引导分区 ！"
+
+#: DSGos_Installer/installation/advanced.py:1643
+msgid "Couldn't create BIOS GPT Boot partition"
+msgstr "无法创建 BIOS GPT 引导分区"
+
+#: DSGos_Installer/installation/advanced.py:1790
+msgid "Install now!"
+msgstr "现在安装!"
+
+#: DSGos_Installer/installation/advanced.py:1865
+msgid ""
+"{0} is mounted as swap.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "{0} 已挂载为交换分区。\n继续操作必须要卸载它。\n点击是以卸载，或否以返回\n"
+
+#: DSGos_Installer/installation/advanced.py:1869
+msgid ""
+"{0} is mounted in '{1}'.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "{0} 已挂载在 '{1}' 。\n继续操作必须要卸载它。\n点击是以卸载，或否以返回\n"
+
+#: DSGos_Installer/installation/advanced.py:1880 DSGos_Installer/installation/advanced.py:1901
+msgid "%s unmounted"
+msgstr "%s 已经卸载"
+
+#: DSGos_Installer/installation/advanced.py:1894
+msgid "Swap partition %s unmounted"
+msgstr "已经卸载 Swap分区 %s"
+
+#: DSGos_Installer/installation/advanced.py:1905
+msgid "%s shows as mounted (busy) but it has no mount point"
+msgstr "%s 看起来已经挂载(繁忙)但没有挂载点"
+
+#: DSGos_Installer/installation/advanced.py:1947
+msgid ""
+"Added %s to changelist: createme[%s] relabel[%s] fmt[%s] mnt[%s] encrypt[%s]"
+msgstr "添加 %s 到变更列表： 创建[%s] 重新标签[%s] 格式化[%s] 挂载点[%s] 加密[%s]"
+
+#: DSGos_Installer/installation/advanced.py:1971
+msgid "Partition {0} will be deleted"
+msgstr "分区 {0} 将被删除"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Encrypt"
+msgstr "加密"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Mount"
+msgstr "挂载"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Partition"
+msgstr "分区"
+
+#: DSGos_Installer/installation/advanced.py:1979
+msgid "Relabel"
+msgstr "修改标签"
+
+#: DSGos_Installer/installation/advanced.py:2000
+msgid "These disks will have partition actions:"
+msgstr "这些磁盘将进行分区操作："
+
+#: DSGos_Installer/installation/advanced.py:2100
+msgid "Finished saving changes in %s"
+msgstr "保存 %s 上的修改完成"
+
+#: DSGos_Installer/installation/advanced.py:2121
+msgid "Creating new {0} filesystem in {1} labeled {2}"
+msgstr "正在创建新的 {0} 文件系统在 {1}  中，标签为 {2}"
+
+#: DSGos_Installer/installation/advanced.py:2124
+msgid "Creating new {0} filesystem in {1}"
+msgstr "正在创建新的 {0} 文件系统在 {1}  中"
+
+#: DSGos_Installer/installation/advanced.py:2152
+msgid "Volume name is %s"
+msgstr "卷名为 %s"
+
+#: DSGos_Installer/installation/advanced.py:2166
+msgid "Encrypting {0}, assigning volume name {1} and formatting it..."
+msgstr "正在加密 {0}，分配卷名 {1} 并格式化…"
+
+#: DSGos_Installer/installation/advanced.py:2181
+msgid "Couldn't format LUKS device '{0}' with label '{1}' as '{2}'"
+msgstr "无法以标签 '{1}' 格式化 LUKS 设备 '{0}' 因为 '{2}'"
+
+#: DSGos_Installer/installation/advanced.py:2205
+msgid "Couldn't format partition '{0}' with label '{1}' as '{2}'"
+msgstr "无法以标签 '{1}' 格式化分区 '{0}' 因为 '{2}'"
+
+#: DSGos_Installer/installation/advanced.py:2263 DSGos_Installer/installation/automatic.py:268
+msgid "DSGos_Installer will not install any bootloader"
+msgstr "DSGos_Installer 将不会安装任何引导装载程序"
+
+#: DSGos_Installer/installation/advanced.py:2269
+msgid "DSGos will install the bootloader {0} in device {1}"
+msgstr "DSGos 将在设备 {1} 中安装引导加载程序 {0}"
+
+#: DSGos_Installer/installation/advanced.py:2285 DSGos_Installer/installation/automatic.py:299
+msgid "Testing mode. DSGos_Installer will not change anything!"
+msgstr "测试模式，DSGos_Installer 不会进行任何修改！"
+
+#: DSGos_Installer/installation/alongside.py:137
+msgid "There are no primary partitions available"
+msgstr "没有主分区可用"
+
+#: DSGos_Installer/installation/alongside.py:140
+msgid "Will shrink device {0} and create new device {1}"
+msgstr "将压缩设备 {0} 并创建新的设备 {1}"
+
+#: DSGos_Installer/installation/alongside.py:148
+msgid "DSGos_Installer recommends at least 6.5GB free to install DSGos."
+msgstr "DSGos_Installer 建议至少要有 6.5 GB 自由空间来安装 DSGos。"
+
+#: DSGos_Installer/installation/alongside.py:149
+msgid ""
+"New partition {0} resulting of shrinking {1} will not have enough free space"
+" for a full installation."
+msgstr "从 {1} 压缩而来的新分区 {0} 没有足够的空间来完成完整安装。"
+
+#: DSGos_Installer/installation/alongside.py:150
+msgid ""
+"You can still install DSGos, but be carefull on which DE you choose as it"
+" might not fit in."
+msgstr "您仍可以安装 DSGos，但是小心选择你的桌面环境，他们有些不能适配。"
+
+#: DSGos_Installer/installation/alongside.py:151
+msgid "Install at your own risk!"
+msgstr "自行承担安装风险！"
+
+#: DSGos_Installer/installation/alongside.py:205
+msgid "Choose the new size of your installation"
+msgstr "选择您要安装的新大小"
+
+#: DSGos_Installer/installation/alongside.py:209
+msgid "Choose the partition that you want to shrink:"
+msgstr "选择您想要压缩的分区："
+
+#: DSGos_Installer/installation/alongside.py:212
+msgid "DSGos Alongside Installation"
+msgstr "DSGos 并存安装"
+
+#: DSGos_Installer/installation/alongside.py:252
+msgid ""
+"Can't find any spare partition number.\n"
+"Alongside installation can't continue."
+msgstr "找不到任何空闲的分区号码。\n并存安装无法继续。"
+
+#: DSGos_Installer/installation/alongside.py:263
+msgid "Can't find any installed OS!"
+msgstr "找不到任何已安装的操作系统！"
+
+#: DSGos_Installer/installation/ask.py:127
+msgid "The 'alongside' installation mode does not work in UEFI systems"
+msgstr "“并存”安装模式无法适用于 UEFI 系统"
+
+#: DSGos_Installer/installation/ask.py:141
+msgid "Windows(tm) OS detected."
+msgstr "检测到 Windows(tm) 操作系统。"
+
+#: DSGos_Installer/installation/ask.py:144
+msgid "Windows(tm) OS not detected."
+msgstr "未检测到 Windows(tm) 操作系统。"
+
+#: DSGos_Installer/installation/ask.py:147
+msgid "Can't detect any OS in device sda."
+msgstr "在设备 sda 中检测不到任何操作系统。"
+
+#: DSGos_Installer/installation/ask.py:151
+msgid "Unsuported disk layout for the 'alongside' installation mode"
+msgstr "不被“并存”安装模式支持的磁盘布局"
+
+#: DSGos_Installer/installation/ask.py:196
+msgid " and "
+msgstr "和"
+
+#: DSGos_Installer/installation/ask.py:210
+msgid "Installation Type"
+msgstr "安装类型"
+
+#: DSGos_Installer/installation/ask.py:225
+msgid "Replace {0} with DSGos"
+msgstr "用 DSGos 替换 {0}"
+
+#: DSGos_Installer/installation/ask.py:227
+msgid "Erase disk and install DSGos"
+msgstr "清空磁盘并安装DSGos"
+
+#: DSGos_Installer/installation/ask.py:232
+msgid "Warning: This will erase ALL data on your disk."
+msgstr "警告：将删除磁盘上的全部数据。"
+
+#: DSGos_Installer/installation/ask.py:241
+msgid "Encrypt this installation for increased security."
+msgstr "加密本次安装来提高安全性。"
+
+#: DSGos_Installer/installation/ask.py:249
+msgid "You will be asked to create an encryption password in the next step."
+msgstr "下一步你需要创建一个加密密码。"
+
+#: DSGos_Installer/installation/ask.py:258
+msgid "Use LVM with this installation."
+msgstr "使用 LVM 来完成这次安装。"
+
+#: DSGos_Installer/installation/ask.py:266
+msgid ""
+"This will setup LVM and allow you to easily manage partitions and create "
+"snapshots."
+msgstr "这将会安装LVM，允许你便捷地管理分区并创建快照。"
+
+#: DSGos_Installer/installation/ask.py:275
+msgid "Set your Home in a different partition/volume"
+msgstr "把你的Home设置为一个不同的分区/卷"
+
+#: DSGos_Installer/installation/ask.py:283
+msgid ""
+"This will setup you /home directory in a different partition or volume."
+msgstr "这将会把你的/home目录安装到不同的分区或卷上"
+
+#: DSGos_Installer/installation/ask.py:306
+msgid "How would you like to proceed?"
+msgstr "你想继续?"
+
+#: DSGos_Installer/installation/ask.py:318
+msgid "Choose exactly where DSGos should be installed."
+msgstr "手动选择 DSGos 的安装位置。"
+
+#: DSGos_Installer/installation/ask.py:322
+msgid "Edit partition table and choose mount points."
+msgstr "编辑分区表并选择挂载点。"
+
+#: DSGos_Installer/installation/ask.py:356
+msgid "DSGos installation will be encrypted using LUKS"
+msgstr "DSGos 安装将用 LUKS 加密"
+
+#: DSGos_Installer/installation/ask.py:359
+msgid "DSGos will be installed using LVM volumes"
+msgstr "DSGos 将安装在LVM 卷上"
+
+#: DSGos_Installer/installation/ask.py:361
+msgid "DSGos will be installed using a separate /home volume."
+msgstr "DSGos 将使用一个独立的 /home 卷进行安装。"
+
+#: DSGos_Installer/installation/ask.py:363
+msgid "DSGos will be installed using a separate /home partition."
+msgstr "DSGos 将使用一个独立的 /home 分区进行安装。"
+
+#: DSGos_Installer/installation/ask.py:381
+msgid "Ranking mirrors"
+msgstr "排行镜像"
+
+#: DSGos_Installer/installation/ask.py:382
+msgid "DSGos_Installer is still updating and optimizing your mirror lists."
+msgstr "DSGos_Installer 仍将进行更新并优化您的镜像列表。"
+
+#: DSGos_Installer/installation/ask.py:384
+msgid "Please be patient..."
+msgstr "请耐心等待......"
+
+#: DSGos_Installer/installation/ask.py:407
+msgid "Waiting for all external processes to finish..."
+msgstr "正在等待所有的外部进程完成……"
+
+#: DSGos_Installer/installation/ask.py:420
+msgid "All external processes are finished. Installation can go on"
+msgstr "所有的外部进程已完成。安装可以继续下去"
+
+#: DSGos_Installer/installation/auto_partition.py:67
+msgid "Unmounting %s"
+msgstr "正在卸载 %s"
+
+#: DSGos_Installer/installation/auto_partition.py:71
+msgid "Unmounting %s failed. Trying lazy arg."
+msgstr "卸载 %s 失败。正在尝试 -l 参数。"
+
+#: DSGos_Installer/installation/auto_partition.py:75
+msgid "Unmounting %s failed."
+msgstr "卸载 %s 失败。"
+
+#: DSGos_Installer/installation/auto_partition.py:138
+msgid "Can't delete existent LVM volumes"
+msgstr "无法删除现存的 LVM 卷"
+
+#: DSGos_Installer/installation/auto_partition.py:149
+msgid "Can't close already opened LUKS devices"
+msgstr "无法关闭已打开的 LUKS 设备"
+
+#: DSGos_Installer/installation/auto_partition.py:158
+msgid "Can't setup LUKS in device {0}. A password or a key file are needed"
+msgstr "无法在设备 {0} 中设置 LUKS。需要密码或密钥文件"
+
+#: DSGos_Installer/installation/auto_partition.py:166
+msgid "DSGos_Installer will setup LUKS on device %s"
+msgstr "DSGos_Installer 将把 LUKS 安装到 %s 设备"
+
+#: DSGos_Installer/installation/auto_partition.py:185
+#: DSGos_Installer/installation/auto_partition.py:208
+msgid "Can't format and open the LUKS device {0}"
+msgstr "无法格式化和打开 LUKS 设备 {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:219
+msgid "Can't wipe filesystem of device %s"
+msgstr "无法清除设备 %s 上的文件系统"
+
+#: DSGos_Installer/installation/auto_partition.py:231
+msgid "Can't run dd command"
+msgstr "无法运行 dd 命令"
+
+#: DSGos_Installer/installation/auto_partition.py:259
+#: DSGos_Installer/installation/auto_partition.py:291
+msgid "Error creating a new partition on device {0}"
+msgstr "在设备 {0} 上创建新分区时出错"
+
+#: DSGos_Installer/installation/auto_partition.py:304
+msgid "Error creating a new partition table on device {0}"
+msgstr "在设备 {0} 上创建新的分区表时出错"
+
+#: DSGos_Installer/installation/auto_partition.py:345
+msgid "Will format device %s as %s"
+msgstr "将格式化设备 %s 为 %s"
+
+#: DSGos_Installer/installation/auto_partition.py:354 DSGos_Installer/installation/process.py:310
+msgid "Can't activate swap in %s"
+msgstr "无法激活 %s 中的交换分区"
+
+#: DSGos_Installer/installation/auto_partition.py:355
+#: DSGos_Installer/installation/auto_partition.py:671 DSGos_Installer/installation/process.py:302
+#: DSGos_Installer/installation/process.py:311
+msgid "Command %s has failed."
+msgstr "命令 %s 失败。"
+
+#: DSGos_Installer/installation/auto_partition.py:356
+#: DSGos_Installer/installation/auto_partition.py:672 DSGos_Installer/installation/process.py:303
+#: DSGos_Installer/installation/process.py:312
+msgid "Output : %s"
+msgstr "输出： %s"
+
+#: DSGos_Installer/installation/auto_partition.py:372
+msgid "Unknown filesystem type {0}"
+msgstr "未知的文件系统类型 {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:380
+msgid "Can't create filesystem {0}"
+msgstr "无法创建文件系统 {0}"
+
+#: DSGos_Installer/installation/auto_partition.py:409
+msgid "Error trying to  mount {0} in {1}"
+msgstr "尝试在 {1} 中挂载 {0} 时出错"
+
+#: DSGos_Installer/installation/auto_partition.py:426
+msgid "Device details: %s UUID=%s LABEL=%s"
+msgstr "设备祥情：%s UUID=%s  标签=%s"
+
+#: DSGos_Installer/installation/auto_partition.py:512
+msgid "%s will be mounted as %s"
+msgstr "%s 将挂载为 %s"
+
+#: DSGos_Installer/installation/auto_partition.py:548
+msgid "Device %s will have a %s filesystem"
+msgstr "设备 %s 将有一个 %s 文件系统"
+
+#: DSGos_Installer/installation/auto_partition.py:602
+msgid "Total disk size: %dMiB"
+msgstr "磁盘总大小： %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:604
+msgid "EFI System Partition (ESP) size: %dMiB"
+msgstr "EFI 系统分区 (ESP) 大小： %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:605
+msgid "Boot partition size: %dMiB"
+msgstr "Boot 分区大小： %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:608
+msgid "LVM physical volume size: %dMiB"
+msgstr "LVM 物理卷大小： %dmib"
+
+#: DSGos_Installer/installation/auto_partition.py:610
+msgid "Swap partition size: %dMiB"
+msgstr "Swap 分区大小： %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:611
+msgid "Root partition size: %dMiB"
+msgstr "Root 分区大小： %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:614
+msgid "Home partition size: %dMiB"
+msgstr "Home 分区大小： %dMiB"
+
+#: DSGos_Installer/installation/auto_partition.py:634
+msgid ""
+"Setup cannot detect size of your device, please use advanced installation "
+"routine for partitioning and mounting devices."
+msgstr "安装程序无法检测您的设备大小，请使用高级安装方式来分区和挂载设备。"
+
+#: DSGos_Installer/installation/auto_partition.py:669
+msgid "Error informing the kernel of the partition change."
+msgstr "分区变更的核心通知错误。"
+
+#: DSGos_Installer/installation/auto_partition.py:788
+msgid "DSGos_Installer will setup LVM on device %s"
+msgstr "DSGos_Installer将要在 %s 上安装LVM"
+
+#: DSGos_Installer/installation/auto_partition.py:793
+msgid "Error creating LVM physical volume"
+msgstr "创建 LVM 物理卷时出错"
+
+#: DSGos_Installer/installation/auto_partition.py:802
+msgid "Error creating LVM volume group"
+msgstr "创建 LVM 卷组时出错"
+
+#: DSGos_Installer/installation/auto_partition.py:838
+msgid "Error creating LVM logical volume"
+msgstr "创建 LVM 逻辑卷时出错"
+
+#: DSGos_Installer/installation/auto_partition.py:900
+msgid "Can't copy LUKS keyfile to the installation device"
+msgstr "无法复制 LUKS 密钥文件到安装设备"
+
+#: DSGos_Installer/installation/automatic.py:72
+msgid "Select drive:"
+msgstr "选择驱动器："
+
+#: DSGos_Installer/installation/automatic.py:76
+msgid "WARNING! This will overwrite everything currently on your drive!"
+msgstr "警告！将覆盖你磁盘上当前所有的数据！"
+
+#: DSGos_Installer/installation/automatic.py:81
+msgid ""
+"Select the drive we should use to install DSGos and then click above to "
+"start the process."
+msgstr "选择我们要用来安装 DSGos 的驱动器，然后点击下面开始。"
+
+#: DSGos_Installer/installation/automatic.py:85
+msgid "Encryption Password:"
+msgstr "加密密码："
+
+#: DSGos_Installer/installation/automatic.py:89 DSGos_Installer/user_info.py:124
+msgid "Confirm your password:"
+msgstr "确认密码："
+
+#: DSGos_Installer/installation/automatic.py:93
+msgid "LUKS Password. Do not use special characters or accents!"
+msgstr "LUKS 密码。请不要使用特殊字符或音标 ！"
+
+#: DSGos_Installer/installation/automatic.py:97
+msgid "Show password"
+msgstr "显示密码"
+
+#: DSGos_Installer/installation/automatic.py:99
+msgid "Automatic Installation Mode"
+msgstr "自动安装模式"
+
+#: DSGos_Installer/installation/automatic.py:179
+msgid "A root LUKS password has been set"
+msgstr "LUKS 根密码已设定"
+
+#: DSGos_Installer/installation/automatic.py:181
+msgid "Automatic install on %s"
+msgstr "在 %s 上自动安装"
+
+#: DSGos_Installer/installation/automatic.py:248
+msgid ""
+"Do you really want to proceed and delete all your content on your hard "
+"drive?"
+msgstr "您确定要继续并删除你硬盘上的所有内容？"
+
+#: DSGos_Installer/installation/automatic.py:262
+msgid "DSGos_Installer will install DSGos on device %s"
+msgstr "DSGos_Installer 将在设备 %s 上安装 DSGos"
+
+#: DSGos_Installer/installation/automatic.py:274
+msgid "DSGos will install the bootloader '{0}' in device '{1}'"
+msgstr "DSGos 将在设备 '{1}' 中安装引导加载程序 '{0}'"
+
+#: DSGos_Installer/installation/bootloader.py:76
+msgid "DSGos_Installer will install the Gummiboot loader"
+msgstr "DSGos_Installer 将安装 Gummiboot 加载器"
+
+#: DSGos_Installer/installation/bootloader.py:84
+msgid "DSGos_Installer will install the Grub2 (efi) loader"
+msgstr "DSGos_Installer 将安装 Grub2 (efi) 加载器"
+
+#: DSGos_Installer/installation/bootloader.py:87
+msgid "DSGos_Installer will install the Grub2 (bios) loader"
+msgstr "DSGos_Installer 将安装 Grub2 (bios) 加载器"
+
+#: DSGos_Installer/installation/bootloader.py:95
+msgid ""
+"'ruuid' variable is not set. I can't check root UUID in grub.cfg, let's hope"
+" it's ok"
+msgstr "'ruuid' 变量未设置。无法检查 grub.cfg 中的根 UUID，希望它是正常的"
+
+#: DSGos_Installer/installation/bootloader.py:119
+msgid "Wrong uuid in grub.cfg, DSGos_Installer will try to fix it."
+msgstr "在 grub.cfg 中有错误的 uuid，DSGos_Installer 将尝试修复它。"
+
+#: DSGos_Installer/installation/bootloader.py:180
+msgid "/etc/default/grub configuration completed successfully."
+msgstr "/etc/default/grub 配置已成功完成。"
+
+#: DSGos_Installer/installation/bootloader.py:225
+msgid "Could not copy %s to grub.d"
+msgstr "无法复制 %s 到 grub.d"
+
+#: DSGos_Installer/installation/bootloader.py:234
+msgid "Installing GRUB(2) BIOS boot loader in {0}"
+msgstr "在 {0} 中安装 GRUB(2) BIOS 引导加载程序"
+
+#: DSGos_Installer/installation/bootloader.py:255
+msgid "Command grub-install failed. Error output: %s"
+msgstr "grub-install 命令失败。错误输出: %s"
+
+#: DSGos_Installer/installation/bootloader.py:257
+msgid "Command grub-install timed out."
+msgstr "grub-install 命令超时。"
+
+#: DSGos_Installer/installation/bootloader.py:259
+msgid "Command grub-install failed. Unknown Error: %s"
+msgstr "grub-install 命令失败。未知的错误: %s"
+
+#: DSGos_Installer/installation/bootloader.py:269 DSGos_Installer/installation/bootloader.py:375
+msgid "Running grub-mkconfig..."
+msgstr "正在运行 grub-mkconfig……"
+
+#: DSGos_Installer/installation/bootloader.py:275
+msgid ""
+"grub-mkconfig does not respond. Killing grub-mount and os-prober so we can "
+"continue."
+msgstr "grub-mkconfig 没有反应，终止 grub-mount 和 os-prober 以继续。"
+
+#: DSGos_Installer/installation/bootloader.py:283
+msgid "GRUB(2) BIOS has been successfully installed."
+msgstr "GRUB(2) BIOS 安装成功"
+
+#: DSGos_Installer/installation/bootloader.py:287
+msgid "ERROR installing GRUB(2) BIOS."
+msgstr "GRUB(2) BIOS 安装错误"
+
+#: DSGos_Installer/installation/bootloader.py:304
+msgid "Installing GRUB(2) UEFI {0} boot loader"
+msgstr "安装 GRUB(2) UEFI {0} 的引导加载程序"
+
+#: DSGos_Installer/installation/bootloader.py:339
+msgid "No OEM loader found in %s. Copying Grub(2) into dir."
+msgstr "没有在 %s 发现 OEM 加载器。正在复制 Grub(2) 到目录。"
+
+#: DSGos_Installer/installation/bootloader.py:342
+msgid "Copying Grub(2) into OEM dir failed: %s"
+msgstr "复制 Grub(2) 到 OEM 目录失败： %s"
+
+#: DSGos_Installer/installation/bootloader.py:346
+msgid "File not found."
+msgstr "文件未找到。"
+
+#: DSGos_Installer/installation/bootloader.py:348
+msgid "File already exists."
+msgstr "文件已存在。"
+
+#: DSGos_Installer/installation/bootloader.py:358
+msgid "UEFI Shell drop-in not found at %s"
+msgstr "UEFI Shell drop-in 未在 %s 找到"
+
+#: DSGos_Installer/installation/bootloader.py:362
+msgid "UEFI Shell drop-in could not be copied."
+msgstr "无法复制 UEFI Shell drop-in 。"
+
+#: DSGos_Installer/installation/bootloader.py:366
+msgid "Generating grub.cfg"
+msgstr "正在生成 grub.cfg"
+
+#: DSGos_Installer/installation/bootloader.py:381
+msgid ""
+"grub-mkconfig appears to be hung. Killing grub-mount and os-prober so we can"
+" continue."
+msgstr "grub-mkconfig 貌似已经被挂起，终止 grub-mount 和 os-prober 以继续。"
+
+#: DSGos_Installer/installation/bootloader.py:394
+msgid "Path '%s' doesn't exist, when it should"
+msgstr "路径 '%s' 不存在，它本该存在"
+
+#: DSGos_Installer/installation/bootloader.py:397
+msgid "GRUB(2) UEFI install completed successfully"
+msgstr "GRUB(2) UEFI 安装成功完成"
+
+#: DSGos_Installer/installation/bootloader.py:401
+msgid "GRUB(2) UEFI install may not have completed successfully."
+msgstr "GRUB(2) UEFI 安装可能没有完全成功。"
+
+#: DSGos_Installer/installation/bootloader.py:413
+msgid "50mounted-tests file patched successfully"
+msgstr "50mounted-tests 文件修补成功"
+
+#: DSGos_Installer/installation/bootloader.py:415
+msgid "Failed to patch 50mounted-tests, file not found."
+msgstr "修补 50mounted-tests 失败，文件未找到。"
+
+#: DSGos_Installer/installation/bootloader.py:419
+msgid "Copying GRUB(2) Theme Files"
+msgstr "正在复制 GRUB(2) Theme主题"
+
+#: DSGos_Installer/installation/bootloader.py:425
+msgid "Grub2 theme files not found"
+msgstr "Grub2 主题文件未找到"
+
+#: DSGos_Installer/installation/bootloader.py:427
+msgid "Grub2 theme files already exist."
+msgstr "Grub2 主题文件已存在"
+
+#: DSGos_Installer/installation/bootloader.py:431
+msgid "Installing Grub2 locales."
+msgstr "正在安装 Grub2 语言环境"
+
+#: DSGos_Installer/installation/bootloader.py:441
+msgid "Can't install GRUB(2) locale."
+msgstr "无法安装 GRUB(2) 的语言环境。"
+
+#: DSGos_Installer/installation/bootloader.py:549
+msgid "Installing gummiboot bootloader..."
+msgstr "正在安装 gummiboot 引导装载程序……"
+
+#: DSGos_Installer/installation/bootloader.py:555
+msgid "Gummiboot install completed successfully"
+msgstr "Gummiboot 安装已成功完成"
+
+#: DSGos_Installer/installation/bootloader.py:558
+msgid "Command gummiboot failed. Error output: %s"
+msgstr "Gummiboot 命令失败。错误输出: %s"
+
+#: DSGos_Installer/installation/bootloader.py:561
+msgid "Command gummiboot timed out."
+msgstr "Gummiboot 命令超时。"
+
+#: DSGos_Installer/installation/bootloader.py:564
+msgid "Command gummiboot failed. Unknown Error: %s"
+msgstr "Gummiboot 命令失败。未知的错误: %s"
+
+#: DSGos_Installer/installation/bootloader.py:596
+msgid "Can't freeze/unfreeze xfs system"
+msgstr "无法冻结/解冻 xfs 系统"
+
+#: DSGos_Installer/installation/chroot.py:61
+msgid "Special dirs are already mounted. Skipping."
+msgstr "特殊目录已经安装。正在跳过。"
+
+#: DSGos_Installer/installation/chroot.py:91
+msgid "Special dirs are not mounted. Skipping."
+msgstr "特定的文件夹未挂载。正在跳过。"
+
+#: DSGos_Installer/installation/chroot.py:136
+msgid "Timeout running the command %s"
+msgstr "运行 %s 命令超时"
+
+#: DSGos_Installer/installation/chroot.py:137 DSGos_Installer/installation/chroot.py:140
+msgid "DSGos_Installer will try to continue anyways"
+msgstr "DSGos_Installer 将会试著继续下去"
+
+#: DSGos_Installer/installation/firewall.py:72
+msgid "Aborted"
+msgstr "已中止"
+
+#: DSGos_Installer/installation/lamp.py:51 DSGos_Installer/installation/lemp.py:50
+msgid "Doing Mariadb setup..."
+msgstr "正在配置 Mariadb ……"
+
+#: DSGos_Installer/installation/lamp.py:53
+msgid "Mariadb setup done. Doing Apache setup..."
+msgstr "Mariadb 配置完成。进行 Apache 配置……"
+
+#: DSGos_Installer/installation/lamp.py:55
+msgid "Apache setup done. Doing PHP setup..."
+msgstr "Apache 配置完成。进行 PHP 配置……"
+
+#: DSGos_Installer/installation/lamp.py:57
+msgid "PHP setup done."
+msgstr "PHP 配置完成。"
+
+#: DSGos_Installer/installation/lemp.py:52
+msgid "Mariadb setup done. Doing Nginx setup..."
+msgstr "Mariadb 设置完成。进行 Nginx 设置……"
+
+#: DSGos_Installer/installation/lemp.py:54
+msgid "Nginx setup done. Doing PHP-fpm setup..."
+msgstr "Nginx 设置完成。进行 PHP-fpm 设置……"
+
+#: DSGos_Installer/installation/lemp.py:56
+msgid "PHP-fpm setup done."
+msgstr "PHP-fpm 设置完成。"
+
+#: DSGos_Installer/installation/mkinitcpio.py:101
+msgid "Setting hooks and modules in mkinitcpio.conf"
+msgstr "在 mkinitcpio.conf 中设置 hooks 和 modules"
+
+#: DSGos_Installer/installation/process.py:101
+msgid "Installing using the '{0}' method"
+msgstr "正在使用 '{0}' 方法安装"
+
+#: DSGos_Installer/installation/process.py:175
+msgid "Error running command %s"
+msgstr "运行命令 %s 时出错"
+
+#: DSGos_Installer/installation/process.py:222
+msgid "Creating partitions and their filesystems in %s"
+msgstr "在 %s 上创建分区和文件系统"
+
+#: DSGos_Installer/installation/process.py:269 DSGos_Installer/installation/process.py:296
+msgid "Mounting partition {0} into {1} directory"
+msgstr "正在挂载分区 {0} 到 {1} 目录"
+
+#: DSGos_Installer/installation/process.py:276
+msgid "Mounting partition {0} into {1}/boot directory"
+msgstr "正在挂载分区 {0} 到  {1}/boot 目录"
+
+#: DSGos_Installer/installation/process.py:301
+msgid "Can't mount %s in %s"
+msgstr "无法挂载 %s 到 %s"
+
+#: DSGos_Installer/installation/process.py:306
+msgid "Activating swap in %s"
+msgstr "正在激活 %s 中的交换分区"
+
+#: DSGos_Installer/installation/process.py:322
+msgid "%s deleted"
+msgstr "%s 已删除"
+
+#: DSGos_Installer/installation/process.py:347
+msgid "Prepare pacman..."
+msgstr "准备 pacman中..."
+
+#: DSGos_Installer/installation/process.py:349
+msgid "Pacman ready"
+msgstr "Pacman 准备好了"
+
+#: DSGos_Installer/installation/process.py:351
+msgid "Selecting packages..."
+msgstr "正在选择包..."
+
+#: DSGos_Installer/installation/process.py:353
+msgid "Packages selected"
+msgstr "已选中的包"
+
+#: DSGos_Installer/installation/process.py:358
+msgid "Removed 'v86d' package from list"
+msgstr "从列表中删除 'v86d' 包"
+
+#: DSGos_Installer/installation/process.py:360
+msgid "Downloading packages..."
+msgstr "正在下载文件…"
+
+#: DSGos_Installer/installation/process.py:363 DSGos_Installer/installation/process.py:704
+msgid "Installing packages..."
+msgstr "正在安装包..."
+
+#: DSGos_Installer/installation/process.py:366
+msgid "Configuring system..."
+msgstr "正在配置系统..."
+
+#: DSGos_Installer/installation/process.py:378
+msgid "Installation finished"
+msgstr "安装已完成"
+
+#: DSGos_Installer/installation/process.py:392
+msgid "Can't copy DSGos_Installer log to %s"
+msgstr "无法复制 DSGos_Installer 日志到 %s"
+
+#: DSGos_Installer/installation/process.py:423
+msgid "Creating a temporary pacman.conf for {0} architecture"
+msgstr "为 {0} 架构创建一个临时的 pacman.conf"
+
+#: DSGos_Installer/installation/process.py:450
+msgid "Can't initialize pyalpm."
+msgstr "无法初始化 pyalpm。"
+
+#: DSGos_Installer/installation/process.py:454
+msgid "Can't refresh pacman databases."
+msgstr "无法刷新 pacman 数据库。"
+
+#: DSGos_Installer/installation/process.py:470
+msgid "Can't start haveged service"
+msgstr "无法启动 haveged 服务"
+
+#: DSGos_Installer/installation/process.py:481
+msgid "Error deleting old gnupg files"
+msgstr "删除旧的 gnupg 文件时出错"
+
+#: DSGos_Installer/installation/process.py:492
+msgid "Error regenerating gnupg files with pacman-key"
+msgstr "用 pacman-key 重新生成 gnupg 文件时错误"
+
+#: DSGos_Installer/installation/process.py:506
+msgid "Getting package list..."
+msgstr "正在获取包列表..."
+
+#: DSGos_Installer/installation/process.py:510
+msgid "Getting url {0}..."
+msgstr "正在获取 url {0}……"
+
+#: DSGos_Installer/installation/process.py:517
+msgid "Can't retrieve remote package list, using the local file instead."
+msgstr "无法检索远程软件包列表，改用本地文件代替。"
+
+#: DSGos_Installer/installation/process.py:520
+msgid "Loading {0}"
+msgstr "正在加载 {0}"
+
+#: DSGos_Installer/installation/process.py:545
+msgid "Adding '%s' desktop packages"
+msgstr "添加桌面包 '%s'"
+
+#: DSGos_Installer/installation/process.py:570
+msgid "Selected kde language pack: %s"
+msgstr "已选中 kde 语言包： %s"
+
+#: DSGos_Installer/installation/process.py:579
+msgid "Hardware module detected this drivers: %s"
+msgstr "硬件模块检测到这个驱动： %s"
+
+#: DSGos_Installer/installation/process.py:585
+msgid "Hardware module added these packages: %s"
+msgstr "硬件模块添加这些包：%s"
+
+#: DSGos_Installer/installation/process.py:591
+msgid "Running hardware drivers pre-install jobs..."
+msgstr "正在运行硬件驱动预安装工作……"
+
+#: DSGos_Installer/installation/process.py:594 DSGos_Installer/installation/process.py:1309
+msgid "Unknown error in hardware module. Output: %s"
+msgstr "硬件模块未知错误。输出： %s"
+
+#: DSGos_Installer/installation/process.py:597
+msgid "Adding filesystem packages"
+msgstr "添加文件系统包"
+
+#: DSGos_Installer/installation/process.py:620
+msgid "Check for user desired features and add them to our installation"
+msgstr "检测用户需要的特性并添加到安装中"
+
+#: DSGos_Installer/installation/process.py:622
+msgid "All features needed packages have been added"
+msgstr "所有功能需要的包都已添加"
+
+#: DSGos_Installer/installation/process.py:627
+msgid "Selecting chinese fonts."
+msgstr "正在选择中文字体。"
+
+#: DSGos_Installer/installation/process.py:639
+msgid "Adding '%s' bootloader packages"
+msgstr "正在添加 '%s' 启动引导程序软件包"
+
+#: DSGos_Installer/installation/process.py:645
+msgid "Couldn't find %s bootloader packages!"
+msgstr "找不到 %s 启动引导程序程序软件包 ！"
+
+#: DSGos_Installer/installation/process.py:665
+msgid "Adding packages for '%s' feature."
+msgstr "正在为 '%s' 功能获取文件包"
+
+#: DSGos_Installer/installation/process.py:677
+msgid "Selecting package %s for feature %s"
+msgstr "为%s 功能选择 %s 文件包"
+
+#: DSGos_Installer/installation/process.py:684
+msgid "Add libreoffice language package"
+msgstr "添加 libreoffice 语言包"
+
+#: DSGos_Installer/installation/process.py:751
+msgid "Can't copy network configuration files"
+msgstr "无法复制网络配置文件"
+
+#: DSGos_Installer/installation/process.py:775
+msgid "Can't get {0} partition UUID. It won't be added to fstab"
+msgstr "无法获取 {0} 分区的 UUID。它将不会添加到 fstab"
+
+#: DSGos_Installer/installation/process.py:794 DSGos_Installer/installation/process.py:820
+#: DSGos_Installer/installation/process.py:835 DSGos_Installer/installation/process.py:900
+msgid "Added to fstab : %s"
+msgstr "已加入到 fstab： %s"
+
+#: DSGos_Installer/installation/process.py:814 DSGos_Installer/installation/process.py:830
+msgid "Added to crypttab : %s"
+msgstr "已添加至 crypttab： %s"
+
+#: DSGos_Installer/installation/process.py:908
+msgid "fstab written."
+msgstr "已写入 fstab。"
+
+#: DSGos_Installer/installation/process.py:917
+msgid "Could not copy udev rule for SSDs"
+msgstr "无法复制固态硬盘的 udev 规则"
+
+#: DSGos_Installer/installation/process.py:930
+msgid "Service '%s' has been enabled."
+msgstr "服务 '%s' 已被启用。"
+
+#: DSGos_Installer/installation/process.py:932
+msgid "Can't find service %s"
+msgstr "找不到服务 %s"
+
+#: DSGos_Installer/installation/process.py:940
+msgid "Error creating password hash for user %s"
+msgstr "%s 用户创建密码 hash 时出错"
+
+#: DSGos_Installer/installation/process.py:946
+msgid "Error changing password for user %s"
+msgstr "%s 用户修改密码错误"
+
+#: DSGos_Installer/installation/process.py:957
+msgid "Error adjusting hardware clock"
+msgstr "调整硬件时钟时出错"
+
+#: DSGos_Installer/installation/process.py:982
+msgid "Can't find pacman configuration file"
+msgstr "找不到 pacman 的配置文件"
+
+#: DSGos_Installer/installation/process.py:1001
+msgid "Can't find locale.gen file"
+msgstr "找不到 locale.gen 文件"
+
+#: DSGos_Installer/installation/process.py:1013
+msgid "Copying xz files from cache..."
+msgstr "正在从缓存中复制 xz 文件..."
+
+#: DSGos_Installer/installation/process.py:1049
+msgid "Configuring firewall..."
+msgstr "正在配置防火墙..."
+
+#: DSGos_Installer/installation/process.py:1063
+msgid "Configuring LAMP..."
+msgstr "正在配置 LAMP……"
+
+#: DSGos_Installer/installation/process.py:1067
+msgid "Can't import LAMP module"
+msgstr "无法导入 LAMP 模块"
+
+#: DSGos_Installer/installation/process.py:1072
+msgid "Configuring LEMP..."
+msgstr "正在配置 LEMP……"
+
+#: DSGos_Installer/installation/process.py:1076
+msgid "Can't import LEMP module"
+msgstr "无法导入 LEMP 模块"
+
+#: DSGos_Installer/installation/process.py:1084
+msgid "Configuring LightDM desktop manager..."
+msgstr "正在配置 LightDM 桌面管理器..."
+
+#: DSGos_Installer/installation/process.py:1116
+msgid "LightDM display manager configuration completed."
+msgstr "LightDM 显示管理器配置已完成。"
+
+#: DSGos_Installer/installation/process.py:1119
+msgid "Error while trying to configure the LightDM display manager"
+msgstr "尝试配置 LightDM 显示管理器时出错"
+
+#: DSGos_Installer/installation/process.py:1205
+msgid "Configuring your new system"
+msgstr "配置你的新系统"
+
+#: DSGos_Installer/installation/process.py:1211
+msgid "fstab file generated."
+msgstr "fstab 文件已生成。"
+
+#: DSGos_Installer/installation/process.py:1216
+msgid "SSD udev rule copied successfully"
+msgstr "固态硬盘 udev 规则已复制成功"
+
+#: DSGos_Installer/installation/process.py:1237
+msgid "Network configuration done."
+msgstr "网络配置已完成。"
+
+#: DSGos_Installer/installation/process.py:1243
+msgid "Mirror list copied."
+msgstr "镜像列表已复制。"
+
+#: DSGos_Installer/installation/process.py:1245
+msgid "Can't copy mirrorlist file"
+msgstr "不能复制镜像列表文件"
+
+#: DSGos_Installer/installation/process.py:1252
+msgid "Generated /etc/pacman.conf"
+msgstr "已生成 "
+
+#: DSGos_Installer/installation/process.py:1274
+msgid "Timezone set."
+msgstr "时区已设置。"
+
+#: DSGos_Installer/installation/process.py:1296
+msgid "Sudo configuration for user %s done."
+msgstr "用户 %s 的 sudo 配置已完成。"
+
+#: DSGos_Installer/installation/process.py:1306
+msgid "Running hardware drivers post-install jobs..."
+msgstr "正在运行硬件驱动安装后的工作..."
+
+#: DSGos_Installer/installation/process.py:1328
+msgid "User %s added."
+msgstr "已添加用户 %s 。"
+
+#: DSGos_Installer/installation/process.py:1343
+msgid "Hostname set to %s."
+msgstr "主机名设置为 %s 。"
+
+#: DSGos_Installer/installation/process.py:1347
+msgid "Set the same password to root."
+msgstr "设置跟 root 相同的密码。"
+
+#: DSGos_Installer/installation/process.py:1351
+msgid "Generating locales..."
+msgstr "正在生成语言环境..."
+
+#: DSGos_Installer/installation/process.py:1363
+msgid "Adjusting hardware clock..."
+msgstr "正在调整硬件时钟..."
+
+#: DSGos_Installer/installation/process.py:1366
+msgid "Configuring keymap..."
+msgstr "正在配置键盘布局……"
+
+#: DSGos_Installer/installation/process.py:1373
+msgid "Set /etc/X11/xorg.conf.d/00-keyboard.conf for the xkblayout"
+msgstr "为xkblayout设置 /etc/X11/xorg.conf.d/00-keyboard.conf"
+
+#: DSGos_Installer/installation/process.py:1389
+msgid "00-keyboard.conf written."
+msgstr "已写入00-keyboard.conf."
+
+#: DSGos_Installer/installation/process.py:1404
+msgid "Configuring hardware..."
+msgstr "正在配置硬件……"
+
+#: DSGos_Installer/installation/process.py:1414
+msgid "Updated Alsa mixer settings"
+msgstr "已更新 Alsa 混音器设置"
+
+#: DSGos_Installer/installation/process.py:1422
+msgid "Updated fluidsynth configuration file"
+msgstr "已更新 fluidsynth 配置文件"
+
+#: DSGos_Installer/installation/process.py:1428
+msgid "Configuring System Startup..."
+msgstr "正在配置系统启动..."
+
+#: DSGos_Installer/installation/process.py:1431
+msgid "Call DSGos_Installer post-install script"
+msgstr "调用DSGos_Installer 的后续安装脚本"
+
+#: DSGos_Installer/installation/process.py:1450
+msgid "Post install script completed successfully."
+msgstr "Post-install 脚本已成功执行。"
+
+#: DSGos_Installer/installation/process.py:1453
+msgid "Error running post-install script"
+msgstr "运行 post-install 脚本时出错"
+
+#: DSGos_Installer/installation/process.py:1469
+msgid "Encrypting user home dir..."
+msgstr "加密用户 home 目录..."
+
+#: DSGos_Installer/installation/process.py:1471
+msgid "User home dir encrypted"
+msgstr "用户 home 目录已加密"
+
+#: DSGos_Installer/installation/process.py:1476
+msgid "Installing bootloader..."
+msgstr "正在安装 bootloader..."
+
+#: DSGos_Installer/installation/process.py:1481
+msgid "While installing boot loader DSGos_Installer encountered this error: %s"
+msgstr "安装引导加载程序时 DSGos_Installer 遇到此错误: %s"
+
+#: DSGos_Installer/installation/process.py:1487
+msgid "Copying install log to /var/log."
+msgstr "复制安装日志到 /var/log 。"
+
+#: DSGos_Installer/installation/systemd_networkd.py:79
+msgid "systemd-networkd configuration failed."
+msgstr "systemd-networkd 配置失败。"
+
+#: DSGos_Installer/installation/systemd_networkd.py:82
+msgid "Found [%s] links and [%s] are wireless"
+msgstr "发现 [%s] 条链接其中 [%s] 条是无线的"
+
+#: DSGos_Installer/keymap.py:76
+msgid "Select Your Keyboard Layout"
+msgstr "选择你的键盘布局"
+
+#: DSGos_Installer/keymap.py:81
+msgid ""
+"Choose your keyboard layout and variant (if applies).\n"
+"For instance, the default Slovak variant is qwertz, but you\n"
+"can manually specify qwerty, etc.\n"
+"\n"
+"You can use the entry below the keyboard to test your\n"
+"layout selection."
+msgstr "选择您的键盘布局和变体 (如果适用的话)。\n例如，默认 Slovak 变体是 qwertz，但您\n可以手动指定为 qwerty 键盘等。\n\n你可以使用下面的键盘输入来测试您的布局选择。"
+
+#: DSGos_Installer/keymap.py:123
+msgid "Can't match a keymap for country code '%s'"
+msgstr "无法为国家/地区代码 '%s' 匹配键盘布局"
+
+#: DSGos_Installer/keymap.py:164 DSGos_Installer/keymap.py:178
+msgid "Can't find value '%s' in treeview"
+msgstr "无法在树状视图中找到数值 '%s'"
+
+#: DSGos_Installer/keymap.py:230
+msgid "Unknown layout description %s"
+msgstr "未知的布局描述 %s"
+
+#: DSGos_Installer/keymap.py:242
+msgid "Unknown variant description %s"
+msgstr "未知的键盘变体描述 %s"
+
+#: DSGos_Installer/keymap.py:268
+msgid "Set keyboard to layout name '{0}' ({1}) and variant name '{2}' ({3})"
+msgstr "设置键盘的布局名称为 '{0}' ({1}) 和变体名称为 '{2}' ({3})"
+
+#: DSGos_Installer/keymap.py:274
+msgid "Set keyboard to layout name '{0}' ({1})"
+msgstr "设置的键盘布局名称为 '{0}' ({1})"
+
+#: DSGos_Installer/language.py:78
+msgid "Notice: The DSGos_Installer Installer is beta software."
+msgstr "注意： DSGos_Installer 安装器尚处于 beta 版本。"
+
+#: DSGos_Installer/language.py:80
+msgid ""
+"DSGos_Installer is pre-release beta software that is under active development. It does not yet properly handle RAID, btrfs subvolumes, or other advanced setups. Please proceed with caution as data loss is possible!\n"
+"\n"
+"If you find any bugs, please report them at {0}"
+msgstr "DSGos_Installer 是一个尚处于开发阶段的预发布beta版软件。\n它还不能合理的处理RAID， btrfs子卷和其他高级安装。\n请小心丢失数据的可能！\n\n如果你发现任何 bug , 请报告给 {0}"
+
+#: DSGos_Installer/language.py:93
+msgid "Choose your language"
+msgstr "选择您的语言"
+
+#: DSGos_Installer/language.py:132
+msgid "Can't find translation file for the %s language"
+msgstr "无法为 %s 语言找到翻译文件"
+
+#: DSGos_Installer/location.py:71
+msgid ""
+"The location you select will be used to help determine the system locale. It"
+" should normally be the country in which you reside. Here is a shortlist of "
+"locations based on the language you selected."
+msgstr "您选择的位置将用于帮助确定系统语言环境。这通常是你居住的国家。这里提供了一个基于你选择语言的位置列表。"
+
+#: DSGos_Installer/location.py:78
+msgid "Country, territory or area:"
+msgstr "国家或地区"
+
+#: DSGos_Installer/location.py:83
+msgid "Show all locations"
+msgstr "显示所有位置"
+
+#: DSGos_Installer/location.py:86
+msgid "Select your location"
+msgstr "选择你的位置"
+
+#: DSGos_Installer/location.py:204 DSGos_Installer/location.py:212 DSGos_Installer/misc/misc.py:963
+#: DSGos_Installer/misc/misc.py:971
+msgid "locale changed to : %s"
+msgstr "语言修改为： %s"
+
+#: DSGos_Installer/location.py:206 DSGos_Installer/location.py:215 DSGos_Installer/location.py:217
+#: DSGos_Installer/misc/misc.py:973 DSGos_Installer/misc/misc.py:976
+msgid "Can't change to locale '%s'"
+msgstr "不能修改语言为  '%s'"
+
+#: DSGos_Installer/location.py:233
+msgid "Can't get country code from %s location"
+msgstr "无法从 %s 的位置获得国家/地区代码"
+
+#: DSGos_Installer/main_window.py:73
+msgid ""
+"This installer must be run with administrative privileges, and cannot "
+"continue without them."
+msgstr "必须以管理员权限执行安装器，否则无法继续。"
+
+#: DSGos_Installer/main_window.py:81
+msgid "File '%s' already exists."
+msgstr "文件 '%s' 已经存在。"
+
+#: DSGos_Installer/main_window.py:82
+msgid ""
+"You cannot run two instances of this installer.\n"
+"\n"
+"If you are sure that the installer is not already running\n"
+"you can run this installer using the --force option\n"
+"or you can manually delete the offending file.\n"
+"\n"
+"Offending file: '{0}'"
+msgstr "不能同时执行两个安装器实例。\n\n如果你确信安装器没有在运行，\n你可以使用 --force 选项运行这个安装，\n也可以手动删除有问题的文件。\n\n问题文件：'{0}'"
+
+#: DSGos_Installer/main_window.py:90
+msgid "DSGos_Installer installer version %s"
+msgstr "DSGos_Installer 安装器版本 %s"
+
+#: DSGos_Installer/main_window.py:156
+msgid "Next step"
+msgstr "下一步"
+
+#: DSGos_Installer/main_window.py:157
+msgid "Previous step"
+msgstr "上一步"
+
+#: DSGos_Installer/main_window.py:179
+msgid "Using %s to download packages"
+msgstr "正在使用 %s 来下载软件包"
+
+#: DSGos_Installer/main_window.py:197
+msgid "Using '%s' file as package list"
+msgstr "使用 '%s' 文件作为包列表"
+
+#: DSGos_Installer/main_window.py:228
+msgid "DSGos Installer"
+msgstr "DSGos 安装器"
+
+#: DSGos_Installer/main_window.py:376
+msgid "Do you really want to quit the installer?"
+msgstr "确实要退出安装程序吗？"
+
+#: DSGos_Installer/main_window.py:385
+msgid "Quiting installer..."
+msgstr "正在退出安装器..."
+
+#: DSGos_Installer/misc/keyboard_names.py:88
+msgid "Can't find %s file!"
+msgstr "无法找到 %s 文件!"
+
+#: DSGos_Installer/misc/misc.py:965
+msgid "Can't change to locale '%s' : %s"
+msgstr "无法设置语言环境 '%s' ： %s"
+
+#: DSGos_Installer/misc/validation.py:136
+msgid "Password is too short"
+msgstr "密码太短"
+
+#: DSGos_Installer/misc/validation.py:139
+msgid "Weak password"
+msgstr "弱密码"
+
+#: DSGos_Installer/misc/validation.py:142
+msgid "Fair password"
+msgstr "可用密码"
+
+#: DSGos_Installer/misc/validation.py:145
+msgid "Good password"
+msgstr "良好密码"
+
+#: DSGos_Installer/misc/validation.py:148
+msgid "Strong password"
+msgstr "强壮密码"
+
+#: DSGos_Installer/misc/validation.py:163
+msgid "Passwords do not match"
+msgstr "密码不匹配"
+
+#: DSGos_Installer/pacman/pac.py:110
+msgid "alpm init with root dir '{0}' and db path '{1}'"
+msgstr "alpm 以根目录 '{0}' 和数据库路径 '{1}' 初始化"
+
+#: DSGos_Installer/pacman/pac.py:153
+msgid "Prepare alpm transaction..."
+msgstr "准备 alpm 事务系统..."
+
+#: DSGos_Installer/pacman/pac.py:155
+msgid "Commit alpm transaction..."
+msgstr "提交 alpm 事务处理..."
+
+#: DSGos_Installer/pacman/pac.py:158
+msgid "Can't finalize alpm transaction: %s"
+msgstr "无法完成 alpm 事务处理： %s"
+
+#: DSGos_Installer/pacman/pac.py:162
+msgid "Releasing alpm transaction..."
+msgstr "释放 alpm 事务系统..."
+
+#: DSGos_Installer/pacman/pac.py:164
+msgid "Alpm transaction done."
+msgstr "Alpm 事务处理完成。"
+
+#: DSGos_Installer/pacman/pac.py:190
+msgid "Can't init alpm transaction: %s"
+msgstr "无法初始化 alpm 事务系统： %s"
+
+#: DSGos_Installer/pacman/pac.py:227
+msgid "Target %s not found"
+msgstr "目标 %s 未找到"
+
+#: DSGos_Installer/pacman/pac.py:234 DSGos_Installer/pacman/pac.py:317
+msgid "Can't init transaction"
+msgstr "无法初始化事务系统。"
+
+#: DSGos_Installer/pacman/pac.py:238
+msgid "Adding package '%s' to remove transaction"
+msgstr "正在添加软件包 '%s' to 移除事务处理中"
+
+#: DSGos_Installer/pacman/pac.py:246 DSGos_Installer/pacman/pac.py:263
+msgid "alpm is not initialised"
+msgstr "alpm 未被初始化"
+
+#: DSGos_Installer/pacman/pac.py:267
+msgid "Package list is empty"
+msgstr "软件包列表为空"
+
+#: DSGos_Installer/pacman/pac.py:270
+msgid "DSGos_Installer will install a list of packages like pacman -S"
+msgstr "DSGos_Installer 将安装像 pacman -S 那样的一连串软件包"
+
+#: DSGos_Installer/pacman/pac.py:298
+msgid "Can't find a package or group called '%s'"
+msgstr "无法找到名字为 '%s' 的包或软件组"
+
+#: DSGos_Installer/pacman/pac.py:304
+msgid "No targets found"
+msgstr "目标没有找到。"
+
+#: DSGos_Installer/pacman/pac.py:435
+msgid "Checking dependencies..."
+msgstr "正在检测依赖..."
+
+#: DSGos_Installer/pacman/pac.py:437
+msgid "Checking file conflicts..."
+msgstr "正在检测文件冲突..."
+
+#: DSGos_Installer/pacman/pac.py:439
+msgid "Resolving dependencies..."
+msgstr "正在解决依赖..."
+
+#: DSGos_Installer/pacman/pac.py:441
+msgid "Checking inter conflicts..."
+msgstr "正在检测内部冲突..."
+
+#: DSGos_Installer/pacman/pac.py:446
+msgid "Checking integrity..."
+msgstr "正在检测完整性..."
+
+#: DSGos_Installer/pacman/pac.py:448
+msgid "Loading packages..."
+msgstr "正在加载包..."
+
+#: DSGos_Installer/pacman/pac.py:450
+msgid "Checking target delta's integrity..."
+msgstr "正在检查目标增量包完整性..."
+
+#: DSGos_Installer/pacman/pac.py:452
+msgid "Applying deltas to packages..."
+msgstr "正在为软件包应用增量包..."
+
+#: DSGos_Installer/pacman/pac.py:454
+msgid "Applying delta patch to target package..."
+msgstr "正在为目标软件包应用增量补丁..."
+
+#: DSGos_Installer/pacman/pac.py:456
+msgid "Downloading files from the repository..."
+msgstr "正从软件仓库中下载文件..."
+
+#: DSGos_Installer/pacman/pac.py:458
+msgid "Checking disk space..."
+msgstr "正在检查磁盘空间..."
+
+#: DSGos_Installer/pacman/pac.py:460
+msgid "Checking keys in keyring..."
+msgstr "正在检查密匙环中的密钥..."
+
+#: DSGos_Installer/pacman/pac.py:462
+msgid "Downloading missing keys into the keyring..."
+msgstr "正在下载遗失的钥匙到密匙环中..."
+
+#: DSGos_Installer/pacman/pac.py:501
+msgid "Installing {0} ({1}/{2})"
+msgstr "正在安装 {0} ({1} / {2})"
+
+#: DSGos_Installer/pacman/pac.py:526
+msgid "Updating {0} database"
+msgstr "正在升级 {0} 数据库"
+
+#: DSGos_Installer/pacman/pac.py:535
+msgid "Downloading {0}..."
+msgstr "正在下载 {0}..."
+
+#: DSGos_Installer/pacman/pkginfo.py:192
+msgid "Explicitly installed"
+msgstr "显式安装"
+
+#: DSGos_Installer/pacman/pkginfo.py:194
+msgid "Installed as a dependency for another package"
+msgstr "作为一种依赖为另一个包安装"
+
+#: DSGos_Installer/parted3/fs_module.py:43
+msgid "Can't get partition %s UUID"
+msgstr "无法获取分区 %s UUID"
+
+#: DSGos_Installer/parted3/fs_module.py:51
+msgid "Can't get partition %s label (or it does not have any)"
+msgstr "无法获取分区 %s 标签(或是它没有标签)"
+
+#: DSGos_Installer/parted3/fs_module.py:119
+msgid "Can't label a {0} partition"
+msgstr "无法给 {0} 分区标签"
+
+#: DSGos_Installer/parted3/fs_module.py:154
+msgid "Unknown filesystem {0}"
+msgstr "未知的文件系统 {0}"
+
+#: DSGos_Installer/parted3/fs_module.py:237
+msgid "Sorry but filesystem %s can't be shrinked"
+msgstr "对不起, 文件系统 %s 无法被压缩"
+
+#: DSGos_Installer/parted3/lvm.py:81
+msgid "Can't remove logical volume {0}"
+msgstr "无法删除逻辑卷 {0}"
+
+#: DSGos_Installer/parted3/lvm.py:100
+msgid "Can't remove volume group {0}"
+msgstr "无法删除卷组 {0}"
+
+#: DSGos_Installer/parted3/lvm.py:113
+msgid "Can't remove physical volume {0}"
+msgstr "无法删除物理卷 {0}"
+
+#: DSGos_Installer/parted3/partition_module.py:111
+msgid ""
+"Exception: {0}.\n"
+"For more information take a look at /tmp/DSGos_Installer.log"
+msgstr "异常： {0}。\n详情请查看 /tmp/DSGos_Installer.log "
+
+#: DSGos_Installer/parted3/partition_module.py:182
+msgid "Can't delete partition {0}"
+msgstr "无法删除分区 {0}"
+
+#: DSGos_Installer/parted3/partition_module.py:235
+msgid "Partition is too large!"
+msgstr "分区太大!"
+
+#: DSGos_Installer/parted3/partition_module.py:299
+msgid "Can't detect used space from {0}"
+msgstr "无法从 {0} 检测已使用空间"
+
+#: DSGos_Installer/parted3/used_space.py:42
+msgid "Can't detect used space of NTFS partition %s"
+msgstr "无法检测 NTFS 分区 %s 的已使用空间"
+
+#: DSGos_Installer/parted3/used_space.py:71
+msgid "Can't detect used space of EXTFS partition %s"
+msgstr "无法检测 EXTFS 分区 %s 的已使用空间"
+
+#: DSGos_Installer/parted3/used_space.py:103
+msgid "Can't detect used space of FAT partition %s"
+msgstr "无法检测 FAT分区 %s 的已使用空间"
+
+#: DSGos_Installer/parted3/used_space.py:134
+msgid "Can't detect used space of JFS partition %s"
+msgstr "无法检测 JFS分区 %s 的已使用空间"
+
+#: DSGos_Installer/parted3/used_space.py:159
+msgid "Can't detect used space of REISERFS partition %s"
+msgstr "无法检测 REISERFS 分区 %s 的已使用空间"
+
+#: DSGos_Installer/parted3/used_space.py:187
+msgid "Can't detect used space of BTRFS partition %s"
+msgstr "无法检测 BTRFS 分区 %s 的已使用空间"
+
+#: DSGos_Installer/parted3/used_space.py:224
+msgid "Can't detect used space of XFS partition %s"
+msgstr "无法检测 XFS 分区 %s 的已使用空间"
+
+#: DSGos_Installer/rank_mirrors.py:63
+msgid "Can't synchronize cached writes to persistent storage: %s"
+msgstr "无法同步缓存的写入到持久化存储: %s"
+
+#: DSGos_Installer/rank_mirrors.py:82
+msgid "Update of DSGos-mirrorlist package failed with error: %s"
+msgstr "DSGos 镜像包更新失败，出现错误: %s"
+
+#: DSGos_Installer/rank_mirrors.py:84
+msgid "Error copying new mirrorlist files: %s"
+msgstr "复制新的镜像文件时出错: %s"
+
+#: DSGos_Installer/rank_mirrors.py:101
+msgid "Error running reflector on Arch mirrorlist: %s"
+msgstr "对 Arch 镜像运行 reflector 时出错: %s"
+
+#: DSGos_Installer/rank_mirrors.py:149
+msgid "Error running rankmirrors on DSGos mirrorlist: %s"
+msgstr "对 DSGos 镜像运行 rankmirrors 时出错: %s"
+
+#: DSGos_Installer/rank_mirrors.py:190
+msgid "Updating both mirrorlists (Arch and DSGos)..."
+msgstr "正在更新 mirrorlists (Arch 和 DSGos)..."
+
+#: DSGos_Installer/rank_mirrors.py:193
+msgid "Running reflector command to sort Arch mirrors..."
+msgstr "正在运行 reflector 命令以排序 Arch 镜像..."
+
+#: DSGos_Installer/rank_mirrors.py:196
+msgid "Running rankmirrors command to sort DSGos mirrors..."
+msgstr "正在运行 rankmirrors 命令以排序 DSGos 镜像..."
+
+#: DSGos_Installer/rank_mirrors.py:199
+msgid "Checking Arch mirrorlist against mirror status data..."
+msgstr "正在针对镜像状态数据检查 Arch 镜像列表..."
+
+#: DSGos_Installer/rank_mirrors.py:202
+msgid "Auto mirror selection has been run successfully."
+msgstr "自动镜像选择已成功运行。"
+
+#: DSGos_Installer/show_message.py:55
+msgid "DSGos Installer - Error"
+msgstr "DSGos 安装器 - 错误"
+
+#: DSGos_Installer/show_message.py:69
+msgid "DSGos Installer - Warning"
+msgstr "DSGos 安装器 - 警告"
+
+#: DSGos_Installer/show_message.py:83
+msgid "DSGos Installer - Information"
+msgstr "DSGos 安装器 - 消息"
+
+#: DSGos_Installer/show_message.py:97
+msgid "DSGos Installer - Confirmation"
+msgstr "DSGos 安装器 - 确认"
+
+#: DSGos_Installer/slides.py:74
+msgid "Please wait..."
+msgstr "请稍候..."
+
+#: DSGos_Installer/slides.py:76
+msgid "Installing DSGos..."
+msgstr "正在安装 DSGos ..."
+
+#: DSGos_Installer/slides.py:190
+msgid ""
+"IMPORTANT: There may have been a problem with the bootloader\n"
+"installation which could prevent your system from booting properly. Before\n"
+"rebooting, you may want to verify whether or not the bootloader is installed and\n"
+"configured. The Arch Linux Wiki contains troubleshooting information:\n"
+"\thttps://wiki.archlinux.org/index.php/GRUB\n"
+"\n"
+"Would you like to view the wiki page now?"
+msgstr "重要提示： 引导装载程序安装可能有问题，\n这可能导致你的系统无法正常启动。\n启动前也许你需要验证是否引导装载程序已安装和已配置。\nArch Linux Wiki包含问题定位信息：\n⇥https://wiki.archlinux.org/index.php/GRUB\n\n您是否要现在查看 wiki 页面？"
+
+#: DSGos_Installer/slides.py:202
+msgid ""
+"Installation Complete!\n"
+"Do you want to restart your system now?"
+msgstr "安装完成！\n您是否现在重启电脑？"
+
+#: DSGos_Installer/timezone.py:82
+msgid "Zone:"
+msgstr "时区："
+
+#: DSGos_Installer/timezone.py:86
+msgid "Region:"
+msgstr "区域："
+
+#: DSGos_Installer/timezone.py:90
+msgid "Use Network Time Protocol (NTP) for clock synchronization"
+msgstr "使用网络时间协议 (NTP) 来实现时钟同步"
+
+#: DSGos_Installer/timezone.py:93
+msgid "Select Your Timezone"
+msgstr "选择你的时区"
+
+#: DSGos_Installer/timezone.py:102
+msgid "location changed to : %s"
+msgstr "位置改变为： %s"
+
+#: DSGos_Installer/timezone.py:181
+msgid "Can't autodetect timezone coordinates"
+msgstr "无法自动检测时区坐标"
+
+#: DSGos_Installer/timezone.py:284
+msgid "Can't get network status. DSGos_Installer will try again in a moment"
+msgstr "无法获得网络状态。DSGos_Installer 将在稍后再试"
+
+#: DSGos_Installer/timezone.py:288
+msgid "A working network connection has been detected."
+msgstr "已检测到正在工作的网络连接。"
+
+#: DSGos_Installer/timezone.py:297
+msgid "We have connection. Let's get our timezone"
+msgstr "已连接。让我们获取时区"
+
+#: DSGos_Installer/timezone.py:316
+msgid "Timezone (latitude %s, longitude %s) detected."
+msgstr "检测到时区 (纬度 %s，经度 %s)。"
+
+#: DSGos_Installer/updater.py:67
+msgid ""
+"Could not find 'update.info' file. DSGos_Installer will not be able to update itself."
+msgstr "找不到 'update.info' 文件。DSGos_Installer 将不能够进行自我更新。"
+
+#: DSGos_Installer/updater.py:93
+msgid "DSGos_Installer Internet version: %s"
+msgstr "DSGos_Installer 网络版本：%s"
+
+#: DSGos_Installer/updater.py:133
+msgid "New version found. Updating installer..."
+msgstr "发现新版本。更新安装器…"
+
+#: DSGos_Installer/updater.py:136
+msgid "No new version found. Updating anyways..."
+msgstr "没有发现新版本。依然更新中..."
+
+#: DSGos_Installer/updater.py:140
+msgid "Downloading new version of DSGos_Installer..."
+msgstr "正在下载新版本的 DSGos_Installer..."
+
+#: DSGos_Installer/updater.py:144
+msgid "Can't download new DSGos_Installer version."
+msgstr "无法下载新的 DSGos_Installer 版本。"
+
+#: DSGos_Installer/updater.py:148
+msgid "Uncompressing new version..."
+msgstr "正在解压缩新的版本…"
+
+#: DSGos_Installer/updater.py:192
+msgid "Wrong md5 (%s). Bad download or wrong file, DSGos_Installer won't update itself"
+msgstr "错误的 md5 值 (%s)。下载错误或文件错误，DSGos_Installer 不会进行自我更新"
+
+#: DSGos_Installer/updater.py:198
+msgid "File %s is not in md5 signatures list"
+msgstr "%s 文件不在 md5 签名列表中"
+
+#: DSGos_Installer/updater.py:212
+msgid "Copying %s to %s..."
+msgstr "正在复制 %s 到 %s..."
+
+#: DSGos_Installer/updater.py:218
+msgid "Can't copy %s to %s"
+msgstr "无法复制 %s 到 %s"
+
+#: DSGos_Installer/user_info.py:92
+msgid "Your name:"
+msgstr "你的名字："
+
+#: DSGos_Installer/user_info.py:96
+msgid "Your name"
+msgstr "你的名字"
+
+#: DSGos_Installer/user_info.py:100
+msgid "Your computer's name:"
+msgstr "电脑名称："
+
+#: DSGos_Installer/user_info.py:104
+msgid "Hostname"
+msgstr "主机名"
+
+#: DSGos_Installer/user_info.py:108
+msgid "Pick a username:"
+msgstr "用户名："
+
+#: DSGos_Installer/user_info.py:112
+msgid "Username"
+msgstr "用户名"
+
+#: DSGos_Installer/user_info.py:116
+msgid "Choose a password:"
+msgstr "密码："
+
+#: DSGos_Installer/user_info.py:120
+msgid "Password"
+msgstr "密码"
+
+#: DSGos_Installer/user_info.py:128
+msgid "Confirm password"
+msgstr "确认密码"
+
+#: DSGos_Installer/user_info.py:132
+msgid "Identifies your system to other computers and devices."
+msgstr "认证你的系统到其他的电脑和设备上。"
+
+#: DSGos_Installer/user_info.py:138
+msgid "You must enter a name"
+msgstr "必须输入名字"
+
+#: DSGos_Installer/user_info.py:142
+msgid "You must enter a username"
+msgstr "必须输入用户名"
+
+#: DSGos_Installer/user_info.py:146
+msgid "You must enter a password"
+msgstr "必须输入密码"
+
+#: DSGos_Installer/user_info.py:150
+msgid "Log in automatically"
+msgstr "自动登录"
+
+#: DSGos_Installer/user_info.py:151
+msgid "Require my password to log in"
+msgstr "需要密码才能登陆"
+
+#: DSGos_Installer/user_info.py:152
+msgid "Encrypt my home folder"
+msgstr "加密home文件夹"
+
+#: DSGos_Installer/user_info.py:155
+msgid "show password"
+msgstr "显示密码"
+
+#: DSGos_Installer/user_info.py:157
+msgid "Create Your User Account"
+msgstr "创建用户账户"
+
+#: DSGos_Installer/user_info.py:206
+msgid "Are you sure you want to encrypt your home directory?"
+msgstr "你确定要将Home目录加密？"
+
+#: DSGos_Installer/user_info.py:226
+msgid "Save"
+msgstr "保存"
+
+#: DSGos_Installer/user_info.py:269
+msgid "Invalid characters entered"
+msgstr "输入了无效字符"
+
+#: DSGos_Installer/user_info.py:273
+msgid "Username can't contain dots"
+msgstr "用户名不能包含点号"
+
+#: DSGos_Installer/user_info.py:277
+msgid "Too many characters"
+msgstr "字符过多"
+
+#: DSGos_Installer/welcome.py:72
+msgid "Use DSGos without making any changes to your system."
+msgstr "使用 DSGos 而不对您的系统做任何更改。"
+
+#: DSGos_Installer/welcome.py:78
+msgid "Create a permanent place for DSGos on your system."
+msgstr "在您的系统上，为 DSGos 创建永久的位置。"
+
+#: DSGos_Installer/welcome.py:82
+msgid "Try It"
+msgstr "试用"
+
+#: DSGos_Installer/welcome.py:88
+msgid "Install It"
+msgstr "安装"
+
+#: DSGos_Installer/welcome.py:91
+msgid "Welcome to DSGos!"
+msgstr "欢迎来到 DSGos!"
+
+#: DSGos_Installer/welcome.py:129
+msgid "Loading, please wait..."
+msgstr "正在加载，请稍候..."
+
+#: DSGos_Installer/wireless.py:62
+msgid "Connecting this computer to a wi-fi network"
+msgstr "正在连接到 wi-fi 网络"
+
+#: DSGos_Installer/wireless.py:65
+msgid "I don't want to connect to a wi-fi network right now"
+msgstr "我不想现在连接到 wi-fi 网络"
+
+#: DSGos_Installer/wireless.py:68
+msgid "Connect to this network"
+msgstr "连接到此网络"
+
+#: DSGos_Installer/wireless.py:71
+msgid "Display password"
+msgstr "显示密码"
