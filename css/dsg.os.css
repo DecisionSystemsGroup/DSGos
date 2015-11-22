@@ -1,0 +1,45 @@
+body{
+  background-color: rgb(37, 37, 37);
+  padding-top: 70px;
+}
+.row{
+  padding-bottom: 50px;
+}
+.navbar-brand img{
+  margin-top: -15px;
+  height: 50px;
+}
+.carousel-inner .item img{
+  width: 100%;
+  border-radius: 2px;
+}
+
+.jumbotron{
+  background-color: rgb(156, 156, 156);
+  color: rgb(41, 41, 41);
+}
+.jumbotron h1{
+  color: rgb(33, 33, 33);
+  font-weight: bolder;
+}
+.jumbotron h1 span{
+  color: rgb(204, 51, 51);
+}
+.comments, .events{
+  padding-top: 50px;
+}
+.footer{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(224, 224, 224);
+}
+
+.footer span{
+  color: rgb(204, 51, 51);
+}
+.ga-info{
+  font-size: 8px;
+}

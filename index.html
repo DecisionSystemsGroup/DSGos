@@ -1,96 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DSG Live! - The official Decision Systems livestream page</title>
 
-    <title>DSGos - Ultra-light linux distro for Computer Engineers made by Computer Engineers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.min.css" />
+    <link rel="stylesheet" href="css/dsg.os.min.css" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-
-    <!-- Fonts from Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60493766-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </head>
-
   <body>
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed"
+                data-toggle="collapse" data-target="#navbar-collapse"
+                aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img alt="Brand" src="img/dsg-header.png">
+              </a>
+            </div>
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><b>DSGos</b> - An ultra-light distro made by DSG Team</a>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <ul class="nav navbar-nav">
+
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a target="_blank" href="http://dsg.teiste.gr/">DSG</a></li>
+                <li><a href="http://r.dsg.teiste.gr/">Αποθετήρια</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                    role="button" aria-haspopup="true" aria-expanded="false">
+                    Σελίδες <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a target="_blank" href="https://www.facebook.com/dsg.teiste/">
+                        Facebook
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://plus.google.com/b/106701848379617958990/106701848379617958990/posts">
+                        Google Plus
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://www.youtube.com/channel/UCb4w_1fp8ef-eka0wJ1--Ow">
+                        Youtube
+                      </a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a target="_blank" href="https://github.com/DecisionSystemsGroup">
+                        Github
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div><!-- row -->
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img\slides\1.png" alt="slide1">
+                <div class="carousel-caption">
+
+                </div>
+              </div>
+			        <div class="item">
+                <img src="img\slides\2.png" alt="slide2">
+                <div class="carousel-caption">
+
+                </div>
+              </div>
+			        <div class="item">
+                <img src="img\slides\3.png" alt="slide3">
+                <div class="carousel-caption">
+
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-generic" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-generic" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://dsg.teiste.gr/">Go to the DSG Site</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
       </div>
-    </div>
+      <div class="row">
+        <div class="col-md-3 col-md-offset-3">
+          <a href="#" role="button" class="btn btn-lg btn-primary btn-block disabled">Download</a>
+        </div>
+        <div class="col-md-3">
+          <a href="https://github.com/DecisionSystemsGroup/DSGos" role="button" class="btn btn-lg btn-warning btn-block">Source Code</a>
+        </div>
+      </div>
 
-	<div id="headerwrap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<h1>Ultra light Operating System<br/>
-					Heavy Development Tools.</h1>
-					<!--<form class="form-inline" role="form">
-					  <div class="form-group">
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
-					  </div>
-					  <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
-					</form>-->
-				</div><!-- /col-lg-6 -->
-				<div class="col-lg-6">
-					<img class="img-responsive" src="assets/img/ipad-hand.png" alt="">
-				</div><!-- /col-lg-6 -->
+      <div class="footer">
+        Made with <span>&#10084;</span> from the DSG Team.
+        <div class="ga-info">
+          Χρησιμοποιούμε Google Analytics για την καταγραφή στατιστικών
+          περιήγησης.
+        </div>
+      </div>
+    </div><!-- container -->
 
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /headerwrap -->
+    <!-- Modals -->
+    <div class="modal fade" id="modal-workshop-0" tabindex="-1" role="dialog" aria-labelledby="work-0">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="work-0">Προσεχώς</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <img class="img-responsive img-rounded" alt="HTML workshop"
+                  src="img/events/posterWorkshop.jpg" />
+              </div>
+              <div class="col-md-8">
+                <p>
+                  Δεν υπάρχουν διαθέσιμες λεπτομέρειες προς το παρόν. Δοκιμάστε
+                  Αργότερα
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Κλείσιμο</button>
+            <a role="button" class="btn btn-primary disabled" href="">Προβολή Facebook Event</a>
+            <a role="button" class="btn btn-success disabled" href="">Προβολή Αφίσας</a>
+            <a role="button" class="btn btn-warning disabled" href="">Αποθετήριο</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- work0 -->
 
 
-	<div class="container">
-		<div class="row mt centered">
-			<div class="col-lg-6 col-lg-offset-3">
-				<h1>An experiment<br/>that will succeed.</h1>
-				<h3>No information is shared yet. Actually DSGos is not even announced. How did you even find this page? We will post more info as soon as possible at <a href="http://dsg.teiste.gr/news/">DSG News</a></h3>
-			</div>
-		</div><!-- /row -->
+
+    <div class="modal fade" id="modal-workshop-1" tabindex="-1" role="dialog" aria-labelledby="work-1">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="work-1">HTML Workshop</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <img class="img-responsive img-rounded" alt="HTML workshop"
+                  src="img/events/posterWorkshopHTML-web.jpg" />
+                  <p class="text-center">
+                    26/11/2015<br />
+                    Εργαστήριο 13<br />
+                    Κτίριο Σ.Τ.ΕΦ Λαμίας<br /><br />
+                    Ώρα Έναρξης: <b>4:20μμ</b><br />
+                    <b>ΕΙΣΟΔΟΣ ΕΛΕΥΘΕΡΗ</b>
+                  </p>
+              </div>
+              <div class="col-md-8">
+                <p>
+                  Εισαγωγικό Workshop σε HTML 5 και CSS 3. Το workshop καλύπτει:
+                </p>
+                <ul>
+                  <li>Παρουσίαση βασικής δομής μιας σελίδας HTML</li>
+                  <li>Τι είναι τα tags και παρουσίαση των πιο δημοφιλών</li>
+                  <li>Πως συνδέεται μια HTML σελίδα με CSS αρχεία</li>
+                  <li>Classes και Selectors στο CSS</li>
+                  <li>Βασικές τεχνικές CSS</li>
+                  <li>Τι είναι το FTP</li>
+                  <li>Σύνδεση στο users.teilam.gr με Filezilla</li>
+                  <li>Μεταφόρτωση του workshop στο users.teilam.gr</li>
+                </ul>
+                <p>
+                  Το workshop είναι ιδανική εισαγωγή για το μάθημα
+                  "<b><i>Διαδικτυακός Προγραμματισμός</i></b>" (πρώην
+                  Ηλεκτρονικό Εμπόριο).
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Κλείσιμο</button>
+            <a role="button" target="_blank" class="btn btn-primary" href="https://www.facebook.com/events/903182379789500/903182466456158/">Προβολή Facebook Event</a>
+            <a role="button" target="_blank" class="btn btn-success" href="img/events/posterWorkshopHTML-web.jpg">Προβολή Αφίσας</a>
+            <a role="button" target="_blank" class="btn btn-warning disabled" href="">Αποθετήριο</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- work1 -->
 
 
-	</div><!-- /container -->
-
-
-
-	<div class="container">
-		<p class="centered">Created by BlackTie.co - Attribution License 3.0 - 2013</p>
-	</div><!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
