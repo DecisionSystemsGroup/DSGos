@@ -112,7 +112,7 @@ def run(screen_name):
     import config
 
     settings = config.Settings()
-    settings.set('data', '/usr/share/DSGos_Installer/data')
+    settings.set('data', '/usr/share/DSGos-Installer/data')
 
     from desktop_info import DESKTOPS
 

@@ -198,7 +198,7 @@ def setup_logging():
                     bugsnag.configure(
                         api_key=bugsnag_api,
                         app_version=info.DSGos_Installer_VERSION,
-                        project_root='/usr/share/DSGos_Installer/DSGos_Installer',
+                        project_root='/usr/share/DSGos-Installer',
                         release_stage=info.DSGos_Installer_RELEASE_STAGE)
                     bugsnag_handler = BugsnagHandler(api_key=bugsnag_api)
                     bugsnag_handler.setLevel(logging.WARNING)
@@ -423,9 +423,9 @@ def setup_gettext():
 def check_for_files():
     """ Check for some necessary files. DSGos_Installer can't run without them """
     paths = [
-        "/usr/share/DSGos_Installer",
-        "/usr/share/DSGos_Installer/ui",
-        "/usr/share/DSGos_Installer/data"]
+        "/usr/share/DSGos-Installer",
+        "/usr/share/DSGos-Installer/ui",
+        "/usr/share/DSGos-Installer/data"]
 
     for path in paths:
         if not os.path.exists(path):

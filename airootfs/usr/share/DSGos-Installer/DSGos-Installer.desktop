@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Install DSGos Linux
+Name[pl]=Zainstaluj DSGos Linux
+Name[sk]=Inštalovať DSGos Linux
+GenericName=Live Installer
+Comment=Install the operating system to disk
+Comment[pl]=Zainstaluj system DSGos Linux
+Comment[sk]=Nainštaluje operačný systém na disk
+Exec=sudo -E /usr/bin/DSGos_Installer -d -v -c /var/cache/pacman/pkg
+Icon=/usr/share/DSGos-Installer/data/images/DSGos/DSGos-icon.png
+Terminal=False
+Type=Application
+Categories=System;

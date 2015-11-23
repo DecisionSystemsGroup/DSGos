@@ -216,7 +216,7 @@ class KeyboardNames(object):
 
 
 if __name__ == '__main__':
-    base_xml_path = "/usr/share/DSGos_Installer/data/base.xml"
+    base_xml_path = "/usr/share/DSGos-Installer/data/base.xml"
     kbd_names = KeyboardNames(base_xml_path)
 
     layouts = kbd_names.get_layouts()

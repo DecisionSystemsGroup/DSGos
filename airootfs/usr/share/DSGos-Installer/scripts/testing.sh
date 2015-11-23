@@ -8,7 +8,7 @@ check_keys="$(pacman-key -l | grep DSGos)"
 
 notify_user () {
 
-       sudo -u DSGos notify-send -t 10000 -a "DSGos_Installer" -i /usr/share/DSGos_Installer/data/images/DSGos/DSGos-icon.png "$1"
+       sudo -u DSGos notify-send -t 10000 -a "DSGos_Installer" -i /usr/share/DSGos-Installer/data/images/DSGos/DSGos-icon.png "$1"
 }
 
 do_update () {
@@ -47,7 +47,7 @@ start_DSGos_Installer () {
 	notify_user "Starting DSGos_Installer..."
 	echo "Starting DSGos_Installer..."
 	if [[ ${development} = "True" ]]; then
-		DSGos_Installer -d -v -p /usr/share/DSGos_Installer/data/packages.xml &
+		DSGos_Installer -d -v -p /usr/share/DSGos-Installer/data/packages.xml &
 		exit 0;
 
 

@@ -80,7 +80,7 @@ class MainWindow(Gtk.ApplicationWindow):
 
         if not os.path.exists(self.ui_dir):
             DSGos_Installer_dir = os.path.join(os.path.dirname(__file__), './')
-            self.settings.set('DSGos_Installer', DSGos_Installer_dir)
+            self.settings.set('DSGos-Installer', DSGos_Installer_dir)
 
             ui_dir = os.path.join(os.path.dirname(__file__), 'ui/')
             self.settings.set('ui', ui_dir)

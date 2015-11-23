@@ -42,7 +42,7 @@ import misc.misc as misc
 
 from gtkbasebox import GtkBaseBox
 
-SLIDES_URI = 'file:///usr/share/DSGos_Installer/data/slides.html'
+SLIDES_URI = 'file:///usr/share/DSGos-Installer/data/slides.html'
 
 import gi
 gi.require_version('WebKit', '3.0')

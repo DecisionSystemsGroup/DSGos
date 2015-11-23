@@ -35,7 +35,7 @@ DESKTOPS = ["base", "cinnamon", "gnome", "kde4", "mate", "openbox", "xfce"]
 
 DESKTOPS_DEV = DESKTOPS + ["enlightenment", "lxqt", "plasma5"]
 
-DESKTOP_ICONS_PATH = "/usr/share/DSGos_Installer/data/icons"
+DESKTOP_ICONS_PATH = "/usr/share/DSGos-Installer/data/icons"
 
 '''
 MENU - Size appropriate for menus (16px).

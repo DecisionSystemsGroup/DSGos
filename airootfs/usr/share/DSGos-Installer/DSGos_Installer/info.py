@@ -29,9 +29,9 @@
 
 """ Set some DSGos_Installer global constants """
 
-DSGos_Installer_VERSION = "0.12.42"
-DSGos_Installer_WEBSITE = "http://www.DSGos.com"
-DSGos_Installer_RELEASE_STAGE = "production"
+DSGos_Installer_VERSION = "0.0.5"
+DSGos_Installer_WEBSITE = "http://r.dsg.teiste.gr/DSGos"
+DSGos_Installer_RELEASE_STAGE = "Alpha"
 
 if __name__ == '__main__':
     print(DSGos_Installer_VERSION)
