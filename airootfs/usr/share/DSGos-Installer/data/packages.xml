@@ -7,8 +7,6 @@
       <packages>
         <pkgname>acpid</pkgname>
         <pkgname>alsa-utils</pkgname>
-        <pkgname>DSGos-keyring</pkgname>
-        <pkgname>DSGos-mirrorlist</pkgname>
         <pkgname>b43-fwcutter</pkgname>
         <pkgname>base</pkgname> <!-- Group -->
         <pkgname>base-devel</pkgname> <!-- Group -->
@@ -41,10 +39,7 @@
     <edition name="graphic" description="Common to all graphic desktops">
       <packages>
         <pkgname>accountsservice</pkgname>
-        <pkgname>DSGos-wallpapers</pkgname>
-        <pkgname>DSGos-welcome</pkgname>
         <pkgname>chromium</pkgname>
-        <pkgname>chromium-pepper-flash</pkgname>
         <pkgname>ffmpegthumbnailer</pkgname>
         <pkgname>gst-libav</pkgname>
         <pkgname>gst-plugins-bad</pkgname>
@@ -54,15 +49,10 @@
         <pkgname>gstreamer-vaapi</pkgname>
         <pkgname>gstreamer0.10-plugins</pkgname>  <!-- Group -->
         <pkgname>libdvdcss</pkgname>
-        <pkgname>libreoffice-installer</pkgname>
         <pkgname dm='true' name='lightdm'>lightdm</pkgname>
-        <pkgname>lightdm-webkit2-greeter</pkgname>
+        <pkgname>lightdm-gkt-greeter</pkgname>
         <pkgname>mesa</pkgname>
         <pkgname>mesa-vdpau</pkgname>
-        <pkgname>numix-frost-themes</pkgname>
-        <pkgname>numix-icon-theme</pkgname>
-        <pkgname lib='gtk'>numix-icon-theme-square</pkgname>
-        <pkgname>pamac</pkgname>
         <pkgname>pavucontrol</pkgname>
         <pkgname>pulseaudio</pkgname>
         <pkgname>pulseaudio-alsa</pkgname>
@@ -73,8 +63,7 @@
         <pkgname>xf86-input-synaptics</pkgname>
         <pkgname>xf86-video-fbdev</pkgname>
         <pkgname>xf86-video-vesa</pkgname>
-        <pkgname>xorg-apps</pkgname>
-        <pkgname>xorg-fonts</pkgname>
+        <pkgname>xorg<pkgname>
         <pkgname>xorg-server</pkgname>
         <pkgname>xorg-server-utils</pkgname>
         <pkgname>xorg-xinit</pkgname>
@@ -98,7 +87,8 @@
 
     <edition name="Gnome" description="Gnome Desktop">
       <packages>
-        <pkgname>DSGos-gnome-defaults-list</pkgname>
+        <pkgname>gnome</pkgname>
+        <pkgname>gnome-extra</pkgname>
         <pkgname>baobab</pkgname>  <!-- Disk usage -->
         <pkgname>bijiben</pkgname> <!-- notes app -->
         <pkgname>brasero</pkgname>
@@ -107,35 +97,10 @@
         <pkgname>eog</pkgname>
         <pkgname>file-roller</pkgname>
         <pkgname>gedit</pkgname>
-        <pkgname>gnome-backgrounds</pkgname>
-        <pkgname>gnome-calculator</pkgname>
-        <pkgname>gnome-calendar</pkgname>
-        <pkgname>gnome-contacts</pkgname>
-        <pkgname>gnome-control-center</pkgname>
-        <pkgname>gnome-documents</pkgname>
-        <pkgname>gnome-disk-utility</pkgname>
-        <pkgname>gnome-font-viewer</pkgname>
-        <pkgname>gnome-keyring</pkgname>
-        <pkgname>gnome-logs</pkgname>
-        <pkgname>gnome-maps</pkgname>
-        <pkgname>gnome-music</pkgname>
-        <pkgname>gnome-photos</pkgname>
-        <pkgname>gnome-screenshot</pkgname>
-        <pkgname>gnome-shell</pkgname>
-        <pkgname>gnome-shell-extensions</pkgname>
-        <pkgname>gnome-shell-extension-dash-to-dock</pkgname>
-        <pkgname>gnome-shell-extension-status-menu-buttons</pkgname>
-        <pkgname>gnome-sound-recorder</pkgname>
-        <pkgname>gnome-system-monitor</pkgname>
-        <pkgname>gnome-terminal</pkgname>
-        <pkgname>gnome-themes-standard</pkgname>
-        <pkgname>gnome-tweak-tool</pkgname>
-        <pkgname>gnome-weather</pkgname>
         <pkgname>gvfs-mtp</pkgname>
         <pkgname>hicolor-icon-theme</pkgname>
         <pkgname>libgnomeui</pkgname>
         <pkgname>light-locker</pkgname>
-        <pkgname>light-locker-settings</pkgname>
         <pkgname>nautilus</pkgname>
         <pkgname nm='true' name='NetworkManager'>network-manager-applet</pkgname>
         <pkgname>networkmanager-openvpn</pkgname>
@@ -152,7 +117,6 @@
 
     <edition name="Cinnamon" description="Cinnamon desktop">
       <packages>
-        <pkgname>DSGos-gnome-defaults-list</pkgname>
         <pkgname>baobab</pkgname>  <!-- Disk usage -->
         <pkgname>bijiben</pkgname> <!-- notes app -->
         <pkgname>brasero</pkgname>
@@ -178,7 +142,6 @@
         <pkgname>gnome-screenshot</pkgname>
         <pkgname>gnome-system-monitor</pkgname>
         <pkgname>gnome-terminal</pkgname>
-        <pkgname>gnome-themes-standard</pkgname>
         <pkgname>gvfs-mtp</pkgname>
         <pkgname>hicolor-icon-theme</pkgname>
         <pkgname>libgnomeui</pkgname>
@@ -194,12 +157,12 @@
         <pkgname>totem</pkgname>
         <pkgname>transmission-gtk</pkgname>
         <pkgname>xdg-user-dirs-gtk</pkgname>
-        <pkgname>zuki-themes</pkgname>
-      </packages>
+        </packages>
     </edition>
 
     <edition name="XFCE" description="XFCE Desktop">
       <packages>
+        <pkgname>xfce4</pkgname>
         <pkgname>cdrkit</pkgname>
         <pkgname>evince</pkgname>
         <pkgname>file-roller</pkgname>
@@ -209,7 +172,6 @@
         <pkgname>gnome-keyring</pkgname>
         <pkgname>gvfs-mtp</pkgname>
         <pkgname>light-locker</pkgname>
-        <pkgname>light-locker-settings</pkgname>
         <pkgname>mousepad</pkgname>
         <pkgname nm='true' name='NetworkManager'>network-manager-applet</pkgname>
         <pkgname>networkmanager-openvpn</pkgname>
@@ -248,7 +210,6 @@
       <pkgname>lxqt-runner</pkgname>
       <pkgname>lxqt-session</pkgname>
       <pkgname>openbox</pkgname>
-      <pkgname>pacmanfm-qt</pkgname>
       </packages>
     </edition>
 
@@ -289,12 +250,9 @@
 
     <edition name="Enlightenment" description="Enlightenment Desktop">
       <packages>
-        <pkgname>DSGos-enlightenment-setup</pkgname>
         <pkgname>enlightenment</pkgname>
         <pkgname nm='true' name='NetworkManager' conflicts="networkmanager">connman</pkgname>
-        <pkgname>econnman</pkgname>
         <pkgname>file-roller</pkgname>
-        <pkgname>gtk-theme-e17gtk</pkgname>
         <pkgname>polkit-gnome</pkgname>
         <pkgname>rage</pkgname> <!-- video player -->
         <pkgname>terminology</pkgname> <!-- terminal emulator -->
@@ -305,7 +263,6 @@
 
     <edition name="openbox" description="Openbox Window Manager">
       <packages>
-        <pkgname>DSGos-openbox-setup</pkgname>
         <pkgname>arandr</pkgname>
         <pkgname>conky</pkgname>
         <pkgname>cdrkit</pkgname>
@@ -318,7 +275,6 @@
         <pkgname>gsimplecal</pkgname>
         <pkgname>gvfs-mtp</pkgname>
         <pkgname>light-locker</pkgname>
-        <pkgname>light-locker-settings</pkgname>
         <pkgname>lxappearance-obconf</pkgname>
         <pkgname>lxinput</pkgname>
         <pkgname>lxmenu-data</pkgname>
@@ -334,7 +290,6 @@
         <pkgname>oblogout</pkgname>
         <pkgname>obmenu</pkgname>
         <pkgname>openbox</pkgname>
-        <pkgname>openbox-menu</pkgname>
         <pkgname>parcellite</pkgname>
         <pkgname>pidgin</pkgname>
         <pkgname>plank</pkgname>
@@ -354,13 +309,11 @@
         <pkgname>xfburn</pkgname>
         <pkgname>xfce4-notifyd</pkgname>
         <pkgname>xscreensaver</pkgname>
-        <pkgname>waldorf-ui-theme</pkgname>
-      </packages>
+        </packages>
     </edition>
 
     <edition name="KDE4" description="KDE 4 Desktop">
       <packages>
-        <pkgname>DSGos-kde-setup</pkgname>
         <pkgname>ark</pkgname>
         <pkgname>aspell-en</pkgname>
         <pkgname>breeze-kde4</pkgname>

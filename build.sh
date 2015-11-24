@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo rm -rfv out
 sudo rm -rfv work
 set -e -u
 
